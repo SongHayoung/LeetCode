@@ -1,6 +1,6 @@
 class LRUCache {
 private:
-    map<int, list<pair<int,int>>::iterator> m;
+    unordered_map<int, list<pair<int,int>>::iterator> m;
     list<pair<int, int>> l;
     int c;
 
@@ -9,7 +9,7 @@ private:
             li.splice(li.begin(), li, it, next(it));
         }
     }
-    
+
     void insert(int key, int value) {
         l.push_front({key, value});
         m[key] = l.begin();
@@ -17,7 +17,7 @@ private:
             balance(l.back().first);
         }
     }
-    
+
     void balance(int key) {
         m.erase(key);
         l.pop_back();
