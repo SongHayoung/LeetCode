@@ -41,9 +41,7 @@ class Solution {
 public:
     int findInMountainArray(int t, MountainArray &A) {
         int n = A.length();
-        int l = 0, r = n-1, m = top(A,l,r);
-        int bS = binarySearch(A,l,m,t);
-        if(bS == -1) return reverseBinarySearch(A,m+1,r,t);
-        return bS;
+        int l = 0, r = n-1, m = top(A,l,r), bs = binarySearch(A,l,m,t);
+        return bs == -1 ? reverseBinarySearch(A,m+1,r,t) : bs;
     }
 };
