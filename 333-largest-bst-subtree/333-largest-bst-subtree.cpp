@@ -13,7 +13,6 @@ class Solution {
     int res = 0;
     pair<bool, int> helper(TreeNode* node, int mi, int ma) {
         if(!node) return {true, 0};
-        res = max(res, 1);
         if(mi < node->val and node->val < ma) {
             auto [lbst, lsub] = helper(node->left, mi, node->val);
             auto [rbst, rsub] = helper(node->right, node->val, ma);
