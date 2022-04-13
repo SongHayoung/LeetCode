@@ -1,7 +1,7 @@
 class Solution {
     bool verify(vector<int>& fibo) {
         int sz = fibo.size();
-        return 1ll * fibo[sz-1] == 1ll * fibo[sz-2] + fibo[sz-3];
+        return 1l * fibo[sz-1] == 1l * fibo[sz-2] + 1l * fibo[sz-3];
     }
     bool helper(string& num, int p, vector<int>& fibo) {
         if(fibo.size() >= 3) 
