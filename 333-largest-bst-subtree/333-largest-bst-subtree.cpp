@@ -21,22 +21,14 @@ class Solution {
             if(lbst and rbst) {
                 res = max(res, lsub + rsub + 1);
                 return {true, lsub + rsub + 1};
-            } else {
-                auto [lbst, lsub] = helper(node->left, INT_MIN, node->val);
-                auto [rbst, rsub] = helper(node->right, node->val, INT_MAX);
-                if(lbst and rbst) {
-                    res = max(res,lsub + rsub + 1);
-                }
-                return {false, 0};
             }
-        } else {
-            auto [lbst, lsub] = helper(node->left, INT_MIN, node->val);
-            auto [rbst, rsub] = helper(node->right, node->val, INT_MAX);
-            if(lbst and rbst) {
-                res = max(res,lsub + rsub + 1);
-            }
-            return {false, 0};
         }
+        auto [lbst, lsub] = helper(node->left, INT_MIN, node->val);
+        auto [rbst, rsub] = helper(node->right, node->val, INT_MAX);
+        if(lbst and rbst) {
+            res = max(res,lsub + rsub + 1);
+        }
+        return {false, 0};
     }
 public:
     int largestBSTSubtree(TreeNode* root) {
