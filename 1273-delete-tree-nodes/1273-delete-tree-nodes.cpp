@@ -8,9 +8,7 @@ class Solution {
             child += c;
         }
         
-        if(sum + va[u] == 0)
-            return {0, 0};
-        else return {sum + va[u], child + 1};
+        return {sum + va[u], sum + va[u] ? child + 1 : 0};
     }
 public:
     int deleteTreeNodes(int nodes, vector<int>& parent, vector<int>& value) {
