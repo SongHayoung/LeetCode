@@ -25,11 +25,10 @@ class Codec {
         return res;
     }
     TreeNode* dHelper(string& d, int& i) {
-        if(i >= d.length()) return NULL;
-        if(d[i] == '#') {
-            i += 2;
-            return NULL;
+        if(i >= d.length() or d[i] == '#') {
+            i += 2; return NULL;
         }
+        
         TreeNode* node = new TreeNode(parseNum(d,i));
         node->left = dHelper(d,i);
         node->right = dHelper(d,i);
