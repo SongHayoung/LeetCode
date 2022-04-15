@@ -8,9 +8,9 @@ public:
                 int st = i, p; prevRes = 0;
                 while(st < n) {
                     p = (A[st] / A[i]) + 1;
-                    int nxt = lower_bound(begin(A) + st, end(A), A[i] * p) - begin(A) - 1;
-                    prevRes = (prevRes + (nxt - st + 1) * (p - 1)) % mod;
-                    st = nxt + 1;
+                    int nxt = lower_bound(begin(A) + st, end(A), A[i] * p) - begin(A);
+                    prevRes = (prevRes + (nxt - st) * (p - 1)) % mod;
+                    st = nxt;
                 }
             }
             res = (res + prevRes) % mod;
