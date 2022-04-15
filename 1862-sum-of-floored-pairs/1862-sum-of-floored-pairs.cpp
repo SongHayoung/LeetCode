@@ -1,15 +1,22 @@
 class Solution {
 public:
-long cnt[100001] = {}, sieve[100001] = {};
-int sumOfFlooredPairs(vector<int>& nums) {
-    int max_n = *max_element(begin(nums), end(nums));
-    for (auto n : nums)
-        ++cnt[n];
-    for (auto n = 1; n <= max_n; ++n)
-        if (cnt[n])
-            for (auto f = 1; n * f <= max_n; ++f)
-                sieve[f * n] = (sieve[f*n] + cnt[n]) %1000000007 ;
-    partial_sum(begin(sieve), end(sieve), begin(sieve));
-    return accumulate(begin(nums), end(nums), 0l, [&](long sum, int n) { return (sum + sieve[n]) % 1000000007; });
-}
+    int sumOfFlooredPairs(vector<int>& A) {
+        sort(begin(A), end(A));
+        int res = 0, n = A.size(), prevRes = 0, mod = 1e9 + 7;
+        for(int i = 0, p, st = 0; i < n; st = ++i) {
+            if(!i or A[i] != A[i-1]) {
+                prevRes = 0;
+                while(st < n) {
+                    p = (A[st] / A[i]) + 1;
+                    int nxt = lower_bound(begin(A) + st, end(A), A[i] * p) - begin(A);
+                    prevRes = (prevRes + (nxt - st) * (p - 1)) % mod;
+                    st = nxt;
+                }
+            }
+            res = (res + prevRes) % mod;
+        }
+        
+        
+        return res;
+    }
 };
