@@ -10,10 +10,11 @@
  * };
  */
 class Solution {
-    TreeNode* helper(TreeNode* node, int key) {
-        if(!node) return nullptr;
-        if(key == node->val) {
-            TreeNode *l = node->left, *r = node->right;
+public:
+    TreeNode* deleteNode(TreeNode* root, int key) {
+        if(!root) return nullptr;
+        if(key == root->val) {
+            TreeNode *l = root->left, *r = root->right;
             if(!l and !r) return nullptr;
             if(l and r) {
                 TreeNode* res = r;
@@ -23,13 +24,9 @@ class Solution {
             } else if(l) return l;
             else return r;
         } else {
-            if(node->val > key) node->left = helper(node->left, key);
-            else node->right = helper(node->right, key);
-            return node;
+            if(root->val > key) root->left = deleteNode(root->left, key);
+            else root->right = deleteNode(root->right, key);
+            return root;
         }
-    }
-public:
-    TreeNode* deleteNode(TreeNode* root, int key) {
-        return helper(root, key);
     }
 };
