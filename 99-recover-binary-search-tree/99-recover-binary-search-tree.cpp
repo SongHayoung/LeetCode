@@ -17,6 +17,7 @@ class Solution {
         helper(node->left);
         if(prv and prv->val > node->val) {
             WA.push_back(prv);
+            if(WA.size() >= 2) WA.pop_back();
             WA.push_back(node);
         }
         prv = node;
