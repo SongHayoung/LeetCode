@@ -17,7 +17,7 @@ class Solution {
         helper(node->left);
         if(prv and prv->val > node->val) {
             WA.push_back(prv);
-            if(WA.size() >= 2) WA.pop_back();
+            while(WA.size() >= 2) WA.pop_back();
             WA.push_back(node);
         }
         prv = node;
@@ -27,6 +27,6 @@ class Solution {
 public:
     void recoverTree(TreeNode* root) {
         helper(root);
-        swap(WA[0]->val, WA.back()->val);
+        swap(WA[0]->val, WA[1]->val);
     }
 };
