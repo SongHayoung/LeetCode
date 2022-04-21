@@ -3,13 +3,10 @@ public:
     string frequencySort(string s) {
         string res = "";
         unordered_map<char, int> mp;
-        priority_queue<pair<int,char>> pq;
+        vector<string> bucket(s.length() + 1, "");
         for(auto& ch : s) mp[ch]++;
-        for(auto& [k, v] : mp) pq.push({v, k});
-        while(!pq.empty()) {
-            auto [c, ch] = pq.top(); pq.pop();
-            res += string(c, ch);
-        }
+        for(auto& [k, v] : mp) bucket[v].append(string(v,k));
+        for(int i = s.length(); i >= 0; i--) res.append(bucket[i]);
         return res;
     }
 };
