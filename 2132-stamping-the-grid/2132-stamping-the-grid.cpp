@@ -11,22 +11,24 @@ public:
         if(h > n or w > m) return judge(grid);
         vector<int> st(m, 0);
         vector<vector<bool>> mark(n, vector<bool>(m));
-        for(int i = 0; i < h - 1; i++) {
+        
+        for(int i = 0; i < h - 1; i++) { //pre calculate with dp technique
             for(int j = 0; j < m; j++) {
                 if(!grid[i][j]) st[j] += 1;
                 else st[j] = 0;
             }
         }
+        
         for(int i = h - 1; i < n; i++) {
-            for(int j = 0; j < m; j++) {
+            for(int j = 0; j < m; j++) {// dp technique
                 if(!grid[i][j]) st[j] += 1;
                 else st[j] = 0;
             }
             queue<int> q;
-            for(int j = 0; j < w - 1; j++) {
+            for(int j = 0; j < w - 1; j++) { //sliding window technique
                 if(st[j] < h) q.push(j);
             }
-            for(int l = 0, r = w - 1; r < m; l++,r++) {
+            for(int l = 0, r = w - 1; r < m; l++,r++) { //marking top left of stamp
                 while(!q.empty() and q.front() < l) q.pop();
                 if(st[r] < h) q.push(r);
                 if(q.empty()) mark[i-h+1][l] = true;
@@ -35,7 +37,7 @@ public:
         
         vector<int> row(m + 1);
         for(int i = 0; i < n; i++) {
-            for(int j = 0; j < m; j++) {
+            for(int j = 0; j < m; j++) { //diff array technique
                 if(mark[i][j]) {
                     row[j]++;
                     row[j + w]--;
@@ -46,13 +48,14 @@ public:
                 }
             }
             int sum = 0;
-            for(int j = 0; j < m; j++) {
+            for(int j = 0; j < m; j++) { //prefix sum technique
                 sum += row[j];
                 if(!sum and !grid[i][j]) {
                     return false;
                 }
             }
         }
+        
         return true;
     }
 };
