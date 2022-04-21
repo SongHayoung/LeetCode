@@ -20,14 +20,11 @@ class Solution {
                 dfs2(v,r);
         }
     }
-    int dfs3(int u, int v) {
-        return dfs4(u, v) + dfs4(v, u);
-    }
-    int dfs4(int u, int exc) {
+    int dfs3(int u, int exc) {
         int res = 0;
         for(auto& v : radj[u])
             if(v != exc)
-                res = max(res, dfs4(v, exc));
+                res = max(res, dfs3(v, exc));
         return res + 1;
     }
 public:
@@ -55,12 +52,9 @@ public:
             if(mem.size() == 1) continue;
             if(mem.size() > 2) {
                 res1 = max(res1, (int)mem.size());
-                //cout<<"rep : "<<r<<endl;
-                //res += mem.size();
             }
             if(mem.size() == 2) {
-                //cout<<mem[0]<<' '<<mem[1]<<' '<<dfs3(mem[0], mem[1])<<endl;
-                res2 += dfs3(mem[0], mem[1]);
+                res2 += dfs3(mem[0], mem[1]) + dfs3(mem[1], mem[0]);
             }
         }
         
