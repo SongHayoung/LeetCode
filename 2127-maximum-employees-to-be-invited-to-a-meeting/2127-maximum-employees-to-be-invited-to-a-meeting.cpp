@@ -12,7 +12,7 @@ class Solution {
         }
         st.push_back(u);
     }
-    void dfs2(int u, int r) {
+    void dfs2(int u, int& r) {
         vis2[u] = true;
         rep[u] = r;
         for(auto& v : radj[u]) {
@@ -20,7 +20,7 @@ class Solution {
                 dfs2(v,r);
         }
     }
-    int dfs3(int u, int exc) {
+    int dfs3(int u, int& exc) {
         int res = 0;
         for(auto& v : radj[u])
             if(v != exc)
