@@ -11,11 +11,10 @@ class Solution {
         vector<pair<int,int>> cand;
         
         for(int i = 1; i < n; i++) { //find A + k + Z - k combinations
-            auto j = lower_bound(begin(A), end(A), sum - A[i]) - begin(A);
-            if(j < i) break;
+            n = lower_bound(begin(A) + i, begin(A) + n, sum - A[i]) - begin(A);
             
-            if(A[j] + A[i] == sum)
-                cand.push_back({i,j});
+            if(A[n] + A[i] == sum)
+                cand.push_back({i,n});
         }
         unordered_set<int> res;
         for(auto [i, j] : cand) {
@@ -26,7 +25,7 @@ class Solution {
         
         return vector<int>(begin(res),end(res));
     }
-    bool helper(vector<int>& A, unordered_map<int,int>& mp, int k, vector<int>& res, int p, int i) {
+    bool helper(vector<int>& A, unordered_map<int,int>& mp, int& k, vector<int>& res, int p, int i) {
         if(p == A.size()) return true;
         if(mp[A[p]] == 0) return helper(A,mp,k,res,p+1,i);
         if(mp[A[p] + 2*k] == 0 or i == res.size()) return false;
