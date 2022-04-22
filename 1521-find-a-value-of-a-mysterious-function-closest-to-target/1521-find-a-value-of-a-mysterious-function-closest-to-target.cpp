@@ -18,9 +18,8 @@ class Solution {
         int m = (s + e) >> 1;
         return query(u * 2, s, m, l, r) & query(u * 2 + 1, m + 1, e, l, r);
     }
-    int ternarySearch(int l, int r, int n, int t) {
+    int ternarySearch(int l, int r, int n, int& t) {
         int res = INT_MAX;
-        bool debug = l == 1;
         int s = l, e = r;
         while(l < r) {
             int m = (l + r + 1) / 2;
