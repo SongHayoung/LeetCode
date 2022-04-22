@@ -29,8 +29,7 @@ class Solution {
     bool helper(vector<int>& A, unordered_map<int,int>& mp, int k, vector<int>& res, int p, int i) {
         if(p == A.size()) return true;
         if(mp[A[p]] == 0) return helper(A,mp,k,res,p+1,i);
-        if(mp[A[p] + 2*k] == 0) return false;
-        if(i == A.size() / 2) return false;
+        if(mp[A[p] + 2*k] == 0 or i == res.size()) return false;
         mp[A[p] + 2*k]--;
         mp[A[p]]--;
         res[i] = A[p] + k;
@@ -52,10 +51,9 @@ public:
         unordered_map<int, int> mp;
         for(auto& a : A) mp[a]++;
         
-        vector<int> res(n);
+        vector<int> res(n/2);
         for(auto& k : kc)
             if(helper(A,mp,k,res,0,0)) {
-                res.resize(n/2);
                 return res;
             }
         return {};
