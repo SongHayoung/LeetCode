@@ -18,7 +18,7 @@ class Solution {
     unordered_set<int> group(int u) {
         if(lazy.count(u)) {
             for(int i = 0; i < N; i++)
-                if(find(i) == u) {
+                if(find(i) == u and !us[u].count(i)) {
                     us[u].insert(all(us[i]));
                     rst[u].insert(all(rst[i]));
                 }
