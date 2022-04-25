@@ -21,6 +21,8 @@ class Solution {
                 if(find(i) == u and !us[u].count(i)) {
                     us[u].insert(all(us[i]));
                     rst[u].insert(all(rst[i]));
+                    us[i].clear();
+                    rst[i].clear();
                 }
             lazy.erase(u);
         }
@@ -44,7 +46,7 @@ class Solution {
         int pu = find(u), pv = find(v);
         if(pu == pv) return false;
         auto gu = group(pu), gv = group(pv);
-        
+
         return disjoint(rst[pu], gv) or disjoint(rst[pv], gu);
     }
     
