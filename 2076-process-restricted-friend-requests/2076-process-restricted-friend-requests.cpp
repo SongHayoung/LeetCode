@@ -31,21 +31,26 @@ class Solution {
         return us[u];
     }
     
+    bool disjoint(unordered_set<int>& A, unordered_set<int>& B) {
+        if(A.size() > B.size())
+            return disjoint(B,A);
+        for(auto& a : A)
+            if(B.count(a))
+                return true;
+        return false;
+    }
+    
     bool deny(int u, int v) {
         int pu = find(u), pv = find(v);
-        if(pu == pv) return true;
+        if(pu == pv) return false;
         auto gu = group(pu), gv = group(pv);
         
-        for(auto& r : rst[pv]) {
-            if(gu.count(r))
-                return false;
-        }
-        for(auto& r : rst[pu]) {
-            if(gv.count(r))
-                return false;
-        }
+        if(disjoint(rst[pv], gu))
+            return true;
+        if(disjoint(rst[pu], gv))
+            return true;
 
-        return true;
+        return false;
     }
     
 public:
@@ -60,7 +65,7 @@ public:
         vector<bool> res;
         for(auto& r : requests) {
             int u = r[0], v = r[1];
-            if(deny(u, v)) {
+            if(!deny(u, v)) {
                 res.push_back(true);
                 merge(u,v);
             } else res.push_back(false);
