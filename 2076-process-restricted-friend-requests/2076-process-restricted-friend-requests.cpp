@@ -45,12 +45,7 @@ class Solution {
         if(pu == pv) return false;
         auto gu = group(pu), gv = group(pv);
         
-        if(disjoint(rst[pv], gu))
-            return true;
-        if(disjoint(rst[pu], gv))
-            return true;
-
-        return false;
+        return disjoint(rst[pu], gv) or disjoint(rst[pv], gu);
     }
     
 public:
