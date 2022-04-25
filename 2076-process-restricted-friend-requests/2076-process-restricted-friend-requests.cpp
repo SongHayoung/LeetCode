@@ -15,7 +15,7 @@ class Solution {
         lazy.insert(min(pu,pv));
     }
     
-    unordered_set<int> group(int u) {
+    void updateLazy(int u) {
         if(lazy.count(u)) {
             for(int i = 0; i < N; i++)
                 if(find(i) == u and !us[u].count(i)) {
@@ -24,6 +24,10 @@ class Solution {
                 }
             lazy.erase(u);
         }
+    }
+    
+    unordered_set<int> group(int u) {
+        updateLazy(u);
         return us[u];
     }
     
