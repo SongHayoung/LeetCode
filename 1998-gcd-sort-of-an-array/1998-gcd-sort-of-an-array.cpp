@@ -36,9 +36,12 @@ public:
         sort(all(S));
         setSeive(S.back());
         for(int i = 1; i <= S.back(); i++) uf[i] = i;
-        for(auto& a : A) {
-            for(auto& f : factorsOf(a)) {
-                uni(a,f);
+        int prv = -1;
+        for(auto& s : S) {
+            if(prv == s) continue;
+            prv = s;
+            for(auto& f : factorsOf(s)) {
+                uni(s,f);
             }
         }
         int n = A.size();
