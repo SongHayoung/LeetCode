@@ -19,7 +19,7 @@ public:
                 for(auto& p : P) {
                     d.push_back(manhattanDistance(x,y,p[0],p[1]));
                 }
-                sort(all(d));
+                partial_sort(begin(d), begin(d) + k, end(d));
                 res = min(res, d[k-1]);
             }
         }
