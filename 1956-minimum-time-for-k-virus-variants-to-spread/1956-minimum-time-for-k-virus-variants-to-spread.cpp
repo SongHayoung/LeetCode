@@ -1,4 +1,4 @@
-#define all(a) begin(a), end(a)
+#define topK(a,k) begin(a), begin(a) + k, end(a)
 class Solution {
     int manhattanDistance(int x1, int y1, int x2, int y2) {
         return abs(x1-x2) + abs(y1-y2);
@@ -19,7 +19,7 @@ public:
                 for(auto& p : P) {
                     d.push_back(manhattanDistance(x,y,p[0],p[1]));
                 }
-                partial_sort(begin(d), begin(d) + k, end(d));
+                partial_sort(topK(d,k));
                 res = min(res, d[k-1]);
             }
         }
