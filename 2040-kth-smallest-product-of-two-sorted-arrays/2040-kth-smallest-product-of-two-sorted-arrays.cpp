@@ -1,6 +1,6 @@
 #define all(a) begin(a), end(a)
 class Solution {
-    pair<long long, bool> search(vector<int>& A, vector<int>& B, long long t) {
+    pair<long long, bool> search(vector<int>& A, vector<int>& B, long long t) { //O(min(A,B) log max(A,B))
         if(A.size() < B.size())
             return search(B, A, t);
         
