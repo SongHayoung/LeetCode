@@ -1,9 +1,8 @@
 class Solution {
     long search(vector<int>& p, long m) {
-        long res = accumulate(begin(p), end(p), 0l, [&](long sum, int b) {
+        return accumulate(begin(p), end(p), 0l, [&](long sum, int b) {
            return sum + ceil(1.0 * b / m); 
         });
-        return res;
     }
 public:
     int minEatingSpeed(vector<int>& piles, int h) {
