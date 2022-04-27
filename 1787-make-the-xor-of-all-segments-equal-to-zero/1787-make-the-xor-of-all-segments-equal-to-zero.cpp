@@ -17,7 +17,7 @@ public:
         memset(dp, -1, sizeof dp);
         vector<int> sum(k), best(k);
         vector<unordered_map<int,int>> freq(k);
-        int n = A.size(), res = INF, change = 0;
+        int n = A.size(), change = 0;
         for(int i = 0; i < n; i++) {
             sum[i % k]++;
             best[i % k] = max(best[i % k], ++freq[i % k][A[i]]);
@@ -27,11 +27,9 @@ public:
             change += sum[i] - best[i];
         }
         
+        int res = helper(sum, freq, 0, 0);
         for(int i = 0; i < k; i++) {
-            res = min({res,
-                       change + best[i],
-                       helper(sum, freq, 0, 0)
-                      });
+            res = min(res, change + best[i]);
         }
         return res;
     }
