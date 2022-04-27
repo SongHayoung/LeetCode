@@ -1,5 +1,5 @@
 class Solution {
-    long search(vector<int>& p, long m) {
+    inline long search(vector<int>& p, long m) {
         return accumulate(begin(p), end(p), 0l, [&](long sum, int b) {
            return sum + ceil(1.0 * b / m); 
         });
