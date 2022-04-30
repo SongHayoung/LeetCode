@@ -3,17 +3,14 @@ class Solution {
         int l = 0, r = 0, sum = 0, n = A.size();
         
         while(r < n) {
-            if(A[r] > d) {
-                l = ++r;
-            } else {
-                ++r;
+            if(A[r++] > d) {
+                l = r;
             }
             if(r - l == k) {
                 sum++;
                 l = r;
             }
         }
-        
         
         return sum;
     }
@@ -24,6 +21,7 @@ public:
         while(l <= r) {
             int d = l + (r-l) / 2;
             int s = search(bloomDay, d, k);
+            
             if(s >= m) r = d - 1;
             else l = d + 1;
         }
