@@ -7,7 +7,9 @@ public:
         for(int i = 0; i < n; i++) {
             mp[psum[i+1] = psum[i] + A[i]].push_back(i);
         }
+        
         unordered_set<int> vis[n+1][2];
+        
         for(int i = 1; i < n; i++) {
             int sum = psum[i];
             if(i + 1 > n) continue;
@@ -21,11 +23,9 @@ public:
                     if(vis[k][1].count(sum)) continue;
                     
                     vis[k][1].insert(sum);
-                    for(auto& l : mp[psum[k+2] + sum]) {
-                        if(l <= k + 1) continue;
-                        
-                        if(l == n - 1) return true;
-                    }
+                    if(n - 1 <= k + 1) continue;
+                    if(psum.back() == psum[k+2] + sum)
+                        return true;
                 }
             }
         }
