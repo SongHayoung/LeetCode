@@ -11,16 +11,11 @@ struct Trie{
         if(p == -1) return exceed ? 0 : -1;
         if(exceed) {
             bool nbi = n & (1<<p);
-            if(nbi) {
-                if(next[0])
-                    return (1<<p) ^ next[0]->query(x,n,p-1,true);
-                else return next[1]->query(x,n,p-1,true);
-            } else {
-                if(next[1])
-                    return (1<<p) ^ next[1]->query(x,n,p-1,true);
-                return next[0]->query(x,n,p-1,true);
-            }
             
+            if(next[!nbi])
+                return (1<<p) ^ next[!nbi]->query(x,n,p-1,true);
+            
+            return next[nbi]->query(x,n,p-1,true);
         } else {
             bool xbi = x & (1<<p);
             if(xbi) {
@@ -29,19 +24,18 @@ struct Trie{
                     int ans = next[1]->query(x,n,p-1,false);
                     if(ans != -1) {
                         bool nbi = n & (1<<p);
-                        res = max(res, ans + (nbi ? 0 : (1<<p)) );
+                        res = max(res, ans ^ (nbi ? 0 : (1<<p)) );
                     }
                 }
                 if(next[0]) {
-                    res = max(res,  (n & (1<<p)) + next[0]->query(x,n,p-1,true));
+                    res = max(res,  (n & (1<<p)) ^ next[0]->query(x,n,p-1,true));
                 }
                 return res;
             } else {
                 if(!next[0]) return -1;
                 int ans = next[0]->query(x,n,p-1,false);
                 if(ans != -1) {
-                    bool nbi = n & (1<<p);
-                    if(nbi) ans += (1<<p);
+                    ans ^= n & (1<<p);
                 }
                 return ans;
             }
