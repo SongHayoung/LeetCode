@@ -17,15 +17,15 @@ public:
             int l = 0, r = m - 1;
             while(l <= r) {
                 int mid = l + (r - l) / 2;
-                if(bigger(mat, i, mid))
-                    return {i,mid};
-                if(mid + 1 < m and mat[i][mid + 1] > mat[i][mid])
+                if(mid + 1 < m and mat[i][mid + 1] >= mat[i][mid])
                     l = mid + 1;
-                else if(mid - 1 >= 0 and mat[i][mid - 1] > mat[i][mid])
+                else if(mid - 1 >= 0 and mat[i][mid - 1] >= mat[i][mid])
                     r = mid - 1;
-                else if(i + 1 < n and mat[i + 1][mid] > mat[i][mid])
+                else if(i + 1 < n and mat[i + 1][mid] >= mat[i][mid])
                     i += 1;
-                else i -= 1;
+                else if(i - 1 >= 0 and mat[i - 1][mid] >= mat[i][mid])
+                    i -= 1;
+                else return {i, mid};
             }
         }
         return {};
