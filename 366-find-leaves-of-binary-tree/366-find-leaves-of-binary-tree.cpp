@@ -10,27 +10,18 @@
  * };
  */
 class Solution {
-vector<vector<int>> res;
-bool isLeafNode(TreeNode* node) {
-	if(!node->left and !node->right){
-res.back().push_back(node->val);
- return true;
-}
-
-if(node->left and isLeafNode(node->left)) {
-node->left = NULL;
-}
-if(node->right and isLeafNode(node->right)) {
-	node->right = NULL;
-}
-return false;
-}
+    vector<vector<int>> res;
+    int helper(TreeNode* node) {
+        if(!node) return -1;
+        int lvl = max(helper(node->left) + 1, helper(node->right) + 1);
+        if(res.size() == lvl)
+            res.emplace_back();
+        res[lvl].push_back(node->val);
+        return lvl;
+    }
 public:
     vector<vector<int>> findLeaves(TreeNode* root) {
-	res.push_back(vector<int>());
-	while(!isLeafNode(root)) {
-		res.push_back(vector<int>());
-}
-return res;
+        helper(root);
+        return res;
     }
 };
