@@ -1,16 +1,35 @@
 class Solution {
-public:
-    int longestStrChain(vector<string>& words) {
-        sort(words.begin(), words.end(), [](const string& s1, const string& s2){return s1.length() < s2.length(); });
-        unordered_map<string, int> dp;
-        for(auto& s : words) {
-            string str = s.substr(1);
-            dp[s] = max(dp[s], dp.find(str) == dp.end() ? 1 : dp[str] + 1);
-            for(int i = 0; i < s.length() - 1; i++) {
-                str[i] = s[i];
-                dp[s] = max(dp[s], dp.find(str) == dp.end() ? 1 : dp[str] + 1);
+    unordered_map<int, vector<string>> mp;
+    unordered_map<string, int> dp;
+    bool reachable(string& from, string& to) {
+        int diff = 0, i = 0, j = 0, n = from.length(), m = to.length();
+        while(i < n and j < m) {
+            if(from[i] == to[j]) {
+                i++,j++;
+            } else {
+                j++;
+                if(++diff >= 2) return false;
             }
         }
-        return max_element(dp.begin(), dp.end(), [](const auto& e1, const auto& e2) {return e1.second < e2.second; })->second;
+        return i == n and diff <= 1;
+    }
+    int helper(string& s) {
+        if(dp.count(s)) return dp[s];
+        dp[s] = 1;
+        for(auto& nxt : mp[s.length() + 1]) {
+            if(reachable(s, nxt))
+                dp[s] = max(dp[s], 1 + helper(nxt));
+        }
+        return dp[s];
+    }
+public:
+    int longestStrChain(vector<string>& words) {    
+        int res = 0;
+        for(auto& w : words)
+            mp[w.length()].push_back(w);
+        for(auto& w : words) {
+            res = max(res, helper(w));
+        }
+        return res;
     }
 };
