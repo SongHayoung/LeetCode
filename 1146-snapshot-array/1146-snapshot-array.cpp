@@ -1,23 +1,27 @@
 class SnapshotArray {
-    int snapShot;
-    unordered_map<int, vector<pair<int, int>>> ml;
+    vector<vector<pair<int,int>>> snaps;
+    int snapId = 0;
 public:
-    SnapshotArray(int length) : snapShot(0) {    }
-
+    SnapshotArray(int length) {
+        snaps = vector<vector<pair<int,int>>>(length, vector<pair<int,int>>(1,{0,0}));
+    }
+    
     void set(int index, int val) {
-        if(ml[index].empty() || ml[index].back().first < snapShot)
-            ml[index].push_back({snapShot, val});
-        else
-            ml[index].back().second = val;
+        if(snaps[index].back().first != snapId)
+            snaps[index].push_back({snapId, -1});
+        snaps[index].back().second = val;
     }
-
+    
     int snap() {
-        return snapShot++;
+        return snapId++;
     }
-
+    
     int get(int index, int snap_id) {
-        auto it = upper_bound(ml[index].begin(), ml[index].end(), pair<int, int>(snap_id, INT_MAX));
-        return it == ml[index].begin() ? 0 : prev(it)->second;
+        auto& his = snaps[index];
+        auto it = upper_bound(begin(his),end(his), make_pair(snap_id,INT_MAX));
+        if(it == begin(his)) return 0;
+        --it;
+        return it->second;
     }
 };
 
