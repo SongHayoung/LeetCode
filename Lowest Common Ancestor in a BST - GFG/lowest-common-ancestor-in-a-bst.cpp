@@ -97,28 +97,41 @@ int main()
 }// } Driver Code Ends
 
 
+bool inRange(int mi, int ma, int target) {
+    return mi < target and target < ma;
+}
 
-
-pair<bool, Node*> helper(Node* node, int v1, int v2) {
+pair<bool, Node*> helper(Node* node, int v1, int v2, int mi, int ma) {
     if(!node) return{false, nullptr};
-    if(node->data == v1 or node->data == v2) {
-        auto lp = helper(node->left, v1, v2);
-        if(lp.first) return {true, node};
-        auto rp = helper(node->right, v1, v2);
+    if(!(inRange(mi, ma, v1) or inRange(mi, ma, v2))) return {false, nullptr};
+    
+    
+    if(node->data == v1) {
+        auto rp = helper(node->right, v1, v2, v1, ma);
         if(rp.first) return {true, node};
         return {true, nullptr};
+    } else if(node->data == v2) {
+        auto lp = helper(node->left, v1, v2, mi, v2);
+        if(lp.first) return {true, node};
+        return {true, nullptr};
     }
-    auto lp = helper(node->left, v1, v2);
-    if(lp.second) return lp;
-    auto rp = helper(node->right, v1, v2);
-    if(rp.second) return rp;
-    if(lp.first && rp.first) return {true, node};
-    if(lp.first) return lp;
-    if(rp.first) return rp;
-    return {false, nullptr};
+    if(inRange(mi, ma, v1) or inRange(mi, ma, v2)) {
+        auto lp = helper(node->left, v1, v2, mi, node->data);
+        if(lp.second) return lp;
+        auto rp = helper(node->right, v1, v2, node->data, ma);
+        if(rp.second) return rp;
+        if(lp.first && rp.first) return {true, node};
+        if(lp.first) return lp;
+        if(rp.first) return rp;
+        return {false, nullptr};   
+    } else if(inRange(mi, ma, v1)) {
+        return helper(node->left, v1, v2, mi, node->data);
+    } else {
+        return helper(node->right, v1, v2, node->data, ma);
+    }
 }
 Node* LCA(Node *root, int n1, int n2) {
-   return helper(root, n1, n2).second;
+   return helper(root, min(n1,n2), max(n1,n2), INT_MIN, INT_MAX).second;
 }
 
 
