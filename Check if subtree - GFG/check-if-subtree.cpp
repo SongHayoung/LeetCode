@@ -96,13 +96,6 @@ struct Node
 
 class Solution
 {
-    vector<Node*> cands;
-    void travel(Node* node, int target) {
-        if(!node) return;
-        if(node->data == target) cands.push_back(node);
-        travel(node->left, target);
-        travel(node->right, target);
-    }
     bool helper(Node* a, Node* b) {
         if(!a and !b) return true;
         if(!a or !b) return false;
@@ -113,11 +106,9 @@ class Solution
     //Function to check if S is a subtree of tree T.
     bool isSubTree(Node* T, Node* S) 
     {
-        travel(T, S->data);
-        for(auto& cand : cands) {
-            if(helper(cand, S)) return true;
-        }
-        return false;
+        if(!T) return false;
+        if(helper(T, S)) return true;
+        return isSubTree(T->left, S) or isSubTree(T->right, S);
     }
 };
 
