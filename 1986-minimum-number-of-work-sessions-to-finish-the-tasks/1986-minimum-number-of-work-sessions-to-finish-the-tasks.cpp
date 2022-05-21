@@ -1,45 +1,43 @@
 class Solution {
-public:
-    vector<int> sessions;
-    unordered_map<string , int> dp;
-    
-    string encodeState(int pos, vector<int>& sessions) {
-        vector<int> copy = sessions;
-        sort(copy.begin(), copy.end());
-        
-        string key = to_string(pos) + "$";
-        for (int i = 0; i < copy.size(); i++)
-            key += to_string(copy[i]) + "$";
-        
-        return key;
-    }
-    
-    int solve(vector<int>& tasks, int n, int sessionTime, int pos) {
-        if (pos >= n )
-            return 0;
-        
-        string key = encodeState(pos, sessions);
-        
-        if (dp.find(key) != dp.end())
-            return dp[key];
-        
-        sessions.push_back(tasks[pos]);
-        int ans = 1 + solve(tasks, n, sessionTime, pos + 1);
-        sessions.pop_back();
-        
-        for (int i = 0; i < sessions.size();i++) {
-            if (sessions[i] + tasks[pos] <= sessionTime) {
-                sessions[i] += tasks[pos];
-                ans = min(ans, solve(tasks, n, sessionTime, pos + 1));
-                sessions[i] -= tasks[pos];
+    long long dp[1<<15];
+    unordered_set<string> combDp;
+    void combHelper(int& skip, vector<int>& A, int pos, int mask, vector<int>& combs, int& t, int sum, int& n, string s) {
+        if(pos == n) {
+            if(mask and !combDp.count(s)) {
+                combs.push_back(mask);
+                combDp.insert(s);
             }
+        } else {
+            combHelper(skip, A, pos + 1, mask, combs, t, sum, n, s);
+            if((skip & (1<<pos)) or A[pos] + sum > t) return;
+            combHelper(skip, A, pos + 1, mask | (1<<pos), combs, t, sum + A[pos], n, s + to_string(A[pos]) + "#");
         }
-        
-        return dp[key] = ans;
     }
-    
+    vector<int> combs(int& mask, vector<int>& A, int& t, int& n) {
+        vector<int> res;
+        combDp.clear();
+        combHelper(mask, A, 0, 0, res, t, 0, n, "");      
+        return res;
+    }
+    long long helper(int mask, vector<int>& A, int& t, int& n) {
+        if(mask + 1== (1<<n)) return 0;
+        if(dp[mask] != -1) return dp[mask];
+        dp[mask] = INT_MAX;
+        for(auto& c : combs(mask, A, t, n)) {
+            dp[mask] = min(dp[mask], 1 + helper(mask | c, A, t, n));
+        }
+        return dp[mask];
+    }
+public:
     int minSessions(vector<int>& tasks, int sessionTime) {
-        int n = tasks.size();
-        return solve(tasks, n, sessionTime, 0);
+        memset(dp, -1, sizeof dp);
+        sort(begin(tasks), end(tasks));
+        int fit = 0, n = tasks.size();
+        while(!tasks.empty() and tasks.back() == sessionTime) {
+            fit++;
+            tasks.pop_back();
+        }
+        n = tasks.size();
+        return fit + helper(0, tasks, sessionTime, n);
     }
 };
