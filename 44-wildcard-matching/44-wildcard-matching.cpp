@@ -1,27 +1,46 @@
 class Solution {
+    vector<vector<int>> dp;
+    bool helper(string& f, string& p, int i, int j) {
+	if(i > f.length() or j > p.length()) return false;
+	if(i == f.length() and j == p.length()) return true;
+	if(j == p.length()) return false;
+	if(i == f.length()) {
+		for(; j < p.length(); j++) {
+			if(p[j] != '*') return false;
+		}
+		return true;
+	}
+	if(dp[i][j] != -1) return dp[i][j];
+	if(p[j] == '?') return dp[i][j] = helper(f, p, i + 1, j + 1);
+	else if(p[j] != '*') {
+		if(p[j] == f[i]) return dp[i][j] = helper(f, p, i + 1, j + 1);
+		return dp[i][j] = false;
+	}
+	
+	for(int pos = i; pos <= f.length(); pos++) {
+		if(helper(f,p, pos, j + 1))
+			return dp[i][j] = true;
+	}
+	
+	return dp[i][j] = false;
+}
+
+bool globMatching(string fileName, string pattern) {
+	string newPattern = "";
+	
+	for(auto& ch : pattern) {
+		if(ch == '*') {
+			if(newPattern.empty() or newPattern.back() != '*')
+				newPattern.push_back(ch);
+		} else newPattern.push_back(ch);
+	}
+
+	int n = fileName.length(), m = newPattern.length();
+	dp = vector<vector<int>>(n, vector<int>(m, -1));
+  return helper(fileName, newPattern, 0, 0);
+}
 public:
     bool isMatch(string s, string p) {
-        if(p.length() == 0) return s.length() == 0;
-        int n = 1;
-        for(int i = 1; i < p.length(); i++) {
-            if(p[i] == '*' and p[n-1] == '*') continue;
-            p[n++] = p[i];
-        }
-        bool memo[2001][2001]{false};
-        
-        memo[0][0] = true;
-        memo[0][1] = p[0] == '*';
-        
-        for(int i = 1; i <= s.length(); i++) {
-            bool eq = false;
-            for(int j = 1; j <= n; j++) {
-                if(p[j - 1] == '?' or s[i - 1] == p[j - 1]) memo[i][j] = memo[i-1][j-1];
-                else if(p[j - 1] == '*') memo[i][j] = memo[i-1][j] | memo[i][j-1];
-                eq |= memo[i][j];
-            }
-            if(!eq) return false;
-        }
-        
-        return memo[s.length()][n];
+        return globMatching(s, p);
     }
 };
