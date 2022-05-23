@@ -1,22 +1,18 @@
 class Solution {
 public:
-    int trap(vector<int>& h) {
-        int res = 0, l = 0, r = h.size() - 1;
-        int lmax = 0, rmax = 0;
-        
+    int trap(vector<int>& A) {
+        int res = 0, l = 0, r = A.size() - 1, lma = A[0], rma = A[r];
         while(l < r) {
-            if(h[l] < h[r]) {
-                while(l < r and h[l] <= lmax) {
-                    res += lmax - h[l];
-                    l++;
+            if(A[l] < A[r]) {
+                while(l < r and A[l] <= lma) {
+                    res += lma - A[l++];
                 }
-                lmax = h[l];
+                lma = A[l];
             } else {
-                while(l < r and h[r] <= rmax) {
-                    res += rmax - h[r];
-                    r--;
+                while(l < r and A[r] <= rma) {
+                    res += rma - A[r--];
                 }
-                rmax = h[r];
+                rma = A[r];
             }
         }
         return res;
