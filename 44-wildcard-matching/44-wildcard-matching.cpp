@@ -1,5 +1,5 @@
 class Solution {
-    vector<vector<int>> dp;
+  vector<vector<int>> dp;
     bool helper(string& f, string& p, int i, int j) {
 	if(i > f.length() or j > p.length()) return false;
 	if(i == f.length() and j == p.length()) return true;
@@ -25,22 +25,16 @@ class Solution {
 	return dp[i][j] = false;
 }
 
-bool globMatching(string fileName, string pattern) {
-	string newPattern = "";
-	
-	for(auto& ch : pattern) {
-		if(ch == '*') {
-			if(newPattern.empty() or newPattern.back() != '*')
-				newPattern.push_back(ch);
-		} else newPattern.push_back(ch);
-	}
-
-	int n = fileName.length(), m = newPattern.length();
-	dp = vector<vector<int>>(n, vector<int>(m, -1));
-  return helper(fileName, newPattern, 0, 0);
-}
 public:
     bool isMatch(string s, string p) {
-        return globMatching(s, p);
+        string newP = "";
+        for(auto& ch : p) {
+            if(ch == '*') {
+                if(newP.empty() or newP.back() != '*') newP.push_back(ch);
+            } else newP.push_back(ch);
+        }
+        int n = s.length(), m = newP.length();
+	dp = vector<vector<int>>(n, vector<int>(m, -1));
+        return helper(s, newP, 0, 0);
     }
 };
