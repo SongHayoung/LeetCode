@@ -5,8 +5,7 @@ public:
         if(n > m) return maxNumber(B, A, k);
         
         vector<int> res;
-        for(int i = max(k - m, 0); i <= n; i++) {
-            if((k - i) < 0) break;
+        for(int i = max(k - m, 0); i <= min(n, k); i++) {
             res = max(res, merge(pick(A, i), pick(B, k - i)));
         }
         return res;
