@@ -2,41 +2,28 @@ class Solution {
 public:
     vector<int> cheapestJump(vector<int>& coins, int maxJump) {
         int n = coins.size();
-        vector<vector<int>> path(n);
-        vector<bool> inc(n);
-        vector<int> cost(n, INT_MAX);
-        cost[0] = 0;
-        path[0] = {0};
-        inc[0] = true;
-        
-        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-        pq.push({0, 0});
-        while(!pq.empty()) {
-            auto [c, p] = pq.top(); pq.pop();
-            if(cost[p] != c) continue;
-            inc[p] = false;
-            for(int i = p + 1; i < min(n, p + maxJump + 1); i++) {
-                if(coins[i] == -1) continue;
-                if(cost[i] < cost[p] + coins[i]) continue;
-                if(cost[i] > cost[p] + coins[i]) {
-                    cost[i] = cost[p] + coins[i];
-                    path[i] = path[p];
-                    path[i].push_back(i);
-                    pq.push({cost[i], i});
-                } else if(cost[i] == cost[p] + coins[i]) {
-                    vector<int> tmp = path[p];
-                    tmp.push_back(i);
-                    path[i] = min(path[i], tmp);
-                    if(!inc[i]) {
-                        inc[i] = true;
-                        pq.push({cost[i], i});
-                    }
+        if(n == 1) return {1};
+        vector<int> dp(n, INT_MAX);
+        vector<int> path(n, -1);
+        dp[n-1] = 0;
+        for(int i = n - 1; i >= 0; i--) {
+            if(coins[i] == -1) continue;
+            for(int j = i + 1; j < min(n, i + maxJump + 1); j++) {
+                if(dp[j] == INT_MAX) continue;
+                if(dp[j] + coins[j] < dp[i]) {
+                    dp[i] = dp[j] + coins[j];
+                    path[i] = j;
                 }
             }
         }
         
-        auto& res = path[n - 1];
-        for(auto& p : res) p += 1;
+        if(path[0] == -1 or coins[n-1] == -1) return {};
+        vector<int> res;
+        int p = 0;
+        while(p != -1) {
+            res.push_back(p + 1);
+            p = path[p];
+        }
         return res;
     }
 };
