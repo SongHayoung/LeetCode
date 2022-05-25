@@ -8,6 +8,8 @@ public:
             sum += t;
             pq.push(t);
         }
+        // max value = remain * n + prev value
+        // find n and make max value to prev value
         while(pq.top() != 1) {
             long long tp = pq.top(); pq.pop();
             long long stp = pq.top();
