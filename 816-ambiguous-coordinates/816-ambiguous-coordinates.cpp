@@ -9,7 +9,6 @@ class Solution {
             front.push_back(back.front()); back.pop_front();
             mp[front.back()]--;
             if(front[0] == '0' and front.size() > 1) break;
-            if(!back.empty() and mp['0'] == back.size()) continue;
             if(!back.empty() and back.back() == '0') continue;
             string f(begin(front), end(front));
             string b(begin(back), end(back));
