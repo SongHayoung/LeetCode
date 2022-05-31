@@ -23,12 +23,11 @@ public:
             int sz = q.size();
             while(sz--) {
                 auto s = q.front(); q.pop();
-                auto nxt = helper(s, s2);
-                for(auto& n : nxt) {
-                    if(vis.count(n)) continue;
-                    if(n == s2) return res;
-                    q.push(n);
-                    vis.insert(n);
+                for(auto& nxt : helper(s, s2)) {
+                    if(vis.count(nxt)) continue;
+                    if(nxt == s2) return res;
+                    q.push(nxt);
+                    vis.insert(nxt);
                 }
             }
             res++;
