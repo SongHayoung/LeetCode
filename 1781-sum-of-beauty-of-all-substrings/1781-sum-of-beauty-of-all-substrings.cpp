@@ -1,25 +1,20 @@
 class Solution {
 public:
     int beautySum(string s) {
-        vector<int> freq(26);
-        int n = s.length(), res = 0;
-        vector<vector<int>> freqs;
-        freqs.push_back(freq);
-        for(auto& ch : s) {
-            freq[ch-'a']++;
-            freqs.push_back(freq);
-        }
-        
+        int res = 0, n = s.length();
         for(int i = 0; i < n; i++) {
-            for(int j = i + 1; j <= n; j++) {
-                int mi = INT_MAX, ma = INT_MIN;
-                for(int k = 0; k < 26; k++) {
-                    int diff = freqs[j][k] - freqs[i][k];
-                    if(diff == 0) continue;
-                    mi = min(mi, diff);
-                    ma = max(ma, diff);
-                }
-                if(mi == INT_MAX or ma == mi) continue;
+            int freq[26] = {0,}, ma = 0, mi = 0;
+            for(int j = i; j < n; j++) {
+                int idx = s[j] - 'a';
+                freq[idx]++;
+                ma = max(ma, freq[idx]);
+                if(freq[idx] - 1 == mi) {
+                    mi = INT_MAX;
+                    for(int k = 0; k < 26; k++) {
+                        if(freq[k] == 0) continue;
+                        mi = min(mi, freq[k]);
+                    }
+                } else if(freq[idx] < mi) mi = freq[idx];
                 res += ma - mi;
             }
         }
