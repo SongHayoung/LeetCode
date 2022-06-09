@@ -1,12 +1,14 @@
 class Solution {
 public:
     vector<int> rearrangeArray(vector<int>& A) {
-        auto B = A;
-        sort(begin(B), end(B));
-        int l = 0, r = A.size() - 1;
-        for(int i = 0; i < A.size(); i++) {
-            if(i & 1) A[i] = B[r--];
-            else A[i] = B[l++];
+        int n = A.size();
+        for(int i = 1; i < n - 1; i++) {
+            if(A[i - 1] + A[i + 1] == 2 * A[i])
+                swap(A[i], A[i + 1]);
+        }
+        for(int i = n - 2; i >= 1; i--) {
+            if(A[i - 1] + A[i + 1] == 2 * A[i])
+                swap(A[i], A[i - 1]);
         }
         return A;
     }
