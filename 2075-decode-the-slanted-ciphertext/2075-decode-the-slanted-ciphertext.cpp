@@ -8,11 +8,6 @@ class Solution {
         }
         return res;
     }
-    bool valid(string& s) {
-        for(auto& ch : s)
-            if(ch != ' ') return true;
-        return false;
-    }
 public:
     string decodeCiphertext(string s, int rows) {
         if(rows == 1) return s;
@@ -25,8 +20,7 @@ public:
         }
         string res = "";
         for(int i = 0; i < n / rows; i++) {
-            string token = parse(A, i);
-            res += token;
+            res += parse(A, i);
         }
         while(!res.empty() and res.back() == ' ') res.pop_back();
         return res;
