@@ -13,22 +13,27 @@ class Solution {
         }
         return res;
     }
+    int insert(vector<vector<int>>& A, priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>>& pq, int target) {
+        int res = 0;
+        while(!A.empty() and A.back()[0] == target) {
+            res += A.back()[2];
+            pq.push({A.back()[1], A.back()[2]});
+            A.pop_back();
+        }
+        return res;
+    }
 public:
     vector<vector<int>> averageHeightOfBuildings(vector<vector<int>>& A) {
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
         int sum = 0, n = A.size(), last = 0, i = 0;
         vector<vector<int>> res;
-        sort(begin(A), end(A));
-        while(i < n) {
-            int start = A[i][0];
+        sort(rbegin(A), rend(A));
+        while(!A.empty()) {
+            int start = A.back()[0];
             if(!pq.empty()) start = min(start, pq.top().first);
             if(sum) res.push_back({last, start, (int)(sum / pq.size())});
             sum -= erase(pq,start);
-            while(i < n and A[i][0] == start) {
-                sum += A[i][2];
-                pq.push({A[i][1], A[i][2]});
-                i++;
-            }
+            sum += insert(A,pq,start);
             last = start;
             compress(res);
         }
