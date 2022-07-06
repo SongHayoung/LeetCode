@@ -5,6 +5,7 @@ class Solution {
             res.pop_back();
         }
     }
+    
     int erase(priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>>& pq, int target) {
         int res = 0;
         while(!pq.empty() and pq.top().first == target) {
@@ -13,6 +14,7 @@ class Solution {
         }
         return res;
     }
+    
     int insert(vector<vector<int>>& A, priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>>& pq, int target) {
         int res = 0;
         while(!A.empty() and A.back()[0] == target) {
