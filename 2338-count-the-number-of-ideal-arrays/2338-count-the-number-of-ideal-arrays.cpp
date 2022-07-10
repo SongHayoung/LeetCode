@@ -13,8 +13,8 @@ class Solution {
         return fact[x] * inv[x-y] % mod * inv[y] % mod;
     }
     long long helper(vector<int>& A, int& n, int& ma) {
-        long long res = comb(n, A.size() - 1);
         long long gap = A.back();
+        long long res = comb(n, A.size() - 1);
         for(long long i = gap * 2; i <= ma; i += gap) {
             A.push_back(i);
             res = (res + helper(A,n,ma)) % mod;
