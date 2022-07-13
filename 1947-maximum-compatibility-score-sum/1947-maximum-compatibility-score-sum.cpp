@@ -1,21 +1,12 @@
 class Solution {
-    int dp[1<<17];
-    void toBit(int n) {
-        while(n) {
-            cout<<(n & 1);
-            n>>=1;
-        }cout<<endl;
-    }
-    int helper(vector<int>& A, vector<int>& B, int mask, int m) {
+    int dp[1<<8];
+    int helper(vector<int>& A, vector<int>& B, int mask, int m, int p) {
         if(dp[mask] != -1) return dp[mask];
         int& res = dp[mask] = 0;
         int n = A.size();
-        for(int i = 0; i < n; i++) {
-            if(mask & (1<<i)) continue;
-            for(int j = 0; j < n; j++) {
-                if(mask & (1<<(j + 8))) continue;
-                res = max(res, m - __builtin_popcount(A[i] ^ B[j]) + helper(A,B,mask | (1<<i) | (1<<(j+8)),m));
-            }
+        for(int j = 0; j < n; j++) {
+            if(mask & (1<<j)) continue;
+            res = max(res, m - __builtin_popcount(A[p] ^ B[j]) + helper(A,B,mask | (1<<j),m,p+1));
         }
         return res;
     }
@@ -30,6 +21,7 @@ public:
             }
         }
         memset(dp,-1,sizeof dp);
-        return helper(A,B,0,m);
+        dp[(1<<n) - 1] = 0;
+        return helper(A,B,0,m,0);
     }
 };
