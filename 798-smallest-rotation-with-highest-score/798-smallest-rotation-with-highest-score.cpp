@@ -3,13 +3,12 @@ public:
     int bestRotation(vector<int>& A) {
         priority_queue<int, vector<int>, greater<int>> q;
         int n = A.size(), res = 0, score = 0;
-        for(int i = 0; i < n; i++) A.push_back(A[i]);
         for(int i = 0; i < n; i++) {
             if(A[i] > i) continue;
             q.push(i - A[i]);
         }
         score = q.size();
-        for(int i = n, j = 1; i < 2 * n; i++, j++) {
+        for(int i = 0, j = 1; i < n; i++, j++) {
             while(!q.empty() and q.top() < j) q.pop();
             if(A[i] > n - 1) continue;
             q.push(j + n - 1 - A[i]);
