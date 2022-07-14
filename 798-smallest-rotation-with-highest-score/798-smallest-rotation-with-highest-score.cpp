@@ -1,19 +1,21 @@
 class Solution {
 public:
     int bestRotation(vector<int>& A) {
-        priority_queue<int, vector<int>, greater<int>> q;
-        int n = A.size(), res = 0, score = 0;
+        unordered_map<int, int> freq;
+        int n = A.size(), res = 0, score = 0, ma = 0;
         for(int i = 0; i < n; i++) {
             if(A[i] > i) continue;
-            q.push(i - A[i]);
+            freq[i-A[i]]++;
+            score++;
         }
-        score = q.size();
+        ma = score;
         for(int i = 0, j = 1; i < n; i++, j++) {
-            while(!q.empty() and q.top() < j) q.pop();
+            score -= freq[j-1];
             if(A[i] > n - 1) continue;
-            q.push(j + n - 1 - A[i]);
-            if(score < q.size()) {
-                score = q.size();
+            freq[j+n-1-A[i]]++;
+            score++;
+            if(ma < score) {
+                ma = score;
                 res = j;
             }
         }
