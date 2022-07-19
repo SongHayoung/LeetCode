@@ -28,6 +28,7 @@ class Solution {
             if(!cnt) continue;
             for(int i = 0; i < s.length(); i++) {
                 if((i and s[i-1] == s[i] and s[i] != ch) or (s[i] == ch)) {
+                    if(s[i] == ch and i and s[i-1] == s[i]) continue;
                     cnt--;
                 
                     auto ns = update(s.substr(0,i) + string(1,ch) + s.substr(i));
