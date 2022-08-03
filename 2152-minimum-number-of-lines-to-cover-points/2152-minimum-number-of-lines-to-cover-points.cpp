@@ -21,8 +21,7 @@ public:
         unordered_map<string, int> freq;
         for(int i = 0; i < A.size(); i++) {
             for(int j = i + 1; j < A.size(); j++) {
-                string line = eval(A[i], A[j]);
-                freq[line] |= (1<<i) | (1<<j);
+                freq[eval(A[i], A[j])] |= (1<<i) | (1<<j);
             }
         }
     
@@ -38,13 +37,9 @@ public:
                 }
             }
             int mask = freq[line];
-            unordered_set<string> rm;
             for(auto& [l, c] : freq) {
                 c &= ~mask;
-                if(__builtin_popcount(c) == 0)
-                    rm.insert(l);
             }
-            for(auto& r : rm) freq.erase(r);
             rem &= ~mask;
             res++;
         }
