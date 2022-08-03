@@ -18,27 +18,36 @@ public:
     int minimumLines(vector<vector<int>>& A) {
         if(A.size() == 0) return 0;
         if(A.size() == 1) return 1;
-        unordered_map<string, unordered_set<int>> freq;
+        unordered_map<string, int> freq;
         for(int i = 0; i < A.size(); i++) {
             for(int j = i + 1; j < A.size(); j++) {
                 string line = eval(A[i], A[j]);
-                freq[line].insert(i);
-                freq[line].insert(j);
+                freq[line] |= (1<<i) | (1<<j);
             }
         }
-        string line = "";
-        int cnt = 0;
-        for(auto [l, c] : freq) {
-            if(c.size() > cnt) {
-                cnt = c.size();
-                line = l;
+    
+        int rem = (1<<A.size()) - 1;
+        int res = 0;
+        while(rem) {
+            string line = "";
+            int cnt = 0;
+            for(auto [l, c] : freq) {
+                if(__builtin_popcount(c) > cnt) {
+                    cnt = __builtin_popcount(c);
+                    line = l;
+                }
             }
+            int mask = freq[line];
+            unordered_set<string> rm;
+            for(auto& [l, c] : freq) {
+                c &= ~mask;
+                if(__builtin_popcount(c) == 0)
+                    rm.insert(l);
+            }
+            for(auto& r : rm) freq.erase(r);
+            rem &= ~mask;
+            res++;
         }
-        vector<vector<int>> B;
-        for(int i = 0; i < A.size(); i++) {
-            if(!freq[line].count(i)) B.push_back(A[i]);
-        }
-        
-        return 1 + minimumLines(B);
+        return res;
     }
 };
