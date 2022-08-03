@@ -6,7 +6,7 @@ class Solution {
             if(a < m) less += m - a;
             else greater += a - m;
         }
-        return greater * (1.-loss/100.) >= less;
+        return greater * (1 - loss/100.) >= less;
     }
 public:
     double equalizeWater(vector<int>& A, int loss) {
