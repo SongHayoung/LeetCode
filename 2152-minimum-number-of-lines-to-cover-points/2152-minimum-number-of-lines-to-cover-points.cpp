@@ -7,10 +7,8 @@ class Solution {
         
         int g = __gcd(a,b);
         a /= g, b /= g;
-        if(a < 0) {
-            a = -a;
-            b = -b;
-        }
+        if(a < 0) a = -a, b = -b;
+
         long double c = y1 - 1.0 * a / b * x1;
         return to_string(a) + "#" + to_string(b) + "#" + to_string(c);
     }
