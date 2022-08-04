@@ -2,14 +2,16 @@ class Solution {
 public:
     vector<int> elementInNums(vector<int>& A, vector<vector<int>>& queries) {
         vector<array<int,3>> Q;
+        bool pop = true;
+        int l = 0, r = A.size(), n = A.size(), now = 0;
         for(int i = 0; i < queries.size(); i++) {
             int t = queries[i][0], idx = queries[i][1];
-            Q.push_back({t,idx,i});
+            Q.push_back({t % (n * 2),idx,i});
         }
+        
         vector<int> res(queries.size());
         sort(rbegin(Q), rend(Q));
-        int l = 0, r = A.size(), n = A.size(), now = 0;
-        bool pop = true;
+        
         while(!Q.empty()) {
             auto [t, p, idx] = Q.back();
             if(now != t) {
