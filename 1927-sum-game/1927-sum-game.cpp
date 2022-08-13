@@ -11,6 +11,6 @@ public:
             else sum -= s[i] - '0';
         }
         
-        return q & 1 or sum + q * 9 / 2 != 0;
+        return q & 1 or sum + q / 2 * 9 != 0;
     }
 };
