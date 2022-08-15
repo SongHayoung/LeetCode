@@ -3,7 +3,6 @@ class Solution {
 
     bool helper(int now) {
         if(dp.count(now)) return dp[now];
-        cout<<now<<endl;
         bool& res = dp[now] = false;
         for(int i = 1; i <= now; i *= 10) {
             int cur = (now / i) % 10;
