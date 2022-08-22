@@ -17,7 +17,7 @@ public:
             int par = A[i][0], w = A[i][1];
             adj[par].push_back({i,max(0,w)});
         }
-        auto [inc, exc] = dfs(0);
-        return max(inc,exc);
+        auto [inc, _] = dfs(0);
+        return inc;
     }
 };
