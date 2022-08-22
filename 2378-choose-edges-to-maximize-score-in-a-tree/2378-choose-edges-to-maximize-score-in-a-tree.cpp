@@ -5,7 +5,7 @@ class Solution {
         for(auto& [v,w] : adj[u]) {
             auto [vinc, vexc] = dfs(v);
             inc = max(inc, w + vexc - vinc);
-            exc += max(vinc, vexc);
+            exc += vinc;
         }
         return {inc + exc, exc};
     }
