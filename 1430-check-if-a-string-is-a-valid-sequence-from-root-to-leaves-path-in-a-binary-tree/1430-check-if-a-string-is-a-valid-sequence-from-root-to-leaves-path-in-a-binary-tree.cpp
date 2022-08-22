@@ -10,11 +10,13 @@
  * };
  */
 class Solution {
+    bool helper(TreeNode* node, vector<int>& A, int pos) {
+        if(pos == A.size() or node == nullptr or node->val != A[pos]) return false;
+        if(pos == A.size() - 1 and node->left == nullptr and node->right == nullptr) return true;
+        return helper(node->left, A, pos + 1) or helper(node->right, A, pos + 1);
+    }
 public:
- bool isValidSequence(TreeNode* r, vector<int>& a, int p = 0) {
-    if (p >= a.size() || r == nullptr || r->val != a[p])
-        return false;
-    return (r->left == r->right && p == a.size() - 1) ||
-        isValidSequence(r->left, a, p + 1) || isValidSequence(r->right, a, p + 1);
-}
+    bool isValidSequence(TreeNode* root, vector<int>& arr) {
+        return helper(root, arr, 0);
+    }
 };
