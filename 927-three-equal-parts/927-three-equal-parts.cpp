@@ -34,8 +34,10 @@ public:
         int cnt = count(begin(A), end(A), 1);
         if(cnt == 0) return {0,(int)A.size() - 1};
         if(cnt % 3) return {-1,-1};
+        
         int cut = 0;
         for(int i = 0; i < A.size() and A[i] == 0; i++) cut += 1;
+        
         vector<int> now;
         for(int i = cut; i < A.size(); i++) now.push_back(A[i]);
         
@@ -48,8 +50,8 @@ public:
         for(int i = n - 1, req = 1; i >= 0; i--,req++) {
             if(z[i] != req) continue;
             
-            int j;
-            for(j = i - 1; j >= req and now[j] == 0; j--) {}
+            int j = i - 1;
+            while(j >= req and now[j] == 0) j--;
             j += padding;
             if(j >= i) continue;
             
