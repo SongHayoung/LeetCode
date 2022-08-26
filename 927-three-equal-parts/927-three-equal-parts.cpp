@@ -53,10 +53,9 @@ public:
             int j = i - 1;
             while(j >= req and now[j] == 0) j--;
             j += padding;
+            
             if(j >= i) continue;
-            
             if(j == req - 1) return {-1,-1};
-            
             if(match(req,j,i,now)) return {cut + req - 1, cut + j + 1};
             
             req += (i - j - 1);
