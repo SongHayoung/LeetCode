@@ -11,7 +11,6 @@ public:
     string parseTernary(string expression) {
         if(expression.find('?') == string::npos) return expression;
         int cut = find(expression);
-        if(expression[0] == 'T') return parseTernary(expression.substr(2,cut - 2));
-        return parseTernary(expression.substr(cut+1));
+        return expression[0] == 'T' ? parseTernary(expression.substr(2,cut - 2)) : parseTernary(expression.substr(cut+1));
     }
 };
