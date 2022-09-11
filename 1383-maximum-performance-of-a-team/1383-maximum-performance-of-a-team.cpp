@@ -11,6 +11,7 @@ public:
         for(auto& [e, s] : A) {
             sum += s;
             pq.push(-s);
+            
             if(pq.size() > k) {
                 sum += pq.top(); pq.pop();
             }
