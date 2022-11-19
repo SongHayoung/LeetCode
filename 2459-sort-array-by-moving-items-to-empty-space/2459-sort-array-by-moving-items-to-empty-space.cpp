@@ -7,8 +7,7 @@ class Solution {
             int now = mp[i];
             if(A[now] == i) vis[now] = true;
             if(vis[now]) continue;
-            if(i) res += 1;
-            else res -= 1;
+            res += i ? 1 : -1;
             while(!vis[now]) {
                 vis[now] = true;
                 now = mp[A[now]];
