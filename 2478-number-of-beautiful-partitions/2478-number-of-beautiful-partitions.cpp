@@ -1,27 +1,26 @@
-int dp[1001][1001] = {};
-bool isPrime(char ch) {
-    return ch == '2' || ch == '3' || ch == '5' || ch == '7';
-}
-int dfs(int i, int k, int len, string &s) {
-    if (k == 0)
-        return i == s.size();
-    if (i + len * k > s.size() || !isPrime(s[i]))
-        return 0;
-    if (dp[i][k] == 0) {
-        dp[i][k] = 1;
-        for (int j = i + len - 1; j < s.size(); ++j)
-            if (!isPrime(s[j]))
-                dp[i][k] = (dp[i][k] + dfs(j + 1, k - 1, len, s)) % 1000000007;
-    }
-    return dp[i][k] - 1;
-}
-int test(string s, int k, int minLength) {
-    return dfs(0, k, minLength, s);
-}
+long long dp[1010][1010];
 class Solution {
+    bool prime(char ch) {
+        return ch == '2' or ch == '3' or ch == '5' or ch == '7';
+    }
+    long long mod = 1e9 + 7;
+    long long helper(string& s, int k, int& l, int p) {
+        if(k == 0) return p == s.length();
+        if(p + l * k > s.length() or !prime(s[p])) return 0;
+        long long& res = dp[p][k];
+        if(res != -1) return res;
+        res = 0;
+        for(int i = p + l - 1; i < s.length(); i++) {
+            if(!prime(s[i])) res = (res + helper(s,k-1,l,i+1)) % mod;
+        }
+
+        return res;
+    }
 public:
     int beautifulPartitions(string s, int k, int minLength) {
-        memset(dp,0,sizeof dp);
-        return test(s,k,minLength);
+        if(!prime(s.front()) or prime(s.back())) return 0;
+        int n = s.length();
+        memset(dp,-1, sizeof dp);
+        return helper(s,k,minLength,0);
     }
 };
