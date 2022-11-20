@@ -14,7 +14,6 @@ class Solution {
         if(res != -1) return res;
         dp[p][k] = 0;
         if(!prime(s.front())) return 0;
-        auto lb = lower_bound(begin(np), end(np), p + len - 1) - begin(np);
         for(int i = np.size() - 1; i >= 0 and np[i] >= p + len - 1; i--) {
             res = (res + helper(s, np[i] + 1, k - 1, len)) % mod;
         }
