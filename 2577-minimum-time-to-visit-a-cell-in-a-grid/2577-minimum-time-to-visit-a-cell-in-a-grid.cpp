@@ -15,7 +15,7 @@ public:
             for (int i = 0; i < 4; i++) {
                 int ny = y + dy[i], nx = x + dx[i];
                 if (0 <= ny and ny < n and 0 <= nx and nx < m) {
-                    if (A[ny][nx] <= v) less = true;
+                    if (A[ny][nx] <= v + 1) less = true;
                 }
             }
             for (int i = 0; i < 4; i++) {
