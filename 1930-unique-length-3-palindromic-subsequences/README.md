@@ -11,7 +11,7 @@
 </ul>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> s = "aabca"
 <strong>Output:</strong> 3
@@ -21,14 +21,14 @@
 - "aca" (subsequence of "<u>a</u>ab<u>ca</u>")
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> s = "adc"
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> There are no palindromic subsequences of length 3 in "adc".
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre><strong>Input:</strong> s = "bbcbaba"
 <strong>Output:</strong> 4
