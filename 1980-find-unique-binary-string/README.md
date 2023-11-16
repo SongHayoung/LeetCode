@@ -1,21 +1,21 @@
 <h2><a href="https://leetcode.com/problems/find-unique-binary-string/">1980. Find Unique Binary String</a></h2><h3>Medium</h3><hr><div><p>Given an array of strings <code>nums</code> containing <code>n</code> <strong>unique</strong> binary strings each of length <code>n</code>, return <em>a binary string of length </em><code>n</code><em> that <strong>does not appear</strong> in </em><code>nums</code><em>. If there are multiple answers, you may return <strong>any</strong> of them</em>.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> nums = ["01","10"]
 <strong>Output:</strong> "11"
 <strong>Explanation:</strong> "11" does not appear in nums. "00" would also be correct.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> nums = ["00","01"]
 <strong>Output:</strong> "11"
 <strong>Explanation:</strong> "11" does not appear in nums. "10" would also be correct.
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre><strong>Input:</strong> nums = ["111","011","001"]
 <strong>Output:</strong> "101"
