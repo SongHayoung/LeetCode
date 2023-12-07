@@ -1,7 +1,8 @@
 class Solution {
 public:
     string largestOddNumber(string num) {
-        while(num.size() and (num.back() - '0') % 2 == 0) num.pop_back();
+        while(num.length() && !((num.back() & 0b0001)))
+            num.pop_back();
         return num;
     }
 };
