@@ -5,7 +5,7 @@
 <p>The <strong>average</strong> value of a tree is the sum of its values, divided by the number of nodes.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2019/04/09/1308_example_1.png" style="width: 132px; height: 123px;">
 <pre><strong>Input:</strong> root = [5,6,1]
 <strong>Output:</strong> 6.00000
@@ -16,7 +16,7 @@ For the node with value = 1 we have an average of 1 / 1 = 1.
 So the answer is 6 which is the maximum.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> root = [0,null,1]
 <strong>Output:</strong> 1.00000
