@@ -1,14 +1,14 @@
-<h2><a href="https://leetcode.com/problems/maximum-linear-stock-score/">2898. Maximum Linear Stock Score</a></h2><h3>Medium</h3><hr><div><p><code>prices</code><font papago-translate="splitted">, where </font><code>prices[i]</code><font papago-translate="splitted"> is the price of a particular stock on the </font><code>i<sup>th</sup></code><font papago-translate="splitted"> day, your task is to select some of the elements of </font><code>prices</code></p>
+<h2><a href="https://leetcode.com/problems/maximum-linear-stock-score/">2898. Maximum Linear Stock Score</a></h2><h3>Medium</h3><hr><div><p>Given a <strong>1-indexed</strong> integer array <code>prices</code>, where <code>prices[i]</code> is the price of a particular stock on the <code>i<sup>th</sup></code> day, your task is to select some of the elements of <code>prices</code> such that your selection is <strong>linear</strong>.</p>
 
-<p><font papago-translate="splitted">A selection </font><code>indexes</code><font papago-translate="splitted">, where </font><code>indexes</code><code>k</code><font papago-translate="splitted"> which is a subsequence of the array </font><code>[1, 2, ..., n]</code></p>
+<p>A selection <code>indexes</code>, where <code>indexes</code> is a <strong>1-indexed</strong> integer array of length <code>k</code> which is a subsequence of the array <code>[1, 2, ..., n]</code>, is <strong>linear</strong> if:</p>
 
 <ul>
-	<li><font papago-translate="splitted">For every </font><code>1 &lt; j &lt;= k</code><font papago-translate="splitted">, </font><code>prices[indexes[j]] - prices[indexes[j - 1]] == indexes[j] - indexes[j - 1]</code><font papago-translate="splitted">.</font></li>
+	<li>For every <code>1 &lt; j &lt;= k</code>, <code>prices[indexes[j]] - prices[indexes[j - 1]] == indexes[j] - indexes[j - 1]</code>.</li>
 </ul>
 
 <p>A <b>subsequence</b> is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.</p>
 
-<p><code>indexes</code><font papago-translate="splitted">, is equal to the sum of the following array: </font><code>[prices[indexes[1]], prices[indexes[2]], ..., prices[indexes[k]]</code><font papago-translate="splitted">.</font></p>
+<p>The <strong>score</strong> of a selection <code>indexes</code>, is equal to the sum of the following array: <code>[prices[indexes[1]], prices[indexes[2]], ..., prices[indexes[k]]</code>.</p>
 
 <p>Return <em>the <strong>maximum</strong> <strong>score</strong> that a linear selection can have</em>.</p>
 
