@@ -1,12 +1,12 @@
 class Solution {
 public:
     int findSpecialInteger(vector<int>& A) {
-        unordered_map<int,int> freq;
-        int best = 0;
-        for(auto& a : A) {
-            best = max(best, ++freq[a]);
+        int n = A.size(), now = -1, cnt = 0;
+        for(auto& x : A) {
+            if(x == now) cnt += 1;
+            else cnt = 1, now = x;
+            if(cnt * 4 > n) return x;
         }
-        for(auto& [k,v] : freq) if(v == best) return k;
         return 0;
     }
 };
