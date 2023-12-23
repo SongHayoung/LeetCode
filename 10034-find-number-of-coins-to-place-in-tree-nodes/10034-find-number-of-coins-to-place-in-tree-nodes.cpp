@@ -412,7 +412,7 @@ class Solution {
             auto [sneg,spos,szero] = dfs(v,u,res,cost);
             for(auto& x : sneg) neg.push_back(x);
             for(auto& x : spos) pos.push_back(x);
-            for(auto& x : zero) zero.push_back(x);
+            for(auto& x : szero) zero.push_back(x);
             sort(all(neg)), sort(all(pos)), sort(all(zero));
             while(sz(neg) > 3) neg.pop_back();
             while(sz(pos) > 3) pos.pop_front();
