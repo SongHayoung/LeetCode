@@ -411,27 +411,17 @@ void uni(ll u, ll v) {
 }
 class Solution {
 public:
-    vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        ASCEND(uf);
-        ZERO(on);
-        ll ma = 0, mi = INF;
-        for(auto& ra : intervals) {
-            ll l = ra[0], r = find(ra[1]);
-            on[r] = 1;
-            ma = max(ma, r);
-            mi = min(mi, l);
-            while(r > l) {
-                uni(r, r - 1);
-                r = find(r);
-            }
-        }
+    vector<vector<int>> merge(vector<vector<int>>& A) {
+        sort(rall(A));
         vvi res;
-        rrep(i,mi,ma) {
-            if(!on[i]) continue;
-            res.push_back({(int)find(i),(int)i});
-            i = find(i);
+        while(sz(A)) {
+            auto l = A.back().front(), r = A.back().back(); A.pop_back();
+            while(sz(A) and A.back().front() <= r) {
+                r = max(r, A.back().back());
+                A.pop_back();
+            }
+            res.push_back({l,r});
         }
-        reverse(all(res));
         return res;
     }
 };
