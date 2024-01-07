@@ -405,10 +405,8 @@ ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-
 ll dp[10101];
 class Solution {
     vvll at;
-    umll tmp;
 
     ll helper(ll pos, ll mask, ll k) {
-        if(tmp.count(mask)) return tmp[mask];
         vll ord;
         rep(i,0,26) {
             if(BIT(mask,i)) continue;
@@ -418,7 +416,7 @@ class Solution {
         sort(rall(ord));
         ll pc = k - __builtin_popcountll(mask);
         if(pc >= sz(ord)) return 0;
-        return tmp[mask] = 1 + dp[ord[sz(ord) - 1 - pc]];
+        return 1 + dp[ord[sz(ord) - 1 - pc]];
     }
 public:
     int maxPartitionsAfterOperations(string& s, int k) {
@@ -443,7 +441,6 @@ public:
         rep(i,0,26) at[i].push_back(sz(s));
         ll res = 0, now = 0, bit = 0;
         rep(i,0,sz(s)) {
-            tmp.clear();
             rep(j,0,26) {
                 if(BIT(bit,j)) continue;
                 ll nbit = bit | (1ll<<j);
