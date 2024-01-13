@@ -1,17 +1,17 @@
 class Solution {
 public:
     int countDivisibleSubstrings(string word) {
-        vector<pair<int, int>> dp;
         vector<int> cost{1,1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,8,8,8,9,9,9};
         int res = 0;
-        for(int i = 0; i < word.length(); i++) {
-            int c = cost[word[i]-'a'];
-            for(auto& [k,v] : dp) {
-                k += c;
-                if(k % (i - v + 1) == 0) res += 1;
+        for(int i = 1; i <= 9; i++) {
+            unordered_map<int,int> freq{{0,1}};
+            int sum = 0;
+            for(auto& ch : word) {
+                int c = cost[ch-'a'];
+                sum += c - i;
+                res += freq[sum]++;
             }
-            dp.push_back({c,i});
         }
-        return res + word.length();
+        return res;
     }
 };
