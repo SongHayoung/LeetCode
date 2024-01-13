@@ -5,21 +5,21 @@
 <p>An <strong>Anagram</strong> of a string is a string that contains the same characters with a different (or the same) ordering.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> s = "bab", t = "aba"
 <strong>Output:</strong> 1
 <strong>Explanation:</strong> Replace the first 'a' in t with b, t = "bba" which is anagram of s.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> s = "leetcode", t = "practice"
 <strong>Output:</strong> 5
 <strong>Explanation:</strong> Replace 'p', 'r', 'a', 'i' and 'c' from t with proper characters to make t anagram of s.
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre><strong>Input:</strong> s = "anagram", t = "mangaar"
 <strong>Output:</strong> 0
