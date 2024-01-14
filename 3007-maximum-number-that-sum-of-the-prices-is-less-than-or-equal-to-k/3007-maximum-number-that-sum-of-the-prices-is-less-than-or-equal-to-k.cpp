@@ -403,6 +403,25 @@ ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-
 ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll XOR(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ll binom[63][63], lim;
 ll comb(ll n, ll r) {
     if(r == 0) return 1;
@@ -454,9 +473,12 @@ public:
             op++;
             res |= 1ll<<best;
             k -= pre[best];
+            debug(best,k)
+            debug(pre)
             if((best + 1) % x == 0) {
                 rep(i,0,best+1) pre[i] = min(pre[i] + (1ll<<i), INF);
             }
+            debug(pre)
             ma = best;
         }
         return res;
