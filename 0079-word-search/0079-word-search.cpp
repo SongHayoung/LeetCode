@@ -427,7 +427,7 @@ public:
                 if(b[i][j] != s[0]) continue;
                 dp.insert(bit(0,i,j,m));
             }
-        if(mp.size()) return 0;
+        //if(mp.size()) return 0;
         for(int i = 1; i < s.length(); i++) {
             usll dpp;
             char ch = s[i];
