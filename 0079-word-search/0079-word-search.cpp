@@ -405,14 +405,19 @@ ll XOR(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
 
 class Solution {
-    long long bit(long long ori, int y, int x, int m) {
-        return ori | 1ll<<(y * m + x);
+    ll by = 36 + 6, bx = 36, mask = (1ll<<36) - 1;
+    long long bit(long long ori, ll y, ll x, ll m) {
+        ll b = ori & mask;
+        b |= 1ll<<(y * m + x);
+        b |= 1ll<<(by+y);
+        b |= 1ll<<(bx+x);
+        return b;
     }
     int dy[4]{-1,0,1,0}, dx[4]{0,1,0,-1};
 public:
     bool exist(vector<vector<char>>& b, string s) {
         int n = b.size(), m = b[0].size();
-        unordered_map<long long,unordered_set<int>> dp;
+        usll dp;
         unordered_map<char,int> mp;
         for(auto& ch : s) mp[ch] += 1;
         for(int i = 0; i < n; i++) for(int j = 0; j < m; j++) {
@@ -420,20 +425,18 @@ public:
                     if(--mp[b[i][j]] == 0) mp.erase(b[i][j]);
                 }
                 if(b[i][j] != s[0]) continue;
-                dp[bit(0,i,j,m)].insert(i * m + j);
+                dp.insert(bit(0,i,j,m));
             }
         if(mp.size()) return 0;
         for(int i = 1; i < s.length(); i++) {
-            unordered_map<long long,unordered_set<int>> dpp;
+            usll dpp;
             char ch = s[i];
-            for(auto& [bt, st] : dp) {
-                for(auto& at : st) {
-                    int y = at / m, x = at % m;
-                    for(int j = 0; j < 4 ; j++) {
-                        int ny = y + dy[j], nx = x + dx[j];
-                        if(0 <= ny and ny < n and 0 <= nx and nx < m and b[ny][nx] == ch and !BIT(bt,(ny * m + nx)) ) {
-                            dpp[bit(bt,ny,nx,m)].insert(ny * m + nx);
-                        }
+            for(auto& bt : dp) {
+                ll y = __builtin_ctz(bt>>by), x = __builtin_ctz(bt>>bx);
+                for(int j = 0; j < 4 ; j++) {
+                    ll ny = y + dy[j], nx = x + dx[j];
+                    if(0 <= ny and ny < n and 0 <= nx and nx < m and b[ny][nx] == ch and !BIT(bt,(ny * m + nx)) ) {
+                        dpp.insert(bit(bt,ny,nx,m));
                     }
                 }
             }
