@@ -1,31 +1,25 @@
 class Solution {
-    int n, m, len;
-    int dx[4] {0, 1, 0, -1};
-    int dy[4] {-1, 0, 1, 0};
-    bool v[6][6] = {false, };
-    bool chk(int y, int x, vector<vector<char>>& board, string& word, int pos) {
-        if(pos == len) return true;
+    int dy[4]{-1,0,1,0}, dx[4]{0,1,0,-1};
+    bool dfs(vector<vector<char>>& board, int n, int m, int y, int x, string& word, int pos) {
+        if(word[pos] != board[y][x]) return false;
+        if(pos == word.length() - 1) return true;
+        board[y][x] = '#';
+        
         for(int i = 0; i < 4; i++) {
-            int ny = y + dy[i];
-            int nx = x + dx[i];
-            if(0 <= nx && nx < m && 0 <= ny && ny < n && !v[ny][nx] && board[ny][nx] == word[pos]) {
-                v[ny][nx] = true;
-                if(chk(ny, nx, board, word, pos + 1)) return true;
-                v[ny][nx] = false;
+            int ny = y + dy[i], nx = x + dx[i];
+            if(0 <= ny and ny < n and 0 <= nx and nx < m) {
+                if(dfs(board,n,m,ny,nx,word,pos+1)) return true;
             }
         }
-        return false;
         
+        board[y][x] = word[pos];
+        return false;
     }
 public:
     bool exist(vector<vector<char>>& board, string word) {
-        n = board.size(), m = board[0].size(), len = word.length();
-        for(int i = 0; i < n; i++) {
-            for(int j = 0; j < m; j++) {
-                v[i][j] = true;
-                if(board[i][j] == word[0] && chk(i, j, board, word, 1)) return true;
-                v[i][j] = false;
-            }
+        int n = board.size(), m = board[0].size();
+        for(int i = 0; i < n; i++) for(int j = 0; j < m; j++) {
+            if(dfs(board,n,m,i,j,word,0)) return true;
         }
         return false;
     }
