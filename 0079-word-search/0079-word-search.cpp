@@ -406,12 +406,8 @@ ll XOR(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
 class Solution {
     ll by = 36 + 6, bx = 36, mask = (1ll<<36) - 1;
-    long long bit(long long ori, ll y, ll x, ll m) {
-        ll b = ori & mask;
-        b |= 1ll<<(y * m + x);
-        b |= 1ll<<(by+y);
-        b |= 1ll<<(bx+x);
-        return b;
+    ll bit(long long ori, ll y, ll x, ll m) {
+        return (ori & mask) | 1ll<<(bx+x) | 1ll<<(by+y) | 1ll<<(y * m + x);
     }
     int dy[4]{-1,0,1,0}, dx[4]{0,1,0,-1};
 public:
