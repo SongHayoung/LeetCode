@@ -15,7 +15,7 @@ public:
                 if(--mp[b[i][j]] == 0) mp.erase(b[i][j]);
             }
             if(b[i][j] != s[0]) continue;
-            dp[bit(string(36,'0'),i,j,m)].insert(i * m + j);
+            dp[bit(string(n*m,'0'),i,j,m)].insert(i * m + j);
         }
         if(mp.size()) return 0;
         for(int i = 1; i < s.length(); i++) {
