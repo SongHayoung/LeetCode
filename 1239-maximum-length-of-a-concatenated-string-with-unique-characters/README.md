@@ -5,7 +5,7 @@
 <p>A <strong>subsequence</strong> is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> arr = ["un","iq","ue"]
 <strong>Output:</strong> 4
@@ -19,14 +19,14 @@
 Maximum length is 4.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> arr = ["cha","r","act","ers"]
 <strong>Output:</strong> 6
 <strong>Explanation:</strong> Possible longest valid concatenations are "chaers" ("cha" + "ers") and "acters" ("act" + "ers").
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre><strong>Input:</strong> arr = ["abcdefghijklmnopqrstuvwxyz"]
 <strong>Output:</strong> 26
