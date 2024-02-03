@@ -418,8 +418,8 @@ public:
         vi freq(26), res(sz(Q));
         
         ll l = 0, r = 0, now = 0;
-        auto add =[&](char ch) {now += ++freq[ch-'a'];};
-        auto del =[&](char ch) {now -= freq[ch-'a']--;};
+        auto add =[&](char& ch) {now += ++freq[ch-'a'];};
+        auto del =[&](char& ch) {now -= freq[ch-'a']--;};
         for(auto& [le,ri,idx] : Q) {
             while(le > l) del(s[l++]);
             while(le < l) add(s[--l]);
