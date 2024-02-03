@@ -416,15 +416,18 @@ public:
             return a[1] < b[1];
         });
         vi freq(26), res(sz(Q));
-        ll l = 0, r = 0;
+        
+        ll l = 0, r = 0, now = 0;
+        auto add =[&](char ch) {now += ++freq[ch-'a'];};
+        auto del =[&](char ch) {now -= freq[ch-'a']--;};
         for(auto& [le,ri,idx] : Q) {
-            while(le > l) freq[s[l++]-'a']--;
-            while(le < l) freq[s[--l]-'a']++;
-            while(ri >= r) freq[s[r++]-'a']++;
-            while(ri + 1 < r) freq[s[--r]-'a']--;
-            int& now = res[idx] = 0;
-            rep(i,0,26) now += freq[i] * (freq[i] + 1) / 2;
+            while(le > l) del(s[l++]);
+            while(le < l) add(s[--l]);
+            while(ri >= r) add(s[r++]);
+            while(ri + 1 < r) del(s[--r]);
+            res[idx] = now;
         }
         return res;
     }
 };
+
