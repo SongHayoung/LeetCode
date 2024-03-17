@@ -406,6 +406,15 @@ ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
 
+
+
+
+
+
+
+
+
+
 struct Seg {
     ll mi,ma,cnt, cost;
     Seg *left, *right;
@@ -437,32 +446,55 @@ struct Seg {
     }
 };
 class Solution {
+    pll query(ll l, ll r, vi& A, ll at, vll& cnt, vll& pre) {
+        l = max(l, 0ll);
+        r = min(r, sz(A) - 1);
+        ll c = cnt[r]; if(l) c -= cnt[l-1];
+        ll p = pre[r]; if(l) p -= pre[l-1];
+        if(l <= at and at <= r and A[at]) {
+            c -= 1;
+            p -= at;
+        }
+        if(l <= at - 1 and at - 1 <= r and A[at-1]) {
+            c -= 1;
+            p -= (at - 1);
+        }
+        if(l <= at + 1 and at + 1 <= r and A[at+1]) {
+            c -= 1;
+            p -= (at + 1);
+        }
+        return {c,p};
+    }
 public:
     long long minimumMoves(vector<int>& A, int k, int maxChanges) {
         if(accumulate(all(A),0ll) == 0) return 1ll * k * 2;
         ll res = INF;
-        Seg* seg = new Seg(A,0,sz(A) - 1);
+        vll cnt(sz(A)), pre(sz(A));
+        rep(i,0,sz(A)) {
+            if(A[i]) {
+                cnt[i] += 1;
+                pre[i] += i;
+            }
+            if(i) {
+                cnt[i] += cnt[i-1];
+                pre[i] += pre[i-1];
+            }
+        }
+        
         auto qry = [&](ll pos) {
-            usll us;
             ll target = k, res = 0;
             if(A[pos] == 1) {
                 target -= 1;
-                us.insert(pos);
-                seg->update(pos,-1);
             }
             if(target) {
                 if(pos and A[pos - 1] == 1) {
                     target -= 1;
-                    us.insert(pos - 1);
-                    seg->update(pos - 1, -1);
                     res += 1;
                 }
             }
             if(target) {
                 if(pos + 1 < sz(A) and A[pos + 1] == 1) {
                     target -= 1;
-                    us.insert(pos + 1);
-                    seg->update(pos + 1, -1);
                     res += 1;
                 }
             }
@@ -475,14 +507,14 @@ public:
                 ll l = 0, r = sz(A) - 1, best = r;
                 while(l <= r) {
                     ll m = l + (r - l) / 2;
-                    bool ok = seg->query(pos - m, pos + m).first >= target;
+                    bool ok = query(pos - m, pos + m, A, pos, cnt, pre).first >= target;
                     if(ok) {
                         r = m - 1;
                         best = m;
                     } else l = m + 1;
                 }
-                auto [lc, lcst] = seg->query(pos - best, pos);
-                auto [rc, rcst] = seg->query(pos, pos + best);
+                auto [lc, lcst] = query(pos - best, pos, A, pos, cnt, pre);
+                auto [rc, rcst] = query(pos, pos + best, A, pos, cnt, pre);
                 if(lc + rc == target) {
                     res += pos * lc - lcst;
                     res += rcst - pos * rc;
@@ -492,7 +524,6 @@ public:
                     res -= best;
                 }
             }
-            for(auto& p : us) seg->update(p, 1);
             return res;
         };
         rep(i,0,sz(A)) {
