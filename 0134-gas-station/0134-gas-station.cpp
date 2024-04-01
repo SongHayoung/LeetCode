@@ -10,7 +10,7 @@ public:
             tank = tank + gas[i%n] - cost[i%n];
             while(st.size() and st.back().second > tank) st.pop_back();
             if(i >= n) {
-                if(st.size() and st.front().first <= i - n) return i - n;
+                if(st.size() and st.front().first <= i - n) return st.front().first;
             }
         }
         return -1;
