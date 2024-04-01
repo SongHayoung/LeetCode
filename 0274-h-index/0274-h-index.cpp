@@ -1,11 +1,14 @@
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
-        sort(begin(citations), end(citations));
-        int papers = 0;
-        for(int i = 1000; i >= 0; i--) {
-            while(citations.size() and citations.back() == i) papers++, citations.pop_back();
-            if(i <= papers) return i;
+        int n = citations.size();
+        vector<int> freq(n + 1);
+        for(auto& c : citations) {
+            freq[min(c,n)]++;
+        }
+        for(int i = n; i; i--) {
+            if(freq[i] >= i) return i;
+            freq[i-1] += freq[i];
         }
         return 0;
     }
