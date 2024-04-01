@@ -1,12 +1,18 @@
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-        int size(gas.size()), sum(0), subsum(INT_MAX), res(0);
-        for(int i = 0; i < size; i++) {
-            sum += gas[i] - cost[i];
-            if(subsum > sum) subsum = sum, res = i;
+        int n = gas.size(), tank = 0;
+        vector<pair<int, int>> st;
+        for(int i = 0; i < 2 * n; i++) {
+            if(i < n) {
+                st.push_back({i,tank});
+            }
+            tank = tank + gas[i%n] - cost[i%n];
+            while(st.size() and st.back().second > tank) st.pop_back();
+            if(i >= n) {
+                if(st.size() and st.front().first <= i - n) return i - n;
+            }
         }
-
-        return sum < 0 ? -1 : ++res % size;
+        return -1;
     }
 };
