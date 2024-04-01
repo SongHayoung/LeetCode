@@ -1,14 +1,15 @@
 class Solution {
 public:
     int candy(vector<int>& ratings) {
-        int sz = ratings.size(), res(0);
-        vector<int> candy(sz, 1);
-        for(int i = 1; i < sz; i++) {
-            if(ratings[i] > ratings[i - 1]) candy[i] += candy[i - 1];
+        vector<int> dp(ratings.size(), 1);
+        for(int i = 1; i < ratings.size(); i++) {
+            if(ratings[i] > ratings[i-1]) dp[i] = max(dp[i], dp[i-1] + 1);
         }
-        for(int i = sz - 2; i >= 0; res += candy[i], i--) {
-            if(ratings[i] > ratings[i + 1]) candy[i] = max(candy[i + 1] + 1, candy[i]);
+        for(int i = ratings.size() - 2; i >= 0; i--) {
+            if(ratings[i] > ratings[i+1]) dp[i] = max(dp[i], dp[i+1] + 1);
         }
-        return res + candy.back();
+        int res = 0;
+        for(auto& x : dp) res += x;
+        return res;
     }
 };
