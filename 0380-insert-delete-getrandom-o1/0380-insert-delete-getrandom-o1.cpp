@@ -1,26 +1,32 @@
 class RandomizedSet {
-    set<int> s;
+    vector<int> buc;
+    unordered_map<int, int> cache;
 public:
     /** Initialize your data structure here. */
     RandomizedSet() {}
 
     /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
     bool insert(int val) {
-        bool res = !s.count(val);
-        s.insert(val);
-        return res;
+        if(cache.count(val)) return false;
+        cache[val] = buc.size();
+        buc.push_back(val);
+        return true;
     }
 
     /** Removes a value from the set. Returns true if the set contained the specified element. */
     bool remove(int val) {
-        bool res = s.count(val);
-        s.erase(val);
-        return res;
+        if(!cache.count(val)) return false;
+        int lst = buc.back();
+        buc[cache[val]] = lst;
+        cache[lst] = cache[val];
+        cache.erase(val);
+        buc.pop_back();
+        return true;
     }
 
     /** Get a random element from the set. */
     int getRandom() {
-        return *next(s.begin(), rand() % s.size());
+        return buc[rand() % buc.size()];
     }
 };
 
