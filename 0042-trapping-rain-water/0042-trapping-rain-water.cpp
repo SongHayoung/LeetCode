@@ -1,27 +1,21 @@
 class Solution {
 public:
     int trap(vector<int>& height) {
-        int area = 0;
-        vector<pair<int, int>> st;
-        // (height , position)
-        for(int i = 0; i < height.size(); i++) {
-            int p = i, h = height[i];
-            while(st.size() >= 2 and st.back().first <= h) {
-                auto [bottomHeight, bottomPosition] = st.back(); st.pop_back();
-                area += (i - bottomPosition) * (min(st.back().first, h) - bottomHeight);
-                p = bottomPosition;
-            }
-            
-            if(st.size() == 1) {
-                if(st.back().first <= h) {
-                    st.pop_back();
-                    p = i;
+        int res = 0, n = height.size();
+        vector<pair<int,int>> st;
+        for(int i = 0; i < n; i++) {
+            int h = height[i], at = i;
+            while(st.size() and st.back().second <= h) {
+                int width = i - st.back().first;
+                int base = st.back().second;
+                at = st.back().first;
+                st.pop_back();
+                if(st.size()) {
+                    res += width * (min(st.back().second, h) - base);
                 }
             }
-            
-            st.push_back({h,p});
+            st.push_back({at, h});
         }
-        
-        return area;
+        return res;
     }
 };
