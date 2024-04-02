@@ -1,13 +1,9 @@
 class Solution {
     bool helper(vector<int>& A, int k, double avg) {
-        vector<double> dp;
-        for(int i = 0; i < A.size(); i++) {
-            dp.push_back(A[i] - i * avg);
-        }
         double ma = -1e9;
-        for(int i = dp.size() - k - 1, j = dp.size() - 1; i >= 0; i--,j--) {
-            ma = max(ma, dp[j]);
-            if(ma >= dp[i]) return true;
+        for(int i = A.size() - k - 1, j = A.size() - 1; i >= 0; i--,j--) {
+            ma = max(ma, A[j] - j * avg);
+            if(ma >= A[i] - i * avg) return true;
         }
         return false;
     }
