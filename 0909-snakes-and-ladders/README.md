@@ -1,27 +1,27 @@
-<h2><a href="https://leetcode.com/problems/snakes-and-ladders/">909. Snakes and Ladders</a></h2><h3>Medium</h3><hr><div><p>You are given an <code>n x n</code> integer matrix <code>board</code> where the cells are labeled from <code>1</code> to <code>n<sup>2</sup></code> in a <a href="https://en.wikipedia.org/wiki/Boustrophedon" target="_blank"><strong>Boustrophedon style</strong></a> starting from the bottom left of the board (i.e. <code>board[n - 1][0]</code>) and alternating direction each row.</p>
+<h2><a href="https://leetcode.com/problems/snakes-and-ladders/">909. Snakes and Ladders</a></h2><h3>Medium</h3><hr><div><p><font papago-translate="splitted">You are given an </font><code>n x n</code><font papago-translate="splitted"> integer matrix </font><code>board</code><font papago-translate="splitted"> where the cells are labeled from </font><code>1</code><font papago-translate="splitted"> to </font><code>n<sup>2</sup></code><code>board[n - 1][0]</code><font papago-translate="splitted">) and alternating direction each row.</font></p>
 
-<p>You start on square <code>1</code> of the board. In each move, starting from square <code>curr</code>, do the following:</p>
+<p><font papago-translate="splitted">You start on square </font><code>1</code><font papago-translate="splitted"> of the board. In each move, starting from square </font><code>curr</code><font papago-translate="splitted">, do the following:</font></p>
 
 <ul>
-	<li>Choose a destination square <code>next</code> with a label in the range <code>[curr + 1, min(curr + 6, n<sup>2</sup>)]</code>.
+	<li><font papago-translate="splitted">Choose a destination square </font><code>next</code><font papago-translate="splitted"> with a label in the range </font><code>[curr + 1, min(curr + 6, n<sup>2</sup>)]</code><font papago-translate="splitted">.
 
-	<ul>
+	</font><ul>
 		<li>This choice simulates the result of a standard <strong>6-sided die roll</strong>: i.e., there are always at most 6 destinations, regardless of the size of the board.</li>
 	</ul>
 	</li>
-	<li>If <code>next</code> has a snake or ladder, you <strong>must</strong> move to the destination of that snake or ladder. Otherwise, you move to <code>next</code>.</li>
-	<li>The game ends when you reach the square <code>n<sup>2</sup></code>.</li>
+	<li><font papago-translate="splitted">If </font><code>next</code><code>next</code><font papago-translate="splitted">.</font></li>
+	<li><font papago-translate="splitted">The game ends when you reach the square </font><code>n<sup>2</sup></code><font papago-translate="splitted">.</font></li>
 </ul>
 
-<p>A board square on row <code>r</code> and column <code>c</code> has a snake or ladder if <code>board[r][c] != -1</code>. The destination of that snake or ladder is <code>board[r][c]</code>. Squares <code>1</code> and <code>n<sup>2</sup></code> do not have a snake or ladder.</p>
+<p><font papago-translate="splitted">A board square on row </font><code>r</code><font papago-translate="splitted"> and column </font><code>c</code><font papago-translate="splitted"> has a snake or ladder if </font><code>board[r][c] != -1</code><font papago-translate="splitted">. The destination of that snake or ladder is </font><code>board[r][c]</code><font papago-translate="splitted">. Squares </font><code>1</code><font papago-translate="splitted"> and </font><code>n<sup>2</sup></code><font papago-translate="splitted"> do not have a snake or ladder.</font></p>
 
 <p>Note that you only take a snake or ladder at most once per move. If the destination to a snake or ladder is the start of another snake or ladder, you do <strong>not</strong> follow the subsequent&nbsp;snake or ladder.</p>
 
 <ul>
-	<li>For example, suppose the board is <code>[[-1,4],[-1,3]]</code>, and on the first move, your destination square is <code>2</code>. You follow the ladder to square <code>3</code>, but do <strong>not</strong> follow the subsequent ladder to <code>4</code>.</li>
+	<li><font papago-translate="splitted">For example, suppose the board is </font><code>[[-1,4],[-1,3]]</code><font papago-translate="splitted">, and on the first move, your destination square is </font><code>2</code><font papago-translate="splitted">. You follow the ladder to square </font><code>3</code><code>4</code><font papago-translate="splitted">.</font></li>
 </ul>
 
-<p>Return <em>the least number of moves required to reach the square </em><code>n<sup>2</sup></code><em>. If it is not possible to reach the square, return </em><code>-1</code>.</p>
+<p><code>n<sup>2</sup></code><font papago-translate="splitted"><em>. If it is not possible to reach the square, return </em></font><code>-1</code><font papago-translate="splitted">.</font></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -49,7 +49,7 @@ This is the lowest possible number of moves to reach the last square, so return 
 <ul>
 	<li><code>n == board.length == board[i].length</code></li>
 	<li><code>2 &lt;= n &lt;= 20</code></li>
-	<li><code>grid[i][j]</code> is either <code>-1</code> or in the range <code>[1, n<sup>2</sup>]</code>.</li>
-	<li>The squares labeled <code>1</code> and <code>n<sup>2</sup></code> do not have any ladders or snakes.</li>
+	<li><code>board[i][j]</code><font papago-translate="splitted"> is either </font><code>-1</code><font papago-translate="splitted"> or in the range </font><code>[1, n<sup>2</sup>]</code><font papago-translate="splitted">.</font></li>
+	<li><font papago-translate="splitted">The squares labeled </font><code>1</code><font papago-translate="splitted"> and </font><code>n<sup>2</sup></code><font papago-translate="splitted"> do not have any ladders or snakes.</font></li>
 </ul>
 </div>
