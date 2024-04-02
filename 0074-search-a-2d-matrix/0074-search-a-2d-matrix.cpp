@@ -14,7 +14,6 @@ class Solution {
         while(l <= r) {
             int m = l + (r - l) / 2;
             if(matrix[m].front() <= target and target <= matrix[m].back()) {
-                cout<<m<<endl;
                 return ok(matrix[m], target);
             } else if(matrix[m].back() < target) {
                 l = m + 1;
