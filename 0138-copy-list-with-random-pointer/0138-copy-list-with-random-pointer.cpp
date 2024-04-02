@@ -5,7 +5,7 @@ public:
     int val;
     Node* next;
     Node* random;
-
+    
     Node(int _val) {
         val = _val;
         next = NULL;
@@ -15,28 +15,29 @@ public:
 */
 
 class Solution {
-    map<Node*, Node*> m;
 public:
     Node* copyRandomList(Node* head) {
-        if(head == NULL) return NULL;
-        Node* newHead = new Node(head->val);
-        Node* newNode = newHead;
-        Node* node = head;
-        m[head] = newHead;
-        while(node != NULL) {
-            if(node->next != NULL && !m.count(node->next)) {
-                m[node->next] = new Node(node->next->val);
-            }
-            newNode->next = m[node->next];
-            if(node->random != NULL && !m.count(node->random)) {
-                m[node->random] = new Node(node->random->val);
-            }
-            newNode->random = m[node->random];
-            
-            node = node->next;
-            newNode = newNode->next;
+        Node* runner = head;
+        while(runner) {
+            Node* copy = new Node(runner->val);
+            copy->next = runner->next;
+            runner->next = copy;
+            runner = copy->next;
         }
-        
-        return newHead;
+        runner = head;
+        while(runner) {
+            if(runner->random) runner->next->random = runner->random->next;
+            runner = runner->next->next;
+        }
+        Node* dummy = new Node(-1);
+        Node* tail = dummy;
+        runner = head;
+        while(runner) {
+            tail->next = runner->next;
+            tail = tail->next;
+            runner->next = runner->next->next;
+            runner = runner->next;
+        }
+        return dummy->next;
     }
 };
