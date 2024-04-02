@@ -1,45 +1,57 @@
+struct Node {
+    int key, value;
+    Node* prev, *next;
+    Node(int key, int val) : key(key), value(val), prev(nullptr), next(nullptr) {}
+};
 class LRUCache {
-private:
-    map<int, list<pair<int,int>>::iterator> m;
-    list<pair<int, int>> l;
-    int c;
-
-    void moveFront(list<pair<int, int>>& li, list<pair<int,int>>::iterator it) {
-        if(it != begin(li)) {
-            li.splice(li.begin(), li, it, next(it));
+    unordered_map<int,Node*> mp;
+    Node* head;
+    Node* tail;
+    int cap;
+    void promote(int key) {
+        Node* node = mp[key];
+        if(tail->key == key) {
+            tail = tail->prev;
         }
-    }
-    
-    void insert(int key, int value) {
-        l.push_front({key, value});
-        m[key] = l.begin();
-        if(l.size() > c) {
-            balance(l.back().first);
+        if(node->next) node->next->prev = node->prev;
+        if(node->prev) node->prev->next = node->next;
+        
+        node->next = node->prev = nullptr;
+        
+        node->next = head->next;
+        if(node->next) node->next->prev = node;
+        head->next = node;
+        node->prev = head;
+        
+        if(mp.size() > cap) {
+            tail = tail->prev;
+            mp.erase(tail->next->key);
+            tail->next = nullptr;
         }
-    }
-    
-    void balance(int key) {
-        m.erase(key);
-        l.pop_back();
+        
+        if(tail->next) {
+            tail = tail->next;
+        }
     }
 public:
-    LRUCache(int capacity) : c(capacity) {}
+    LRUCache(int capacity): cap(capacity) {
+        head = new Node(-1, -1);
+        tail = head;
+    }
 
     int get(int key) {
-        if(!m.count(key)) return -1;
-        int res = m[key]->second;
-        moveFront(l, m[key]);
-
+        if(!mp.count(key)) return -1;
+        int res = mp[key]->value;
+        promote(key);
         return res;
     }
 
     void put(int key, int value) {
-        if(!m.count(key)) {
-            insert(key, value);
-        } else {
-            m[key]->second = value;
-            moveFront(l, m[key]);
-        }
+        if(mp.count(key)) {
+            mp[key]->value = value;
+        } else mp[key] = new Node(key,value);
+        promote(key);
+        return;
     }
 };
 
