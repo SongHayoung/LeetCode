@@ -1,36 +1,48 @@
 class Solution {
-    unordered_map<int, pair<int, int>> build(int n) {
-        unordered_map<int, pair<int, int>> res;
-        int index = 1;
-        for(int i = n - 1; i >= 0; i--) {
-            for(int j = !((n - i + 1) % 2) ? 0 : n - 1; j != -1 && j != n; j += !((n - i + 1) % 2) ? 1 : -1) {
-                res[index++] = {i, j};
-            }
-        }
-        return res;
-    }
 public:
-    int snakesAndLadders(vector<vector<int>>& board) {
-        int n = board.size();
-        unordered_map<int, pair<int, int>> m = build(n);
-        if(board[m[n*n].first][m[n*n].second] != -1) return -1;
-        queue<pair<int, int>> q;
-        q.push({1, 0});
-
-        while(!q.empty()) {
-            auto p = q.front();
-            q.pop();
-            if(p.first + 6 >= n * n) return p.second + 1;
-            for(int i = p.first + 1; i <= p.first + 6; i++) {
-                if(m.count(i)) {
-                    auto pos = m[i];
-                    if(board[pos.first][pos.second] == n * n) return p.second + 1;
-                    q.push({board[pos.first][pos.second] == -1 ? i : board[pos.first][pos.second], p.second + 1});
-                    m.erase(i);
+    int snakesAndLadders(vector<vector<int>>& A) {
+        int n = A.size(), m = A[0].size();
+        vector<vector<int>> vis(n,vector<int>(m,INT_MAX));
+        priority_queue<array<int,3>, vector<array<int,3>>, greater<array<int,3>>> q;
+        auto push = [&](int cost, int y, int x) {
+            if(vis[y][x] > cost) {
+                vis[y][x] = cost;
+                q.push({cost, y, x});
+            }
+        };
+        push(0,n-1,0);
+        auto nextPos = [&](int y, int x) {
+            int h = n - y;
+            int go = h & 1 ? +1 : -1;
+            if(0 <= x + go and x + go < m) return pair<int,int>{y,x + go};
+            if(y == 0) return pair<int,int>{-1,-1};
+            return pair<int,int>{y-1, x};
+        };
+        auto where = [&](int pos) {
+            pos -= 1;
+            int y = n - pos / m - 1;
+            int h = n - y;
+            int go = h & 1 ? +1 : -1;
+            int front = h & 1 ? 0 : m - 1;
+            return pair<int, int>{y, front + go * (pos % m)};
+        };
+        while(q.size()) {
+            auto [c,y,x] = q.top(); q.pop();
+            if(vis[y][x] != c) continue;
+            for(int i = 0; i < 6; i++) {
+                auto [ny, nx] = nextPos(y,x);
+                if(ny == -1) break;
+                if(A[ny][nx] == -1) {
+                  push(c + 1, ny, nx);
+                } else {
+                    auto [yy, xx] = where(A[ny][nx]);
+                    push(c + 1, yy, xx);
                 }
+                y = ny, x = nx;
+                
             }
         }
-
-        return -1;
+        int& res = vis[0][n & 1 ? m - 1 : 0];
+        return res == INT_MAX ? -1 : res;
     }
 };
