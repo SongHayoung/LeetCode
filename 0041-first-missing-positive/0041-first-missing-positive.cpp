@@ -1,12 +1,14 @@
 class Solution {
 public:
-    int firstMissingPositive(vector<int>& nums) {
-        unordered_map<int, bool> check;
-        int res = 1;
-        for(auto& n : nums) {
-            if(1 <= n and n <= 500000) check[n] = true;
-            while(check[res]) res++;
+    int firstMissingPositive(vector<int>& A) {
+        for(int i = 0; i < A.size(); i++) {
+            while(0 < A[i] and A[i] <= A.size() and A[A[i]-1] != A[i]) {
+                swap(A[i], A[A[i]-1]);
+            }
         }
-        return res;
+        for(int i = 0; i < A.size(); i++) {
+            if(i + 1 != A[i]) return i+1;
+        }
+        return A.size() + 1;
     }
 };
