@@ -306,23 +306,25 @@ public:
         rep(i,0,n) rep(j,0,m) {
             S.push_back({A[i][j], i, j});
         }
-        sort(all(S));
+        ll res = 0;
+        sort(rall(S));
         vll r(n), c(m);
-        ll le = 0, ri = 0, k = sz(S), res = 0;
-        while(ri < k) {
-            vll cost;
-            while(ri < k and S[le][0] == S[ri][0]) {
-                auto [_, y,x] = S[ri++];
-                cost.push_back(max(r[y], c[x]) + 1);
+        while(sz(S)) {
+            auto [w,_,__] = S.back();
+            vpll pos;
+            while(sz(S) and S.back()[0] == w) {
+                auto [_,y,x] = S.back(); S.pop_back();
+                pos.push_back({y,x});
             }
-            ll i = 0;
-            while(le < ri) {
-                auto [_,y,x] = S[le++];
-                res = max(res, cost[i]);
-                r[y] = max(r[y], cost[i]);
-                c[x] = max(c[x], cost[i]);
-                i++;
+            umll rr,cc;
+            for(auto& [y,x] : pos) {
+                ll ma = max(r[y], c[x]) + 1;
+                res = max(res, ma);
+                rr[y] = max(rr[y], ma);
+                cc[x] = max(cc[x], ma);
             }
+            for(auto& [k,v] : rr) r[k] = max(r[k], v);
+            for(auto& [k,v] : cc) c[k] = max(c[k], v);
         }
         return res;
     }
