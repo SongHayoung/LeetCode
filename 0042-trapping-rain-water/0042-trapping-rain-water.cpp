@@ -1,20 +1,19 @@
 class Solution {
 public:
-    int trap(vector<int>& height) {
-        int res = 0, n = height.size();
+    int trap(vector<int>& A) {
         vector<pair<int,int>> st;
-        for(int i = 0; i < n; i++) {
-            int h = height[i], at = i;
-            while(st.size() and st.back().second <= h) {
-                int width = i - st.back().first;
-                int base = st.back().second;
-                at = st.back().first;
-                st.pop_back();
+        int res = 0;
+        for(int i = 0; i < A.size(); i++) {
+            int at = i;
+            while(st.size() and st.back().second <= A[i]) {
+                auto [pos, h] = st.back(); st.pop_back();
+                at = pos;
                 if(st.size()) {
-                    res += width * (min(st.back().second, h) - base);
+                    int w = i - at;
+                    res += w * (min(A[i], st.back().second) - h);
                 }
             }
-            st.push_back({at, h});
+            st.push_back({at,A[i]});
         }
         return res;
     }
