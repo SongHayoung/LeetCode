@@ -1,36 +1,28 @@
 class Solution {
-    int findMaxArea(vector<int>& A) {
-        int n = A.size(), best = 0;
-        vector<pair<int,int>> st;
+    int helper(vector<int>& A) {
+        vector<pair<int, int>> st;
+        int res = 0;
         for(int i = 0; i < A.size(); i++) {
-            int h = A[i], w = 1;
-            while(st.size() and st.back().first >= h) {
-                w += st.back().second;
-                best = max(best, st.back().first * (w - 1));
-                st.pop_back();
-            }            
-            best = max(best, w * h);
-            st.push_back({h,w});
+            int at = i;
+            while(st.size() and st.back().second >= A[i]) {
+                auto [pos, h] = st.back(); st.pop_back();
+                res = max(res, (i - pos) * h);
+                at = pos;
+            }
+            st.push_back({at, A[i]});
         }
-        
-        int width = A.size();
-        for(auto& [h,w] : st) {
-            best = max(best, h * width);
-            width -= w;
-        }
-        
-        return best;
+        return res;
     }
 public:
-    int maximalRectangle(vector<vector<char>>& A) {
-        int n = A.size(), m = A[0].size(), res = 0;
-        vector<int> dp(m, 0);
-        for(int i = 0; i < n; i++) {
-            for(int j = 0; j < m; j++) {
-                if(A[i][j] == '0') dp[j] = 0;
-                else dp[j] += 1;
+    int maximalRectangle(vector<vector<char>>& matrix) {
+        vector<int> dp(matrix[0].size() + 1);
+        int res = 0;
+        for(auto& r : matrix) {
+            for(int i = 0; i < r.size(); i++) {
+                if(r[i] == '0') dp[i] = 0;
+                else dp[i]++;
             }
-            res = max(res, findMaxArea(dp));
+            res = max(res, helper(dp));
         }
         return res;
     }
