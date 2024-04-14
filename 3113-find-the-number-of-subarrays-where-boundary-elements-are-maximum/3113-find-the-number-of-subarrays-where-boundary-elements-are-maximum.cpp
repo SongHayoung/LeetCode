@@ -403,59 +403,43 @@ ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-
 ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ll fenwick[MAX_N];
+void update(ll n, ll k) {
+    while(n < MAX_N) {
+        fenwick[n] += k;
+        n += n & -n;
+    }
+}
+ll query(ll n) {
+    ll res = 0;
+    while(n) {
+        res += fenwick[n];
+        n -= n & - n;
+    }
+    return res;
+}
+ll query(ll l, ll r) {
+    return query(r) - query(l-1);
+}
 class Solution {
 public:
     long long numberOfSubarrays(vector<int>& A) {
+        ZERO(fenwick);
         ll res = 0;
         map<ll,vll> mp;
         rep(i,0,sz(A)) {
             mp[-A[i]].push_back(i+1);
         }
-        set<ll> st;
-        st.insert(INF);
         for(auto& [_,vec] : mp) {
             ll l = 0, r = 0, n = sz(vec);
             while(r < n) {
-                ll until = *st.upper_bound(vec[l]);
-                while(r < n and vec[r] < until) {
-                    st.insert(vec[r]);
-                    r++;
-                }
+                while(r < n and query(vec[l], vec[r]) == 0) r++;
                 ll len = r - l;
                 res += len * (len + 1) / 2;
                 l = r;
             }
+            for(auto& p : vec) update(p,1);
         }
         return res;
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
