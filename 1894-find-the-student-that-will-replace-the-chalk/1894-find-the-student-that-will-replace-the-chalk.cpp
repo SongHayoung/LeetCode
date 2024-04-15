@@ -1,12 +1,14 @@
 class Solution {
 public:
     int chalkReplacer(vector<int>& chalk, int k) {
-        int n = chalk.size();
-        vector<long long> psum(n, chalk[0]);
-        for(int i = 1; i < n; i++) {
-            psum[i] = psum[i-1] + chalk[i];
+        long long sum = 0;
+        for(auto& x : chalk) sum += x;
+        k %= sum;
+        long long now = 0;
+        for(int i = 0; i < chalk.size(); i++) {
+            now += chalk[i];
+            if(now > k) return i;
         }
-        k %= psum.back();
-        return upper_bound(begin(psum), end(psum), k) - begin(psum);
+        return 0;
     }
 };
