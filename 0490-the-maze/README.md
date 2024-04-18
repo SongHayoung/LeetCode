@@ -1,6 +1,6 @@
-<h2><a href="https://leetcode.com/problems/the-maze/">490. The Maze</a></h2><h3>Medium</h3><hr><div><p>There is a ball in a <code>maze</code> with empty spaces (represented as <code>0</code>) and walls (represented as <code>1</code>). The ball can go through the empty spaces by rolling <strong>up, down, left or right</strong>, but it won't stop rolling until hitting a wall. When the ball stops, it could choose the next direction.</p>
+<h2><a href="https://leetcode.com/problems/the-maze/">490. The Maze</a></h2><h3>Medium</h3><hr><div><p><font papago-translate="splitted">There is a ball in a </font><code>maze</code><font papago-translate="splitted"> with empty spaces (represented as </font><code>0</code><font papago-translate="splitted">) and walls (represented as </font><code>1</code></p>
 
-<p>Given the <code>m x n</code> <code>maze</code>, the ball's <code>start</code> position and the <code>destination</code>, where <code>start = [start<sub>row</sub>, start<sub>col</sub>]</code> and <code>destination = [destination<sub>row</sub>, destination<sub>col</sub>]</code>, return <code>true</code> if the ball can stop at the destination, otherwise return <code>false</code>.</p>
+<p><font papago-translate="splitted">Given the </font><code>m x n</code> <code>maze</code><font papago-translate="splitted">, the ball's </font><code>start</code><font papago-translate="splitted"> position and the </font><code>destination</code><font papago-translate="splitted">, where </font><code>start = [start<sub>row</sub>, start<sub>col</sub>]</code><font papago-translate="splitted"> and </font><code>destination = [destination<sub>row</sub>, destination<sub>col</sub>]</code><font papago-translate="splitted">, return </font><code>true</code><font papago-translate="splitted"> if the ball can stop at the destination, otherwise return </font><code>false</code><font papago-translate="splitted">.</font></p>
 
 <p>You may assume that <strong>the borders of the maze are all walls</strong> (see examples).</p>
 
@@ -32,7 +32,7 @@
 	<li><code>m == maze.length</code></li>
 	<li><code>n == maze[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 100</code></li>
-	<li><code>maze[i][j]</code> is <code>0</code> or <code>1</code>.</li>
+	<li><code>maze[i][j]</code><font papago-translate="splitted"> is </font><code>0</code><font papago-translate="splitted"> or </font><code>1</code><font papago-translate="splitted">.</font></li>
 	<li><code>start.length == 2</code></li>
 	<li><code>destination.length == 2</code></li>
 	<li><code>0 &lt;= start<sub>row</sub>, destination<sub>row</sub> &lt;= m</code></li>
