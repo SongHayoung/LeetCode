@@ -1,12 +1,12 @@
 class Solution {
 public:
-    int subarraysDivByK(vector<int>& A, int k) {
-        int res = 0, sum = 0;
-        unordered_map<int, int> freq{{0, 1}};
-        for(auto& a : A) {
-            sum = (sum + (a % k) + k) % k;
-            res += freq[sum];
-            freq[sum]++;
+    int subarraysDivByK(vector<int>& nums, int k) {
+        unordered_map<int,int> freq;
+        freq[0] = 1;
+        int sum = 0, res = 0;
+        for(auto& n : nums) {
+            sum = (sum + n % k + k) % k;
+            res += freq[sum]++;
         }
         return res;
     }
