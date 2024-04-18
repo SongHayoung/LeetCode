@@ -1,21 +1,15 @@
 class Solution {
-    unordered_map<int, int> m;
 public:
     int minOperations(vector<int>& target, vector<int>& arr) {
-        for(int i = 0; i < target.size(); i++) {
-            m[target[i]] = i;
+        unordered_map<int,int> mp;
+        for(int i = 0; i < target.size(); i++) mp[target[i]] = i;
+        vector<int> dp;
+        for(auto& x : arr) {
+            if(!mp.count(x)) continue;
+            if(dp.size() == 0 or dp.back() < mp[x]) dp.push_back(mp[x]);
+            else *lower_bound(begin(dp), end(dp), mp[x]) = mp[x];
         }
-        vector<int> st{-987654321};
-        for(auto& n : arr) {
-            if(!m.count(n)) continue;
-            if(st.back() < m[n]) {
-                st.push_back(m[n]);
-            } else {
-                auto it = lower_bound(st.begin(), st.end(), m[n]);
-                *it = m[n];
-            }
-        }
-
-        return target.size() - st.size() + 1;
+        
+        return target.size() - dp.size();
     }
 };
