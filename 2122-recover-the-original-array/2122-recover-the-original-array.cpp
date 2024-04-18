@@ -1,61 +1,47 @@
 class Solution {
-    int getK(vector<int>& A, int i, int j) {
-        int ak = A[i] - A[0], zk = A.back() - A[j];
-        if(ak == zk and !(ak & 1))
-            return ak / 2;
-        return INT_MIN;
-    }
-    vector<int> kCand(vector<int>& A) {
-        int sum = A[0] + A.back(); //A - k + Z + k
-        int n = A.size();
-        vector<pair<int,int>> cand;
-        
-        for(int i = 1; i < n; i++) { //find A + k + Z - k combinations
-            n = lower_bound(begin(A) + i, begin(A) + n, sum - A[i]) - begin(A);
-            
-            if(A[n] + A[i] == sum)
-                cand.push_back({i,n});
-        }
-        unordered_set<int> res;
-        for(auto [i, j] : cand) {
-            int k1 = getK(A,i,j), k2 = getK(A,j,i);
-            if(k1 != INT_MIN) res.insert(k1);
-            if(k2 != INT_MIN) res.insert(k2);
-        }
-        
-        return vector<int>(begin(res),end(res));
-    }
-    bool helper(vector<int>& A, unordered_map<int,int>& mp, int& k, vector<int>& res, int p, int i) {
+    bool ok(unordered_map<int,int>& freq, vector<int>& A, int p, int k, vector<int>& res) {
         if(p == A.size()) return true;
-        if(mp[A[p]] == 0) return helper(A,mp,k,res,p+1,i);
-        if(mp[A[p] + 2*k] == 0 or i == res.size()) return false;
-        mp[A[p] + 2*k]--;
-        mp[A[p]]--;
-        res[i] = A[p] + k;
-        
-        if(helper(A,mp,k,res,p+1,i+1)) return true;
-
-        mp[A[p] + 2*k]++;
-        mp[A[p]]++;
-        
+        if(freq[A[p]] == 0) return ok(freq,A,p+1,k,res);
+        int cnt = freq[A[p]];
+        if(freq.count(A[p] + 2 * k) and freq[A[p] + 2 * k] >= cnt) {
+            freq[A[p]] -= cnt;
+            freq[A[p] + 2 * k] -= cnt;
+            for(int i = 0; i < cnt; i++) res.push_back(A[p] + k);
+            if(ok(freq,A,p+1,k,res)) return true;
+            freq[A[p]] += cnt;
+            freq[A[p] + 2 * k] += cnt;
+        }
         return false;
     }
 public:
     vector<int> recoverArray(vector<int>& A) {
+        vector<int> ks;
         sort(begin(A), end(A));
-        if(A.size() == 2) return {(A[0] + A[1]) / 2};
-        
-        auto kc = kCand(A);
-        int n = A.size();
-        unordered_map<int, int> mp;
-        for(auto& a : A) mp[a]++;
-        
-        vector<int> res(n/2);
-        for(auto& k : kc)
-            if(helper(A,mp,k,res,0,0)) {
+        {
+            int n = A.size() / 2;
+            unordered_map<int,int> freq;
+            for(int i = 1, cnt = 0; cnt < n; i++, cnt++) {
+                if(i != 1 and A[i] == A[i-1]) continue;
+                int k = A[i] - A[0];
+                if(k & 1 or !k) continue;
+                freq[k/2]++;
+            }
+            for(int i = n * 2 - 2, cnt = 0; cnt < n; i--,cnt++) {
+                if(i != n * 2 - 2 and A[i] == A[i+1]) continue;
+                int k = A.back() - A[i];
+                if(k & 1 or !k) continue;
+                freq[k/2]++;
+            }
+            for(auto& [k,v] : freq) if(v == 2) ks.push_back(k);
+        }
+        unordered_map<int,int> freq;
+        for(auto& a : A) freq[a]++;
+        for(auto& k : ks) {
+            vector<int> res;
+            if(k and ok(freq,A,0,k,res)) {
                 return res;
             }
-        return {};
-        
+        }
+        return {-1};
     }
 };
