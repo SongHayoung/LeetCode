@@ -426,34 +426,25 @@ class Solution {
     }
 public:
     int findMinimumTime(vector<vector<int>>& A) {
-        sort(rall(A));
         priority_queue<all3,vall3,greater<all3>> q;
+        sort(all(A), [](auto a, auto b) {
+            if(a[1] != b[1]) return a[1] < b[1];
+            return a[2] > b[2];
+        });
         ZERO(fenwick);
         ZERO(bit);
-        auto work = [&](ll x) {
-            while(sz(q) and q.top().front() == x) {
-                auto [r,l,d] = q.top(); q.pop();
-                ll tot = ask(l,r);
-                if(tot >= d) continue;
-                ll req = d - tot;
-                rrep(i,l,r) {
-                    if(bit[i]) continue;
-                    update(i);
-                    if(--req == 0) break;
-                }
+        auto work = [&](ll idx) {
+            ll l = A[idx][0], r = A[idx][1], d = A[idx][2];
+            ll tot = ask(l,r);
+            if(tot >= d) return;
+            ll req = d - tot;
+            rrep(i,l,r) {
+                if(bit[i]) continue;
+                update(i);
+                if(--req == 0) break;
             }
         };
-        while(sz(A)) {
-            auto time = A.back().front();
-            while(sz(q) and q.top()[0] < time) work(q.top()[0]);
-            while(sz(A) and A.back().front() == time) {
-                ll l = A.back()[0], r = A.back()[1], d = A.back()[2];
-                q.push({r,l,d});
-                A.pop_back();
-            }
-        }
-        while(sz(q)) work(q.top()[0]);
-
+        rep(i,0,sz(A)) work(i);
         return query(2000);
     }
 };
