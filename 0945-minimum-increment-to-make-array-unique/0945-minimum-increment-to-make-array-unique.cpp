@@ -21,7 +21,8 @@ class Solution {
 public:
     int minIncrementForUnique(vector<int>& nums) {
         uf.clear();
-        cnt.clear();
+        cnt.clear();uf.reserve(nums.size());
+        cnt.reserve(nums.size());
         int res = 0;
         for(auto& x : nums) {
             int now = best(x);
