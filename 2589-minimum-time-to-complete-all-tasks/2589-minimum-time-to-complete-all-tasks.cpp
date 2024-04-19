@@ -404,35 +404,56 @@ ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
 class Solution {
-public:
-    int findMinimumTime(vector<vector<int>>& A) {
-        ll res = 0;
-        sort(rall(A));
-        priority_queue<pll,vpll,greater<pll>> q;
-        vll until(sz(A));
-        while(sz(A) or sz(q)) {
-            ll time = INF;
-            while(sz(q) and until[q.top().second] <= res) q.pop();
-            if(sz(q)) time = min(time, q.top().first);
-            if(sz(A)) time = min(time, 1ll * A.back().front());
-            while(sz(A) and A.back().front() == time) {
-                ll l = A.back()[0], r = A.back()[1], d = A.back()[2];
-                A.pop_back();
-                until[sz(A)] = res + d;
-                q.push({r - d + 1, sz(A)});
-            }
-            if(sz(q) and q.top().first == time) {
-                res++;
-                time += 1;
-                
-                priority_queue<pll,vpll,greater<pll>> qq;
-                while(sz(q)) {
-                    auto [event, idx] = q.top(); q.pop();
-                    if(until[idx] > res) qq.push({event + 1, idx});
-                }
-                swap(q,qq);
-            }
+    long long fenwick[2020];
+    long long bit[2020];
+    void update(long long n) {
+        bit[n] = 1;
+        while(n < 2020) {
+            fenwick[n] += 1;
+            n += n & - n;
+        }
+    }
+    long long query(long long n) {
+        long long res = 0;
+        while(n) {
+            res += fenwick[n];
+            n -= n & -n;
         }
         return res;
+    }
+    long long ask(long long l, long long r) {
+        return query(r) - query(l-1);
+    }
+public:
+    int findMinimumTime(vector<vector<int>>& A) {
+        sort(rall(A));
+        priority_queue<all3,vall3,greater<all3>> q;
+        ZERO(fenwick);
+        ZERO(bit);
+        auto work = [&](ll x) {
+            while(sz(q) and q.top().front() == x) {
+                auto [r,l,d] = q.top(); q.pop();
+                ll tot = ask(l,r);
+                if(tot >= d) continue;
+                ll req = d - tot;
+                rrep(i,l,r) {
+                    if(bit[i]) continue;
+                    update(i);
+                    if(--req == 0) break;
+                }
+            }
+        };
+        while(sz(A)) {
+            auto time = A.back().front();
+            while(sz(q) and q.top()[0] < time) work(q.top()[0]);
+            while(sz(A) and A.back().front() == time) {
+                ll l = A.back()[0], r = A.back()[1], d = A.back()[2];
+                q.push({r,l,d});
+                A.pop_back();
+            }
+        }
+        while(sz(q)) work(q.top()[0]);
+
+        return query(2000);
     }
 };
