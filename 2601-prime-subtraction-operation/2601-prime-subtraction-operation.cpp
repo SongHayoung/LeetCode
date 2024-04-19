@@ -17,7 +17,8 @@ public:
         vector<int> p = prime();
         int last = -1000;
         for(int i = 0; i < A.size(); i++) {
-            auto pos = lower_bound(begin(p), end(p), A[i]) - begin(p) - 1;
+            if(A[i] <= last) return false;
+            auto pos = lower_bound(begin(p), end(p), min(A[i], A[i] - last + 1)) - begin(p) - 1;
             while(pos >= 0 and A[i] - p[pos] <= last) pos -= 1;
             if(pos == -1 and A[i] <= last) return false;
             last = A[i] - (pos >= 0 ? p[pos] : 0);
