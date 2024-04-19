@@ -1,7 +1,6 @@
-unordered_map<int, int> uf, cnt;
+unordered_map<int, int> uf;
 int find(int u) {
     if(!uf.count(u)) {
-        cnt[u] = 1;
         return uf[u] = u;
     }
     return uf[u] == u ? u : uf[u] = find(uf[u]);
@@ -9,20 +8,17 @@ int find(int u) {
 void uni(int u, int v) {
     int pu = find(u), pv = find(v);
     if(pu == pv) return;
-    cnt[pu] = cnt[pv] = cnt[pu] + cnt[pv];
-    uf[pu] = uf[pv] = min(pu,pv);
+    uf[pu] = uf[pv] = max(pu,pv);
 }
 int best(int x) {
     if(!uf.count(x)) return x;
-    int root = find(x), max = cnt[root];
-    return root + max;
+    return find(x) + 1;
 }
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& nums) {
         uf.clear();
-        cnt.clear();uf.reserve(nums.size());
-        cnt.reserve(nums.size());
+        uf.reserve(nums.size());
         int res = 0;
         for(auto& x : nums) {
             int now = best(x);
