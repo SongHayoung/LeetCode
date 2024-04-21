@@ -1,25 +1,34 @@
+
+
 class Solution {
 public:
     long long totalCost(vector<int>& costs, int k, int candidates) {
-        long long res = 0;
-        priority_queue<pair<long long, long long>, vector<pair<long long, long long>>, greater<pair<long long, long long>>> q;
-        int l = 0, r = costs.size() - 1;
-        for(; l < candidates; l++) q.push({costs[l],l});
-        for(; r >= costs.size() -candidates and r >= l; r--) q.push({costs[r], r});
+        long long l = 0, r = costs.size() - 1, res = 0;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> q;
+        while(l < candidates) {
+            q.push({costs[l],l});
+            l++;
+        }
+        while(r >= costs.size() - candidates and r >= l) {
+            q.push({costs[r], r});
+            r--;
+        }
         while(k--) {
-            auto [p,idx] = q.top(); q.pop();
-            res += p;
-            if(l <= r) {
-                if(idx < l) {
-                    q.push({costs[l],l});
-                    l += 1;
+            auto [v,idx] = q.top(); q.pop();
+            res += v;
+            if(idx < l) {
+                if(l <= r) {
+                    q.push({costs[l], l});
+                    l++;
                 }
-                else{
-                 q.push({costs[r],r});
-                    r -= 1;
+            } else {
+                if(l <= r) {
+                    q.push({costs[r], r});
+                    r--;
                 }
             }
         }
         return res;
     }
 };
+
