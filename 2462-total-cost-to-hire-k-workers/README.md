@@ -1,20 +1,20 @@
-<h2><a href="https://leetcode.com/problems/total-cost-to-hire-k-workers/">2462. Total Cost to Hire K Workers</a></h2><h3>Medium</h3><hr><div><p>You are given a <strong>0-indexed</strong> integer array <code>costs</code> where <code>costs[i]</code> is the cost of hiring the <code>i<sup>th</sup></code> worker.</p>
+<h2><a href="https://leetcode.com/problems/total-cost-to-hire-k-workers/">2462. Total Cost to Hire K Workers</a></h2><h3>Medium</h3><hr><div><p><code>costs</code><font papago-translate="splitted"> where </font><code>costs[i]</code><font papago-translate="splitted"> is the cost of hiring the </font><code>i<sup>th</sup></code><font papago-translate="splitted"> worker.</font></p>
 
-<p>You are also given two integers <code>k</code> and <code>candidates</code>. We want to hire exactly <code>k</code> workers according to the following rules:</p>
+<p><font papago-translate="splitted">You are also given two integers </font><code>k</code><font papago-translate="splitted"> and </font><code>candidates</code><font papago-translate="splitted">. We want to hire exactly </font><code>k</code><font papago-translate="splitted"> workers according to the following rules:</font></p>
 
 <ul>
-	<li>You will run <code>k</code> sessions and hire exactly one worker in each session.</li>
-	<li>In each hiring session, choose the worker with the lowest cost from either the first <code>candidates</code> workers or the last <code>candidates</code> workers. Break the tie by the smallest index.
-	<ul>
-		<li>For example, if <code>costs = [3,2,7,7,1,2]</code> and <code>candidates = 2</code>, then in the first hiring session, we will choose the <code>4<sup>th</sup></code> worker because they have the lowest cost <code>[<u>3,2</u>,7,7,<u><strong>1</strong>,2</u>]</code>.</li>
-		<li>In the second hiring session, we will choose <code>1<sup>st</sup></code> worker because they have the same lowest cost as <code>4<sup>th</sup></code> worker but they have the smallest index <code>[<u>3,<strong>2</strong></u>,7,<u>7,2</u>]</code>. Please note that the indexing may be changed in the process.</li>
+	<li><font papago-translate="splitted">You will run </font><code>k</code><font papago-translate="splitted"> sessions and hire exactly one worker in each session.</font></li>
+	<li><font papago-translate="splitted">In each hiring session, choose the worker with the lowest cost from either the first </font><code>candidates</code><font papago-translate="splitted"> workers or the last </font><code>candidates</code><font papago-translate="splitted"> workers. Break the tie by the smallest index.
+	</font><ul>
+		<li><font papago-translate="splitted">For example, if </font><code>costs = [3,2,7,7,1,2]</code><font papago-translate="splitted"> and </font><code>candidates = 2</code><font papago-translate="splitted">, then in the first hiring session, we will choose the </font><code>4<sup>th</sup></code><font papago-translate="splitted"> worker because they have the lowest cost </font><code>[<u>3,2</u>,7,7,<u><strong>1</strong>,2</u>]</code><font papago-translate="splitted">.</font></li>
+		<li><font papago-translate="splitted">In the second hiring session, we will choose </font><code>1<sup>st</sup></code><font papago-translate="splitted"> worker because they have the same lowest cost as </font><code>4<sup>th</sup></code><font papago-translate="splitted"> worker but they have the smallest index </font><code>[<u>3,<strong>2</strong></u>,7,<u>7,2</u>]</code><font papago-translate="splitted">. Please note that the indexing may be changed in the process.</font></li>
 	</ul>
 	</li>
 	<li>If there are fewer than candidates workers remaining, choose the worker with the lowest cost among them. Break the tie by the smallest index.</li>
 	<li>A worker can only be chosen once.</li>
 </ul>
 
-<p>Return <em>the total cost to hire exactly </em><code>k</code><em> workers.</em></p>
+<p><code>k</code><font papago-translate="splitted"><em> workers.</em></font></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
