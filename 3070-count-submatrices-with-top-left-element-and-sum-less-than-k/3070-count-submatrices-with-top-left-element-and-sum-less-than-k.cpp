@@ -24,9 +24,9 @@ using ull = unsigned long long;
 // constants
 const ld PI = acosl(-1.0);  /* pi */
 const ll INF = 1e18;
-const ld EPS = 1e-15;
+const ld EPS = 1e-9;
 const ll MAX_N = 202020;
-const ll mod = 1e9+7;
+const ll mod = 1e9 + 7;
 
 // typedef
 typedef pair<int,int> pii;
@@ -76,8 +76,8 @@ typedef unordered_map<pll, ll, PairHash> umpll;
 #define BITSHIFT(a,i,n) (((a<<i) & ((1ll<<n) - 1)) | (a>>(n-i)))
 #define MAXBIT(a) (64ll - __builtin_clzll(a) - 1ll)
 #define MINBIT(a) (__builtin_ctzll(a))
-#define pyes cout<<"YES\n";
-#define pno cout<<"NO\n";
+#define pyes cout<<"Yes\n";
+#define pno cout<<"No\n";
 #define endl "\n"
 #define pneg1 cout<<"-1\n";
 #define ppossible cout<<"possible\n";
@@ -396,8 +396,6 @@ struct Circle {
     }
 };
 
-std::mt19937 rng(std::chrono::steady_clock::now().time_since_epoch().count());
-template<class I> I rnd(I l,I r){return std::uniform_int_distribution<I>(l,r)(rng);}
 ll __gcd(ll x, ll y) { return !y ? x : __gcd(y, x % y); }
 all3 __exgcd(ll x, ll y) { if(!y) return {x,1,0}; auto [g,x1,y1] = __exgcd(y, x % y); return {g, y1, x1 - (x/y) * y1}; }
 ll __lcm(ll x, ll y) { return x / __gcd(x,y) * y; }
@@ -406,21 +404,21 @@ ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
 class Solution {
+    ll pre[1010][1010];
+    ll query(ll y1, ll x1, ll y2, ll x2) {
+        return pre[y2+1][x2+1] - pre[y2+1][x1] - pre[y1][x2+1] + pre[y1][x1];
+    }
 public:
     int countSubmatrices(vector<vector<int>>& A, int k) {
-        int n = sz(A), m = sz(A[0]), sum = 0, p = 0;
-        ll res = 0;
-        vll pre(m);
+        ll n = sz(A), m = sz(A[0]);
+        rep(i,0,n) rep(j,0,m) {
+            pre[i+1][j+1] = A[i][j] + pre[i+1][j] + pre[i][j+1] - pre[i][j];
+        }
+        ll res = 0, p = m - 1;
         rep(i,0,n) {
-            ll pos = 0, sum = 0;
-            rep(j,0,m) {
-                pre[j] += A[i][j];
-                sum += pre[j];
-                if(sum <= k) {
-                    pos = j + 1;
-                }
-            }
-            res += pos;
+            while(p >= 0 and query(0,0,i,p) > k) p--;
+            if(p == -1) break;
+            res += (p + 1);
         }
         return res;
     }
