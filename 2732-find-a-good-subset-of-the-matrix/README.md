@@ -1,14 +1,14 @@
-<h2><a href="https://leetcode.com/problems/find-a-good-subset-of-the-matrix/">2732. Find a Good Subset of the Matrix</a></h2><h3>Hard</h3><hr><div><p>You are given a <strong>0-indexed</strong> <code>m x n</code> binary matrix <code>grid</code>.</p>
+<h2><a href="https://leetcode.com/problems/find-a-good-subset-of-the-matrix/">2732. Find a Good Subset of the Matrix</a></h2><h3>Hard</h3><hr><div><p> <code>m x n</code><font papago-translate="splitted"> binary matrix </font><code>grid</code><font papago-translate="splitted">.</font></p>
 
 <p>Let us call a <strong>non-empty</strong> subset of rows <strong>good</strong> if the sum of each column of the subset is at most half of the length of the subset.</p>
 
-<p>More formally, if the length of the chosen subset of rows is <code>k</code>, then the sum of each column should be at most <code>floor(k / 2)</code>.</p>
+<p><font papago-translate="splitted">More formally, if the length of the chosen subset of rows is </font><code>k</code><font papago-translate="splitted">, then the sum of each column should be at most </font><code>floor(k / 2)</code><font papago-translate="splitted">.</font></p>
 
 <p>Return <em>an integer array that contains row indices of a good subset sorted in <strong>ascending</strong> order.</em></p>
 
 <p>If there are multiple good subsets, you can return any of them. If there are no good subsets, return an empty array.</p>
 
-<p>A <strong>subset</strong> of rows of the matrix <code>grid</code> is any matrix that can be obtained by deleting some (possibly none or all) rows from <code>grid</code>.</p>
+<p><code>grid</code><font papago-translate="splitted"> is any matrix that can be obtained by deleting some (possibly none or all) rows from </font><code>grid</code><font papago-translate="splitted">.</font></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -47,6 +47,6 @@ The length of the chosen subset is 1.
 	<li><code>n == grid[i].length</code></li>
 	<li><code>1 &lt;= m &lt;= 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= n &lt;= 5</code></li>
-	<li><code>grid[i][j]</code> is either <code>0</code> or <code>1</code>.</li>
+	<li><code>grid[i][j]</code><font papago-translate="splitted"> is either </font><code>0</code><font papago-translate="splitted"> or </font><code>1</code><font papago-translate="splitted">.</font></li>
 </ul>
 </div>
