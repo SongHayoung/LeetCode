@@ -1,56 +1,36 @@
-struct pair_hash {
-    template <class T1, class T2>
-    std::size_t operator () (const std::pair<T1,T2> &p) const {
-        auto h1 = std::hash<T1>{}(p.first);
-        auto h2 = std::hash<T2>{}(p.second);
-        
-        return h1 ^ h2;  
-    }
-};
 class Solution {
-    unordered_map<pair<int,int>, pair<int,int>, pair_hash> g;
-    pair<int,int> find(pair<int, int> p) {
-        return g[p].first == -1 ? p : g[p] = find(g[p]);
+    unordered_map<int, int> uf;
+    int find(int u) {
+        return uf[u] == u ? u : uf[u] = find(uf[u]);
     }
-    // return number of merged islands
-    int merge(pair<int, int> p, int island, int n, int m) {
-        if(g.count(p)) return 1;
-        g[p] = {-1, island};
-
-        int dy[4] = {-1,0,1,0}, dx[4] = {0,1,0,-1};
-        unordered_set<pair<int,int>, pair_hash> s;
-        s.insert(p);
-        int minIsland = island;
-        pair<int, int> minPosition = p;
-        for(int i = 0; i < 4; i++) {
-            int ny = p.first + dy[i], nx = p.second + dx[i];
-            if(g.count({ny,nx})) {
-                auto position = find({ny,nx});
-                s.insert(position);
-                if(g[position].second < minIsland) {
-                    minIsland = g[position].second;
-                    minPosition = position;
-                }
-            }
-        }
-        
-        int res = s.size() - 1;
-        for(auto key : s) {
-            if(key == minPosition) continue;
-            g[key] = minPosition;
-        }
-        
-        return res;
+    bool uni(int u, int v) {
+        int pu = find(u), pv = find(v);
+        if(pu == pv) return false;
+        uf[pu] = uf[pv] = min(pu, pv);
+        return true;
     }
 public:
     vector<int> numIslands2(int n, int m, vector<vector<int>>& positions) {
-        int islandId = 1;
-        int islands = 0;
+        auto id = [&](int y, int x) {
+            return y * m + x;
+        };
+        uf.clear();
+        int dy[4]{-1,0,1,0}, dx[4]{0,1,0,-1};
         vector<int> res;
-        for(auto position : positions) {
-            int mergedIsland = merge({position[0], position[1]}, islandId++, n, m);
-            islands = islands + 1 - mergedIsland;
-            res.push_back(islands);
+        int count = 0;
+        for(auto& p : positions) {
+            int y = p[0], x = p[1];
+            if(!uf.count(id(y,x))) {
+                count++;
+                uf[id(y,x)] = id(y,x);
+            for(int i = 0; i < 4; i++) {
+                int ny = y + dy[i], nx = x + dx[i];
+                if(0 <= ny and ny < n and 0 <= nx and nx < m and uf.count(id(ny,nx))) {
+                    count -= uni(id(y,x), id(ny,nx));
+                }
+            }
+            }
+            res.push_back(count);
         }
         return res;
     }
