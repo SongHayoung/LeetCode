@@ -1,8 +1,8 @@
-<h2><a href="https://leetcode.com/problems/number-of-islands-ii/">305. Number of Islands II</a></h2><h3>Hard</h3><hr><div><p>You are given an empty 2D binary grid <code>grid</code> of size <code>m x n</code>. The grid represents a map where <code>0</code>'s represent water and <code>1</code>'s represent land. Initially, all the cells of <code>grid</code> are water cells (i.e., all the cells are <code>0</code>'s).</p>
+<h2><a href="https://leetcode.com/problems/number-of-islands-ii/">305. Number of Islands II</a></h2><h3>Hard</h3><hr><div><p><font papago-translate="splitted">You are given an empty 2D binary grid </font><code>grid</code><font papago-translate="splitted"> of size </font><code>m x n</code><font papago-translate="splitted">. The grid represents a map where </font><code>0</code><font papago-translate="splitted">'s represent water and </font><code>1</code><font papago-translate="splitted">'s represent land. Initially, all the cells of </font><code>grid</code><font papago-translate="splitted"> are water cells (i.e., all the cells are </font><code>0</code><font papago-translate="splitted">'s).</font></p>
 
-<p>We may perform an add land operation which turns the water at position into a land. You are given an array <code>positions</code> where <code>positions[i] = [r<sub>i</sub>, c<sub>i</sub>]</code> is the position <code>(r<sub>i</sub>, c<sub>i</sub>)</code> at which we should operate the <code>i<sup>th</sup></code> operation.</p>
+<p><font papago-translate="splitted">We may perform an add land operation which turns the water at position into a land. You are given an array </font><code>positions</code><font papago-translate="splitted"> where </font><code>positions[i] = [r<sub>i</sub>, c<sub>i</sub>]</code><font papago-translate="splitted"> is the position </font><code>(r<sub>i</sub>, c<sub>i</sub>)</code><font papago-translate="splitted"> at which we should operate the </font><code>i<sup>th</sup></code><font papago-translate="splitted"> operation.</font></p>
 
-<p>Return <em>an array of integers</em> <code>answer</code> <em>where</em> <code>answer[i]</code> <em>is the number of islands after turning the cell</em> <code>(r<sub>i</sub>, c<sub>i</sub>)</code> <em>into a land</em>.</p>
+<p> <code>answer</code> <font papago-translate="splitted"><em>where</em></font> <code>answer[i]</code> <font papago-translate="splitted"><em>is the number of islands after turning the cell</em></font> <code>(r<sub>i</sub>, c<sub>i</sub>)</code> </p>
 
 <p>An <strong>island</strong> is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.</p>
 
@@ -37,5 +37,5 @@ Initially, the 2d grid is filled with water.
 </ul>
 
 <p>&nbsp;</p>
-<p><strong>Follow up:</strong> Could you solve it in time complexity <code>O(k log(mn))</code>, where <code>k == positions.length</code>?</p>
+<p><font papago-translate="splitted"><strong>Follow up:</strong> Could you solve it in time complexity </font><code>O(k log(mn))</code><font papago-translate="splitted">, where </font><code>k == positions.length</code><font papago-translate="splitted">?</font></p>
 </div>
