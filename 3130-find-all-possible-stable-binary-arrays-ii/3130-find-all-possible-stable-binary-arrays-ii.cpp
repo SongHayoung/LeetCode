@@ -411,27 +411,19 @@ public:
         dqll osum(one+1), zsum(one+1);
         osum[1] = zsum[0] = o[0][1] = z[0][0] = 1;
         rep(i,1,zero + one) {
-            dqll nz = zsum;
-            nz.push_front(0);
-            nz.pop_back();
-            o.push_front(nz);
+            o.push_front(zsum);
             z.push_front(osum);
             osum.push_front(0);
             osum.pop_back();
-            rep(i,0,one+1) {
-                osum[i] = (osum[i] + o[0][i]) % mod;
-                zsum[i] = (zsum[i] + z[0][i]) % mod;
-            }
-
-            rep(i,1,sz(o)) {
+            
+            rep(i,0,sz(o)) {
                 o[i].push_front(0);
-            }
-            rep(x,0,one+1) {
-                osum[x] = (osum[x] - o[limit][x] + mod) % mod;
-                zsum[x] = (zsum[x] - z[limit][x] + mod) % mod;
-            }
-            rep(i,1,sz(o)) {
                 o[i].pop_back();
+            }
+            
+            rep(x,0,one+1) {
+                osum[x] = (osum[x] - o[limit][x] + o[0][x] + mod) % mod;
+                zsum[x] = (zsum[x] - z[limit][x] + z[0][x] + mod) % mod;
             }
             o.pop_back();
             z.pop_back();
@@ -441,3 +433,4 @@ public:
         return res;
     }
 };
+
