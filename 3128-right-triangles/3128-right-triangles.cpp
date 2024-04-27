@@ -406,30 +406,16 @@ ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 class Solution {
 public:
     long long numberOfRightTriangles(vector<vector<int>>& A) {
-        ll n = sz(A), m = sz(A[0]);
-        vvll row(n,vll(m)), col(n,vll(m));
+        ll n = sz(A), m = sz(A[0]), res = 0;
+        vll r(n), c(m);
         rep(i,0,n) rep(j,0,m) {
-            if(A[i][j]) row[i][j]++, col[i][j]++;
-            if(j) row[i][j] += row[i][j-1];
-            if(i) col[i][j] += col[i-1][j];
+            if(A[i][j]) r[i]++,c[j]++;
         }
-        ll res = 0;
-        auto c = [&](ll l, ll r, ll x) {
-            ll res = col[r][x];
-            if(l) res -= col[l-1][x];
-            return res;
-        };
-        auto r = [&](ll l, ll r, ll y) {
-            ll res = row[y][r];
-            if(l) res -= row[y][l-1];
-            return res;
-        };
         rep(i,0,n) rep(j,0,m) {
             if(!A[i][j]) continue;
-            ll u = c(0,i,j) - 1, d = c(i,n-1,j) - 1;
-            ll le = r(0,j,i) - 1, ri = r(j,m-1,i) - 1;
-            res += u * (le + ri) + d * (le + ri);
+            res += (r[i] - 1) * (c[j] - 1);
         }
         return res;
     }
 };
+
