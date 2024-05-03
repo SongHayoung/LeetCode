@@ -1,16 +1,19 @@
 class Solution {
 public:
     int findJudge(int n, vector<vector<int>>& trust) {
-        vector<int> adj(n+1,0), radj(n+1,0);
+        vector<int> adj(n);
+        int res = 0;
         for(auto& t : trust) {
-            radj[t[0]]++;
-            adj[t[1]]++;
+            int u = t[0] - 1, v = t[1] - 1;
+            if(adj[u] == n - 1) {
+                res ^= u;
+            }
+            adj[u] = -1;
+            if(adj[v] != -1) {
+                if(++adj[v] == n - 1) res ^= v;
+            }
         }
-        for(int i = 1; i <= n; i++) {
-            if(!radj[i] and adj[i] == n - 1)
-                return i;
-        }
-        
+        if(adj[res] == n - 1) return res + 1;
         return -1;
     }
 };
