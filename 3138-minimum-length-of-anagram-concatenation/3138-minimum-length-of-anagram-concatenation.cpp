@@ -25,8 +25,8 @@ using ull = unsigned long long;
 const ld PI = acosl(-1.0);  /* pi */
 const ll INF = 1e18;
 const ld EPS = 1e-9;
-const ll MAX_N = 101010;
-const ll mod = 1e9 + 7;
+const ll MAX_N = 1010101;
+const ll mod = 1e9+7;
 
 // typedef
 typedef pair<int,int> pii;
@@ -76,8 +76,8 @@ typedef unordered_map<pll, ll, PairHash> umpll;
 #define BITSHIFT(a,i,n) (((a<<i) & ((1ll<<n) - 1)) | (a>>(n-i)))
 #define MAXBIT(a) (64ll - __builtin_clzll(a) - 1ll)
 #define MINBIT(a) (__builtin_ctzll(a))
-#define pyes cout<<"Yes\n";
-#define pno cout<<"No\n";
+#define pyes cout<<"YES\n";
+#define pno cout<<"NO\n";
 #define endl "\n"
 #define pneg1 cout<<"-1\n";
 #define ppossible cout<<"possible\n";
@@ -402,17 +402,26 @@ ll __lcm(ll x, ll y) { return x / __gcd(x,y) * y; }
 ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-2,MOD);}n%=MOD;ll res=1;while(x){if(x&1){res=res*n%MOD;}n=n*n%MOD;x>>=1;}return res;}
 ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
-
 class Solution {
+    bool ok(string& s, ll k) {
+        umll freq;
+        rep(i,0,k) freq[s[i]]++;
+        for(ll i = 0; i < sz(s); i += k) {
+            umll now;
+            for(ll j = 0; j < k; j++) now[s[i+j]]++;
+            if(freq != now) return false;
+        }
+        return true;
+    }
 public:
     int minAnagramLength(string s) {
-        unordered_map<char,ll> freq;
-        for(auto& ch : s) {
-            freq[ch]++;
+        ll res = INF;
+        for(ll i = 1; i * i <= sz(s); i++) {
+            if(sz(s) % i) continue;
+            usll us{i,sz(s) / i};
+            for(auto& x : us) if(ok(s,x)) res = min(res, x);
         }
-        ll g = 0, res = 0;
-        for(auto& [k,v] : freq) g = __gcd(g,v);
-        for(auto& [_,v] : freq) res += v / g;
         return res;
     }
 };
+
