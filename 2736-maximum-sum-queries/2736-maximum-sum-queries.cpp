@@ -9,7 +9,7 @@
 
 using namespace std;
 
-struct PairHash {inline std::size_t operator()(const std::pair<int, int> &v) const { return v.first * 31 + v.second; }};
+struct PairHash {inline std::size_t operator()(const std::pair<long long, long long> &v) const { return v.first * 31ll + v.second; }};
 
 // speed
 #define Code ios_base::sync_with_stdio(false);
@@ -24,9 +24,9 @@ using ull = unsigned long long;
 // constants
 const ld PI = acosl(-1.0);  /* pi */
 const ll INF = 1e18;
-const ld EPS = 1e-6;
-const ll MAX_N = 101010;
-const ll mod = 1e9 + 7;
+const ld EPS = 1e-9;
+const ll MAX_N = 1010101;
+const ll mod = 1e9+7;
 
 // typedef
 typedef pair<int,int> pii;
@@ -46,6 +46,7 @@ typedef vector<ll> vll;
 typedef vector<ull> vull;
 typedef vector<vll> vvll;
 typedef vector<int> vi;
+typedef vector<vi> vvi;
 typedef vector<bool> vb;
 typedef deque<ll> dqll;
 typedef deque<pll> dqpll;
@@ -64,23 +65,122 @@ typedef unordered_map<pll, ll, PairHash> umpll;
 #define rrep(i,m,n) for(ll i=n;i>=m;i--)
 #define all(a) begin(a), end(a)
 #define rall(a) rbegin(a), rend(a)
+#define uniq(a) sort(all(a)), a.erase(unique(all(a)),end(a))
 #define ZERO(a) memset(a,0,sizeof(a))
 #define MINUS(a) memset(a,0xff,sizeof(a))
 #define INF(a) memset(a,0x3f3f3f3f3f3f3f3fLL,sizeof(a))
+#define NEGINF(a) memset(a,0xcf,sizeof(a))
 #define ASCEND(a) iota(all(a),0)
 #define sz(x) ll((x).size())
 #define BIT(a,i) ((a>>i)&1)
 #define BITSHIFT(a,i,n) (((a<<i) & ((1ll<<n) - 1)) | (a>>(n-i)))
 #define MAXBIT(a) (64ll - __builtin_clzll(a) - 1ll)
+#define MINBIT(a) (__builtin_ctzll(a))
 #define pyes cout<<"YES\n";
 #define pno cout<<"NO\n";
 #define endl "\n"
 #define pneg1 cout<<"-1\n";
-#define ppossible cout<<"Possible\n";
-#define pimpossible cout<<"Impossible\n";
+#define ppossible cout<<"possible\n";
+#define pimpossible cout<<"impossible\n";
 #define TC(x) cout<<"Case #"<<x<<": ";
 #define X first
 #define Y second
+
+// debug
+void __print(int x) { cerr << x; }
+void __print(long x) { cerr << x; }
+void __print(long long x) { cerr << x; }
+void __print(unsigned x) { cerr << x; }
+void __print(unsigned long x) { cerr << x; }
+void __print(unsigned long long x) { cerr << x; }
+void __print(float x) { cerr << x; }
+void __print(double x) { cerr << x; }
+void __print(long double x) { cerr << x; }
+void __print(char x) { cerr << '\'' << x << '\''; }
+void __print(const char *x) { cerr << '\"' << x << '\"'; }
+void __print(const string &x) { cerr << '\"' << x << '\"'; }
+void __print(bool x) { cerr << (x ? "true" : "false"); }
+template <typename A>
+void __print(const A &x);
+template <typename A, typename B>
+void __print(const pair<A, B> &p);
+template <typename... A>
+void __print(const tuple<A...> &t);
+template <typename T>
+void __print(stack<T> s);
+template <typename T>
+void __print(queue<T> q);
+template <typename T, typename... U>
+void __print(priority_queue<T, U...> q);
+template <typename A>
+void __print(const A &x) {
+    bool first = true;
+    cerr << '{';
+    for (const auto &i : x) {
+        cerr << (first ? "" : ","), __print(i);
+        first = false;
+    }
+    cerr << '}';
+}
+template <typename A, typename B>
+void __print(const pair<A, B> &p) {
+    cerr << '(';
+    __print(p.first);
+    cerr << ',';
+    __print(p.second);
+    cerr << ')';
+}
+template <typename... A>
+void __print(const tuple<A...> &t) {
+    bool first = true;
+    cerr << '(';
+    apply([&first](const auto &...args) { ((cerr << (first ? "" : ","), __print(args), first = false), ...); }, t);
+    cerr << ')';
+}
+template <typename T>
+void __print(stack<T> s) {
+    vector<T> debugVector;
+    while (!s.empty()) {
+        T t = s.top();
+        debugVector.push_back(t);
+        s.pop();
+    }
+    reverse(debugVector.begin(), debugVector.end());
+    __print(debugVector);
+}
+template <typename T>
+void __print(queue<T> q) {
+    vector<T> debugVector;
+    while (!q.empty()) {
+        T t = q.front();
+        debugVector.push_back(t);
+        q.pop();
+    }
+    __print(debugVector);
+}
+template <typename T, typename... U>
+void __print(priority_queue<T, U...> q) {
+    vector<T> debugVector;
+    while (!q.empty()) {
+        T t = q.top();
+        debugVector.push_back(t);
+        q.pop();
+    }
+    __print(debugVector);
+}
+void _print() { cerr << "]\n"; }
+template <typename Head, typename... Tail>
+void _print(const Head &H, const Tail &...T) {
+    __print(H);
+    if (sizeof...(T))
+        cerr << ", ";
+    _print(T...);
+}
+#ifndef ONLINE_JUDGE
+#define debug(...) cerr << "Line:" << __LINE__ << " [" << #__VA_ARGS__ << "] = ["; _print(__VA_ARGS__);
+#else
+#define debug(...)
+#endif
 
 // utility functions
 template <typename T>
@@ -91,20 +191,23 @@ template<typename T>
 void printvv(vector<vector<T>>v){ll n=v.size();rep(i,0,n)printv(v[i]);}
 template<typename T>
 void printvln(vector<T>v){ll n=v.size();rep(i,0,n)cout<<v[i]<<endl;}
-void fileIO(string in = "input.txt", string out = "output.txt") {freopen(in.c_str(),"r",stdin); freopen(out.c_str(),"w",stdout);}
+void fileIO(string in = "input.txt", string out = "output.txt") {freopen(in.c_str(),"ma",stdin); freopen(out.c_str(),"w",stdout);}
+void hackercupIO(string in) {fileIO("/Users/hayoungsong/Downloads/" + in, "/Users/hayoungsong/Downloads/solution.txt");}
 void readf() {freopen("", "rt", stdin);}
 template <typename... T>
 void in(T &...a) { ((cin >> a), ...); }
 template<typename T>
-void readv(vector<T>& v){rep(i,0,sz(v)) in(v[i]);}
-template<typename T, typename U>
-void readp(pair<T,U>& A) {cin>>A.first>>A.second;}
-template<typename T, typename U>
-void readvp(vector<pair<T,U>>& A) {rep(i,0,sz(A)) readp(A[i]); }
+void in(vector<T>& v){rep(i,0,sz(v)) in(v[i]);}
 template<typename T>
-void readvall(vector<T>& v) {rep(i,0,sz(v)) rep(j,0,sz(v[i])) in(v[i][j]);}
+void in(deque<T>& v){rep(i,0,sz(v)) in(v[i]);}
+template<typename T, typename U>
+void in(pair<T,U>& A) {in(A.first, A.second);}
+template<typename T, typename U>
+void in(vector<pair<T,U>>& A) {rep(i,0,sz(A)) in(A[i]); }
+template<typename T, std::size_t N>
+void in(vector<array<T,N>>& A) {rep(i,0,sz(A)) rep(j,0,sz(A[i])) in(A[i][j]); }
 template<typename T>
-void readvv(vector<vector<T>>& A) {rep(i,0,sz(A)) readv(A[i]);}
+void in(vector<vector<T>>& A) {rep(i,0,sz(A)) in(A[i]);}
 
 struct Combination {
     vll fac, inv;
@@ -132,10 +235,11 @@ struct Matrix {
     Matrix(ll r, ll c, ll v = 0, ll MOD = mod): r(r), c(c), matrix(vvll(r,vll(c,v))), MOD(MOD) {}
     Matrix(vvll m, ll MOD = mod) : r(sz(m)), c(sz(m[0])), matrix(m), MOD(MOD) {}
 
+    vector<ll>& operator[](ll pos) {return matrix[pos];}
     Matrix operator*(const Matrix& B) const {
         Matrix res(r, B.c, 0,MOD);
         rep(i,0,r) rep(j,0,B.c) rep(k,0,B.r) {
-                    res.matrix[i][j] = (res.matrix[i][j] + matrix[i][k] * B.matrix[k][j] % MOD) % MOD;
+                    res[i][j] = (res[i][j] + matrix[i][k] * B.matrix[k][j] % MOD) % MOD;
                 }
         return res;
     }
@@ -146,15 +250,12 @@ struct Matrix {
         return copy;
     }
 
-    ll get(ll y, ll x) {
-        return matrix[y][x];
-    }
 
     Matrix pow(ll n) {
         assert(r == c);
         Matrix res(r,r, 0,MOD);
         Matrix now = copy();
-        rep(i,0,r) res.matrix[i][i] = 1;
+        rep(i,0,r) res[i][i] = 1;
         while(n) {
             if(n & 1) res = res * now;
             now = now * now;
@@ -171,7 +272,7 @@ struct Matrix {
             Matrix mat(c-1,c-1);
             rep(i,1,r) rep(j,0,c) {
                     if(j == p) continue;
-                    mat.matrix[i][j - (j >= p)] = matrix[i][j];
+                    mat[i][j - (j >= p)] = matrix[i][j];
                 }
             res += matrix[0][p] * (p & 1 ? -1 : 1) * mat.det();
         }
@@ -193,6 +294,7 @@ struct Point {
     Point<T> operator*(ll n) {return Point<T>(y*n,x*n); }
     Point<T> operator/(ll n) {return Point<T>(y/n,x/n); }
     bool operator==(const Point<T> &a) {return x == a.x && y == a.y;}
+    bool operator!=(const Point<T> &a) {return x != a.x or y != a.y;}
     bool operator<(const Point &other) const {if (x == other.x) return y < other.y;return x < other.x;}
     Point<T> rotate(Point<T> center, ld angle) {
         ld si = sin(angle * PI / 180.), co = cos(angle * PI / 180.);
@@ -229,6 +331,10 @@ struct Line {
         return res;
     }
 
+    bool on(Point<T> x) {
+        return ccw(A,x,B) == 0;
+    }
+
     bool isIntersect(Line<T> o) {
         T p1p2 = ccw(A,B,o.A) * ccw(A,B,o.B);
         T p3p4 = ccw(o.A,o.B,A) * ccw(o.A,o.B,B);
@@ -253,8 +359,8 @@ struct Line {
     pair<ld, ld> formula() {
         T y1 = A.y, y2 = B.y;
         T x1 = A.x, x2 = B.x;
-        if(y1 == y2) return {1e9, 0};
-        if(x1 == x2) return {0, 1e9};
+        if(y1 == y2) return {0, (ld)y1};
+        if(x1 == x2) return {INF, (ld)x1};
         ld a = 1. * (y2 - y1) / (x2 - x1);
         ld b = -x1 * a + y1;
         return {a, b};
@@ -293,87 +399,58 @@ struct Circle {
 ll __gcd(ll x, ll y) { return !y ? x : __gcd(y, x % y); }
 all3 __exgcd(ll x, ll y) { if(!y) return {x,1,0}; auto [g,x1,y1] = __exgcd(y, x % y); return {g, y1, x1 - (x/y) * y1}; }
 ll __lcm(ll x, ll y) { return x / __gcd(x,y) * y; }
-ll modpow(ll n, ll x, ll MOD = mod) { if(x < 0) return modpow(modpow(n,-x,MOD), MOD-2,MOD); n%=MOD; if(!x) return 1; ll res = modpow(n,x>>1,MOD); res = (res * res) % MOD; if(x&1) res = (res * n) % MOD; return res; }
-
-
-
+ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-2,MOD);}n%=MOD;ll res=1;while(x){if(x&1){res=res*n%MOD;}n=n*n%MOD;x>>=1;}return res;}
+ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
+ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
 struct Seg {
-    ll mi, ma, val;
-    Seg* left, *right;
-    Seg(vpll& A, ll l, ll r) : mi(A[l].first), ma(A[r].first), val(-1) {
-        if(l != r) {
+    ll mi,ma,val;
+    Seg *left, *right;
+    Seg(vll& A, ll l, ll r) : mi(A[l]), ma(A[r]), val(-1), left(nullptr), right(nullptr) {
+        if(l^r) {
             ll m = l + (r - l) / 2;
             left = new Seg(A,l,m);
             right = new Seg(A,m+1,r);
-            val = max(left->val, right->val);
-        } else val = A[l].second;
-    }
-    void update(ll n, ll k) {
-        if(mi <= n and n <= ma) {
-            if(mi ^ ma) {
-                left->update(n,k);
-                right->update(n,k);
-                val = max(left->val, right->val);
-            } else val = k;
         }
     }
-    ll query(ll n) {
-        if(mi >= n) return val;
-        if(ma < n) return -1;
-        if(!left and !right) return -1;
-        return max(left->query(n), right->query(n));
+    ll query(ll x) {
+        if(mi >= x) return val;
+        if(ma < x) return -1;
+        return max(left->query(x), right->query(x));
+    }
+    void update(ll n, ll x) {
+        if(mi <= n and n <= ma) {
+            val = max(val, x);
+            if(left) left->update(n,x);
+            if(right) right->update(n,x);
+        }
     }
 };
 class Solution {
 public:
     vector<int> maximumSumQueries(vector<int>& nums1, vector<int>& nums2, vector<vector<int>>& queries) {
-        vpll S;
-        unordered_map<ll,pll> mp;
-        umll rmp;
-        rep(i,0,sz(nums2)) {
-            ll sum = nums1[i] + nums2[i];
-            if(mp[nums2[i]].first < sum) {
-                mp[nums2[i]] = {sum, i};
-            }
-        }
-        for(auto [k,v] : mp) {
-            S.push_back({k,v.first});
-            rmp[v.second] = k;
-        }
-        sort(all(S));
-        Seg* seg = new Seg(S,0,sz(S) - 1);
         vall3 Q;
+        vll S(all(nums2));
         rep(i,0,sz(queries)) {
             Q.push_back({queries[i][0], queries[i][1], i});
         }
-        vpll n1s;
-        rep(i,0,sz(nums1)) n1s.push_back({nums1[i], i});
-        sort(rall(n1s));
         sort(all(Q));
-        vector<int> res(sz(Q));
-        rep(i,0,sz(Q)) {
-            auto [l,r,idx] = Q[i];
-            while(sz(n1s) and n1s.back().first < l) {
-                auto [_,pos] = n1s.back(); n1s.pop_back();
-                if(rmp.count(pos)) seg->update(rmp[pos], -1);
+        uniq(S);
+        Seg* seg = new Seg(S,0,sz(S) - 1);
+        vpll SS;
+        rep(i,0,sz(nums1)) {
+            SS.push_back({nums1[i], nums2[i]});
+        }
+        sort(all(SS));
+        vi res(sz(Q));
+        while(sz(Q)) {
+            auto [x,y,idx] = Q.back(); Q.pop_back();
+            while(sz(SS) and SS.back().first >= x) {
+                auto [a,b] = SS.back(); SS.pop_back();
+                seg->update(b,a+b);
             }
-            res[idx] = seg->query(r);
+            res[idx] = seg->query(y);
         }
         return res;
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
