@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/">3071. Minimum Operations to Write the Letter Y on a Grid</a></h2><h3>Medium</h3><hr><div><p>You are given a <strong>0-indexed</strong> <code>n x n</code> grid where <code>n</code> is odd, and <code>grid[r][c]</code> is <code>0</code>, <code>1</code>, or <code>2</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/">3071. Minimum Operations to Write the Letter Y on a Grid</a></h2><h3>Medium</h3><hr><div><p> <code>n x n</code><font papago-translate="splitted"> grid where </font><code>n</code><font papago-translate="splitted"> is odd, and </font><code>grid[r][c]</code><font papago-translate="splitted"> is </font><code>0</code><font papago-translate="splitted">, </font><code>1</code><font papago-translate="splitted">, or </font><code>2</code><font papago-translate="splitted">.</font></p>
 
 <p>We say that a cell belongs to the Letter <strong>Y</strong> if it belongs to one of the following:</p>
 
@@ -16,7 +16,7 @@
 	<li>The values at cells belonging to the Y are different from the values at cells not belonging to the Y.</li>
 </ul>
 
-<p>Return <em>the <strong>minimum</strong> number of operations needed to write the letter Y on the grid given that in one operation you can change the value at any cell to</em> <code>0</code><em>,</em> <code>1</code><em>,</em> <em>or</em> <code>2</code><em>.</em></p>
+<p> <code>0</code><font papago-translate="splitted"><em>,</em></font> <code>1</code> <font papago-translate="splitted"><em>,</em><em>or</em></font> <code>2</code><font papago-translate="splitted"><em>.</em></font></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -41,6 +41,6 @@ It can be shown that 12 is the minimum number of operations needed to write Y on
 	<li><code>3 &lt;= n &lt;= 49 </code></li>
 	<li><code>n == grid.length == grid[i].length</code></li>
 	<li><code>0 &lt;= grid[i][j] &lt;= 2</code></li>
-	<li><code>n</code> is odd.</li>
+	<li><code>n</code><font papago-translate="splitted"> is odd.</font></li>
 </ul>
 </div>
