@@ -18,7 +18,7 @@
 </ul>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2022/08/16/treedrawio.png" style="width: 271px; height: 221px;">
 <pre><strong>Input:</strong> edges = [[-1,-1],[0,5],[0,10],[2,6],[2,4]]
 <strong>Output:</strong> 11
@@ -27,7 +27,7 @@ The total score is 5 + 6 = 11.
 It can be shown that no better score can be obtained.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2022/08/17/treee1293712983719827.png" style="width: 221px; height: 181px;">
 <pre><strong>Input:</strong> edges = [[-1,-1],[0,5],[0,-6],[0,7]]
 <strong>Output:</strong> 7
