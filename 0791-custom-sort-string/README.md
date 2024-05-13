@@ -5,7 +5,7 @@
 <p>Return <em>any permutation of </em><code>s</code><em> that satisfies this property</em>.</p>
 
 <p>&nbsp;</p>
-<p><strong class="example">Example 1: </strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 <p><strong>Input: </strong> <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> order = "cba", s = "abcd" </span></p>
@@ -17,7 +17,7 @@
 <p>Since <code>"d"</code> does not appear in <code>order</code>, it can be at any position in the returned string. <code>"dcba"</code>, <code>"cdba"</code>, <code>"cbda"</code> are also valid outputs.</p>
 </div>
 
-<p><strong class="example">Example 2: </strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <div class="example-block" style="border-color: var(--border-tertiary); border-left-width: 2px; color: var(--text-secondary); font-size: .875rem; margin-bottom: 1rem; margin-top: 1rem; overflow: visible; padding-left: 1rem;">
 <p><strong>Input: </strong> <span class="example-io" style="font-family: Menlo,sans-serif; font-size: 0.85rem;"> order = "bcafg", s = "abcd" </span></p>
