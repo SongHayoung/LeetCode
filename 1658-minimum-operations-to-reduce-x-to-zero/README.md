@@ -1,6 +1,6 @@
-<h2><a href="https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/">1658. Minimum Operations to Reduce X to Zero</a></h2><h3>Medium</h3><hr><div><p>You are given an integer array <code>nums</code> and an integer <code>x</code>. In one operation, you can either remove the leftmost or the rightmost element from the array <code>nums</code> and subtract its value from <code>x</code>. Note that this <strong>modifies</strong> the array for future operations.</p>
+<h2><a href="https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/">1658. Minimum Operations to Reduce X to Zero</a></h2><h3>Medium</h3><hr><div><p><font papago-translate="splitted">You are given an integer array </font><code>nums</code><font papago-translate="splitted"> and an integer </font><code>x</code><font papago-translate="splitted">. In one operation, you can either remove the leftmost or the rightmost element from the array </font><code>nums</code><font papago-translate="splitted"> and subtract its value from </font><code>x</code></p>
 
-<p>Return <em>the <strong>minimum number</strong> of operations to reduce </em><code>x</code> <em>to <strong>exactly</strong></em> <code>0</code> <em>if it is possible</em><em>, otherwise, return </em><code>-1</code>.</p>
+<p><code>x</code> <font papago-translate="splitted"><em>to <strong>exactly</strong></em></font> <code>0</code> <font papago-translate="splitted"><em>if it is possible</em><em>, otherwise, return </em></font><code>-1</code><font papago-translate="splitted">.</font></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
