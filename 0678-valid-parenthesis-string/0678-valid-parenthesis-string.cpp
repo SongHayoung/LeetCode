@@ -13,18 +13,16 @@ public:
                 else return false;
             }
         }
-        reverse(begin(o), end(o));
-        reverse(begin(s), end(s));
         int cnt = 0;
         while(o.size()) {
-            int mi = o.back();
-            if(s.size()) mi = min(mi, s.back());
-            if(o.back() == mi) cnt++, o.pop_back();
-            else {
-                if(cnt) cnt--;
+            while(s.size() and s.back() > o.back()) {
                 s.pop_back();
+                cnt++;
             }
+            if(!cnt) return false;
+            cnt--;
+            o.pop_back();
         }
-        return cnt <= s.size();
+        return true;
     }
 };
