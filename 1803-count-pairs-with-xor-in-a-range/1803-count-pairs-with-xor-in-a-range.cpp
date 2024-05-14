@@ -1,48 +1,38 @@
-struct Trie{
-    Trie* next[2];
-    int count = 0;
-    Trie() {
-        memset(next,0,sizeof(next));
+bool bits(int x, int p) {
+    return (x>>p) & 1;
+}
+struct Trie {
+    Trie* t[2];
+    int cnt = 0;
+    Trie(): cnt(0) {
+        memset(t, 0, sizeof t);
     }
-    void insert(int n, int bi = 15) {
-        count++;
-        if(bi < 0) return;
-        
-        bool mask = n & (1<<bi);
-        if(!next[mask]) next[mask] = new Trie();
-        next[mask]->insert(n, bi - 1);
-    }
-    
-    int query(int n, int k, int bi = 15) {
-        if(bi < 0) return 0;
-        bool nbi = n & (1<<bi), kbi = k & (1<<bi);
+    int query(int l, int r, int mask, int bit, int x) {
+        int mi = mask, ma = mask ^ (((1ll<<(bit + 1)) - 1));
+        if(l <= mi and ma <= r) return cnt;
+        if(mi > r) return 0;
+        if(ma < l) return 0;
         int res = 0;
-        if(kbi) {
-            if(nbi) {
-                res += (next[1] ? next[1]->count : 0);
-                res += (next[0] ? next[0]->query(n,k,bi-1) : 0);
-            } else {
-                res += (next[0] ? next[0]->count : 0);
-                res += (next[1] ? next[1]->query(n,k,bi-1) : 0);
-            }
-        } else {
-            if(nbi) {
-                res += (next[1] ? next[1]->query(n,k,bi-1) : 0);
-            } else {
-                res += (next[0] ? next[0]->query(n,k,bi-1) : 0);
-            }
-        }
+        int b = bits(x,bit);
+        if(t[0]) res += t[0]->query(l,r,mask ^ (b<<bit),bit-1,x);
+        if(t[1]) res += t[1]->query(l,r,mask ^ ((!b)<<bit), bit-1,x);
         return res;
+    }
+    void insert(int x, int p = 20) {
+        cnt++;
+        if(p == -1) return;
+        if(!t[bits(x,p)]) t[bits(x,p)] = new Trie();
+        t[bits(x,p)]->insert(x,p-1);
     }
 };
 class Solution {
 public:
-    int countPairs(vector<int>& A, int low, int high) {
+    int countPairs(vector<int>& nums, int low, int high) {
+        Trie* t = new Trie();
         int res = 0;
-        Trie* trie = new Trie();
-        for(auto& a : A) {
-            res += trie->query(a, high + 1) - trie->query(a, low);
-            trie->insert(a);
+        for(auto& x : nums) {
+            res += t->query(low,high,0,20,x);
+            t->insert(x);
         }
         return res;
     }
