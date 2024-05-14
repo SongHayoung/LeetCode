@@ -7,7 +7,7 @@
 <p>Return <em>the latest step at which there exists a group of ones of length <strong>exactly</strong></em> <code>m</code>. <em>If no such group exists, return</em> <code>-1</code>.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> arr = [3,5,1,2,4], m = 1
 <strong>Output:</strong> 4
@@ -20,7 +20,7 @@ Step 5: "111<u>1</u>1", groups: ["11111"]
 The latest step at which there exists a group of size 1 is step 4.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> arr = [3,1,5,4,2], m = 2
 <strong>Output:</strong> -1
