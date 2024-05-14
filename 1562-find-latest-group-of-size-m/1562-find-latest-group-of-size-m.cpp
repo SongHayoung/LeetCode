@@ -1,16 +1,36 @@
 class Solution {
+    map<int, int> r;
+    multiset<int> ms;
+    void merge(int x) {
+        r[x] = x;
+        ms.insert(1);
+        {
+            auto it = r.lower_bound(x);
+            if(it != begin(r)) {
+                --it;
+                if(it->second + 1 == x) x = it->first;
+            }
+        }
+        auto rm = [&](int len) {
+            ms.erase(ms.find(len));
+        };
+        while(r.count(r[x] + 1)) {
+            int y = r[r[x] + 1];
+            rm(y - (r[x] + 1) + 1);
+            rm(r[x] - x + 1);
+            r.erase(r[x] + 1);
+            r[x] = y;
+            ms.insert(y - x + 1);
+        }
+    }
 public:
     int findLatestStep(vector<int>& arr, int m) {
-        int n = arr.size(), res = -1;
-        vector<int> merge(n + 2), count(n + 1);
-        for(int i = 0; i < n; i++) {
-            int a = arr[i], left = merge[a-1], right = merge[a+1];
-            merge[a] = merge[a-left] = merge[a+right] = right + left + 1;
-            count[left]--;
-            count[right]--;
-            count[merge[a]]++;
-            if(count[m])
-                res = i + 1;
+        int res = -1;
+        r = {};
+        ms = {};
+        for(int i = 0; i < arr.size(); i++) {
+            merge(arr[i]);
+            if(ms.count(m)) res = i + 1;
         }
         return res;
     }
