@@ -417,8 +417,8 @@ public:
         while(k) {
             ll x = freq.back(), cnt = 0;
             while(sz(freq) and freq.back() == x) freq.pop_back(), cnt++;
-            res = res * comb.nCr(cnt, min(1ll * k,cnt)) % mod * modpow(x, min(1ll * k, cnt)) % mod;
             ll mi = min(1ll * k,cnt);
+            res = res * comb.nCr(cnt, mi) % mod * modpow(x, mi) % mod;
             k -= mi;
         }
         return res;
