@@ -6,10 +6,9 @@
 class Solution {
 public:
     int findNumber() {
-        int res = 0, bit = 1;
-        for(int i = 0; i < 32; i++) {
-            if(commonSetBits(bit)) res |= bit;
-            bit<<=1;
+        int cnt = commonSetBits((1<<30) - 1), res = 0;
+        for(int i = 0; i < 30; i++) {
+            if(cnt != commonSetBits(((1<<30) - 1) ^ (1<<i))) res ^= 1<<i;
         }
         return res;
     }
