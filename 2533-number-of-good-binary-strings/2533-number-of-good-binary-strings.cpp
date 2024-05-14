@@ -1,14 +1,18 @@
 class Solution {
 public:
     int goodBinaryStrings(int minLength, int maxLength, int oneGroup, int zeroGroup) {
-        long long res = 0, mod = 1e9 + 7;
-        vector<long long> dp1(maxLength + 1), dp2(maxLength + 1);
-        dp1[oneGroup] = dp2[zeroGroup] = 1;
-        for(int i = 1; i <= maxLength; i++) {
-            int l1 = i - oneGroup, l2 = i - zeroGroup;
-            if(l1 >= 0) dp1[i] = (dp1[i] + dp1[l1] + dp2[l1]) % mod;
-            if(l2 >= 0) dp2[i] = (dp2[i] + dp1[l2] + dp2[l2]) % mod;
-            if(i >= minLength) res = (res + dp1[i] + dp2[i]) % mod;
+        vector<long long> dp(maxLength + 1);
+        dp[0] = 1;
+        long long mod = 1e9 + 7, res = 0;
+        for(int i = 0; i < dp.size(); i++) {
+            if(!dp[i]) continue;
+            if(i >= minLength) res = (res + dp[i]) % mod;
+            if(i + oneGroup <= maxLength) {
+                dp[i+oneGroup] = (dp[i+oneGroup] + dp[i]) % mod;
+            }
+            if(i + zeroGroup <= maxLength) {
+                dp[i+zeroGroup] = (dp[i+zeroGroup] + dp[i]) % mod;
+            }
         }
         return res;
     }
