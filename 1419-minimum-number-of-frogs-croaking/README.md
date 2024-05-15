@@ -5,14 +5,14 @@
 <p>A valid <code>"croak"</code> means a frog is printing five letters <code>'c'</code>, <code>'r'</code>, <code>'o'</code>, <code>'a'</code>, and <code>'k'</code> <strong>sequentially</strong>. The frogs have to print all five letters to finish a croak. If the given string is not a combination of a valid <code>"croak"</code> return <code>-1</code>.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> croakOfFrogs = "croakcroak"
 <strong>Output:</strong> 1 
 <strong>Explanation:</strong> One frog yelling "croak<strong>"</strong> twice.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> croakOfFrogs = "crcoakroak"
 <strong>Output:</strong> 2 
@@ -21,7 +21,7 @@ The first frog could yell "<strong>cr</strong>c<strong>oak</strong>roak".
 The second frog could yell later "cr<strong>c</strong>oak<strong>roak</strong>".
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre><strong>Input:</strong> croakOfFrogs = "croakcrook"
 <strong>Output:</strong> -1
