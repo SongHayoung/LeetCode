@@ -1,12 +1,12 @@
-<h2><a href="https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable/">2858. Minimum Edge Reversals So Every Node Is Reachable</a></h2><h3>Hard</h3><hr><div><p>There is a <strong>simple directed graph</strong> with <code>n</code> nodes labeled from <code>0</code> to <code>n - 1</code>. The graph would form a <strong>tree</strong> if its edges were bi-directional.</p>
+<h2><a href="https://leetcode.com/problems/minimum-edge-reversals-so-every-node-is-reachable/">2858. Minimum Edge Reversals So Every Node Is Reachable</a></h2><h3>Hard</h3><hr><div><p><code>n</code><font papago-translate="splitted"> nodes labeled from </font><code>0</code><font papago-translate="splitted"> to </font><code>n - 1</code></p>
 
-<p>You are given an integer <code>n</code> and a <strong>2D</strong> integer array <code>edges</code>, where <code>edges[i] = [u<sub>i</sub>, v<sub>i</sub>]</code> represents a <strong>directed edge</strong> going from node <code>u<sub>i</sub></code> to node <code>v<sub>i</sub></code>.</p>
+<p><font papago-translate="splitted">You are given an integer </font><code>n</code><code>edges</code><font papago-translate="splitted">, where </font><code>edges[i] = [u<sub>i</sub>, v<sub>i</sub>]</code><code>u<sub>i</sub></code><font papago-translate="splitted"> to node </font><code>v<sub>i</sub></code><font papago-translate="splitted">.</font></p>
 
-<p>An <strong>edge reversal</strong> changes the direction of an edge, i.e., a directed edge going from node <code>u<sub>i</sub></code> to node <code>v<sub>i</sub></code> becomes a directed edge going from node <code>v<sub>i</sub></code> to node <code>u<sub>i</sub></code>.</p>
+<p><code>u<sub>i</sub></code><font papago-translate="splitted"> to node </font><code>v<sub>i</sub></code><font papago-translate="splitted"> becomes a directed edge going from node </font><code>v<sub>i</sub></code><font papago-translate="splitted"> to node </font><code>u<sub>i</sub></code><font papago-translate="splitted">.</font></p>
 
-<p>For every node <code>i</code> in the range <code>[0, n - 1]</code>, your task is to <strong>independently</strong> calculate the <strong>minimum</strong> number of <strong>edge reversals</strong> required so it is possible to reach any other node starting from node <code>i</code> through a <strong>sequence</strong> of <strong>directed edges</strong>.</p>
+<p><font papago-translate="splitted">For every node </font><code>i</code><font papago-translate="splitted"> in the range </font><code>[0, n - 1]</code><code>i</code></p>
 
-<p>Return <em>an integer array </em><code>answer</code><em>, where </em><code>answer[i]</code><em> is the</em><em> </em> <em><strong>minimum</strong> number of <strong>edge reversals</strong> required so it is possible to reach any other node starting from node </em><code>i</code><em> through a <strong>sequence</strong> of <strong>directed edges</strong>.</em></p>
+<p><code>answer</code><font papago-translate="splitted"><em>, where </em></font><code>answer[i]</code> <font papago-translate="splitted"><em> is the</em><em> </em><em><strong>minimum</strong> number of <strong>edge reversals</strong> required so it is possible to reach any other node starting from node </em></font><code>i</code><font papago-translate="splitted"><em> through a <strong>sequence</strong> of <strong>directed edges</strong>.</em></font></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
