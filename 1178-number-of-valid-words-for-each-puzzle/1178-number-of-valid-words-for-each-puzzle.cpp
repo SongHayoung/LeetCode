@@ -16,7 +16,6 @@ public:
         memset(cnt,0,sizeof cnt);
         for(auto& w : words) {
             int x = bits(w);
-            if(w == "asas") cout<<x<<endl;
             cnt[x]++;
         }
         vector<int> res;
