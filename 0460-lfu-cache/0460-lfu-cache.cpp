@@ -1,48 +1,48 @@
 class LFUCache {
-    int cap,lo;
-    unordered_map<int,pair<int, int>> cache;
-    unordered_map<int, list<int>> ord;
-    unordered_map<int, list<int>::iterator> it;
+    unordered_map<int, pair<int,int>> vmp;
+    unordered_map<int, list<int>::iterator> imp;
+    unordered_map<int, list<int>> mp;
+    int c,lo;
 public:
-    LFUCache(int capacity): cap(capacity), lo(0) {}
-
-    void incr(int key) {
-        ord[cache[key].second].erase(it[key]);
-        if(ord[cache[key].second].size() == 0) {
-            ord.erase(cache[key].second);
-            if(lo == cache[key].second) lo++;
+    LFUCache(int capacity): c(capacity), lo(1) {}
+    void promote(int key) {
+        int freq = vmp[key].first;
+        {
+            mp[freq].erase(imp[key]);
+            imp.erase(key);
+            if(lo == freq and mp[lo].size() == 0) lo++;
+            if(mp[lo].size() == 0) mp.erase(lo);
         }
-
-        cache[key].second++;
-        ord[cache[key].second].push_front(key);
-        it[key] = begin(ord[cache[key].second]);
+        
+        vmp[key].first++;
+        mp[freq+1].push_front(key);
+        imp[key] = begin(mp[freq+1]);
+        
     }
-
+    void expire() {
+        int x = mp[lo].back(); mp[lo].pop_back();
+        imp.erase(x);
+        vmp.erase(x);
+        if(mp[lo].size() == 0) mp.erase(lo);
+    }
     int get(int key) {
-        if(!cache.count(key)) return -1;
-        incr(key);
-        return cache[key].first;
+        if(!vmp.count(key)) return -1;
+        promote(key);
+        return vmp[key].second;
     }
-    void del() {
-        int key = *prev(ord[lo].end());
-        ord[lo].pop_back();
-        if(ord[lo].size() == 0) ord.erase(lo);
-        it.erase(key);
-        cache.erase(key);
-    }
-
+    
     void put(int key, int value) {
-        if(cache.size() == cap and !cache.count(key)) {
-            del();
+        if(!vmp.count(key) and vmp.size() == c) {
+            expire();
         }
-        if(cache.count(key)) {
-            cache[key].first = value;
-            incr(key);
+        if(vmp.count(key)) {
+            vmp[key].second = value;
+            promote(key);
         } else {
+            vmp[key] = {1,value};
+            mp[1].push_front(key);
+            imp[key] = begin(mp[1]);
             lo = 1;
-            cache[key] = {value, 1};
-            ord[1].push_front(key);
-            it[key] = begin(ord[cache[key].second]);
         }
     }
 };
