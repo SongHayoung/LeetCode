@@ -1,15 +1,15 @@
-<h2><a href="https://leetcode.com/problems/where-will-the-ball-fall/">1706. Where Will the Ball Fall</a></h2><h3>Medium</h3><hr><div><p>You have a 2-D <code>grid</code> of size <code>m x n</code> representing a box, and you have <code>n</code> balls. The box is open on the top and bottom sides.</p>
+<h2><a href="https://leetcode.com/problems/where-will-the-ball-fall/">1706. Where Will the Ball Fall</a></h2><h3>Medium</h3><hr><div><p><font papago-translate="splitted">You have a 2-D </font><code>grid</code><font papago-translate="splitted"> of size </font><code>m x n</code><font papago-translate="splitted"> representing a box, and you have </font><code>n</code><font papago-translate="splitted"> balls. The box is open on the top and bottom sides.</font></p>
 
 <p>Each cell in the box has a diagonal board spanning two corners of the cell that can redirect a ball to the right or to the left.</p>
 
 <ul>
-	<li>A board that redirects the ball to the right spans the top-left corner to the bottom-right corner and is represented in the grid as <code>1</code>.</li>
-	<li>A board that redirects the ball to the left spans the top-right corner to the bottom-left corner and is represented in the grid as <code>-1</code>.</li>
+	<li><font papago-translate="splitted">A board that redirects the ball to the right spans the top-left corner to the bottom-right corner and is represented in the grid as </font><code>1</code><font papago-translate="splitted">.</font></li>
+	<li><font papago-translate="splitted">A board that redirects the ball to the left spans the top-right corner to the bottom-left corner and is represented in the grid as </font><code>-1</code><font papago-translate="splitted">.</font></li>
 </ul>
 
 <p>We drop one ball at the top of each column of the box. Each ball can get stuck in the box or fall out of the bottom. A ball gets stuck if it hits a "V" shaped pattern between two boards or if a board redirects the ball into either wall of the box.</p>
 
-<p>Return <em>an array </em><code>answer</code><em> of size </em><code>n</code><em> where </em><code>answer[i]</code><em> is the column that the ball falls out of at the bottom after dropping the ball from the </em><code>i<sup>th</sup></code><em> column at the top, or <code>-1</code><em> if the ball gets stuck in the box</em>.</em></p>
+<p><code>answer</code><font papago-translate="splitted"><em> of size </em></font><code>n</code><font papago-translate="splitted"><em> where </em></font><code>answer[i]</code><font papago-translate="splitted"><em> is the column that the ball falls out of at the bottom after dropping the ball from the </em></font><code>i<sup>th</sup></code><font papago-translate="splitted"><em><font papago-translate="splitted"> column at the top, or </font><code>-1</code></em></font></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -46,6 +46,6 @@ Ball b4 is dropped at column 4 and will get stuck on the box between column 2 an
 	<li><code>m == grid.length</code></li>
 	<li><code>n == grid[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 100</code></li>
-	<li><code>grid[i][j]</code> is <code>1</code> or <code>-1</code>.</li>
+	<li><code>grid[i][j]</code><font papago-translate="splitted"> is </font><code>1</code><font papago-translate="splitted"> or </font><code>-1</code><font papago-translate="splitted">.</font></li>
 </ul>
 </div>
