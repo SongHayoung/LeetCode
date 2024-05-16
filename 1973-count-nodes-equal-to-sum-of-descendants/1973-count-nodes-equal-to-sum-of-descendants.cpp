@@ -10,16 +10,16 @@
  * };
  */
 class Solution {
-    int res = 0;
-    long long helper(TreeNode* node) {
-        if(!node) return 0;
-        long long sum = helper(node->left) + helper(node->right);
-        if(sum == node->val) res++;
-        return sum + node->val;
+    long long dfs(TreeNode* n, int& res) {
+        if(!n) return 0;
+        long long sub = dfs(n->left, res) + dfs(n->right, res);
+        if(sub == n->val) res++;
+        return sub + n->val;
     }
 public:
     int equalToDescendants(TreeNode* root) {
-        helper(root);
+        int res = 0;
+        dfs(root,res);
         return res;
     }
 };
