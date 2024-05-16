@@ -1,11 +1,10 @@
-
 class Solution {
 public:
     long long minimumSteps(string s) {
-        long long res = 0, w = 0;
-        for(int i = 0; i < s.length(); i++) {
-            if(s[i] == '0') res += w;
-            else w += 1;
+        long long res = 0, b = 0;
+        for(auto& ch : s) {
+            if(ch == '1') b++;
+            else res += b;
         }
         return res;
     }
