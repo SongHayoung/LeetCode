@@ -1,12 +1,14 @@
 class Solution {
 public:
     int getMaximumConsecutive(vector<int>& A) {
-        sort(begin(A),end(A));
-        int ma = 0;
-        for(auto& a : A) {
-            if(ma + 1 < a) return ma + 1;
-            ma += a;
+        sort(rbegin(A), rend(A));
+        int res = 0;
+        while(A.size()) {
+            if(A.back() <= res + 1) {
+                res += A.back();
+                A.pop_back();
+            } else break;
         }
-        return ma + 1;
+        return res + 1;
     }
 };
