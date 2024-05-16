@@ -1,28 +1,28 @@
 class Solution {
 public:
-    bool hasPath(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
-        queue<pair<int, int>> q;
-        int n = maze.size(), m = maze[0].size();
-        vector<vector<bool>> vis(n, vector<bool>(m));
-        int dy[4]{-1,0,1,0}, dx[4]{0,1,0,-1};
+    bool hasPath(vector<vector<int>>& A, vector<int>& s, vector<int>& d) {
+        int n = A.size(), m = A[0].size();
+        queue<pair<int,int>>q;
+        vector<vector<int>> vis(n,vector<int>(m));
         auto push = [&](int y, int x) {
-            if(!vis[y][x]) {
-                q.push({y,x});
-                vis[y][x] = true;
-            }
+            if(vis[y][x]) return;
+            vis[y][x] = true;
+            q.push({y,x});
         };
-        push(start[0], start[1]);
+        push(s[0],s[1]);
+        int dy[4]{-1,0,1,0}, dx[4]{0,1,0,-1};
+        auto ok = [&](int y, int x) {
+            return 0 <= y and y < n and 0 <= x and x < m and A[y][x] == 0;
+        };
         while(q.size()) {
             auto [y,x] = q.front(); q.pop();
             for(int i = 0; i < 4; i++) {
                 int ny = y, nx = x;
-                while(0 <= ny + dy[i] and ny + dy[i] < n and 0 <= nx + dx[i] and nx + dx[i] < m and maze[ny+dy[i]][nx+dx[i]] == 0) {
-                    ny = ny + dy[i];
-                    nx = nx + dx[i];
-                }
+                while(ok(ny + dy[i], nx + dx[i])) ny += dy[i], nx += dx[i];
                 push(ny,nx);
             }
         }
-        return vis[destination[0]][destination[1]];
+        
+        return vis[d[0]][d[1]];
     }
 };
