@@ -39,9 +39,7 @@ public:
             }
         }
         for(int i = 0; i < 10; i++) dp[i].clear();
-        if(accumulate(begin(buc), end(buc), 0)) {
-            res += helper(buc,0,k);
-        }
+        res += helper(buc,0,k);
         return res;
     }
 };
