@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> lastVisitedIntegers(vector<int>& nums) {
-        int neg = 0, who = 0, ord = 0;
+        int neg = 0, who = 0;
         vector<int> ans;
         for(int i = 0; i < nums.size(); i++) {
             if(nums[i] == -1) {
