@@ -10,22 +10,28 @@
  * };
  */
 class Solution {
-    vector<int> order;
-    bool helper(TreeNode* node, int level) {
-        if(!node) return true;
-        if((level & 1) and (node->val & 1)) return false;
-        if(!(level & 1) and (!(node->val & 1))) return false;
-        if(order.size() == level) order.push_back(node->val + (level & 1 ? 1 : -1));
-        if(level & 1) {
-            if(order[level] <= node->val) return false;
-        } else {
-            if(order[level] >= node->val) return false;
-        }
-        order[level] = node->val;
-        return helper(node->left, level + 1) and helper(node->right, level + 1);
-    }
 public:
     bool isEvenOddTree(TreeNode* root) {
-        return helper(root, 0);
+        int dep = 0;
+        queue<TreeNode*> q;
+        q.push(root);
+        while(q.size()) {
+            int qsz = q.size(), x = dep & 1 ? INT_MAX : INT_MIN;
+            while(qsz--) {
+                auto u = q.front(); q.pop();
+                if(dep & 1) {
+                    if(x <= u->val) return false;
+                    if(u->val & 1) return false;
+                } else {
+                    if(x >= u->val) return false;
+                    if(u->val % 2 == 0) return false;
+                }
+                x = u->val;
+                if(u->left) q.push(u->left);
+                if(u->right) q.push(u->right);
+            }
+            dep++;
+        }
+        return true;
     }
 };
