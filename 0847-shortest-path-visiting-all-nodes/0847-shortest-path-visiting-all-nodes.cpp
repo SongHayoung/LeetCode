@@ -1,27 +1,37 @@
 class Solution {
-public:
-    int shortestPathLength(vector<vector<int>>& graph) {
-        int n = graph.size();
-        if(n == 1) return 0;
-        vector<unordered_set<int>> visit(n);
-        //count, group, node
-        queue<array<int,3>> q;
-        int target = (1<<n) - 1;
+    long long cost[12][12], n;
+    long long dp[1<<12][12];
+    bool bit(int x, int p) {
+        return (x>>p) & 1;
+    }
+    long long helper(int mask, int u) {
+        if(mask + 1 == (1<<n)) return 0;
+        if(dp[mask][u] != -1) return dp[mask][u];
+        long long& res = dp[mask][u] = INT_MAX;
         for(int i = 0; i < n; i++) {
-            q.push({1, 1<<i, i});
-            visit[i].insert(1<<i);
+            if(bit(mask,i)) continue;
+            res = min(res, cost[u][i] + helper(mask | (1<<i), i));
         }
-        
-        while(!q.empty()) {
-            auto [count, group, node] = q.front(); q.pop();
-            for(auto next : graph[node]) {
-                int nextGroup = group | (1<<next);
-                if(visit[next].count(nextGroup)) continue;
-                visit[next].insert(nextGroup);
-                q.push({count + 1, nextGroup, next});
-                if(nextGroup == target) return count;
-            }
+        return res;
+    }
+public:
+    int shortestPathLength(vector<vector<int>>& E) {
+        n = E.size();
+        for(int i = 0; i < n; i++) for(int j = 0; j < n; j++) {
+            cost[i][j] = INT_MAX;
         }
-        return -1;
+        for(int i = 0; i < n; i++) cost[i][i] = 0;
+        for(int i = 0; i < n; i++) for(auto& x : E[i]) {
+            cost[x][i] = cost[i][x] = 1;
+        }
+        for(int k = 0; k < n; k++) for(int i = 0; i < n; i++) for(int j = 0; j < n; j++) {
+            cost[i][j] = min(cost[i][j], cost[i][k] + cost[k][j]);
+        }
+        memset(dp,-1,sizeof dp);
+        long long res = INT_MAX;
+        for(int i = 0; i < n; i++) {
+            res = min(res, helper(0,i));
+        }
+        return res;
     }
 };
