@@ -6,7 +6,7 @@ class Solution {
         if(deps[ori] > deps[x]) return ori;
         return x;
     }
-    void dfs(int u, vector<int> C, vector<int>& res, vector<int>& A, int par, int d = 0) {
+    void dfs(int u, vector<int>& C, vector<int>& res, vector<int>& A, int par, int d = 0) {
         deps[u] = d;
         for(int i = 50; i >= 1; i--) {
             if(C[i] == -1) continue;
@@ -14,15 +14,16 @@ class Solution {
                 res[u] = best(res[u], C[i]);
             }
         }
+        int x = C[A[u]];
         C[A[u]] = u;
         for(auto& v : adj[u]) {
             if(v == par) continue;
             dfs(v,C,res,A,u,d+1);
         }
+        C[A[u]] = x;
     }
 public:
     vector<int> getCoprimes(vector<int>& nums, vector<vector<int>>& edges) {
-        
         vector<int> cop(51,-1);
         for(int i = 0; i < nums.size(); i++) adj[i].clear();
         deps = {};
