@@ -1,14 +1,17 @@
 class Solution {
 public:
     vector<int> lastVisitedIntegers(vector<int>& nums) {
-        vector<int> seen, ans;
-        int ord = 0;
-        for(auto& x : nums) {
-            if(x == -1) {
-                if(seen.size() <= ord) ans.push_back(-1);
-                else ans.push_back(seen[seen.size() - ord - 1]);
-                ord++;
-            } else seen.push_back(x), ord = 0;
+        int neg = 0, who = 0, ord = 0;
+        vector<int> ans;
+        for(int i = 0; i < nums.size(); i++) {
+            if(nums[i] == -1) {
+                if(who < 0) ans.push_back(-1);
+                else ans.push_back(nums[who]);
+                who--;
+            } else {
+                swap(nums[neg],nums[i]);
+                who = neg++;
+            }
         }
         return ans;
     }
