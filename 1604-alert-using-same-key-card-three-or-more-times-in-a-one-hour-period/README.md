@@ -9,14 +9,14 @@
 <p>Notice that <code>"10:00"</code> - <code>"11:00"</code> is considered to be within a one-hour period, while <code>"22:51"</code> - <code>"23:52"</code> is not considered to be within a one-hour period.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> keyName = ["daniel","daniel","daniel","luis","luis","luis","luis"], keyTime = ["10:00","10:40","11:00","09:00","11:00","13:00","15:00"]
 <strong>Output:</strong> ["daniel"]
 <strong>Explanation:</strong> "daniel" used the keycard 3 times in a one-hour period ("10:00","10:40", "11:00").
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> keyName = ["alice","alice","alice","bob","bob","bob","bob"], keyTime = ["12:01","12:00","18:00","21:00","21:20","21:30","23:00"]
 <strong>Output:</strong> ["bob"]
