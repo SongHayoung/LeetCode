@@ -1,6 +1,6 @@
-<h2><a href="https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/">1973. Count Nodes Equal to Sum of Descendants</a></h2><h3>Medium</h3><hr><div><p>Given the <code>root</code> of a binary tree, return <em>the number of nodes where the value of the node is equal to the <strong>sum</strong> of the values of its descendants</em>.</p>
+<h2><a href="https://leetcode.com/problems/count-nodes-equal-to-sum-of-descendants/">1973. Count Nodes Equal to Sum of Descendants</a></h2><h3>Medium</h3><hr><div><p><font papago-translate="splitted">Given the </font><code>root</code></p>
 
-<p>A <strong>descendant</strong> of a node <code>x</code> is any node that is on the path from node <code>x</code> to some leaf node. The sum is considered to be <code>0</code> if the node has no descendants.</p>
+<p><code>x</code><font papago-translate="splitted"> is any node that is on the path from node </font><code>x</code><font papago-translate="splitted"> to some leaf node. The sum is considered to be </font><code>0</code><font papago-translate="splitted"> if the node has no descendants.</font></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -31,7 +31,7 @@ For the node with value 0: The sum of its descendants is 0 since it has no desce
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>5</sup>]</code>.</li>
+	<li><font papago-translate="splitted">The number of nodes in the tree is in the range </font><code>[1, 10<sup>5</sup>]</code><font papago-translate="splitted">.</font></li>
 	<li><code>0 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 </ul>
 </div>
