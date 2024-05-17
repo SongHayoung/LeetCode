@@ -1,22 +1,22 @@
 class Cashier {
-    unordered_map<int, int> mp;
-    int n, dis;
-    int cnt = 0;
+    int c,x,d;
+    unordered_map<int,long long> mp;
 public:
-    Cashier(int n, int discount, vector<int>& products, vector<int>& prices) : n(n), dis(discount) {
-        for(int i = 0; i < products.size(); i++) {
-            mp[products[i]] = prices[i];
-        }
+    Cashier(int n, int discount, vector<int>& products, vector<int>& prices) {
+        c = 0, x = n, d = discount;
+        for(int i = 0; i < products.size(); i++) mp[products[i]] = prices[i];
     }
     
     double getBill(vector<int> product, vector<int> amount) {
-        int sum = 0;
+        double bill = 0;
         for(int i = 0; i < product.size(); i++) {
-            sum += mp[product[i]] * amount[i];
+            bill += mp[product[i]] * amount[i];
         }
-        ++cnt;
-        if(cnt % n) return sum;
-        return sum * ((100-dis)/100.0);
+        if(++c == x) {
+            bill = bill * ((100 - d) / 100.);
+            c = 0;
+        }
+        return bill;
     }
 };
 
