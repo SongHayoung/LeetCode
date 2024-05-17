@@ -10,16 +10,17 @@
  * };
  */
 class Solution {
-    TreeNode* build(vector<int>& order, int& n, int parent) {
-        if(n == order.size() || order[n] > parent) return nullptr;
-        TreeNode* node = new TreeNode(order[n++]);
-        node->left = build(order, n, node->val);
-        node->right = build(order, n, parent);
-        return node;
+    TreeNode* dfs(vector<int>& A, int l, int r) {
+        if(l > r) return nullptr;
+        TreeNode* res = new TreeNode(A[l]);
+        int p = l + 1;
+        while(p <= r and A[p] < A[l]) p++;
+        res->left = dfs(A,l+1,p-1);
+        res->right = dfs(A,p,r);
+        return res;
     }
 public:
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        int n = 0;
-        return build(preorder, n, INT_MAX);
+        return dfs(preorder,0,preorder.size() - 1);
     }
 };
