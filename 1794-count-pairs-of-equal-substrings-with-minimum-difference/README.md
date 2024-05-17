@@ -10,14 +10,14 @@
 <p>Return <em>the <strong>number</strong> of such quadruples</em>.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> firstString = "abcd", secondString = "bccda"
 <strong>Output:</strong> 1
 <strong>Explanation:</strong> The quadruple (0,0,4,4) is the only one that satisfies all the conditions and minimizes j - a.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> firstString = "ab", secondString = "cd"
 <strong>Output:</strong> 0
