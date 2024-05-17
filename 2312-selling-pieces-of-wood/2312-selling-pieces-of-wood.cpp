@@ -3,10 +3,10 @@ class Solution {
     long long helper(int n, int m) {
         if(dp[n][m] != -1) return dp[n][m];
         long long& res = dp[n][m] = c[n][m];
-        for(int i = 1; i < n; i++) {
+        for(int i = 1; i <= n / 2; i++) {
             res = max(res, helper(i,m) + helper(n - i,m));
         }
-        for(int j = 1; j < m; j++) {
+        for(int j = 1; j <= m / 2; j++) {
             res = max(res, helper(n,j) + helper(n,m-j));
         }
         return res;
