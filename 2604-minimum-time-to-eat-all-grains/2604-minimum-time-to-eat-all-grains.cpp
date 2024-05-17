@@ -7,8 +7,7 @@ class Solution {
                 int len = A[i] - B[j];
                 if(len > t) return false;
                 int x = B[j] + (t - len);
-                until = max(until, x);
-                until = max(until, (t - len) / 2 + A[i]);
+                until = max({until, B[j] + t - len, (t - len) / 2 + A[i]});
             } else until += t;
             while(j < B.size() and B[j] <= until) j++;
         }
