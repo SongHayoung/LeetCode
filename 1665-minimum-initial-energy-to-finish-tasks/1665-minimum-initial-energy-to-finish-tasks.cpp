@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minimumEffort(vector<vector<int>>& A) {
-        sort(begin(A), end(A), [](auto a, auto b) {
+        sort(begin(A), end(A), [](auto& a, auto& b) {
             int x = a[1] - a[0], y = b[1] - b[0];
             if(x == y) return a[1] > b[1];
             return x > y;
