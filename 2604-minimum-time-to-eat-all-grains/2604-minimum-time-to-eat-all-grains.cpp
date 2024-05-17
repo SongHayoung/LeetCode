@@ -1,14 +1,16 @@
 class Solution {
-    bool helper(vector<int>& A, vector<int>& B, int m) {
+    bool helper(vector<int>& A, vector<int>& B, int t) {
         int j = 0;
         for(int i = 0; i < A.size() and j < B.size(); i++) {
-            if(A[i] > B[j]) {
-                if(A[i] - B[j] > m) return false;
-                int move = max({m - 2 * (A[i] - B[j]), 0, (m - (A[i] - B[j])) / 2});
-                while(j < B.size() and B[j] <= A[i] + move) j++;
-            } else {
-                while(j < B.size() and B[j] <= A[i] + m) j++;
-            }
+            int until = A[i];
+            if(A[i] >= B[j]) {
+                int len = A[i] - B[j];
+                if(len > t) return false;
+                int x = B[j] + (t - len);
+                until = max(until, x);
+                until = max(until, (t - len) / 2 + A[i]);
+            } else until += t;
+            while(j < B.size() and B[j] <= until) j++;
         }
         return j == B.size();
     }
@@ -16,13 +18,13 @@ public:
     int minimumTime(vector<int>& A, vector<int>& B) {
         sort(begin(A), end(A));
         sort(begin(B), end(B));
-        long long l = 0, r = max(abs(A.front() - B.back()), abs(A.back() - B.front())) * 4ll, res = r;
+        int l = 0, r = INT_MAX, res = r;
         while(l <= r) {
-            long long m = l + (r - l) / 2;
+            int m = l + (r - l) / 2;
             bool ok = helper(A,B,m);
             if(ok) {
-                res = min(res, m);
                 r = m - 1;
+                res = m;
             } else l = m + 1;
         }
         return res;
