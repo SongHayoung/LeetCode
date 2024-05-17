@@ -24,9 +24,9 @@ using ull = unsigned long long;
 // constants
 const ld PI = acosl(-1.0);  /* pi */
 const ll INF = 1e18;
-const ld EPS = 1e-11;
+const ld EPS = 1e-9;
 const ll MAX_N = 101010;
-const ll mod = 1e9 + 7;
+const ll mod = 1e9+7;
 
 // typedef
 typedef pair<int,int> pii;
@@ -46,6 +46,7 @@ typedef vector<ll> vll;
 typedef vector<ull> vull;
 typedef vector<vll> vvll;
 typedef vector<int> vi;
+typedef vector<vi> vvi;
 typedef vector<bool> vb;
 typedef deque<ll> dqll;
 typedef deque<pll> dqpll;
@@ -64,6 +65,7 @@ typedef unordered_map<pll, ll, PairHash> umpll;
 #define rrep(i,m,n) for(ll i=n;i>=m;i--)
 #define all(a) begin(a), end(a)
 #define rall(a) rbegin(a), rend(a)
+#define uniq(a) sort(all(a)), a.erase(unique(all(a)),end(a))
 #define ZERO(a) memset(a,0,sizeof(a))
 #define MINUS(a) memset(a,0xff,sizeof(a))
 #define INF(a) memset(a,0x3f3f3f3f3f3f3f3fLL,sizeof(a))
@@ -74,12 +76,12 @@ typedef unordered_map<pll, ll, PairHash> umpll;
 #define BITSHIFT(a,i,n) (((a<<i) & ((1ll<<n) - 1)) | (a>>(n-i)))
 #define MAXBIT(a) (64ll - __builtin_clzll(a) - 1ll)
 #define MINBIT(a) (__builtin_ctzll(a))
-#define pyes cout<<"Yes\n";
-#define pno cout<<"No\n";
+#define pyes cout<<"YES\n";
+#define pno cout<<"NO\n";
 #define endl "\n"
 #define pneg1 cout<<"-1\n";
-#define ppossible cout<<"Possible\n";
-#define pimpossible cout<<"Impossible\n";
+#define ppossible cout<<"possible\n";
+#define pimpossible cout<<"impossible\n";
 #define TC(x) cout<<"Case #"<<x<<": ";
 #define X first
 #define Y second
@@ -189,20 +191,23 @@ template<typename T>
 void printvv(vector<vector<T>>v){ll n=v.size();rep(i,0,n)printv(v[i]);}
 template<typename T>
 void printvln(vector<T>v){ll n=v.size();rep(i,0,n)cout<<v[i]<<endl;}
-void fileIO(string in = "input.txt", string out = "output.txt") {freopen(in.c_str(),"r",stdin); freopen(out.c_str(),"w",stdout);}
-void readf() {freopen("/Users/hayoungsong/Desktop/t", "rt", stdin);}
+void fileIO(string in = "input.txt", string out = "output.txt") {freopen(in.c_str(),"ma",stdin); freopen(out.c_str(),"w",stdout);}
+void hackercupIO(string in) {fileIO("/Users/hayoungsong/Downloads/" + in, "/Users/hayoungsong/Downloads/solution.txt");}
+void readf() {freopen("", "rt", stdin);}
 template <typename... T>
 void in(T &...a) { ((cin >> a), ...); }
 template<typename T>
-void readv(vector<T>& v){rep(i,0,sz(v)) in(v[i]);}
-template<typename T, typename U>
-void readp(pair<T,U>& A) {cin>>A.first>>A.second;}
-template<typename T, typename U>
-void readvp(vector<pair<T,U>>& A) {rep(i,0,sz(A)) readp(A[i]); }
+void in(vector<T>& v){rep(i,0,sz(v)) in(v[i]);}
 template<typename T>
-void readvall(vector<T>& v) {rep(i,0,sz(v)) rep(j,0,sz(v[i])) in(v[i][j]);}
+void in(deque<T>& v){rep(i,0,sz(v)) in(v[i]);}
+template<typename T, typename U>
+void in(pair<T,U>& A) {in(A.first, A.second);}
+template<typename T, typename U>
+void in(vector<pair<T,U>>& A) {rep(i,0,sz(A)) in(A[i]); }
+template<typename T, std::size_t N>
+void in(vector<array<T,N>>& A) {rep(i,0,sz(A)) rep(j,0,sz(A[i])) in(A[i][j]); }
 template<typename T>
-void readvv(vector<vector<T>>& A) {rep(i,0,sz(A)) readv(A[i]);}
+void in(vector<vector<T>>& A) {rep(i,0,sz(A)) in(A[i]);}
 
 struct Combination {
     vll fac, inv;
@@ -289,6 +294,7 @@ struct Point {
     Point<T> operator*(ll n) {return Point<T>(y*n,x*n); }
     Point<T> operator/(ll n) {return Point<T>(y/n,x/n); }
     bool operator==(const Point<T> &a) {return x == a.x && y == a.y;}
+    bool operator!=(const Point<T> &a) {return x != a.x or y != a.y;}
     bool operator<(const Point &other) const {if (x == other.x) return y < other.y;return x < other.x;}
     Point<T> rotate(Point<T> center, ld angle) {
         ld si = sin(angle * PI / 180.), co = cos(angle * PI / 180.);
@@ -393,32 +399,32 @@ struct Circle {
 ll __gcd(ll x, ll y) { return !y ? x : __gcd(y, x % y); }
 all3 __exgcd(ll x, ll y) { if(!y) return {x,1,0}; auto [g,x1,y1] = __exgcd(y, x % y); return {g, y1, x1 - (x/y) * y1}; }
 ll __lcm(ll x, ll y) { return x / __gcd(x,y) * y; }
-ll modpow(ll n, ll x, ll MOD = mod) { if(x < 0) return modpow(modpow(n,-x,MOD), MOD-2,MOD); n%=MOD; if(!x) return 1; ll res = modpow(n,x>>1,MOD); res = (res * res) % MOD; if(x&1) res = (res * n) % MOD; return res; }
+ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-2,MOD);}n%=MOD;ll res=1;while(x){if(x&1){res=res*n%MOD;}n=n*n%MOD;x>>=1;}return res;}
+ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
+ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
 Combination comb(MAX_N);
 class Solution {
 public:
     int numberOfSequence(int n, vector<int>& A) {
-        ll res = 1, sum = 0;
-        sort(all(A));
-        A.erase(unique(all(A)), end(A));
-        vll B;
+        ll res = 1, tot = 0;
+        tot += A[0];
+        tot += n - A.back() - 1;
+        rep(i,0,sz(A) - 1) tot += A[i+1] - A[i] - 1;
+        if(A[0]) {
+            res = res * comb.nCr(tot, A[0]) % mod;
+            tot -= A[0];
+        }
+        if(A.back() != n - 1) {
+            res = res * comb.nCr(tot, n - A.back() - 1) % mod;
+            tot -= (n - A.back() - 1);
+        }
         rep(i,0,sz(A) - 1) {
             ll d = A[i+1] - A[i] - 1;
-            if(d) B.push_back(d);
-            sum += d;
+            if(!d) continue;
+            res = res * comb.nCr(tot,d) % mod * modpow(2,d-1) % mod;
+            tot -= d;
         }
-        if(A.front() != 0) sum += A.front();
-        if(A.back() != n - 1) sum += (n - 1) - A.back();
-        rep(i,0,sz(B)) {
-            res = res * comb.nCr(sum,B[i]) % mod * modpow(2,B[i] - 1) % mod;
-            sum -= B[i];
-        }
-        if(A.front() != 0 and A.back() != n - 1) {
-            res = res * comb.nCr(sum, A.front()) % mod;
-        }
-    
-        res = (res + mod) % mod;
         return res;
     }
 };
