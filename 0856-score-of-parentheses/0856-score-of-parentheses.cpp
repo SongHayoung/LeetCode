@@ -3,14 +3,12 @@ class Solution {
         int res = 0;
         while(p < s.length()) {
             p++;
-            if(s[p] == ')') {
-                res += 1;
-            } else {
+            if(s[p] == ')') res += 1;
+            else {
                 res += 2 * helper(s,p);
             }
-            
-                p++;
-                if(p == s.length() or s[p] == ')') break;
+            p++;
+            if(p == s.length() or s[p] == ')') break;
         }
         
         return res;
