@@ -1,14 +1,14 @@
 class Solution {
 public:
-    int maximizeGreatness(vector<int>& nums) {
+    int maximizeGreatness(vector<int>& A) {
+        sort(begin(A), end(A));
+        multiset<int> ms(begin(A), end(A));
         int res = 0;
-        multiset<int> ms;
-        for(auto a : nums) ms.insert(a);
-        for(int a : nums) {
+        for(auto& a : A) {
             auto it = ms.upper_bound(a);
-            if(it == end(ms)) continue;
+            if(it == end(ms)) break;
+            res++;
             ms.erase(it);
-            res += 1;
         }
         return res;
     }
