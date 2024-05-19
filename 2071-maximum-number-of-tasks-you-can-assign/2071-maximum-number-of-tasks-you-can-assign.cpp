@@ -1,27 +1,32 @@
-#define all(a) begin(a), end(a)
-
 class Solution {
-public:
-    int maxTaskAssign(vector<int>& t, vector<int>& w, int p, int s) {
-        sort(all(w));
-        sort(all(t));
-        int l = 0, r = min(t.size(), w.size());
-        while(l <= r) {
-            int m = (l + r) >> 1, use = 0;
-            multiset<int> ms(end(w) - m, end(w));
-            
-            for(int i = m - 1; i >= 0; i--) {
-                auto wo = prev(end(ms));
-                if(*wo < t[i]) {
-                    wo = ms.lower_bound(t[i] - s);
-                    if(wo == end(ms) or ++use > p) break;
-                }
-                ms.erase(wo);
+    bool helper(vector<int>& A, multiset<int>& ms, int p, int s) {
+        int n = ms.size();
+        for(int i = n - 1; i >= 0; i--) {
+            auto it = prev(end(ms));
+            if(*it < A[i]) {
+                if(!p) return false;
+                it = ms.lower_bound(A[i] - s);
+                --p;
+                if(it == end(ms)) return false;
             }
-            
-            if(ms.empty()) l = m + 1;
-            else r = m - 1;
+            ms.erase(it);
         }
-        return r;
+        return true;
+    }
+public:
+    int maxTaskAssign(vector<int>& A, vector<int>& B, int pills, int strength) {
+        sort(begin(A), end(A));
+        sort(begin(B), end(B));
+        int l = 0, r = min(A.size(), B.size()), res = l;
+        while(l <= r) {
+            int m = l + (r - l) / 2;
+            multiset<int> ms(end(B) - m, end(B));
+            bool ok = helper(A,ms,pills,strength);
+            if(ok) {
+                res = m;
+                l = m + 1;
+            } else r = m - 1;
+        }
+        return res;
     }
 };
