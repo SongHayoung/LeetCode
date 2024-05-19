@@ -414,68 +414,28 @@ ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
 
 
-struct Seg {
-    ll mi,ma,sum,best;
-    Seg* left, *right;
-    Seg(vi& A, ll l, ll r) : mi(l), ma(r), sum(A[l]), best(A[l]), left(nullptr), right(nullptr) {
-        if(l^r) {
-            ll m = l + (r - l) / 2;
-            left = new Seg(A,l,m);
-            right = new Seg(A,m+1,r);
-            sum = left->sum + right->sum;
-            best = max(left->best, right->best);
-        }
-    } 
-    pll query(ll l, ll r) {
-        if(l <= mi and ma <= r) return {sum,best};
-        if(l > ma or r < mi) return {0,0};
-        auto [ls,lb] = left->query(l,r);
-        auto [rs,rb] = right->query(l,r);
-        return {ls+rs,max(lb,rb)};
-    }
-};
 ll dp[222][222];
 class Solution {
-    Seg* seg;
-    ll n;
-    ll cost(ll l, ll r) {
-        auto [sum, best] = seg->query(l,r);
-        return best * (r - l + 1) - sum;
-    }
-    ll helper(ll k, ll p) {
-        if(p == n) return 0;
+    ll helper(vi& A, ll k, ll p) {
+        if(p == sz(A)) return 0;
+        if(k == -1) return INF;
         if(dp[k][p] != -1) return dp[k][p];
-        ll& res = dp[k][p] = cost(p,n-1);
-        if(!k) return res;
-        rep(i,p,n) {
-            res = min(res, cost(p,i) + helper(k-1,i+1));
+        ll& res = dp[k][p] = INF;
+        ll ma = 0, sum = 0, cnt = 0;
+        rep(i,p,sz(A)) {
+            cnt++;
+            ma = max(ma, 1ll * A[i]);
+            sum += A[i];
+            res = min(res, helper(A,k-1,i+1) + ma * cnt - sum);
         }
         return res;
     }
 public:
     int minSpaceWastedKResizing(vector<int>& A, int k) {
-        seg = new Seg(A,0,sz(A) - 1);
-        n = sz(A);
         MINUS(dp);
-        return helper(k,0);
+        return helper(A,k,0);
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
