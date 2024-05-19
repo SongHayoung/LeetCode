@@ -1,33 +1,24 @@
 class Solution {
-    int varify(int& mask, vector<vector<int>>& req, int& sz, int& n) {
-        vector<int> counter(n,0);
-        int bi = 0;
-        for(int i = 0; i < sz; i++) {
-            if(mask & (1<<i)) {
-                counter[req[i][0]]--;
-                counter[req[i][1]]++;
-                bi++;
-            }
-        }
-        for(auto c : counter) if(c) return 0;
-        
-        return bi;
+    bool bit(int x, int p) {
+        return (x>>p) & 1;
     }
 public:
-    int maximumRequests(int n, vector<vector<int>>& req) {
-        int res = 0, self = 0;
-        int sz = 0;
-        
-        for(int i = 0; i < req.size(); i++) {
-            if(req[i][0] == req[i][1]) self++;
-            else {
-                req[sz++] = req[i];
+    int maximumRequests(int n, vector<vector<int>>& A) {
+        int res = 0, x = A.size();
+        for(int mask = 0; mask < 1<<x; mask++) {
+            int now = 0;
+            vector<int> buc(n);
+            for(int j = 0; j < x; j++) {
+                if(!bit(mask,j)) continue;
+                int u = A[j][0], v = A[j][1];
+                now++;
+                buc[u] -= 1, buc[v] += 1;
             }
-        }
-        
-        res = self;
-        for(int mask = 0; mask < 1<<sz; mask++) {
-            res = max(res, varify(mask, req, sz, n) + self);
+            if(now > res) {
+                bool ok = true;
+                for(int i = 0; i < n and ok; i++) if(buc[i]) ok = false;
+                if(ok) res = max(res,now);
+            }
         }
         return res;
     }
