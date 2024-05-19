@@ -406,24 +406,15 @@ ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 class Solution {
 public:
     long long sumDigitDifferences(vector<int>& nums) {
-        ll res = 0;
+        ll res = 0, c = 0;
         vvll freq(11,vll(10));
         for(auto& x : nums) {
             string s = to_string(x);
             while(sz(s) < 10) s = "0" + s;
             rep(i,0,sz(s)) {
-                freq[i][s[i]-'0']++;
+                res += c - freq[i][s[i]-'0']++;
             }
-        }
-        ll c = sz(nums);
-        for(auto& x : nums) {
-            string s = to_string(x);
-            while(sz(s) < 10) s = "0" + s;
-            rep(i,0,sz(s)) {
-                res += c - freq[i][s[i]-'0'];
-                freq[i][s[i]-'0']--;
-            }
-            c--;
+            c++;
         }
         return res;
     }
