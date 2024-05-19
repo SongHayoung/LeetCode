@@ -2,13 +2,22 @@ class Solution {
 public:
     int findLonelyPixel(vector<vector<char>>& A) {
         int n = A.size(), m = A[0].size(), res = 0;
-        vector<int> r(n), c(m);
-        for(int i = 0; i < n; i++) for(int j = 0; j < m; j++) {
-            if(A[i][j] == 'B') r[i]++,c[j]++;
-        }
-        for(int i = 0; i < n; i++) for(int j = 0; j < m; j++) {
-            if(A[i][j] == 'B') {
-                if(r[i] == 1 and c[j] == 1) res++;
+        for(int i = 0; i < n; i++) {
+            int cnt = 0;
+            for(int j = 0; j < m; j++) {
+                if(A[i][j] == 'B') cnt++;
+            }
+            if(cnt == 1) {
+                for(int j = 0; j < m; j++) {
+                    if(A[i][j] == 'B') {
+                        int cnt = 0;
+                        for(int i = 0; i < n and cnt < 2; i++) {
+                            if(A[i][j] == 'B') cnt++;
+                        }
+                        if(cnt == 1) res++;
+                        break;
+                    }
+                }
             }
         }
         return res;
