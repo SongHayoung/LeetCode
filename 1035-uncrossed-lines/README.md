@@ -1,9 +1,9 @@
-<h2><a href="https://leetcode.com/problems/uncrossed-lines/">1035. Uncrossed Lines</a></h2><h3>Medium</h3><hr><div><p>You are given two integer arrays <code>nums1</code> and <code>nums2</code>. We write the integers of <code>nums1</code> and <code>nums2</code> (in the order they are given) on two separate horizontal lines.</p>
+<h2><a href="https://leetcode.com/problems/uncrossed-lines/">1035. Uncrossed Lines</a></h2><h3>Medium</h3><hr><div><p><font papago-translate="splitted">You are given two integer arrays </font><code>nums1</code><font papago-translate="splitted"> and </font><code>nums2</code><font papago-translate="splitted">. We write the integers of </font><code>nums1</code><font papago-translate="splitted"> and </font><code>nums2</code><font papago-translate="splitted"> (in the order they are given) on two separate horizontal lines.</font></p>
 
-<p>We may draw connecting lines: a straight line connecting two numbers <code>nums1[i]</code> and <code>nums2[j]</code> such that:</p>
+<p><font papago-translate="splitted">We may draw connecting lines: a straight line connecting two numbers </font><code>nums1[i]</code><font papago-translate="splitted"> and </font><code>nums2[j]</code><font papago-translate="splitted"> such that:</font></p>
 
 <ul>
-	<li><code>nums1[i] == nums2[j]</code>, and</li>
+	<li><code>nums1[i] == nums2[j]</code><font papago-translate="splitted">, and</font></li>
 	<li>the line we draw does not intersect any other connecting (non-horizontal) line.</li>
 </ul>
 
@@ -12,7 +12,7 @@
 <p>Return <em>the maximum number of connecting lines we can draw in this way</em>.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2019/04/26/142.png" style="width: 400px; height: 286px;">
 <pre><strong>Input:</strong> nums1 = [1,4,2], nums2 = [1,2,4]
 <strong>Output:</strong> 2
@@ -20,13 +20,13 @@
 We cannot draw 3 uncrossed lines, because the line from nums1[1] = 4 to nums2[2] = 4 will intersect the line from nums1[2]=2 to nums2[1]=2.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> nums1 = [2,5,1,2,5], nums2 = [10,5,2,1,5,2]
 <strong>Output:</strong> 3
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre><strong>Input:</strong> nums1 = [1,3,7,1,7,5], nums2 = [1,9,2,5,1]
 <strong>Output:</strong> 2
