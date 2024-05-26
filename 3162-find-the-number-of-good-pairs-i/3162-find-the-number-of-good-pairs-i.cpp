@@ -410,14 +410,16 @@ public:
     int numberOfPairs(vector<int>& A, vector<int>& B, int k) {
         ZERO(buc);
         umll freq;
+        ll res = 0, ma = 0;
         rep(i,0,sz(A)) {
             if(A[i] % k) continue;
             buc[A[i]/k]++;
+            ma = max(ma,1ll * A[i] / k);
         }
+        
         rep(i,0,sz(B)) freq[B[i]]++;
-        ll res = 0;
         for(auto& [k,v] : freq) {
-            for(ll j = k; j <= 1e6; j += k) {
+            for(ll j = k; j <= ma; j += k) {
                 res += buc[j] * v;
             }
         }
