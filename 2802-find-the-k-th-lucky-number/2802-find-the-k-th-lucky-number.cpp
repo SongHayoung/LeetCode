@@ -1,17 +1,22 @@
 class Solution {
 public:
     string kthLuckyNumber(int k) {
-        k -= 1;
-        int n = 1, po = 2, x = 0;
-        while(x + po <= k) {
-            x += po;
-            n += 1;
-            po *= 2;
+        string res = "";
+        long long pre = 0, now = 2;
+        while(pre < k) {
+            res.push_back(' ');
+            pre += now;
+            now *= 2;
         }
-        k -= x;
-        string res(n,'4');
-        for(int i = n - 1, j = 0; i >= 0; i--,j++) {
-            if((k >> j) & 1) res[i] = '7';
+        now /= 2;
+        k -= (pre - now);
+        now /= 2;
+        for(int i = 0; i < res.size(); i++) {
+            if(k > now) {
+                res[i] = '7';
+                k -= now;
+            } else res[i] = '4';
+            now /= 2;
         }
         return res;
     }
