@@ -1,30 +1,28 @@
 class Solution {
-    int search(vector<int>& A, int d, int k) {
-        int l = 0, r = 0, sum = 0, n = A.size();
-        
-        while(r < n) {
-            if(A[r++] > d) {
-                l = r;
-            }
-            if(r - l == k) {
-                sum++;
-                l = r;
+    bool helper(vector<int>& A, int t, int c, int d) {
+        for(int i = 0, cnt = 0; i < A.size() and t; i++) {
+            if(A[i] <= d) cnt++;
+            else cnt = 0;
+            if(cnt == c) {
+                t--;
+                cnt = 0;
             }
         }
-        
-        return sum;
+        return t == 0;
     }
 public:
-    int minDays(vector<int>& bloomDay, int m, int k) {
-        if(1ll * m * k > bloomDay.size()) return -1;
-        int l = 1, r = INT_MAX;
+    int minDays(vector<int>& A, int m, int k) {
+        int n = A.size();
+        if(1ll * m * k > n) return -1;
+        int l = 1, r = 1e9, res = 1e9;
         while(l <= r) {
-            int d = l + (r-l) / 2;
-            int s = search(bloomDay, d, k);
-            
-            if(s >= m) r = d - 1;
-            else l = d + 1;
+            int mid = l + (r - l) / 2;
+            bool ok = helper(A,m,k,mid);
+            if(ok) {
+                res = mid;
+                r = mid - 1;
+            } else l = mid + 1;
         }
-        return l;
+        return res;
     }
 };
