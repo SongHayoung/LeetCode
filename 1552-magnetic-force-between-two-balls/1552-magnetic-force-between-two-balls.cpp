@@ -1,23 +1,26 @@
 class Solution {
-    int search(vector<int>& p, int m) {
-        int res = 1;
-        for(int i = 1, last = p[0]; i < p.size(); i++) {
-            if(last + m > p[i]) continue;
-            last = p[i];
-            res++;
+    bool helper(vector<int>& A, int m, int k) {
+        m--;
+        for(int i = 1, lst = A[0]; i < A.size() and m; i++) {
+            if(A[i] - lst >= k) {
+                m--;
+                lst = A[i];
+            }
         }
-        return res;
+        return m == 0;
     }
 public:
-    int maxDistance(vector<int>& p, int k) {
-        sort(begin(p), end(p));
-        int l = 1, r = p.back() - p[0];
+    int maxDistance(vector<int>& position, int m) {
+        sort(begin(position), end(position));
+        int l = 0, r = position.back(), res = l;
         while(l <= r) {
-            int m = l + (r - l) / 2;
-            int s = search(p, m);
-            if(s >= k) l = m + 1;
-            else r = m - 1;
+            int k = l + (r - l) / 2;
+            bool ok = helper(position,m,k);
+            if(ok) {
+                l = k + 1;
+                res = k;
+            } else r = k - 1;
         }
-        return r;
+        return res;
     }
 };
