@@ -403,33 +403,60 @@ ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-
 ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ll at[333], dp[444][444];
 class Solution {
-public:
-    int numberOfPermutations(int n, vector<vector<int>>& A) {
-        ll m = n * (n - 1) / 2 + 1;
-        vll dp(m);
-        dp[0] = 1;
-        sort(rall(A));
-        rep(i,0,sz(A)) A[i][0]++;
-        rep(i,1,n+1) {
-            vll dpp(m);
-            if(sz(A) and A.back()[0] == i) {
-                ll x = A.back()[1]; A.pop_back();
-                rep(j,0,min(x,i-1) + 1) {
-                    dpp[x] = (dpp[x] + dp[x-j]) % mod;
-                }
-            } else {
-                vll pre(sz(dp) + 1);
-                rep(i,1,sz(pre)) pre[i] = (pre[i-1] + dp[i-1]) % mod;
-                rep(k,0,m) {
-                    ll ri = k, le = k - min(k,i-1);
-                    dpp[k] = (pre[ri+1] - pre[le] + mod) % mod;
-                }
-            }
-            swap(dp,dpp);
+    ll helper(ll pos, ll cnt) {
+        if(pos == 0) return cnt == 0;
+        if(at[pos] != -1 and at[pos] != cnt) return 0;
+        if(dp[pos][cnt] != -1) return dp[pos][cnt];
+        ll& res = dp[pos][cnt] = 0;
+        rep(i,0,min(pos,cnt) + 1) {
+            res = (res + helper(pos - 1, cnt - i)) % mod;
         }
-        ll res = 0;
-        rep(i,0,sz(dp)) res = (res + dp[i]) % mod;
         return res;
     }
+public:
+    int numberOfPermutations(int n, vector<vector<int>>& A) {
+        MINUS(at);
+        MINUS(dp);
+        ll x = 0;
+        rep(i,0,sz(A)) {
+            at[A[i][0]] = A[i][1];
+            if(A[x][0] < A[i][0]) x = i;
+        }
+        return helper(n - 1, A[x][1]);
+    }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
