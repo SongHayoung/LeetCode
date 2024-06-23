@@ -14,6 +14,6 @@ class Solution {
     }
 public:
     int minOperations(vector<int>& A) {
-        return min(helper(A,1), helper(A,0) + 1);
+        return min(helper(A,1), helper(A,1));
     }
 };
