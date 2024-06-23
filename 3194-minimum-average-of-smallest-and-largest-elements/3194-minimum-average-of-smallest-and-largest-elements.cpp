@@ -408,7 +408,7 @@ public:
     double minimumAverage(vector<int>& A) {
         double res = INF;
         sort(all(A));
-        rep(i,0,sz(A)) {
+        rep(i,0,sz(A) / 2) {
             double sum = A[i] + A[sz(A) - i - 1];
             res = min(res, sum / 2.);
         }
