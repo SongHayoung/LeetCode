@@ -17,4 +17,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/SongHayoung/LeetCode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+## Array
+|  |
+| ------- |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/SongHayoung/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
+## Dynamic Programming
+|  |
+| ------- |
+| [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/SongHayoung/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 <!---LeetCode Topics End-->
