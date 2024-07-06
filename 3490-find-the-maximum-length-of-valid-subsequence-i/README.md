@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-ii">3490. Find the Maximum Length of Valid Subsequence I</a></h2><h3>Medium</h3><hr>You are given an integer array <code>nums</code>.
+<h2><a href="https://leetcode.com/problems/find-the-maximum-length-of-valid-subsequence-i">3490. Find the Maximum Length of Valid Subsequence I</a></h2><h3>Medium</h3><hr>You are given an integer array <code>nums</code>.
 <p>A <span data-keyword="subsequence-array">subsequence</span> <code>sub</code> of <code>nums</code> with length <code>x</code> is called <strong>valid</strong> if it satisfies:</p>
 
 <ul>
