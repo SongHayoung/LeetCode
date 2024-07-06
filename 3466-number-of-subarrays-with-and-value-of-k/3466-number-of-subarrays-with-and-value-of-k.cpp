@@ -404,26 +404,46 @@ ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);}
 
 class Solution {
+    ll query(vvll& pre, ll l, ll r) {
+        ll x = r - l, res = 0;
+        rep(i,0,32) {
+            if(pre[r][i] - pre[l][i] == x) res |= 1ll<<i;
+        }
+        return res;
+    }
+    ll helper(vvll& pre, ll k) {
+        ll l = 0, r = sz(pre) - 2, ri = INF, le = INF;
+        while(l <= r) {
+            ll m = l + (r - l) / 2;
+            bool ok = query(pre, m, sz(pre) - 1) <= k;
+            if(ok) {
+                ri = m;
+                l = m + 1;
+            } else r = m - 1;
+        }
+        if(ri == INF or query(pre,ri,sz(pre) - 1) != k) return 0;
+        l = 0, r = sz(pre) - 2;
+        while(l <= r) {
+            ll m = l + (r - l) / 2;
+            bool ok = query(pre,m,sz(pre) - 1) >= k;
+            if(ok) {
+                le = m;
+                r = m - 1;
+            } else l = m + 1;
+        }
+        if(le == INF or query(pre,le,sz(pre) - 1) != k) return 0;
+        return ri - le + 1;
+    }
 public:
     long long countSubarrays(vector<int>& A, int k) {
+        vvll pre;
+        vll now(32);
+        pre.push_back(now);
         ll res = 0;
-        vall3 B;
         rep(i,0,sz(A)) {
-            vall3 now;
-            auto add = [&](ll val, ll l, ll r) {
-                ll mask = val & k;
-                if(mask != k) return;
-                if(sz(now) and now.back()[0] == val) {
-                    now.back()[2] = r;
-                } else now.push_back({val,l,r});
-                if(val == k) res += (r - l + 1);
-            };
-            rep(j,0,sz(B)) {
-                auto [x,l,r] = B[j];
-                add(x & A[i],l,r);
-            }
-            add(A[i],i,i);
-            swap(B,now);
+            rep(j,0,32) if(BIT(A[i],j)) now[j]++;
+            pre.push_back(now);
+            res += helper(pre,k);
         }
         return res;
     }
