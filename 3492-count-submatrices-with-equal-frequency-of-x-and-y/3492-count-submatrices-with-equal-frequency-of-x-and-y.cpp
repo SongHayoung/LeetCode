@@ -14,7 +14,7 @@ public:
                 }
                 dp[i].first |= fl;
                 dp[i].second += sum;
-                if(dp[i].first and dp[i].second == 0) res++;
+                if(dp[i].first and !dp[i].second) res++;
             }
         }
         return res;
