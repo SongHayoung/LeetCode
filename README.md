@@ -37,4 +37,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3506-count-triplets-with-even-xor-set-bits-i](https://github.com/SongHayoung/LeetCode/tree/master/3506-count-triplets-with-even-xor-set-bits-i) |
+## Math
+|  |
+| ------- |
+| [1642-water-bottles](https://github.com/SongHayoung/LeetCode/tree/master/1642-water-bottles) |
+## Simulation
+|  |
+| ------- |
+| [1642-water-bottles](https://github.com/SongHayoung/LeetCode/tree/master/1642-water-bottles) |
 <!---LeetCode Topics End-->
