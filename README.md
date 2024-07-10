@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1720-crawler-log-folder](https://github.com/SongHayoung/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/SongHayoung/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/SongHayoung/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [3469-maximum-height-of-a-triangle](https://github.com/SongHayoung/LeetCode/tree/master/3469-maximum-height-of-a-triangle) |
@@ -66,4 +67,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
+## String
+|  |
+| ------- |
+| [1720-crawler-log-folder](https://github.com/SongHayoung/LeetCode/tree/master/1720-crawler-log-folder) |
+## Stack
+|  |
+| ------- |
+| [1720-crawler-log-folder](https://github.com/SongHayoung/LeetCode/tree/master/1720-crawler-log-folder) |
 <!---LeetCode Topics End-->
