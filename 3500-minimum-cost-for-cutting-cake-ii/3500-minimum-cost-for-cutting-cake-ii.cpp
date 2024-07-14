@@ -1,37 +1,20 @@
 class Solution {
 public:
-    long long minimumCost(int m, int n, vector<int>& horizontalCut, vector<int>& verticalCut) {
-         std::sort(horizontalCut.rbegin(), horizontalCut.rend());
-        std::sort(verticalCut.rbegin(), verticalCut.rend());
-
-        long long totalCost = 0;
-        int horizontalPieces = 1;
-        int verticalPieces = 1;
-
-        int i = 0, j = 0;
-        while (i < horizontalCut.size() && j < verticalCut.size()) {
-            if (horizontalCut[i] > verticalCut[j]) {
-                totalCost += horizontalCut[i] * verticalPieces;
-                horizontalPieces++;
-                i++;
+    long long minimumCost(int m, int n, vector<int>& A, vector<int>& B) {
+        sort(begin(A), end(A));
+        sort(begin(B), end(B));
+        long long res = 0, sa = accumulate(begin(A), end(A),0ll), sb = accumulate(begin(B), end(B), 0ll);
+        while(A.size() and B.size()) {
+            if(A.back() > B.back()) {
+                res += A.back() + sb;
+                sa -= A.back();
+                A.pop_back();
             } else {
-                totalCost += verticalCut[j] * horizontalPieces;
-                verticalPieces++;
-                j++;
+                res += B.back() + sa;
+                sb -= B.back();
+                B.pop_back();
             }
         }
-
-        // Add the remaining cuts
-        while (i < horizontalCut.size()) {
-            totalCost += horizontalCut[i] * verticalPieces;
-            i++;
-        }
-
-        while (j < verticalCut.size()) {
-            totalCost += verticalCut[j] * horizontalPieces;
-            j++;
-        }
-
-        return totalCost;
+        return res + sa + sb;
     }
 };
