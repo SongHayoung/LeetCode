@@ -4,6 +4,7 @@ class Solution {
         for(auto e : edges) {
             g[e[1]][e[0]] = g[e[0]][e[1]] = min(g[e[0]][e[1]], e[2]);
         }
+        for(int i = 0; i < n; i++) g[i][i] = 0;
         for(int k = 0; k < n; k++) {
             for(int i = 0; i < n; i++) {
                 for(int j = 0; j < n; j++) {
@@ -24,7 +25,6 @@ public:
         for(int i = 0; i < n; i++) {
             int r = 0;
             for(int j = 0; j < n; j++) {
-                if(j == i) continue;
                 r += (g[i][j] <= distanceThreshold);
             }
             if(reachable >= r) {
