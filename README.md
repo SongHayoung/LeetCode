@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
 | [1166-toss-strange-coins](https://github.com/SongHayoung/LeetCode/tree/master/1166-toss-strange-coins) |
 | [1196-filling-bookcase-shelves](https://github.com/SongHayoung/LeetCode/tree/master/1196-filling-bookcase-shelves) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SongHayoung/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0726-number-of-atoms](https://github.com/SongHayoung/LeetCode/tree/master/0726-number-of-atoms) |
+| [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/SongHayoung/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -190,4 +192,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1511-count-number-of-teams](https://github.com/SongHayoung/LeetCode/tree/master/1511-count-number-of-teams) |
+## Binary Search
+|  |
+| ------- |
+| [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
+## Rolling Hash
+|  |
+| ------- |
+| [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
+## Suffix Array
+|  |
+| ------- |
+| [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
+## Hash Function
+|  |
+| ------- |
+| [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
 <!---LeetCode Topics End-->
