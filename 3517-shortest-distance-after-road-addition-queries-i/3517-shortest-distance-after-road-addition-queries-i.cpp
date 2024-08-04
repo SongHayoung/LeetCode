@@ -23,14 +23,27 @@ class Solution {
     }
 public:
     vector<int> shortestDistanceAfterQueries(int n, vector<vector<int>>& queries) {
-        vector<vector<int>> adj(n);
-        for(int i = 0; i < n - 1; i++) {
-            adj[i].push_back(i+1);
+        vector<vector<int>> cost(n, vector<int>(n,n*n));
+        for(int i = 0; i < n; i++) {
+            cost[i][i] = 0;
+            if(i + 1 < n) cost[i][i+1] = 1;
+        }
+        for(int k = 0; k < n; k++) {
+            for(int i = 0; i < n; i++) {
+                for(int j = 0; j < n; j++) {
+                    cost[i][j] = min(cost[i][j], cost[i][k] + cost[k][j]);
+                }
+            }
         }
         vector<int> res;
         for(auto& q : queries) {
-            adj[q[0]].push_back(q[1]);
-            res.push_back(helper(adj));
+            int u = q[0], v = q[1];
+            cost[u][v] = min(cost[u][v], 1);
+            cost[0][v] = min(cost[0][v], cost[0][u] + 1);
+            cost[u][n-1] = min(cost[u][n-1], cost[u][v] + cost[v][n-1]);
+            cost[0][n-1] = min(cost[0][n-1], cost[0][u] + cost[u][v] + cost[v][n-1]);
+            
+            res.push_back(cost[0][n-1]);
         }
         return res;
     }
