@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0277-find-the-celebrity](https://github.com/SongHayoung/LeetCode/tree/master/0277-find-the-celebrity) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SongHayoung/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/SongHayoung/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2230-minimum-cost-to-reach-city-with-discounts](https://github.com/SongHayoung/LeetCode/tree/master/2230-minimum-cost-to-reach-city-with-discounts) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0277-find-the-celebrity](https://github.com/SongHayoung/LeetCode/tree/master/0277-find-the-celebrity) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/SongHayoung/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/SongHayoung/LeetCode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 ## Backtracking
@@ -293,4 +295,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SongHayoung/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Interactive
+|  |
+| ------- |
+| [0277-find-the-celebrity](https://github.com/SongHayoung/LeetCode/tree/master/0277-find-the-celebrity) |
 <!---LeetCode Topics End-->
