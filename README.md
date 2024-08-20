@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1166-toss-strange-coins](https://github.com/SongHayoung/LeetCode/tree/master/1166-toss-strange-coins) |
 | [1196-filling-bookcase-shelves](https://github.com/SongHayoung/LeetCode/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
 | [1333-sort-the-jumbled-numbers](https://github.com/SongHayoung/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SongHayoung/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/SongHayoung/LeetCode/tree/master/1511-count-number-of-teams) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
 | [1166-toss-strange-coins](https://github.com/SongHayoung/LeetCode/tree/master/1166-toss-strange-coins) |
 | [1196-filling-bookcase-shelves](https://github.com/SongHayoung/LeetCode/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SongHayoung/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/SongHayoung/LeetCode/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -98,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0650-2-keys-keyboard](https://github.com/SongHayoung/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [1166-toss-strange-coins](https://github.com/SongHayoung/LeetCode/tree/master/1166-toss-strange-coins) |
+| [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
 | [1642-water-bottles](https://github.com/SongHayoung/LeetCode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/SongHayoung/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Simulation
@@ -301,4 +304,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0277-find-the-celebrity](https://github.com/SongHayoung/LeetCode/tree/master/0277-find-the-celebrity) |
+## Prefix Sum
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
+## Game Theory
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
 <!---LeetCode Topics End-->
