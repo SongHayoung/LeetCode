@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
 | [3506-count-triplets-with-even-xor-set-bits-i](https://github.com/SongHayoung/LeetCode/tree/master/3506-count-triplets-with-even-xor-set-bits-i) |
 ## Math
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/SongHayoung/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
 | [0664-strange-printer](https://github.com/SongHayoung/LeetCode/tree/master/0664-strange-printer) |
 | [0726-number-of-atoms](https://github.com/SongHayoung/LeetCode/tree/master/0726-number-of-atoms) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
@@ -277,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
 ## Bitmask
 |  |
