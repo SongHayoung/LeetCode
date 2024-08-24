@@ -228,14 +228,14 @@ BigInt &operator-=(BigInt &a, const BigInt &b) {
             s = a.digits[i] + t;
         if (s < 0)
             s += 10,
-            t = -1;
+                    t = -1;
         else
             t = 0;
         a.digits[i] = s;
     }
     while (n > 1 && a.digits[n - 1] == 0)
         a.digits.pop_back(),
-        n--;
+                n--;
     return a;
 }
 
@@ -271,230 +271,230 @@ BigInt &operator*=(BigInt &a, const BigInt &b) {
 }
 
 BigInt operator*(const BigInt &a, const BigInt &b) {
-BigInt temp;
-temp = a;
-temp *= b;
-return temp;
+    BigInt temp;
+    temp = a;
+    temp *= b;
+    return temp;
 }
 
 BigInt &operator/=(BigInt &a, const BigInt &b) {
-if (Null(b))throw std::runtime_error("Arithmetic Error: Division By 0");
-if (a < b) {
-a = BigInt();
-return a;
-}
-if (a == b) {
-a = BigInt(1);
-return a;
-}
-int i, lgcat = 0, cc;
-int n = Length(a), m = Length(b);
-vector cat(n, 0);
-BigInt t;
-for (i = n - 1; t * 10 + a.digits[i] < b; i--) {
-t *= 10;
-t += a.digits[i];
-}
-for (; i >= 0; i--) {
-t = t * 10 + a.digits[i];
-for (cc = 9; cc * b > t; cc--);
-t -= cc * b;
-cat[lgcat++] = cc;
-}
-a.digits.resize(cat.size());
-for (i = 0; i < lgcat; i++)
-a.digits[i] = cat[lgcat - i - 1];
-a.digits.resize(lgcat);
-return a;
+    if (Null(b))throw std::runtime_error("Arithmetic Error: Division By 0");
+    if (a < b) {
+        a = BigInt();
+        return a;
+    }
+    if (a == b) {
+        a = BigInt(1);
+        return a;
+    }
+    int i, lgcat = 0, cc;
+    int n = Length(a), m = Length(b);
+    vector cat(n, 0);
+    BigInt t;
+    for (i = n - 1; t * 10 + a.digits[i] < b; i--) {
+        t *= 10;
+        t += a.digits[i];
+    }
+    for (; i >= 0; i--) {
+        t = t * 10 + a.digits[i];
+        for (cc = 9; cc * b > t; cc--);
+        t -= cc * b;
+        cat[lgcat++] = cc;
+    }
+    a.digits.resize(cat.size());
+    for (i = 0; i < lgcat; i++)
+        a.digits[i] = cat[lgcat - i - 1];
+    a.digits.resize(lgcat);
+    return a;
 }
 
 BigInt operator/(const BigInt &a, const BigInt &b) {
-BigInt temp;
-temp = a;
-temp /= b;
-return temp;
+    BigInt temp;
+    temp = a;
+    temp /= b;
+    return temp;
 }
 
 BigInt &operator%=(BigInt &a, const BigInt &b) {
-if (Null(b))
-throw std::runtime_error("Arithmetic Error: Division By 0");
-if (a < b) {
-return a;
-}
-if (a == b) {
-a = BigInt();
-return a;
-}
-int i, lgcat = 0, cc;
-int n = Length(a), m = Length(b);
-vector cat(n, 0);
-BigInt t;
-for (i = n - 1; t * 10 + a.digits[i] < b; i--) {
-t *= 10;
-t += a.digits[i];
-}
-for (; i >= 0; i--) {
-t = t * 10 + a.digits[i];
-for (cc = 9; cc * b > t; cc--);
-t -= cc * b;
-cat[lgcat++] = cc;
-}
-a = t;
-return a;
+    if (Null(b))
+        throw std::runtime_error("Arithmetic Error: Division By 0");
+    if (a < b) {
+        return a;
+    }
+    if (a == b) {
+        a = BigInt();
+        return a;
+    }
+    int i, lgcat = 0, cc;
+    int n = Length(a), m = Length(b);
+    vector cat(n, 0);
+    BigInt t;
+    for (i = n - 1; t * 10 + a.digits[i] < b; i--) {
+        t *= 10;
+        t += a.digits[i];
+    }
+    for (; i >= 0; i--) {
+        t = t * 10 + a.digits[i];
+        for (cc = 9; cc * b > t; cc--);
+        t -= cc * b;
+        cat[lgcat++] = cc;
+    }
+    a = t;
+    return a;
 }
 
 BigInt operator%(const BigInt &a, const BigInt &b) {
-BigInt temp;
-temp = a;
-temp %= b;
-return temp;
+    BigInt temp;
+    temp = a;
+    temp %= b;
+    return temp;
 }
 
 BigInt &operator^=(BigInt &a, const BigInt &b) {
-BigInt Exponent, Base(a);
-Exponent = b;
-a = 1;
-while (!Null(Exponent)) {
-if (Exponent[0] & 1)
-a *= Base;
-Base *= Base;
-divide_by_2(Exponent);
-}
-return a;
+    BigInt Exponent, Base(a);
+    Exponent = b;
+    a = 1;
+    while (!Null(Exponent)) {
+        if (Exponent[0] & 1)
+            a *= Base;
+        Base *= Base;
+        divide_by_2(Exponent);
+    }
+    return a;
 }
 
 BigInt operator^(BigInt &a, BigInt &b) {
-BigInt temp(a);
-temp ^= b;
-return temp;
+    BigInt temp(a);
+    temp ^= b;
+    return temp;
 }
 
 void divide_by_2(BigInt &a) {
-int add = 0;
-for (int i = a.digits.size() - 1; i >= 0; i--) {
-int digit = (a.digits[i] >> 1) + add;
-add = ((a.digits[i] & 1) * 5);
-a.digits[i] = digit;
-}
-while (a.digits.size() > 1 && !a.digits.back())
-a.digits.pop_back();
+    int add = 0;
+    for (int i = a.digits.size() - 1; i >= 0; i--) {
+        int digit = (a.digits[i] >> 1) + add;
+        add = ((a.digits[i] & 1) * 5);
+        a.digits[i] = digit;
+    }
+    while (a.digits.size() > 1 && !a.digits.back())
+        a.digits.pop_back();
 }
 
 BigInt sqrt(BigInt &a) {
-BigInt left(1), right(a), v(1), mid, prod;
-divide_by_2(right);
-while (left <= right) {
-mid += left;
-mid += right;
-divide_by_2(mid);
-prod = (mid * mid);
-if (prod <= a) {
-v = mid;
-++mid;
-left = mid;
-} else {
---mid;
-right = mid;
-}
-mid = BigInt();
-}
-return v;
+    BigInt left(1), right(a), v(1), mid, prod;
+    divide_by_2(right);
+    while (left <= right) {
+        mid += left;
+        mid += right;
+        divide_by_2(mid);
+        prod = (mid * mid);
+        if (prod <= a) {
+            v = mid;
+            ++mid;
+            left = mid;
+        } else {
+            --mid;
+            right = mid;
+        }
+        mid = BigInt();
+    }
+    return v;
 }
 
 BigInt NthCatalan(int n) {
-BigInt a(1), b;
-for (int i = 2; i <= n; i++)
-a *= i;
-b = a;
-for (int i = n + 1; i <= 2 * n; i++)
-b *= i;
-a *= a;
-a *= (n + 1);
-b /= a;
-return b;
+    BigInt a(1), b;
+    for (int i = 2; i <= n; i++)
+        a *= i;
+    b = a;
+    for (int i = n + 1; i <= 2 * n; i++)
+        b *= i;
+    a *= a;
+    a *= (n + 1);
+    b /= a;
+    return b;
 }
 
 BigInt NthFibonacci(int n) {
-BigInt a(1), b(1), c;
-if (!n)
-return c;
-n--;
-while (n--) {
-c = a + b;
-b = a;
-a = c;
-}
-return b;
+    BigInt a(1), b(1), c;
+    if (!n)
+        return c;
+    n--;
+    while (n--) {
+        c = a + b;
+        b = a;
+        a = c;
+    }
+    return b;
 }
 
 BigInt Factorial(int n) {
-BigInt f(1);
-for (int i = 2; i <= n; i++)
-f *= i;
-return f;
+    BigInt f(1);
+    for (int i = 2; i <= n; i++)
+        f *= i;
+    return f;
 }
 
 istream &operator>>(istream &in, BigInt &a) {
-string s;
-in >> s;
-int n = s.size();
-for (int i = n - 1; i >= 0; i--) {
-if (!isdigit(s[i]))
-throw std::runtime_error("INVALID NUMBER");
-a.digits.push_back(s[i] - '0');
-}
-return in;
+    string s;
+    in >> s;
+    int n = s.size();
+    for (int i = n - 1; i >= 0; i--) {
+        if (!isdigit(s[i]))
+            throw std::runtime_error("INVALID NUMBER");
+        a.digits.push_back(s[i] - '0');
+    }
+    return in;
 }
 
 ostream &operator<<(ostream &out, const BigInt &a) {
-for (int i = a.digits.size() - 1; i >= 0; i--)
-out << (short)a.digits[i];
-return out;
+    for (int i = a.digits.size() - 1; i >= 0; i--)
+        out << (short)a.digits[i];
+    return out;
 }
 
 class Solution {
 public:
-string nearestPalindromic(string n) {
-if (n.length() < 2) return to_string(stoll(n) - 1);
-BigInt val = BigInt(n);
-long long half = stoll(n.substr(0, n.length() / 2));
-BigInt res(1e18), diff(n);
-BigInt zero(0ull);
-auto check = [&](string x) {
-for (int i = 0, j = x.length() - 1; i < j; i++, j--) {
-if (x[i] != x[j]) return false;
-}
-BigInt X = BigInt(x);
-BigInt d = val > X ? val - X : X - val;
-if (d != zero) {
-if (d < diff or (d == diff and X < res)) {
-res = X;
-diff = d;
-return true;
-}
-}
-return false;
-};
-auto udt = [&](string x) {
-if (check(x)) {
-BigInt now(x);
-BigInt nxt = 2 * val - now;
-check(nxt.toString());
-}
-};
-for (long long i = max(1ll, half - 1000); i <= half + 1000; i++) {
-string s = to_string(i);
-string rev = s;
-reverse(begin(rev), end(rev));
-if (i < 10) udt(s);
-udt(s + rev);
-for (int j = 0; j < 10; j++) {
-string now = s;
-now.push_back(j + '0');
-now += rev;
-udt(now);
-}
-}
-return res.toString();
-}
+    string nearestPalindromic(string n) {
+        if (n.length() < 2) return to_string(stoll(n) - 1);
+        BigInt val = BigInt(n);
+        long long half = stoll(n.substr(0, n.length() / 2));
+        BigInt res(1e18), diff(n);
+        BigInt zero(0ull);
+        auto check = [&](string x) {
+            for (int i = 0, j = x.length() - 1; i < j; i++, j--) {
+                if (x[i] != x[j]) return false;
+            }
+            BigInt X = BigInt(x);
+            BigInt d = val > X ? val - X : X - val;
+            if (d != zero) {
+                if (d < diff or (d == diff and X < res)) {
+                    res = X;
+                    diff = d;
+                    return true;
+                }
+            }
+            return false;
+        };
+        auto udt = [&](string x) {
+            if (check(x)) {
+                BigInt now(x);
+                BigInt nxt = 2 * val - now;
+                check(nxt.toString());
+            }
+        };
+        for (long long i = max(1ll, half - 1000); i <= half + 1000; i++) {
+            string s = to_string(i);
+            string rev = s;
+            reverse(begin(rev), end(rev));
+            if (i < 10) udt(s);
+            udt(s + rev);
+            for (int j = 0; j < 10; j++) {
+                string now = s;
+                now.push_back(j + '0');
+                now += rev;
+                udt(now);
+            }
+        }
+        return res.toString();
+    }
 };
