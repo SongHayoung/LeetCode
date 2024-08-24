@@ -12,13 +12,8 @@ class Solution {
         return res;
     }
     int ma(vector<int> A) {
-        int res = 0;
-        int res2 = 0;
-        for(int i = 1, j = A.size() - 2; i < A.size()-1; i++,j--) {
-            res += A[i + 1] - A[i] - 1;
-            res2 += A[j] - A[j-1] - 1;
-        }
-        return max(res,res2);
+        int n = A.size();
+        return max(A[n-1] - A[1] + 1 - n + 1, A[n-2] - A[0] + 1 - n + 1);
     }
 public:
     vector<int> numMovesStonesII(vector<int>& A) {
