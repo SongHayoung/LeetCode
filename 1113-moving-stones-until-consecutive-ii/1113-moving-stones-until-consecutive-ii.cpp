@@ -1,5 +1,5 @@
 class Solution {
-    int mi(vector<int> A) {
+    int mi(vector<int>& A) {
         int res = INT_MAX, l = 0, r = 0, n = A.size();
         while(r < n) {
             while(r < n and A[r] < A[l] + n){
@@ -11,7 +11,7 @@ class Solution {
         }
         return res;
     }
-    int ma(vector<int> A) {
+    int ma(vector<int>& A) {
         int n = A.size();
         return max(A[n-1] - A[1] + 1 - n + 1, A[n-2] - A[0] + 1 - n + 1);
     }
