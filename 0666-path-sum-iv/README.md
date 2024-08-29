@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/path-sum-iv/">666. Path Sum IV</a></h2><h3>Medium</h3><hr><div><p>If the depth of a tree is smaller than <code>5</code>, then this tree can be represented by an array of three-digit integers. For each integer in this array:</p>
+<h2><a href="https://leetcode.com/problems/path-sum-iv">666. Path Sum IV</a></h2><h3>Medium</h3><hr><p>If the depth of a tree is smaller than <code>5</code>, then this tree can be represented by an array of three-digit integers. For each integer in this array:</p>
 
 <ul>
 	<li>The hundreds digit represents the depth <code>d</code> of this node where <code>1 &lt;= d &lt;= 4</code>.</li>
@@ -12,16 +12,18 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/04/30/pathsum4-1-tree.jpg" style="width: 212px; height: 183px;">
-<pre><strong>Input:</strong> nums = [113,215,221]
+<img alt="" src="https://assets.leetcode.com/uploads/2021/04/30/pathsum4-1-tree.jpg" style="width: 212px; height: 183px;" />
+<pre>
+<strong>Input:</strong> nums = [113,215,221]
 <strong>Output:</strong> 12
 <strong>Explanation:</strong> The tree that the list represents is shown.
 The path sum is (3 + 5) + (3 + 1) = 12.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/04/30/pathsum4-2-tree.jpg" style="width: 132px; height: 183px;">
-<pre><strong>Input:</strong> nums = [113,221]
+<img alt="" src="https://assets.leetcode.com/uploads/2021/04/30/pathsum4-2-tree.jpg" style="width: 132px; height: 183px;" />
+<pre>
+<strong>Input:</strong> nums = [113,221]
 <strong>Output:</strong> 4
 <strong>Explanation:</strong> The tree that the list represents is shown. 
 The path sum is (3 + 1) = 4.
@@ -35,4 +37,3 @@ The path sum is (3 + 1) = 4.
 	<li><code>110 &lt;= nums[i] &lt;= 489</code></li>
 	<li><code>nums</code> represents a valid binary tree with depth less than <code>5</code>.</li>
 </ul>
-</div>
