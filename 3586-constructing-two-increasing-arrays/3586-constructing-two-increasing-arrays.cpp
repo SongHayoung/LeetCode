@@ -1,4 +1,3 @@
-
 class Solution {
 public:
     int minLargest(vector<int>& A, vector<int>& B) {
@@ -16,16 +15,12 @@ public:
         for(int i = 0; i <= n; i++) {
             for(int j = 0; j <= m; j++) {
                 if(i < n) {
-                    int a = helper(dp[i][j].first, A[i]);
-                    int b = helper(dp[i][j].second, A[i]);
+                    int a = helper(min(dp[i][j].first, dp[i][j].second), A[i]);
                     udt(i+1,j,a);
-                    udt(i+1,j,b);
                 }
                 if(j < m) {
-                    int a = helper(dp[i][j].first, B[j]);
-                    int b = helper(dp[i][j].second, B[j]);
+                    int a = helper(min(dp[i][j].first, dp[i][j].second), B[j]);
                     udt(i,j+1,a);
-                    udt(i,j+1,b);
                 }
             }
         }
