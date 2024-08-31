@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/SongHayoung/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3506-count-triplets-with-even-xor-set-bits-i](https://github.com/SongHayoung/LeetCode/tree/master/3506-count-triplets-with-even-xor-set-bits-i) |
+| [3577-convert-doubly-linked-list-to-array-i](https://github.com/SongHayoung/LeetCode/tree/master/3577-convert-doubly-linked-list-to-array-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
+| [3577-convert-doubly-linked-list-to-array-i](https://github.com/SongHayoung/LeetCode/tree/master/3577-convert-doubly-linked-list-to-array-i) |
 ## String
 |  |
 | ------- |
@@ -355,4 +357,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [3577-convert-doubly-linked-list-to-array-i](https://github.com/SongHayoung/LeetCode/tree/master/3577-convert-doubly-linked-list-to-array-i) |
 <!---LeetCode Topics End-->
