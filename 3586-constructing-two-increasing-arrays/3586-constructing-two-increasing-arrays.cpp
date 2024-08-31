@@ -2,28 +2,23 @@ class Solution {
 public:
     int minLargest(vector<int>& A, vector<int>& B) {
         int n = A.size(), m = B.size();
-        vector<vector<pair<int,int>>> dp(n+1, vector<pair<int,int>>(m+1,{(n + 1) * (m + 1) * 2, (n + 1) * (m + 1) * 2}));
-        dp[0][0] = {0,0};
+        vector<vector<int>> dp(n + 1, vector<int>(m + 1, (n + 1) * (m + 1) * 2));
+        dp[0][0] = 0;
         auto helper = [&](int x, int fl) {
             if(x % 2 == fl % 2) return x + 2;
             return x + 1;
         };
-        auto udt = [&](int i, int j, int x) {
-            if(x % 2 == 0) dp[i][j].second = min(dp[i][j].second, x);
-            else dp[i][j].first = min(dp[i][j].first, x);
-        };
         for(int i = 0; i <= n; i++) {
             for(int j = 0; j <= m; j++) {
                 if(i < n) {
-                    int a = helper(min(dp[i][j].first, dp[i][j].second), A[i]);
-                    udt(i+1,j,a);
+                    dp[i+1][j] = min(dp[i+1][j], helper(dp[i][j], A[i]));
                 }
                 if(j < m) {
-                    int a = helper(min(dp[i][j].first, dp[i][j].second), B[j]);
-                    udt(i,j+1,a);
+                    dp[i][j+1] = min(dp[i][j+1], helper(dp[i][j], B[j]));
                 }
             }
         }
-        return min(dp[n][m].first, dp[n][m].second);
+        return dp[n][m];
     }
 };
+
