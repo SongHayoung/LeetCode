@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0666-path-sum-iv](https://github.com/SongHayoung/LeetCode/tree/master/0666-path-sum-iv) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SongHayoung/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0776-n-ary-tree-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/SongHayoung/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
+| [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/SongHayoung/LeetCode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
@@ -31,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
+| [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/SongHayoung/LeetCode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
 | [2035-count-sub-islands](https://github.com/SongHayoung/LeetCode/tree/master/2035-count-sub-islands) |
@@ -176,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1774-add-two-polynomials-represented-as-linked-lists](https://github.com/SongHayoung/LeetCode/tree/master/1774-add-two-polynomials-represented-as-linked-lists) |
 | [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/SongHayoung/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -241,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0666-path-sum-iv](https://github.com/SongHayoung/LeetCode/tree/master/0666-path-sum-iv) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SongHayoung/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
