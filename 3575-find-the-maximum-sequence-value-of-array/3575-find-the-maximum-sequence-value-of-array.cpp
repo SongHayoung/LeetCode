@@ -1,17 +1,7 @@
 class Solution {
     int findMaximumXOR(unordered_set<int>& a, unordered_set<int>& b) {
-        if(a.size() == 0 or b.size() == 0) return 0;
-        int res = 0, mask = 0;
-        int bits[128]{};
-        for(int i = 6; i >= 0; i--) {
-            mask |= 1<<i;
-            int t = res | (1<<i);
-            for(auto& x : a) bits[x & mask] = i + 1;
-            for(auto& x : b) if(bits[(x & mask) ^ t] == i + 1) {
-                res = t;
-                break;
-            }
-        }
+        int res = 0;
+        for(auto& x : a) for(auto& y : b) res = max(res, x ^ y);
         return res;
     }
 public:
