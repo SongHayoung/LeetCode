@@ -1,49 +1,42 @@
-#include <unordered_map>
-#include <string>
-using namespace std;
 
 class Solution {
+    int helper(vector<vector<int>>& pre, vector<int>& f, int p) {
+        int l = p, r = pre.size() - 2, res = pre.size() - 1;
+        auto check = [&](int x) {
+            for(int i = 0; i < 26; i++) {
+                if(pre[x+1][i] - pre[p][i] < f[i]) return false;
+            }
+            return true;
+        };
+        while(l <= r) {
+            int m = l + (r - l) / 2;
+            bool ok = check(m);
+            if(ok) {
+                res = m;
+                r = m - 1;
+            } else l = m + 1;
+        }
+        
+        return pre.size() - 1 - res;
+    }
 public:
     long long validSubstringCount(string word1, string word2) {
-        int n1 = word1.size();
-        int n2 = word2.size();
-
-        if (n2 > n1) return 0;
-
-        unordered_map<char, int> targetFreq, windowFreq;
-        for (char c : word2) {
-            targetFreq[c]++;
+        vector<int> freq(26);
+        for(auto& ch : word2) freq[ch-'a']++;
+        
+        vector<int> now(26);
+        vector<vector<int>> pre{now};
+        for(int i = 0; i < word1.size(); i++) {
+            now[word1[i] - 'a']++;
+            pre.push_back(now);
         }
-
-        long long count = 0;
-        int left = 0;
-
-        for (int right = 0; right < n1; ++right) {
-            windowFreq[word1[right]]++;
-
-            while (right - left + 1 > n2) {
-                windowFreq[word1[left]]--;
-                if (windowFreq[word1[left]] == 0) {
-                    windowFreq.erase(word1[left]);
-                }
-                left++;
-            }
-
-            if (right - left + 1 >= n2 && isValidPrefix(windowFreq, targetFreq)) {
-                count += (right - left + 1 - n2 + 1);
-            }
+        
+        long long res = 0;
+        for(int i = 0; i < word1.size(); i++) {
+            int now = helper(pre,freq,i);
+            if(!now) break;
+            res += now;
         }
-
-        return count;
-    }
-
-private:
-    bool isValidPrefix(unordered_map<char, int>& windowFreq, unordered_map<char, int>& targetFreq) {
-        for (auto& [key, value] : targetFreq) {
-            if (windowFreq[key] < value) {
-                return false;
-            }
-        }
-        return true;
+        return res;
     }
 };
