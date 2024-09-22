@@ -14,6 +14,7 @@ class Solution {
     }
 public:
     long long minNumberOfSeconds(int mountainHeight, vector<int>& workerTimes) {
+        sort(begin(workerTimes), end(workerTimes));
         long long l = 0, r = 1e18, res = r;
         while(l <= r) {
             long long m = l + (r - l) / 2;
