@@ -1,23 +1,25 @@
 class Solution {
 public:
     vector<int> validSequence(string word1, string word2) {
-        int n1 = word1.size(), n2 = word2.size();
-        vector<int> res;
-        int change_count = 0;
-
-        for (int i = 0, j = 0; i < n1 && j < n2; i++) {
-            if (word1[i] == word2[j]) {
-                res.push_back(i);
-                j++;
-            } else if (change_count == 0) {
-                res.push_back(i);
-                change_count++;
-                j++;
-            }
-            if (j == n2) break;
+        if(word2.size() == 1) return {0};
+        int n = word1.size(), m = word2.size();
+        vector<int> suf(n + 1, m);
+        for(int i = n - 1, j = m - 1; i >= 0; i--) {
+            if(j >= 0 and word1[i] == word2[j]) --j;
+            suf[i] = j + 1;
         }
-
-        if (res.size() != n2) return {}; // No valid sequence found
+        vector<int> res;
+        for(int i = 0, j = 0, fl = false; i < word1.size() and res.size() < m; i++) {
+            if(word1[i] == word2[j]) res.push_back(i), j++;
+            else {
+                if(fl) continue;
+                if((m - suf[i+1]) + j + 1 >= m) {
+                    res.push_back(i), j++;
+                    fl = !fl;
+                }
+            }
+        }
+        if(res.size() != m) return {};
         return res;
     }
 };
