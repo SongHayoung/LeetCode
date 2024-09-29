@@ -209,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/SongHayoung/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
+| [1949-implement-trie-ii-prefix-tree](https://github.com/SongHayoung/LeetCode/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/SongHayoung/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1949-implement-trie-ii-prefix-tree](https://github.com/SongHayoung/LeetCode/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/SongHayoung/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -437,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SongHayoung/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0859-design-circular-deque](https://github.com/SongHayoung/LeetCode/tree/master/0859-design-circular-deque) |
+| [1949-implement-trie-ii-prefix-tree](https://github.com/SongHayoung/LeetCode/tree/master/1949-implement-trie-ii-prefix-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -490,6 +493,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/SongHayoung/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/SongHayoung/LeetCode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [1949-implement-trie-ii-prefix-tree](https://github.com/SongHayoung/LeetCode/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/SongHayoung/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
