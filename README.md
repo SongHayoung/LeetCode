@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/SongHayoung/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/SongHayoung/LeetCode/tree/master/1803-average-waiting-time) |
+| [1923-sentence-similarity-iii](https://github.com/SongHayoung/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/SongHayoung/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/SongHayoung/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2035-count-sub-islands](https://github.com/SongHayoung/LeetCode/tree/master/2035-count-sub-islands) |
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/SongHayoung/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1923-sentence-similarity-iii](https://github.com/SongHayoung/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/SongHayoung/LeetCode/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/SongHayoung/LeetCode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -427,6 +429,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1165-meeting-scheduler](https://github.com/SongHayoung/LeetCode/tree/master/1165-meeting-scheduler) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/SongHayoung/LeetCode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1774-add-two-polynomials-represented-as-linked-lists](https://github.com/SongHayoung/LeetCode/tree/master/1774-add-two-polynomials-represented-as-linked-lists) |
+| [1923-sentence-similarity-iii](https://github.com/SongHayoung/LeetCode/tree/master/1923-sentence-similarity-iii) |
 ## Backtracking
 |  |
 | ------- |
