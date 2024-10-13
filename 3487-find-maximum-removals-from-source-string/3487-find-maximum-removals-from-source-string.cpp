@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maximumRemovals(string source, string pattern, vector<int>& order) {
+    int maxRemovals(string source, string pattern, vector<int>& order) {
         int n = source.size(), m = pattern.size();
         vector<int> dp(m + 1, INT_MIN);
         dp[0] = 0;
