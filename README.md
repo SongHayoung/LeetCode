@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2616-maximal-score-after-applying-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2755-extra-characters-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2846-robot-collisions](https://github.com/SongHayoung/LeetCode/tree/master/2846-robot-collisions) |
+| [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1511-count-number-of-teams](https://github.com/SongHayoung/LeetCode/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [2755-extra-characters-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2755-extra-characters-in-a-string) |
+| [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/SongHayoung/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/SongHayoung/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 ## Enumeration
@@ -343,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/SongHayoung/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2502-sort-the-people](https://github.com/SongHayoung/LeetCode/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/SongHayoung/LeetCode/tree/master/2846-robot-collisions) |
+| [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/SongHayoung/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
