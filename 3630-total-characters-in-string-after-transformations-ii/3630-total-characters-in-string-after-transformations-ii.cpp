@@ -1,70 +1,38 @@
 class Solution {
-public:
-    const int MOD = 1e9 + 7;
-    
-    // Function to multiply two matrices
-    vector<vector<long long>> matrixMultiply(vector<vector<long long>>& A, vector<vector<long long>>& B, int size) {
-        vector<vector<long long>> result(size, vector<long long>(size, 0));
-        
-        for (int i = 0; i < size; ++i) {
-            for (int j = 0; j < size; ++j) {
-                for (int k = 0; k < size; ++k) {
-                    result[i][j] = (result[i][j] + A[i][k] * B[k][j]) % MOD;
+    long mod = 1e9 + 7;
+    vector<vector<long>> mul(vector<vector<long>>& A, vector<vector<long>>& B) {
+        vector<vector<long>> res(A.size(), vector<long>(B[0].size()));
+        for(long i = 0; i < res.size(); i++) {
+            for(long j = 0; j < res[0].size(); j++) {
+                for(long k = 0; k < B[0].size(); k++) {
+                    res[i][j] = (res[i][j] + A[i][k] * B[k][j] % mod) % mod;
                 }
             }
         }
-        
-        return result;
+        return res;
+    }
+    vector<vector<long>> pow(vector<vector<long>>& A, long k) {
+        vector<vector<long>> res(A.size(), vector<long>(A.size()));
+        for(long i = 0; i < res.size(); i++) res[i][i] = 1;
+        while(k) {
+            if(k & 1) res = mul(res, A);
+            A = mul(A,A);
+            k>>=1;
+        }
+        return res;
     }
 
-    // Function to exponentiate a matrix
-    vector<vector<long long>> matrixExponentiate(vector<vector<long long>>& matrix, long long exp, int size) {
-        vector<vector<long long>> result(size, vector<long long>(size, 0));
-        
-        // Set result to the identity matrix
-        for (int i = 0; i < size; ++i) {
-            result[i][i] = 1;
+public:
+    long lengthAfterTransformations(string s, long t, vector<int>& nums) {
+        vector<vector<long>> mat(26,vector<long>(26)), cnt(1, vector<long>(26));
+        for(long i = 0; i < 26; i++) {
+            for(long j = 0; j < nums[i]; j++) mat[i][(i+1+j) % 26] = 1;
         }
-        
-        // Exponentiation by squaring
-        while (exp > 0) {
-            if (exp % 2 == 1) {
-                result = matrixMultiply(result, matrix, size);
-            }
-            matrix = matrixMultiply(matrix, matrix, size);
-            exp /= 2;
-        }
-        
-        return result;
-    }
-
-    int lengthAfterTransformations(string s, int t, vector<int>& nums) {
-        int size = 26; // Alphabet size
-        vector<vector<long long>> transformMatrix(size, vector<long long>(size, 0));
-        
-        // Build the transformation matrix
-        for (int i = 0; i < size; ++i) {
-            for (int j = 0; j < nums[i]; ++j) {
-                int newChar = (i + j + 1) % 26;
-                transformMatrix[i][newChar]++;
-            }
-        }
-
-        // Perform matrix exponentiation to get the transformation matrix after t steps
-        vector<vector<long long>> finalMatrix = matrixExponentiate(transformMatrix, t, size);
-        
-        long long totalLength = 0;
-
-        // Calculate the length of the transformed string
-        for (char c : s) {
-            int index = c - 'a';
-            
-            // Sum up the contributions from the final matrix
-            for (int i = 0; i < size; ++i) {
-                totalLength = (totalLength + finalMatrix[index][i]) % MOD;
-            }
-        }
-
-        return (int)totalLength;
+        for(auto& ch : s) cnt[0][ch-'a']++;
+        vector<vector<long>> po = pow(mat, t);
+        vector<vector<long>> mat2 = mul(cnt, po);
+        long res = 0;
+        for(long i = 0; i < 26; i++) res = (res + mat2[0][i]) % mod;
+        return res;
     }
 };
