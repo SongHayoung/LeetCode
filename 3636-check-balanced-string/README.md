@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-minimum-time-to-reach-last-room-ii/">3636. Check Balanced String</a></h2><h3>Easy</h3><hr><p>You are given a string <code>num</code> consisting of only digits. A string of digits is called <b>balanced </b>if the sum of the digits at even indices is equal to the sum of digits at odd indices.</p>
+<h2><a href="https://leetcode.com/problems/check-balanced-string">3636. Check Balanced String</a></h2><h3>Easy</h3><hr><p>You are given a string <code>num</code> consisting of only digits. A string of digits is called <b>balanced </b>if the sum of the digits at even indices is equal to the sum of digits at odd indices.</p>
 
 <p>Return <code>true</code> if <code>num</code> is <strong>balanced</strong>, otherwise return <code>false</code>.</p>
 
