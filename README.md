@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3469-maximum-height-of-a-triangle](https://github.com/SongHayoung/LeetCode/tree/master/3469-maximum-height-of-a-triangle) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/SongHayoung/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2586-longest-square-streak-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/SongHayoung/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2755-extra-characters-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2755-extra-characters-in-a-string) |
+| [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/SongHayoung/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/SongHayoung/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/SongHayoung/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3195-separate-black-and-white-balls](https://github.com/SongHayoung/LeetCode/tree/master/3195-separate-black-and-white-balls) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/SongHayoung/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Stack
@@ -477,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/SongHayoung/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/SongHayoung/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 ## Probability and Statistics
@@ -588,6 +592,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/SongHayoung/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/SongHayoung/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
+| [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
 ## Game Theory
 |  |
 | ------- |
