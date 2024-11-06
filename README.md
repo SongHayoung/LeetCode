@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
+| [3291-find-if-array-can-be-sorted](https://github.com/SongHayoung/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3469-maximum-height-of-a-triangle](https://github.com/SongHayoung/LeetCode/tree/master/3469-maximum-height-of-a-triangle) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/SongHayoung/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/SongHayoung/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/SongHayoung/LeetCode/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/SongHayoung/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [3291-find-if-array-can-be-sorted](https://github.com/SongHayoung/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3506-count-triplets-with-even-xor-set-bits-i](https://github.com/SongHayoung/LeetCode/tree/master/3506-count-triplets-with-even-xor-set-bits-i) |
 ## Math
 |  |
@@ -404,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/SongHayoung/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3291-find-if-array-can-be-sorted](https://github.com/SongHayoung/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 ## Binary Tree
 |  |
