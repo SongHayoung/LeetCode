@@ -3,7 +3,7 @@ class Solution {
     long long binom[808][808];
     long long nCr(int n, int r) {
         if(n - r < r) return nCr(n, n-r);
-        if(binom[n][r]) return binom[n][r];
+        if(binom[n][r] != -1) return binom[n][r];
         if(r == 0) return 1;
         return binom[n][r] = (nCr(n-1,r-1) + nCr(n-1,r)) % mod;
     }
@@ -14,7 +14,6 @@ class Solution {
             if(s[pos] == '0') return helper(s,r,pos+1,false);
             return (helper(s,r,pos+1,true) + helper(s,r-1,pos+1,false)) % mod;
         }
-        memset(binom[s.length() - pos], 0, sizeof binom[s.length() - pos]);
         return nCr(s.length() - pos, r);
     }
     bool isKReducible(int x, int k) {
@@ -24,15 +23,14 @@ class Solution {
         return x == 1;
     }
 public:
-    int countKReducibleNumbers(string& s, int k) {
+    int countKReducibleNumbers(string s, int k) {
         vector<int> kReducibles;
-        for(int i = 1; i < s.length(); i++) {
+        memset(binom, -1, sizeof binom);
+        for(int i = 1; i <= s.length(); i++) {
             if(isKReducible(i,k - 1)) kReducibles.push_back(i);
         }
         long long res = 0;
-        for(auto& r : kReducibles) {
-            res = (res + helper(s,r,0,false)) % mod;
-        }
+        for(auto& r : kReducibles) res = (res + helper(s,r,0,false)) % mod;
         return res;
     }
 };
