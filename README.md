@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/SongHayoung/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/SongHayoung/LeetCode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/SongHayoung/LeetCode/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
+| [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/SongHayoung/LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/SongHayoung/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SongHayoung/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/SongHayoung/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/SongHayoung/LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SongHayoung/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2502-sort-the-people](https://github.com/SongHayoung/LeetCode/tree/master/2502-sort-the-people) |
@@ -554,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0567-permutation-in-string](https://github.com/SongHayoung/LeetCode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/SongHayoung/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/SongHayoung/LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/SongHayoung/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/SongHayoung/LeetCode/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 ## Two Pointers
