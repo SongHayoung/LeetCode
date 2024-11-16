@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/SongHayoung/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3506-count-triplets-with-even-xor-set-bits-i](https://github.com/SongHayoung/LeetCode/tree/master/3506-count-triplets-with-even-xor-set-bits-i) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3577-convert-doubly-linked-list-to-array-i](https://github.com/SongHayoung/LeetCode/tree/master/3577-convert-doubly-linked-list-to-array-i) |
 ## Dynamic Programming
 |  |
@@ -559,6 +560,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/SongHayoung/LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/SongHayoung/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/SongHayoung/LeetCode/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
 |  |
 | ------- |
