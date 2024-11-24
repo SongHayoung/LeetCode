@@ -24,7 +24,7 @@ public:
                     int pos = i;
                     while(dp[j].size() and dp[j].back().second > len) {
                         long long h = i - dp[j].back().first;
-                        long long w = dp[j].back().second - max(len, j ? dp[j][dp[j].size()-2].second : 0);
+                        long long w = dp[j].back().second - max(len, dp[j].size() > 1 ? dp[j][dp[j].size()-2].second : 0);
                         res += h * (h + 1) / 2 * w;
                         pos = dp[j].back().first;
                         dp[j].pop_back();
