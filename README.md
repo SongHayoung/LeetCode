@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/SongHayoung/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/SongHayoung/LeetCode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/SongHayoung/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Graph
 |  |
 | ------- |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3189-find-champion-ii](https://github.com/SongHayoung/LeetCode/tree/master/3189-find-champion-ii) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/SongHayoung/LeetCode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/SongHayoung/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 ## Array
 |  |
 | ------- |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/SongHayoung/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3506-count-triplets-with-even-xor-set-bits-i](https://github.com/SongHayoung/LeetCode/tree/master/3506-count-triplets-with-even-xor-set-bits-i) |
+| [3517-shortest-distance-after-road-addition-queries-i](https://github.com/SongHayoung/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3577-convert-doubly-linked-list-to-array-i](https://github.com/SongHayoung/LeetCode/tree/master/3577-convert-doubly-linked-list-to-array-i) |
 ## Dynamic Programming
