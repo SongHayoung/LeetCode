@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
 | [2035-count-sub-islands](https://github.com/SongHayoung/LeetCode/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/SongHayoung/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SongHayoung/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/SongHayoung/LeetCode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/SongHayoung/LeetCode/tree/master/2677-cousins-in-binary-tree-ii) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SongHayoung/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/SongHayoung/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2230-minimum-cost-to-reach-city-with-discounts](https://github.com/SongHayoung/LeetCode/tree/master/2230-minimum-cost-to-reach-city-with-discounts) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SongHayoung/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2506-minimize-maximum-value-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/2506-minimize-maximum-value-in-a-grid) |
 | [2803-modify-graph-edge-weights](https://github.com/SongHayoung/LeetCode/tree/master/2803-modify-graph-edge-weights) |
 | [3189-find-champion-ii](https://github.com/SongHayoung/LeetCode/tree/master/3189-find-champion-ii) |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/SongHayoung/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SongHayoung/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SongHayoung/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/SongHayoung/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/SongHayoung/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/SongHayoung/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -485,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2089-maximum-matrix-sum](https://github.com/SongHayoung/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/SongHayoung/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/SongHayoung/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SongHayoung/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2411-spiral-matrix-iv](https://github.com/SongHayoung/LeetCode/tree/master/2411-spiral-matrix-iv) |
 | [2506-minimize-maximum-value-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/2506-minimize-maximum-value-in-a-grid) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
@@ -500,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1325-path-with-maximum-probability](https://github.com/SongHayoung/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/SongHayoung/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2230-minimum-cost-to-reach-city-with-discounts](https://github.com/SongHayoung/LeetCode/tree/master/2230-minimum-cost-to-reach-city-with-discounts) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SongHayoung/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/SongHayoung/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2803-modify-graph-edge-weights](https://github.com/SongHayoung/LeetCode/tree/master/2803-modify-graph-edge-weights) |
@@ -510,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SongHayoung/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/SongHayoung/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2230-minimum-cost-to-reach-city-with-discounts](https://github.com/SongHayoung/LeetCode/tree/master/2230-minimum-cost-to-reach-city-with-discounts) |
+| [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SongHayoung/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2803-modify-graph-edge-weights](https://github.com/SongHayoung/LeetCode/tree/master/2803-modify-graph-edge-weights) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Divide and Conquer
