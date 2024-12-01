@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1366-first-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1366-first-unique-number) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/SongHayoung/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1435-xor-queries-of-a-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/SongHayoung/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SongHayoung/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/SongHayoung/LeetCode/tree/master/1497-design-a-stack-with-increment-operation) |
 | [1511-count-number-of-teams](https://github.com/SongHayoung/LeetCode/tree/master/1511-count-number-of-teams) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1190-smallest-common-region](https://github.com/SongHayoung/LeetCode/tree/master/1190-smallest-common-region) |
 | [1256-rank-transform-of-an-array](https://github.com/SongHayoung/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1366-first-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1366-first-unique-number) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/SongHayoung/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/SongHayoung/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/SongHayoung/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1165-meeting-scheduler](https://github.com/SongHayoung/LeetCode/tree/master/1165-meeting-scheduler) |
 | [1256-rank-transform-of-an-array](https://github.com/SongHayoung/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/SongHayoung/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/SongHayoung/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/SongHayoung/LeetCode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/SongHayoung/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -566,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/SongHayoung/LeetCode/tree/master/1149-intersection-of-three-sorted-arrays) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/SongHayoung/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/SongHayoung/LeetCode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SongHayoung/LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SongHayoung/LeetCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -611,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/SongHayoung/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1113-moving-stones-until-consecutive-ii](https://github.com/SongHayoung/LeetCode/tree/master/1113-moving-stones-until-consecutive-ii) |
 | [1165-meeting-scheduler](https://github.com/SongHayoung/LeetCode/tree/master/1165-meeting-scheduler) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/SongHayoung/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/SongHayoung/LeetCode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SongHayoung/LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1774-add-two-polynomials-represented-as-linked-lists](https://github.com/SongHayoung/LeetCode/tree/master/1774-add-two-polynomials-represented-as-linked-lists) |
