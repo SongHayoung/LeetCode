@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2823-the-knights-tour](https://github.com/SongHayoung/LeetCode/tree/master/2823-the-knights-tour) |
 | [2846-robot-collisions](https://github.com/SongHayoung/LeetCode/tree/master/2846-robot-collisions) |
+| [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/SongHayoung/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1366-first-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1366-first-unique-number) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/SongHayoung/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 ## Hash Table
 |  |
 | ------- |
@@ -545,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2692-take-gifts-from-the-richest-pile](https://github.com/SongHayoung/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/SongHayoung/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2803-modify-graph-edge-weights](https://github.com/SongHayoung/LeetCode/tree/master/2803-modify-graph-edge-weights) |
+| [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 ## Shortest Path
 |  |
 | ------- |
@@ -645,6 +648,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/SongHayoung/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/SongHayoung/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/SongHayoung/LeetCode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/SongHayoung/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SongHayoung/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/SongHayoung/LeetCode/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
@@ -784,10 +788,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
+| [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
 |  |
 | ------- |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 ## Topological Sort
 |  |
 | ------- |
