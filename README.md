@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/SongHayoung/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
+| [3088-maximal-range-that-each-element-is-maximum-in-it](https://github.com/SongHayoung/LeetCode/tree/master/3088-maximal-range-that-each-element-is-maximum-in-it) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
@@ -436,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/SongHayoung/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/SongHayoung/LeetCode/tree/master/2846-robot-collisions) |
+| [3088-maximal-range-that-each-element-is-maximum-in-it](https://github.com/SongHayoung/LeetCode/tree/master/3088-maximal-range-that-each-element-is-maximum-in-it) |
 ## Greedy
 |  |
 | ------- |
@@ -763,6 +765,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/SongHayoung/LeetCode/tree/master/0085-maximal-rectangle) |
 | [1002-maximum-width-ramp](https://github.com/SongHayoung/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SongHayoung/LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [3088-maximal-range-that-each-element-is-maximum-in-it](https://github.com/SongHayoung/LeetCode/tree/master/3088-maximal-range-that-each-element-is-maximum-in-it) |
 ## Memoization
 |  |
 | ------- |
