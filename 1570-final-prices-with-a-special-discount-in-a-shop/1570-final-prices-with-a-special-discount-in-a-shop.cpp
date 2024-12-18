@@ -1,12 +1,11 @@
 class Solution {
 public:
     vector<int> finalPrices(vector<int>& prices) {
-        vector<int> res(prices.size());
-        deque<int> dq;
+        vector<int> st, res(prices.size());
         for(int i = prices.size() - 1; i >= 0; i--) {
-            while(dq.size() and prices[dq.front()] > prices[i]) dq.pop_front();
-            res[i] = prices[i] - (dq.size() ? prices[dq.front()] : 0);
-            dq.push_front(i);
+            while(st.size() and prices[st.back()] > prices[i]) st.pop_back();
+            res[i] = prices[i] - (st.size() ? prices[st.back()] : 0);
+            st.push_back(i);
         }
         return res;
     }
