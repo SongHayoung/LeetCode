@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/check-if-grid-can-be-cut-into-sections">3700. Subsequences with a Unique Middle Mode I</a></h2><h3>Hard</h3><hr><p>Given an integer array <code>nums</code>, find the number of subsequences of size 5 of&nbsp;<code>nums</code> with a <strong>unique middle mode</strong>.</p>
+<h2><a href="https://leetcode.com/problems/subsequences-with-a-unique-middle-mode-i">3700. Subsequences with a Unique Middle Mode I</a></h2><h3>Hard</h3><hr><p>Given an integer array <code>nums</code>, find the number of subsequences of size 5 of&nbsp;<code>nums</code> with a <strong>unique middle mode</strong>.</p>
 
 <p>Since the answer may be very large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
 
