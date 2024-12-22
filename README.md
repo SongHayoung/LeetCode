@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1190-smallest-common-region](https://github.com/SongHayoung/LeetCode/tree/master/1190-smallest-common-region) |
 | [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/SongHayoung/LeetCode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/SongHayoung/LeetCode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/SongHayoung/LeetCode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
 | [2035-count-sub-islands](https://github.com/SongHayoung/LeetCode/tree/master/2035-count-sub-islands) |
 | [2201-valid-arrangement-of-pairs](https://github.com/SongHayoung/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
@@ -523,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0988-flip-equivalent-binary-trees](https://github.com/SongHayoung/LeetCode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+| [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/SongHayoung/LeetCode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
