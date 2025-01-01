@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1256-rank-transform-of-an-array](https://github.com/SongHayoung/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1325-path-with-maximum-probability](https://github.com/SongHayoung/LeetCode/tree/master/1325-path-with-maximum-probability) |
 | [1333-sort-the-jumbled-numbers](https://github.com/SongHayoung/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
+| [1345-perform-string-shifts](https://github.com/SongHayoung/LeetCode/tree/master/1345-perform-string-shifts) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/SongHayoung/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1366-first-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1366-first-unique-number) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/SongHayoung/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1113-moving-stones-until-consecutive-ii](https://github.com/SongHayoung/LeetCode/tree/master/1113-moving-stones-until-consecutive-ii) |
 | [1166-toss-strange-coins](https://github.com/SongHayoung/LeetCode/tree/master/1166-toss-strange-coins) |
 | [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
+| [1345-perform-string-shifts](https://github.com/SongHayoung/LeetCode/tree/master/1345-perform-string-shifts) |
 | [1642-water-bottles](https://github.com/SongHayoung/LeetCode/tree/master/1642-water-bottles) |
 | [1774-add-two-polynomials-represented-as-linked-lists](https://github.com/SongHayoung/LeetCode/tree/master/1774-add-two-polynomials-represented-as-linked-lists) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/SongHayoung/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/SongHayoung/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/SongHayoung/LeetCode/tree/master/1304-longest-happy-string) |
+| [1345-perform-string-shifts](https://github.com/SongHayoung/LeetCode/tree/master/1345-perform-string-shifts) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/SongHayoung/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/SongHayoung/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/SongHayoung/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
