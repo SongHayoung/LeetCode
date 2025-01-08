@@ -367,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/SongHayoung/LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2300-construct-string-with-repeat-limit](https://github.com/SongHayoung/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/SongHayoung/LeetCode/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SongHayoung/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2502-sort-the-people](https://github.com/SongHayoung/LeetCode/tree/master/2502-sort-the-people) |
@@ -441,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2232-adding-spaces-to-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/SongHayoung/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/SongHayoung/LeetCode/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2465-shifting-letters-ii](https://github.com/SongHayoung/LeetCode/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/SongHayoung/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
@@ -641,6 +643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2300-construct-string-with-repeat-limit](https://github.com/SongHayoung/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/SongHayoung/LeetCode/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SongHayoung/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/SongHayoung/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
@@ -686,6 +689,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0214-shortest-palindrome](https://github.com/SongHayoung/LeetCode/tree/master/0214-shortest-palindrome) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/SongHayoung/LeetCode/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Suffix Array
 |  |
@@ -696,6 +700,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0214-shortest-palindrome](https://github.com/SongHayoung/LeetCode/tree/master/0214-shortest-palindrome) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
+| [2303-unique-substrings-with-equal-digit-frequency](https://github.com/SongHayoung/LeetCode/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Sliding Window
 |  |
