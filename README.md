@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2247-number-of-unique-flavors-after-sharing-k-candies](https://github.com/SongHayoung/LeetCode/tree/master/2247-number-of-unique-flavors-after-sharing-k-candies) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/SongHayoung/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/SongHayoung/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/SongHayoung/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SongHayoung/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
@@ -441,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2163-kth-distinct-string-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2232-adding-spaces-to-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/SongHayoung/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2300-construct-string-with-repeat-limit](https://github.com/SongHayoung/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2303-unique-substrings-with-equal-digit-frequency](https://github.com/SongHayoung/LeetCode/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -845,6 +847,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0812-rotate-string](https://github.com/SongHayoung/LeetCode/tree/master/0812-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/SongHayoung/LeetCode/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [2292-counting-words-with-a-given-prefix](https://github.com/SongHayoung/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Trie
 |  |
