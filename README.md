@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/SongHayoung/LeetCode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+| [1876-map-of-highest-peak](https://github.com/SongHayoung/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
 | [2035-count-sub-islands](https://github.com/SongHayoung/LeetCode/tree/master/2035-count-sub-islands) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/SongHayoung/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SongHayoung/LeetCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1803-average-waiting-time](https://github.com/SongHayoung/LeetCode/tree/master/1803-average-waiting-time) |
+| [1876-map-of-highest-peak](https://github.com/SongHayoung/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/SongHayoung/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1893-maximum-subarray-sum-after-one-operation](https://github.com/SongHayoung/LeetCode/tree/master/1893-maximum-subarray-sum-after-one-operation) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/SongHayoung/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -611,6 +613,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SongHayoung/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/SongHayoung/LeetCode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/SongHayoung/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1876-map-of-highest-peak](https://github.com/SongHayoung/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [2035-count-sub-islands](https://github.com/SongHayoung/LeetCode/tree/master/2035-count-sub-islands) |
 | [2089-maximum-matrix-sum](https://github.com/SongHayoung/LeetCode/tree/master/2089-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/SongHayoung/LeetCode/tree/master/2132-convert-1d-array-into-2d-array) |
