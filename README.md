@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/SongHayoung/LeetCode/tree/master/0179-largest-number) |
 | [0265-paint-house-ii](https://github.com/SongHayoung/LeetCode/tree/master/0265-paint-house-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/SongHayoung/LeetCode/tree/master/0407-trapping-rain-water-ii) |
+| [0411-minimum-unique-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0411-minimum-unique-word-abbreviation) |
 | [0523-continuous-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/SongHayoung/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0550-shortest-path-to-get-food](https://github.com/SongHayoung/LeetCode/tree/master/0550-shortest-path-to-get-food) |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
+| [0411-minimum-unique-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0411-minimum-unique-word-abbreviation) |
 | [0476-number-complement](https://github.com/SongHayoung/LeetCode/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/SongHayoung/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
@@ -463,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/SongHayoung/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
+| [0411-minimum-unique-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0411-minimum-unique-word-abbreviation) |
 | [0539-minimum-time-difference](https://github.com/SongHayoung/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/SongHayoung/LeetCode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/SongHayoung/LeetCode/tree/master/0567-permutation-in-string) |
@@ -831,6 +834,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
+| [0411-minimum-unique-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0411-minimum-unique-word-abbreviation) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SongHayoung/LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/SongHayoung/LeetCode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2823-the-knights-tour](https://github.com/SongHayoung/LeetCode/tree/master/2823-the-knights-tour) |
