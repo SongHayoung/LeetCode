@@ -1,40 +1,45 @@
-int go[50505][26][3];
-long long dp[2][26][3];
+long long dp[50505][3][26];
+pair<int,int> go[50505][3][26];
 class Solution {
+    long long helper(string& s, int pos, int cons, int ch) {
+        if(dp[pos][cons][ch] != -1) return dp[pos][cons][ch];
+        long long& res = dp[pos][cons][ch] = INT_MAX;
+        pair<int,int>& g = go[pos][cons][ch] = {-1,-1};
+        long long c = abs(ch - (s[pos] - 'a'));
+        if(pos + 1 == s.length()) return res = (cons == 2 ? c : INT_MAX);
+        if(cons == 2) {
+            for(int i = 0; i < 26; i++) {
+                int cc = i == ch ? 2 : 0;
+                long long now = helper(s,pos + 1, cc,i) + c;
+                if(now < res) {
+                    res = now;
+                    g = {cc,i};
+                }
+            }
+        } else {
+            res = helper(s,pos + 1, cons + 1, ch) + c;
+            g = {cons + 1, ch};
+        }
+        return res;
+    }
 public:
-    string minCostGoodCaption(string caption) {
+    string minCostGoodCaption(string& caption) {
         if(caption.size() <= 2) return "";
-        int n = caption.size();
-        for(int i = 0; i < 26; i++) dp[(n - 1) & 1][i][2] = abs(caption.back() - 'a' - i), dp[(n - 1) & 1][i][0] = dp[(n - 1) & 1][i][1] = INT_MAX;
-        for(int i = caption.size() - 2; i >= 0; i--) {
-            for(int j = 0; j < 26; j++) {
-                int c = abs(caption[i] - 'a' - j);
-                for(int k = 0; k < 2; k++) {
-                    dp[i&1][j][k] = dp[!(i&1)][j][k+1] + c;
-                    go[i][j][k] = j;
-                }
-                dp[i&1][j][2] = INT_MAX;
-                for(int k = 0; k < 26; k++) {
-                    long long now = dp[!(i&1)][k][k == j ? 2 : 0] + c;
-                    if(dp[i&1][j][2] > now) {
-                        dp[i&1][j][2] = now;
-                        go[i][j][2] = k;
-                    }
-                }
-            }
-        }
-        long long cost = INT_MAX, mi = -1, k = 0;
+        memset(dp,-1,sizeof dp);
+        long long target = 0, cost = INT_MAX;
         for(int i = 0; i < 26; i++) {
-            if(dp[0][i][0] < cost) {
-                cost = dp[0][i][0], mi = i;
+            long long now = helper(caption,0,0,i);
+            if(now < cost) {
+                cost = now;
+                target = i;
             }
         }
+        int c = 0;
         string res = "";
         for(int i = 0; i < caption.size(); i++) {
-            res.push_back(mi + 'a');
-            if(go[i][mi][k] == mi) {
-                k = min(k + 1, 2ll);
-            } else mi = go[i][mi][k], k = 0;
+            auto [cc, tt] = go[i][c][target];
+            res.push_back(target + 'a');
+            c = cc, target = tt;
         }
         return res;
     }
