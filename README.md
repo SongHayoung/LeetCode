@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SongHayoung/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/SongHayoung/LeetCode/tree/master/1558-course-schedule-iv) |
+| [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/SongHayoung/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2201-valid-arrangement-of-pairs](https://github.com/SongHayoung/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
 | [2230-minimum-cost-to-reach-city-with-discounts](https://github.com/SongHayoung/LeetCode/tree/master/2230-minimum-cost-to-reach-city-with-discounts) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1694-make-sum-divisible-by-p](https://github.com/SongHayoung/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/SongHayoung/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1720-crawler-log-folder](https://github.com/SongHayoung/LeetCode/tree/master/1720-crawler-log-folder) |
+| [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/SongHayoung/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/SongHayoung/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1755-defuse-the-bomb](https://github.com/SongHayoung/LeetCode/tree/master/1755-defuse-the-bomb) |
@@ -279,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/SongHayoung/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SongHayoung/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/SongHayoung/LeetCode/tree/master/1511-count-number-of-teams) |
+| [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/SongHayoung/LeetCode/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SongHayoung/LeetCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -338,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
 | [1345-perform-string-shifts](https://github.com/SongHayoung/LeetCode/tree/master/1345-perform-string-shifts) |
 | [1642-water-bottles](https://github.com/SongHayoung/LeetCode/tree/master/1642-water-bottles) |
+| [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 | [1774-add-two-polynomials-represented-as-linked-lists](https://github.com/SongHayoung/LeetCode/tree/master/1774-add-two-polynomials-represented-as-linked-lists) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/SongHayoung/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2155-find-missing-observations](https://github.com/SongHayoung/LeetCode/tree/master/2155-find-missing-observations) |
@@ -646,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SongHayoung/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/SongHayoung/LeetCode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/SongHayoung/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 | [1876-map-of-highest-peak](https://github.com/SongHayoung/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [2035-count-sub-islands](https://github.com/SongHayoung/LeetCode/tree/master/2035-count-sub-islands) |
 | [2089-maximum-matrix-sum](https://github.com/SongHayoung/LeetCode/tree/master/2089-maximum-matrix-sum) |
@@ -900,6 +905,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
+| [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -928,6 +934,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
+| [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 ## String Matching
 |  |
 | ------- |
@@ -967,6 +974,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0820-find-eventual-safe-states](https://github.com/SongHayoung/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/SongHayoung/LeetCode/tree/master/1558-course-schedule-iv) |
+| [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/SongHayoung/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2506-minimize-maximum-value-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/2506-minimize-maximum-value-in-a-grid) |
 ## Eulerian Circuit
