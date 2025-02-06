@@ -1,27 +1,23 @@
 class Solution {
 public:
-    long long countNonDecreasingSubarrays(vector<int>& nums, int k) {
-        long long res = 0, n = nums.size(), r = n - 1, now = 0;
-        vector<long long> pre{0};
-        for(auto& x : nums) pre.push_back(x + pre.back());
-        deque<pair<int,int>> dq;
-        auto query = [&](long long l, long long r) {
-            return (r + 1 - l) * nums[l] - (pre[r+1] - pre[l]);
-        };
-        for(int i = n - 1; i >= 0; i--) {
-            long long ri = i;
-            while(dq.size() and nums[dq.back().first] <= nums[i]) {
-                auto [l,r] = dq.back(); dq.pop_back();
-                now -= query(l,r);
-                ri = r;
+    long long countNonDecreasingSubarrays(vector<int>& nums, int kk) {
+        deque<array<int,3>> dq;
+        long long res = 0, k = kk;
+        for(int i = nums.size() - 1; i >= 0; i--) {
+            int cnt = 1;
+            while(dq.size() and dq.front()[2] <= nums[i]) {
+                auto [idx, ccnt, val] = dq.front(); dq.pop_front();
+                cnt += ccnt;
+                k -= ccnt * (1ll * nums[i] - val);
             }
-            now += query(i,ri);
-            dq.push_back({i,ri});
-            while(now > k) {
-                now = now - nums[dq.front().first] + nums[dq.front().second];
-                if(--dq.front().second < dq.front().first) dq.pop_front();
+            dq.push_front({i,cnt,nums[i]});
+            while(k < 0) {
+                int at = dq.back()[0] + dq.back()[1] - 1;
+                k += dq.back()[2] - nums[at];
+                if(--dq.back()[1] == 0) dq.pop_back();
             }
-            res += dq.front().second + 1 - i;
+
+            res += dq.back()[0] + dq.back()[1] - i;
         }
         return res;
     }
