@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/SongHayoung/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1893-maximum-subarray-sum-after-one-operation](https://github.com/SongHayoung/LeetCode/tree/master/1893-maximum-subarray-sum-after-one-operation) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/SongHayoung/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [1917-maximum-average-pass-ratio](https://github.com/SongHayoung/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [1923-sentence-similarity-iii](https://github.com/SongHayoung/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -433,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/SongHayoung/LeetCode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
+| [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/SongHayoung/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/SongHayoung/LeetCode/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
@@ -570,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1720-crawler-log-folder](https://github.com/SongHayoung/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/SongHayoung/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/SongHayoung/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/SongHayoung/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -777,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1511-count-number-of-teams](https://github.com/SongHayoung/LeetCode/tree/master/1511-count-number-of-teams) |
+| [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 ## Binary Search
 |  |
 | ------- |
@@ -902,6 +906,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1366-first-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1366-first-unique-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/SongHayoung/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1497-design-a-stack-with-increment-operation](https://github.com/SongHayoung/LeetCode/tree/master/1497-design-a-stack-with-increment-operation) |
+| [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/SongHayoung/LeetCode/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2434-design-a-number-container-system](https://github.com/SongHayoung/LeetCode/tree/master/2434-design-a-number-container-system) |
 ## Binary Search Tree
@@ -1005,6 +1010,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
+| [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [2434-design-a-number-container-system](https://github.com/SongHayoung/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
