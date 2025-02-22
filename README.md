@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0776-n-ary-tree-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SongHayoung/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/SongHayoung/LeetCode/tree/master/0988-flip-equivalent-binary-trees) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1190-smallest-common-region](https://github.com/SongHayoung/LeetCode/tree/master/1190-smallest-common-region) |
 | [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/SongHayoung/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0988-flip-equivalent-binary-trees](https://github.com/SongHayoung/LeetCode/tree/master/0988-flip-equivalent-binary-trees) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1190-smallest-common-region](https://github.com/SongHayoung/LeetCode/tree/master/1190-smallest-common-region) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/SongHayoung/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1396-count-servers-that-communicate](https://github.com/SongHayoung/LeetCode/tree/master/1396-count-servers-that-communicate) |
@@ -504,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/SongHayoung/LeetCode/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/SongHayoung/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/SongHayoung/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1190-smallest-common-region](https://github.com/SongHayoung/LeetCode/tree/master/1190-smallest-common-region) |
 | [1197-parsing-a-boolean-expression](https://github.com/SongHayoung/LeetCode/tree/master/1197-parsing-a-boolean-expression) |
@@ -665,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0666-path-sum-iv](https://github.com/SongHayoung/LeetCode/tree/master/0666-path-sum-iv) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SongHayoung/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0988-flip-equivalent-binary-trees](https://github.com/SongHayoung/LeetCode/tree/master/0988-flip-equivalent-binary-trees) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/SongHayoung/LeetCode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
