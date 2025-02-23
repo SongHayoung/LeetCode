@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0265-paint-house-ii](https://github.com/SongHayoung/LeetCode/tree/master/0265-paint-house-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/SongHayoung/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0411-minimum-unique-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0411-minimum-unique-word-abbreviation) |
+| [0487-max-consecutive-ones-ii](https://github.com/SongHayoung/LeetCode/tree/master/0487-max-consecutive-ones-ii) |
 | [0523-continuous-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0539-minimum-time-difference](https://github.com/SongHayoung/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0550-shortest-path-to-get-food](https://github.com/SongHayoung/LeetCode/tree/master/0550-shortest-path-to-get-food) |
@@ -287,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0265-paint-house-ii](https://github.com/SongHayoung/LeetCode/tree/master/0265-paint-house-ii) |
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
+| [0487-max-consecutive-ones-ii](https://github.com/SongHayoung/LeetCode/tree/master/0487-max-consecutive-ones-ii) |
 | [0650-2-keys-keyboard](https://github.com/SongHayoung/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/SongHayoung/LeetCode/tree/master/0664-strange-printer) |
 | [1025-minimum-cost-for-tickets](https://github.com/SongHayoung/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
@@ -849,6 +851,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0487-max-consecutive-ones-ii](https://github.com/SongHayoung/LeetCode/tree/master/0487-max-consecutive-ones-ii) |
 | [0567-permutation-in-string](https://github.com/SongHayoung/LeetCode/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/SongHayoung/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
