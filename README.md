@@ -326,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/SongHayoung/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/SongHayoung/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3614-find-the-number-of-k-even-arrays](https://github.com/SongHayoung/LeetCode/tree/master/3614-find-the-number-of-k-even-arrays) |
+| [3701-minimum-cost-good-caption](https://github.com/SongHayoung/LeetCode/tree/master/3701-minimum-cost-good-caption) |
 ## Enumeration
 |  |
 | ------- |
@@ -586,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3447-clear-digits](https://github.com/SongHayoung/LeetCode/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/SongHayoung/LeetCode/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3701-minimum-cost-good-caption](https://github.com/SongHayoung/LeetCode/tree/master/3701-minimum-cost-good-caption) |
 ## Stack
 |  |
 | ------- |
