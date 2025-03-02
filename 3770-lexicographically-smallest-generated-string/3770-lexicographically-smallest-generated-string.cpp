@@ -1,84 +1,70 @@
 class Solution {
-    vector<long long> pi(const string& pattern) {
-        vector<long long> prefix(pattern.size());
-        long long j = 0;
-        for (long long i = 1; i < pattern.size(); i++) {
-            while (j > 0 && pattern[i] != pattern[j]) {
-                j = prefix[j - 1];
-            }
-            if (pattern[i] == pattern[j]) {
-                prefix[i] = ++j;
-            }
+    vector<long long> pi(string& p) {
+        vector<long long> PI(p.size());
+        for (long long i = 1, j = 0; i < p.size(); i++) {
+            while (j > 0 && p[i] != p[j]) j = PI[j - 1];
+            if (p[i] == p[j]) PI[i] = ++j;
         }
-        return prefix;
+        return PI;
     }
-    vector<long long> kmp1(const string& text, const string& pattern, vector<long long>& PI) {
-        vector<long long> matchPositions;
-        long long j = 0;
-        for (long long i = 0; i < text.size(); i++) {
-            while (j > 0 && text[i] != pattern[j]) {
-                j = PI[j - 1];
-            }
-            if (text[i] == pattern[j]) {
-                j++;
-                if (j == pattern.size()) {
-                    matchPositions.push_back(i - pattern.size() + 1);
-                    j = PI[j - 1];
+    bool kmp(string& s, string& p, vector<long long>& PI, function<bool(long long&, long long&, vector<long long>&)> matched) {
+        for(long long i = 0, j = 0; i < s.size(); i++) {
+            while(j > 0 and s[i] != p[j]) j = PI[j-1];
+            if(s[i] == p[j]) {
+                if(++j == p.size()) {
+                    bool ok = matched(i,j,PI);
+                    if(!ok) return false;
                 }
             }
         }
-        return matchPositions;
-    }
-    string kmp2(const string& baseString, string& res, const string& pattern, vector<long long>& PI, deque<long long>& any) {
-        long long j = 0;
-        for (long long i = 0; i < res.size(); i++) {
-            while (j > 0 && res[i] != pattern[j]) {
-                j = PI[j - 1];
-            }
-            if (res[i] == pattern[j]) {
-                j++;
-                if (j == pattern.size()) {
-                    if(baseString[i-j+1] == 'T') j = PI[j - 1];
-                    else {
-                        while(any.size() and any.front() < i - j + 1) any.pop_front();
-                        int at = -1;
-                        while(any.size() and any.front() <= i) {
-                            at = any.front(); any.pop_front();
-                        }
-                        if(at == -1) return "";
-                        res[at]++;
-                        j = 0;
-                    }
-                }
-            }
-        }
-        return res;
+        return true;
     }
 public:
-    string generateString(const string& baseString, const string& pattern) {
-        string res(baseString.size() + pattern.size() - 1, '#');
-        vector<long long> patternPositions, anti;
+    string generateString(string& s, string& p) {
+        string res(s.size() + p.size() - 1, '#');
+        long long t = 0;
         deque<long long> any;
 
-        for (int i = 0, maxLength = 0; i < baseString.size(); i++) {
-            if (baseString[i] == 'T') {
-                patternPositions.push_back(i);
+        for (int i = 0, maxLength = 0; i < s.size(); i++) {
+            if (s[i] == 'T') {
+                t++;
                 maxLength = max(maxLength, i);
-                while (maxLength < i + pattern.size()) {
-                    res[maxLength] = pattern[maxLength - i];
+                while (maxLength < i + p.size()) {
+                    res[maxLength] = p[maxLength - i];
                     maxLength++;
                 }
-            } else anti.push_back(i);
+            }
         }
 
-        vector<long long> PI = pi(pattern);
-        if (kmp1(res, pattern, PI) != patternPositions) return "";
+        long long matchT = 0;
+        auto countT = [&matchT](long long& i, long long& j, vector<long long>& PI) mutable {
+            matchT++;
+            j = PI[j - 1];
+            return true;
+        };
+        vector<long long> PI = pi(p);
+        kmp(res, p, PI, countT);
+        if(t != matchT) return "";
+
         for(int i = 0; i < res.size(); i++) {
             if(res[i] == '#') {
                 any.push_back(i);
                 res[i] = 'a';
             }
         }
-        return kmp2(baseString, res, pattern, PI, any);
+
+        auto modifyF = [&s,&any,&res](long long& i, long long& j, vector<long long>& PI) mutable {
+            if(s[i-j+1] == 'T') j = PI[j - 1];
+            else {
+                while(any.size() and any.front() < i - j + 1) any.pop_front();
+                int at = -1;
+                while(any.size() and any.front() <= i) at = any.front(), any.pop_front();
+                if(at == -1) return false;
+                res[at]++;
+                j = 0;
+            }
+            return true;
+        };
+        return kmp(res, p, PI, modifyF) ? res : "";
     }
 };
