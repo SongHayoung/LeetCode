@@ -54,8 +54,8 @@ public:
         }
 
         auto modifyF = [&s,&any,&res](long long& i, long long& j, vector<long long>& PI) mutable {
-            if(s[i-j+1] == 'T') j = PI[j - 1];
-            else {
+            if(s[i-j+1] == 'T') j = PI[j - 1]; // pass if T
+            else { // try update largest index we can modify
                 while(any.size() and any.front() < i - j + 1) any.pop_front();
                 int at = -1;
                 while(any.size() and any.front() <= i) at = any.front(), any.pop_front();
