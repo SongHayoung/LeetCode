@@ -21,15 +21,15 @@ class Solution {
     }
 public:
     string generateString(string& s, string& p) {
-        string res(s.size() + p.size() - 1, '#');
-        long long t = 0;
+        long long t = 0, n = s.size(), m = p.size();
+        string res(n + m - 1, '#');
         deque<long long> any;
 
-        for (int i = 0, maxLength = 0; i < s.size(); i++) {
+        for (int i = 0, maxLength = 0; i < n; i++) {
             if (s[i] == 'T') {
                 t++;
                 maxLength = max(maxLength, i);
-                while (maxLength < i + p.size()) {
+                while (maxLength < i + m) {
                     res[maxLength] = p[maxLength - i];
                     maxLength++;
                 }
