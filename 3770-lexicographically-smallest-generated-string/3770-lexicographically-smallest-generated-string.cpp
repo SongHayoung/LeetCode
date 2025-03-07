@@ -43,7 +43,7 @@ public:
             return true;
         };
         vector<long long> PI = pi(p);
-        kmp(res, p, PI, countT);
+        kmp(res, p, PI, countT); // check we made valid res with T
         if(t != matchT) return "";
 
         for(int i = 0; i < res.size(); i++) {
