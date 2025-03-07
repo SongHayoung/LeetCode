@@ -43,8 +43,8 @@ public:
             return true;
         };
         vector<long long> PI = pi(p);
-        kmp(res, p, PI, countT); // check we made valid res with T
-        if(t != matchT) return "";
+        kmp(res, p, PI, countT);
+        if(t != matchT) return ""; // check we made valid res with T
 
         for(int i = 0; i < res.size(); i++) {
             if(res[i] == '#') {
