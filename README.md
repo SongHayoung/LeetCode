@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2564-most-profitable-path-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/SongHayoung/LeetCode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2803-modify-graph-edge-weights](https://github.com/SongHayoung/LeetCode/tree/master/2803-modify-graph-edge-weights) |
+| [2880-find-the-closest-marked-node](https://github.com/SongHayoung/LeetCode/tree/master/2880-find-the-closest-marked-node) |
 | [3189-find-champion-ii](https://github.com/SongHayoung/LeetCode/tree/master/3189-find-champion-ii) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/SongHayoung/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2823-the-knights-tour](https://github.com/SongHayoung/LeetCode/tree/master/2823-the-knights-tour) |
 | [2846-robot-collisions](https://github.com/SongHayoung/LeetCode/tree/master/2846-robot-collisions) |
 | [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
+| [2880-find-the-closest-marked-node](https://github.com/SongHayoung/LeetCode/tree/master/2880-find-the-closest-marked-node) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/SongHayoung/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
 | [3088-maximal-range-that-each-element-is-maximum-in-it](https://github.com/SongHayoung/LeetCode/tree/master/3088-maximal-range-that-each-element-is-maximum-in-it) |
@@ -805,6 +807,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/SongHayoung/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2803-modify-graph-edge-weights](https://github.com/SongHayoung/LeetCode/tree/master/2803-modify-graph-edge-weights) |
 | [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
+| [2880-find-the-closest-marked-node](https://github.com/SongHayoung/LeetCode/tree/master/2880-find-the-closest-marked-node) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Shortest Path
@@ -817,6 +820,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2230-minimum-cost-to-reach-city-with-discounts](https://github.com/SongHayoung/LeetCode/tree/master/2230-minimum-cost-to-reach-city-with-discounts) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SongHayoung/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2803-modify-graph-edge-weights](https://github.com/SongHayoung/LeetCode/tree/master/2803-modify-graph-edge-weights) |
+| [2880-find-the-closest-marked-node](https://github.com/SongHayoung/LeetCode/tree/master/2880-find-the-closest-marked-node) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Divide and Conquer
 |  |
