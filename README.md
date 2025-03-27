@@ -281,6 +281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2846-robot-collisions](https://github.com/SongHayoung/LeetCode/tree/master/2846-robot-collisions) |
 | [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 | [2880-find-the-closest-marked-node](https://github.com/SongHayoung/LeetCode/tree/master/2880-find-the-closest-marked-node) |
+| [2888-minimum-index-of-a-valid-split](https://github.com/SongHayoung/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/SongHayoung/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
 | [3088-maximal-range-that-each-element-is-maximum-in-it](https://github.com/SongHayoung/LeetCode/tree/master/3088-maximal-range-that-each-element-is-maximum-in-it) |
@@ -533,6 +534,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/SongHayoung/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2755-extra-characters-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/SongHayoung/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
+| [2888-minimum-index-of-a-valid-split](https://github.com/SongHayoung/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3227-find-missing-and-repeated-values](https://github.com/SongHayoung/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SongHayoung/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -734,6 +736,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/SongHayoung/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/SongHayoung/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2846-robot-collisions](https://github.com/SongHayoung/LeetCode/tree/master/2846-robot-collisions) |
+| [2888-minimum-index-of-a-valid-split](https://github.com/SongHayoung/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/SongHayoung/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [2952-minimum-time-to-make-array-sum-at-most-x](https://github.com/SongHayoung/LeetCode/tree/master/2952-minimum-time-to-make-array-sum-at-most-x) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
