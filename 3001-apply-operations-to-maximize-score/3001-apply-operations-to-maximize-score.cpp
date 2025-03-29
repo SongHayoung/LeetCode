@@ -416,7 +416,9 @@ ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-
 ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);};
 
-ll factor[MAX_N];
+ll factor[MAX_N], score[MAX_N];
+pll range[MAX_N];
+vll st;
 class Solution {
     void init() {
         if(factor[2]) return;
@@ -430,10 +432,7 @@ public:
     int maximumScore(vector<int>& nums, int k) {
         ll n = sz(nums);
         init();
-        vll score(n);
         rep(i,0,n) score[i] = factor[nums[i]];
-        vll st;
-        vpll range(n);
         rep(i,0,n) {
             while(sz(st) and score[st.back()] < score[i]) {
                 auto j = st.back(); st.pop_back();
@@ -460,4 +459,3 @@ public:
         return res;
     }
 };
-
