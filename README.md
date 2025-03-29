@@ -581,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/SongHayoung/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/SongHayoung/LeetCode/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/SongHayoung/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1051-shortest-way-to-form-string](https://github.com/SongHayoung/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/SongHayoung/LeetCode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
@@ -690,6 +691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0780-max-chunks-to-make-sorted](https://github.com/SongHayoung/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0890-lemonade-change](https://github.com/SongHayoung/LeetCode/tree/master/0890-lemonade-change) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/SongHayoung/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1051-shortest-way-to-form-string](https://github.com/SongHayoung/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1304-longest-happy-string](https://github.com/SongHayoung/LeetCode/tree/master/1304-longest-happy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/SongHayoung/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/SongHayoung/LeetCode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -907,6 +909,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0719-find-k-th-smallest-pair-distance](https://github.com/SongHayoung/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1051-shortest-way-to-form-string](https://github.com/SongHayoung/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/SongHayoung/LeetCode/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/SongHayoung/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -983,6 +986,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0277-find-the-celebrity](https://github.com/SongHayoung/LeetCode/tree/master/0277-find-the-celebrity) |
 | [0567-permutation-in-string](https://github.com/SongHayoung/LeetCode/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/SongHayoung/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [1051-shortest-way-to-form-string](https://github.com/SongHayoung/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1113-moving-stones-until-consecutive-ii](https://github.com/SongHayoung/LeetCode/tree/master/1113-moving-stones-until-consecutive-ii) |
 | [1165-meeting-scheduler](https://github.com/SongHayoung/LeetCode/tree/master/1165-meeting-scheduler) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/SongHayoung/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
