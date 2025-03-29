@@ -416,8 +416,8 @@ ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-
 ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
 ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);};
 
+ll factor[MAX_N];
 class Solution {
-    ll factor[MAX_N];
     void init() {
         if(factor[2]) return;
         ZERO(factor);
