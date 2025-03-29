@@ -419,28 +419,19 @@ ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);};
 class Solution {
     ll factor[MAX_N];
     void init() {
-        MINUS(factor);
-        factor[1] = 1;
+        if(factor[2]) return;
+        ZERO(factor);
         rep(i,2,MAX_N) {
-            if(factor[i] != -1) continue;
-            for(ll j = i; j < MAX_N; j += i) factor[j] = i;
+            if(factor[i]) continue;
+            for(ll j = i; j < MAX_N; j += i) factor[j]++;
         }
-    }
-    ll __score(ll x) {
-        ll res = 1;
-        while(x > 1) {
-            ll f = factor[x];
-            while(x % f == 0) x /= f;
-            res++;
-        }
-        return res;
     }
 public:
     int maximumScore(vector<int>& nums, int k) {
         ll n = sz(nums);
         init();
         vll score(n);
-        rep(i,0,n) score[i] = __score(nums[i]);
+        rep(i,0,n) score[i] = factor[nums[i]];
         vll st;
         vpll range(n);
         rep(i,0,n) {
@@ -461,7 +452,6 @@ public:
         });
         ll res = 1;
         rep(i,0,n) {
-            ll idx = ord[i];
             ll op = min(1ll * k, (range[ord[i]].second - ord[i] + 1) * (ord[i] - range[ord[i]].first + 1));
             k -= op;
             res = res * modpow(nums[ord[i]], op) % mod;
