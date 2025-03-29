@@ -9,7 +9,7 @@
 
 using namespace std;
 
-struct PairHash {inline std::size_t operator()(const std::pair<int, int> &v) const { return v.first * 31 + v.second; }};
+struct PairHash {inline std::size_t operator()(const std::pair<long long, long long> &v) const { return v.first * 31ll + v.second; }};
 
 // speed
 #define Code ios_base::sync_with_stdio(false);
@@ -25,7 +25,7 @@ using ull = unsigned long long;
 const ld PI = acosl(-1.0);  /* pi */
 const ll INF = 1e18;
 const ld EPS = 1e-9;
-const ll MAX_N = 1010101;
+const ll MAX_N = 101010;
 const ll mod = 1e9 + 7;
 
 // typedef
@@ -46,6 +46,7 @@ typedef vector<ll> vll;
 typedef vector<ull> vull;
 typedef vector<vll> vvll;
 typedef vector<int> vi;
+typedef vector<vi> vvi;
 typedef vector<bool> vb;
 typedef deque<ll> dqll;
 typedef deque<pll> dqpll;
@@ -64,19 +65,22 @@ typedef unordered_map<pll, ll, PairHash> umpll;
 #define rrep(i,m,n) for(ll i=n;i>=m;i--)
 #define all(a) begin(a), end(a)
 #define rall(a) rbegin(a), rend(a)
+#define uniq(a) sort(all(a)), a.erase(unique(all(a)),end(a))
 #define ZERO(a) memset(a,0,sizeof(a))
 #define MINUS(a) memset(a,0xff,sizeof(a))
 #define INF(a) memset(a,0x3f3f3f3f3f3f3f3fLL,sizeof(a))
-#define ASCEND(a) iota(all(a),0)
+#define NEGINF(a) memset(a,0xcf,sizeof(a))
+#define ASCEND(a,b) iota(all(a),b)
 #define sz(x) ll((x).size())
 #define BIT(a,i) ((a>>i)&1)
 #define BITSHIFT(a,i,n) (((a<<i) & ((1ll<<n) - 1)) | (a>>(n-i)))
 #define MAXBIT(a) (64ll - __builtin_clzll(a) - 1ll)
-#define pyes cout<<"YES\n";
-#define pno cout<<"NO\n";
-#define endl "\n"
+#define MINBIT(a) (__builtin_ctzll(a))
+#define pyes cout<<"Yes\n";
+#define pno cout<<"No\n";
+//#define endl "\n"
 #define pneg1 cout<<"-1\n";
-#define ppossible cout<<"Possible\n";
+#define ppossible cout<<"possible\n";
 #define pimpossible cout<<"impossible\n";
 #define TC(x) cout<<"Case #"<<x<<": ";
 #define X first
@@ -188,19 +192,22 @@ void printvv(vector<vector<T>>v){ll n=v.size();rep(i,0,n)printv(v[i]);}
 template<typename T>
 void printvln(vector<T>v){ll n=v.size();rep(i,0,n)cout<<v[i]<<endl;}
 void fileIO(string in = "input.txt", string out = "output.txt") {freopen(in.c_str(),"r",stdin); freopen(out.c_str(),"w",stdout);}
-void readf() {freopen("", "rt", stdin);}
+void hackercupIO(string in) {fileIO("/Users/hayoungsong/Downloads/" + in + ".txt", "/Users/hayoungsong/Downloads/" + in + "_solution.txt");}
+void readf(string in) {freopen(("/Users/hayoungsong/Downloads/" + in).c_str(), "rt", stdin);}
 template <typename... T>
 void in(T &...a) { ((cin >> a), ...); }
 template<typename T>
-void readv(vector<T>& v){rep(i,0,sz(v)) in(v[i]);}
-template<typename T, typename U>
-void readp(pair<T,U>& A) {cin>>A.first>>A.second;}
-template<typename T, typename U>
-void readvp(vector<pair<T,U>>& A) {rep(i,0,sz(A)) readp(A[i]); }
+void in(vector<T>& v){rep(i,0,sz(v)) in(v[i]);}
 template<typename T>
-void readvall(vector<T>& v) {rep(i,0,sz(v)) rep(j,0,sz(v[i])) in(v[i][j]);}
+void in(deque<T>& v){rep(i,0,sz(v)) in(v[i]);}
+template<typename T, typename U>
+void in(pair<T,U>& A) {in(A.first, A.second);}
+template<typename T, typename U>
+void in(vector<pair<T,U>>& A) {rep(i,0,sz(A)) in(A[i]); }
+template<typename T, std::size_t N>
+void in(vector<array<T,N>>& A) {rep(i,0,sz(A)) rep(j,0,sz(A[i])) in(A[i][j]); }
 template<typename T>
-void readvv(vector<vector<T>>& A) {rep(i,0,sz(A)) readv(A[i]);}
+void in(vector<vector<T>>& A) {rep(i,0,sz(A)) in(A[i]);}
 
 struct Combination {
     vll fac, inv;
@@ -282,11 +289,13 @@ struct Point {
     Point() {}
     void input() {cin>>y>>x;}
     friend ostream& operator<<(ostream& os, const Point<T>& p) { os<<p.y<<' '<<p.x<<'\n'; return os;}
+    friend istream& operator>>(istream& os, Point<T> &p) { return os>>p.y>>p.x; }
     Point<T> operator+(Point<T>& p) {return Point<T>(y + p.y, x + p.x);}
     Point<T> operator-(Point<T>& p) {return Point<T>(y - p.y, x - p.x);}
     Point<T> operator*(ll n) {return Point<T>(y*n,x*n); }
     Point<T> operator/(ll n) {return Point<T>(y/n,x/n); }
     bool operator==(const Point<T> &a) {return x == a.x && y == a.y;}
+    bool operator!=(const Point<T> &a) {return x != a.x or y != a.y;}
     bool operator<(const Point &other) const {if (x == other.x) return y < other.y;return x < other.x;}
     Point<T> rotate(Point<T> center, ld angle) {
         ld si = sin(angle * PI / 180.), co = cos(angle * PI / 180.);
@@ -325,6 +334,13 @@ struct Line {
 
     bool on(Point<T> x) {
         return ccw(A,x,B) == 0;
+    }
+
+    bool onSegment(Point<T> x) {
+        if(!on(x)) return false;
+        if(min(A.x, B.x) > x.x or max(A.x, B.x) < x.x) return false;
+        if(min(A.y, B.y) > x.y or max(A.y, B.y) < x.y) return false;
+        return true;
     }
 
     bool isIntersect(Line<T> o) {
@@ -386,53 +402,72 @@ struct Circle {
         T d = (center.x - c.center.x) * (center.x - c.center.x) + (center.y - c.center.y) * (center.y - c.center.y);
         return d <= radius * radius;
     }
+
+    bool include(Point<T> p) {
+        T d = (center.x - p.x) * (center.x - p.x) + (center.y - p.y) * (center.y - p.y);
+        return d <= radius * radius;
+    }
 };
 
 ll __gcd(ll x, ll y) { return !y ? x : __gcd(y, x % y); }
 all3 __exgcd(ll x, ll y) { if(!y) return {x,1,0}; auto [g,x1,y1] = __exgcd(y, x % y); return {g, y1, x1 - (x/y) * y1}; }
 ll __lcm(ll x, ll y) { return x / __gcd(x,y) * y; }
-ll modpow(ll n, ll x, ll MOD = mod) { if(x < 0) return modpow(modpow(n,-x,MOD), MOD-2,MOD); n%=MOD; if(!x) return 1; ll res = modpow(n,x>>1,MOD); res = (res * res) % MOD; if(x&1) res = (res * n) % MOD; return res; }
+ll modpow(ll n, ll x, ll MOD = mod) {if(x<0){return modpow(modpow(n,-x,MOD),MOD-2,MOD);}n%=MOD;ll res=1;while(x){if(x&1){res=res*n%MOD;}n=n*n%MOD;x>>=1;}return res;}
+ll __xor(ll n) {return n%4==0?n:n%4==1?1:n%4==2?n+1:0;}
+ll __rangexor(ll l, ll r) {return __xor(r)^__xor(l-1);};
 
 class Solution {
-    ll score(ll n) {
-        ll res = 0;
-        for(ll i = 2; i * i <= n; i++) {
-            if(n % i) continue;
-            res += 1;
-            while(n % i == 0) n /= i;
+    ll factor[MAX_N];
+    void init() {
+        MINUS(factor);
+        factor[1] = 1;
+        rep(i,2,MAX_N) {
+            if(factor[i] != -1) continue;
+            for(ll j = i; j < MAX_N; j += i) factor[j] = i;
         }
-        if(n != 1) res += 1;
+    }
+    ll __score(ll x) {
+        ll res = 1;
+        while(x > 1) {
+            ll f = factor[x];
+            while(x % f == 0) x /= f;
+            res++;
+        }
         return res;
     }
 public:
-    int maximumScore(vector<int>& A, int k) {
-        vll ps;
-        rep(i,0,sz(A)) ps.push_back(score(A[i]));
-        vll cover(sz(A));
-        vpll st;
-        rep(i,0,sz(A)) {
-            ll p = i;
-            while(sz(st) and ps[st.back().first] < ps[i]) {
-                auto [real, at] = st.back(); st.pop_back();
-                cover[real] = (real - at + 1) * (i - real);
-                p = at;
+    int maximumScore(vector<int>& nums, int k) {
+        ll n = sz(nums);
+        init();
+        vll score(n);
+        rep(i,0,n) score[i] = __score(nums[i]);
+        vll st;
+        vpll range(n);
+        rep(i,0,n) {
+            while(sz(st) and score[st.back()] < score[i]) {
+                auto j = st.back(); st.pop_back();
+                range[j] = {sz(st) ? st.back() + 1 : 0, i - 1};
             }
-            st.push_back({i,p});
+            st.push_back(i);
         }
         while(sz(st)) {
-            auto [real, at] = st.back(); st.pop_back();
-            cover[real] = (real - at + 1) * (sz(A) - real);
+            auto j = st.back(); st.pop_back();
+            range[j] = {sz(st) ? st.back() + 1 : 0, n - 1};
         }
-        priority_queue<pll> q;
-        rep(i,0,sz(A)) q.push({A[i], cover[i]});
+        vll ord(n);
+        ASCEND(ord,0);
+        sort(all(ord), [&](ll i, ll j) {
+            return nums[i] > nums[j];
+        });
         ll res = 1;
-        while(k) {
-            auto [val, cnt] = q.top(); q.pop();
-            debug(val, cnt);
-            ll pick = min(cnt, 1ll * k);
-            k -= pick;
-            res = res * modpow(val,pick) % mod;
+        rep(i,0,n) {
+            ll idx = ord[i];
+            ll op = min(1ll * k, (range[ord[i]].second - ord[i] + 1) * (ord[i] - range[ord[i]].first + 1));
+            k -= op;
+            res = res * modpow(nums[ord[i]], op) % mod;
+            if(!k) break;
         }
         return res;
     }
 };
+
