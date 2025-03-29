@@ -423,8 +423,6 @@ public:
             auto [real, at] = st.back(); st.pop_back();
             cover[real] = (real - at + 1) * (sz(A) - real);
         }
-        debug(ps);
-        debug(cover);
         priority_queue<pll> q;
         rep(i,0,sz(A)) q.push({A[i], cover[i]});
         ll res = 1;
