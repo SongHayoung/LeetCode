@@ -1,83 +1,61 @@
 class Solution {
-    vector<vector<pair<int,int>>> adj;
-    vector<pair<int,int>> par;
     vector<int> dep;
-    int leaf = 0;
-    void dfs(int u, int p, int d = 1) {
-        bool lef = true;
+    int id;
+    vector<vector<pair<int,int>>> adj;
+    vector<int> costs;
+    vector<int> in, out;
+    void dfs(int u, int par, int c, int d) {
+        in[u] = id++;
+        costs.push_back(c);
         dep[u] = d;
-        for(auto& [v,e] : adj[u]) {
-            if(v == p) continue;
-            par[v] = {u,e};
-            dfs(v,u, d + 1);
-            lef = false;
+        for(auto& [v,w] : adj[u]) {
+            if(v == par) continue;
+            dfs(v,u,w, d + 1);
         }
-        if(lef) leaf++;
+        out[u] = id++;
+        costs.push_back(-c);
     }
-    vector<int> specialCase(int n, vector<vector<int>>& edges, vector<vector<int>>& queries) {
-        vector<int> at(n + 1), fenwick(n+2), res;
-        for(int i = 1; i <= n; i++) at[i] = dep[i];
-        auto udt = [&](int n, int x) {
-            while(n < fenwick.size()) {
-                fenwick[n] += x;
-                n += n & -n;
-            }
-        };
-        auto qry = [&](int n) {
-            int res = 0;
-            while(n) {
-                res += fenwick[n];
-                n -= n & -n;
-            }
-            return res;
-        };
-        for(int i = 0; i < edges.size(); i++) {
-            int u = edges[i][0], v = edges[i][1], w = edges[i][2];
-            udt(max(dep[u], dep[v]), w);
+    vector<int> fenwick;
+    void update(int n, int w) {
+        while(n < fenwick.size()) {
+            fenwick[n] += w;
+            n += n & -n;
         }
-        for(auto& q : queries) {
-            int op = q[0];
-            if(op == 1) {
-                int u = q[1], v = q[2], w = q[3], ch = par[u].first == v ? u : v, e = par[ch].second;
-                udt(max(dep[u], dep[v]), -edges[e][2]);
-                edges[e][2] = w;
-                udt(max(dep[u], dep[v]), edges[e][2]);
-            } else {
-                res.push_back(qry(dep[q[1]]));
-            }
+    }
+    int query(int n) {
+        int res = 0;
+        while(n) {
+            res += fenwick[n];
+            n -= n & -n;
         }
         return res;
     }
 public:
     vector<int> treeQueries(int n, vector<vector<int>>& edges, vector<vector<int>>& queries) {
-        adj = vector<vector<pair<int,int>>>(n+1);
-        par = vector<pair<int,int>>(n+1);
-        dep = vector<int>(n + 1);
-        for(int i = 0; i < edges.size(); i++) {
-            int u = edges[i][0], v = edges[i][1];
-            adj[u].push_back({v,i});
-            adj[v].push_back({u,i});
+        id = 1, adj = vector<vector<pair<int,int>>>(n), costs = {0}, in = out = dep = vector<int>(n);
+        for(auto& e : edges) {
+            int u = e[0], v = e[1], w = e[2];
+            u -= 1, v -= 1;
+            adj[u].push_back({v,w});
+            adj[v].push_back({u,w});
         }
-        par[1] = {-1,-1};
-        dfs(1,-1);
-        if(leaf == 1) {
-            return specialCase(n,edges,queries);
-        }
+        dfs(0,-1,0,0);
+        fenwick = vector<int>(id + 1);
+        for(int i = 1; i < costs.size(); i++) update(i,costs[i]);
         vector<int> res;
         for(auto& q : queries) {
             int op = q[0];
             if(op == 1) {
-                int u = q[1], v = q[2], w = q[3], ch = par[u].first == v ? u : v, e = par[ch].second;
-                edges[e][2] = w;
-            } else {
-                int now = 0, u = q[1];
-                while(u != 1) {
-                    now += edges[par[u].second][2];
-                    u = par[u].first;
-                }
-                res.push_back(now);
-            }
+                int u = q[1] - 1, v = q[2] - 1, w = q[3], ch = dep[u] > dep[v] ? u : v;
+                int e1 = in[ch], e2 = out[ch];
+                update(e1, -costs[e1]);
+                update(e2, -costs[e2]);
+                costs[e1] = w, costs[e2] = -w;
+                update(e1, costs[e1]);
+                update(e2, costs[e2]);
+            } else res.push_back(query(in[q[1] - 1]));
         }
+
         return res;
     }
 };
