@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0145-binary-tree-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0261-graph-valid-tree](https://github.com/SongHayoung/LeetCode/tree/master/0261-graph-valid-tree) |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/SongHayoung/LeetCode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0386-lexicographical-numbers](https://github.com/SongHayoung/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [0666-path-sum-iv](https://github.com/SongHayoung/LeetCode/tree/master/0666-path-sum-iv) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0261-graph-valid-tree](https://github.com/SongHayoung/LeetCode/tree/master/0261-graph-valid-tree) |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/SongHayoung/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/SongHayoung/LeetCode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0407-trapping-rain-water-ii](https://github.com/SongHayoung/LeetCode/tree/master/0407-trapping-rain-water-ii) |
@@ -138,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/SongHayoung/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0179-largest-number](https://github.com/SongHayoung/LeetCode/tree/master/0179-largest-number) |
 | [0265-paint-house-ii](https://github.com/SongHayoung/LeetCode/tree/master/0265-paint-house-ii) |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/SongHayoung/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/SongHayoung/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0407-trapping-rain-water-ii](https://github.com/SongHayoung/LeetCode/tree/master/0407-trapping-rain-water-ii) |
@@ -823,6 +826,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/SongHayoung/LeetCode/tree/master/0085-maximal-rectangle) |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/SongHayoung/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0407-trapping-rain-water-ii](https://github.com/SongHayoung/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0550-shortest-path-to-get-food](https://github.com/SongHayoung/LeetCode/tree/master/0550-shortest-path-to-get-food) |
@@ -954,6 +958,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/SongHayoung/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
