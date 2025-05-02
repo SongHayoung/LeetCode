@@ -360,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0487-max-consecutive-ones-ii](https://github.com/SongHayoung/LeetCode/tree/master/0487-max-consecutive-ones-ii) |
 | [0650-2-keys-keyboard](https://github.com/SongHayoung/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/SongHayoung/LeetCode/tree/master/0664-strange-printer) |
+| [0868-push-dominoes](https://github.com/SongHayoung/LeetCode/tree/master/0868-push-dominoes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/SongHayoung/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1025-minimum-cost-for-tickets](https://github.com/SongHayoung/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
@@ -638,6 +639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0726-number-of-atoms](https://github.com/SongHayoung/LeetCode/tree/master/0726-number-of-atoms) |
 | [0768-partition-labels](https://github.com/SongHayoung/LeetCode/tree/master/0768-partition-labels) |
 | [0812-rotate-string](https://github.com/SongHayoung/LeetCode/tree/master/0812-rotate-string) |
+| [0868-push-dominoes](https://github.com/SongHayoung/LeetCode/tree/master/0868-push-dominoes) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/SongHayoung/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/SongHayoung/LeetCode/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/SongHayoung/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -1069,6 +1071,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/SongHayoung/LeetCode/tree/master/0567-permutation-in-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/SongHayoung/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0768-partition-labels](https://github.com/SongHayoung/LeetCode/tree/master/0768-partition-labels) |
+| [0868-push-dominoes](https://github.com/SongHayoung/LeetCode/tree/master/0868-push-dominoes) |
 | [1051-shortest-way-to-form-string](https://github.com/SongHayoung/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1113-moving-stones-until-consecutive-ii](https://github.com/SongHayoung/LeetCode/tree/master/1113-moving-stones-until-consecutive-ii) |
 | [1165-meeting-scheduler](https://github.com/SongHayoung/LeetCode/tree/master/1165-meeting-scheduler) |
