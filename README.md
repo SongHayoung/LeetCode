@@ -396,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SongHayoung/LeetCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1893-maximum-subarray-sum-after-one-operation](https://github.com/SongHayoung/LeetCode/tree/master/1893-maximum-subarray-sum-after-one-operation) |
+| [2061-painting-a-grid-with-three-different-colors](https://github.com/SongHayoung/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/SongHayoung/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2164-two-best-non-overlapping-events](https://github.com/SongHayoung/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2262-solving-questions-with-brainpower](https://github.com/SongHayoung/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
