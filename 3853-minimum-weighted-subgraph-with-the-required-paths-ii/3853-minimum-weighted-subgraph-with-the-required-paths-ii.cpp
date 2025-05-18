@@ -1,78 +1,62 @@
+int level[101010], LCA[101010][22], dis[101010];
 vector<pair<int,int>> adj[101010];
-int parent[101010], depth[101010], heavy[101010], head[101010], cnt[101010], dist[101010];
-int dfs1(int u, int p, int w) {
-    parent[u] = p;
-    dist[u] = w;
-    cnt[u] = 1;
-    heavy[u] = -1;
-    int best = 0;
-    for (auto& [v,c] : adj[u]) {
-        if (v == p) continue;
-        depth[v] = depth[u] + 1;
-        int sz = dfs1(v, u, w + c);
-        if (sz > best) {
-            best = sz;
-            heavy[u] = v;
+void dfs(int u, int lvl, int d, int par) {
+    level[u] = lvl;
+    dis[u] = d;
+    LCA[u][0] = par;
+    for(int i = 1; i < 22; i++) {
+        LCA[u][i] = LCA[LCA[u][i-1]][i-1];
+    }
+    for(auto& [v, w] : adj[u]) {
+        if(v == par) continue;
+        dfs(v, lvl + 1, d + w, u);
+    }
+}
+int query(int u, int v) {
+    if(level[u] < level[v]) swap(u, v);
+    int diff = level[u] - level[v];
+    for(int i = 0; diff; i++, diff /= 2) {
+        if(diff & 1) u = LCA[u][i];
+    }
+    if(u != v) {
+        for(int i = 21; i >= 0; i--) {
+            if(LCA[u][i] == LCA[v][i]) continue;
+            u = LCA[u][i];
+            v = LCA[v][i];
         }
-        cnt[u] += sz;
+        u = LCA[u][0];
     }
-    return cnt[u];
+    return u;
 }
-
-void dfs2(int u, int h) {
-    head[u] = h;
-    if (heavy[u] != -1) dfs2(heavy[u], h);
-    for (auto& [v,w] : adj[u]) {
-        if (v == parent[u] || v == heavy[u]) continue;
-        dfs2(v, v);
-    }
-}
-
-void build(int root = 0) {
-    depth[root] = 0;
-    dfs1(root, -1, 0);
-    dfs2(root, root);
-}
-
-int query(int a, int b) {
-    while (head[a] != head[b]) {
-        if (depth[head[a]] > depth[head[b]]) a = parent[head[a]];
-        else b = parent[head[b]];
-    }
-    return depth[a] < depth[b] ? a : b;
-}
-
 int distance(int u, int v) {
     int lca = query(u,v);
-    return dist[u] + dist[v] - 2 * dist[lca];
+    return dis[u] + dis[v] - 2 * dis[lca];
 }
 int median(int a, int b, int c) {
     int x = query(a,b), y = query(a,c), z = query(b,c);
     int res = x;
-    if(depth[y] > depth[res]) res = y;
-    if(depth[z] > depth[res]) res = z;
+    if(level[y] > level[res]) res = y;
+    if(level[z] > level[res]) res = z;
     return res;
 }
 int distance(int a, int b, int c) {
     int best = median(a,b,c);
     return distance(best,a) + distance(best,b) + distance(best,c);
 }
-
 class Solution {
 public:
     vector<int> minimumWeight(vector<vector<int>>& edges, vector<vector<int>>& queries) {
         int n = edges.size() + 1;
-        for(int i = 0; i < n; i++) adj[i].clear();
+        for(int i = 0; i < n; i++) adj[i+1].clear();
         for(auto& e : edges) {
-            int u = e[0], v = e[1], w = e[2];
+            int u = e[0] + 1, v = e[1] + 1, w = e[2];
             adj[u].push_back({v,w});
             adj[v].push_back({u,w});
         }
-        dfs1(0,0,0);
-        dfs2(0,0);
+        dfs(1,0,0,0);
         vector<int> res;
         for(auto& q : queries) {
-            res.push_back(distance(q[0], q[1], q[2]));
+            res.push_back(distance(q[0] + 1, q[1] + 1, q[2] + 1));
         }
         return res;
     }
