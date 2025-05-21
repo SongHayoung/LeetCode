@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/0045-jump-game-ii) |
+| [0073-set-matrix-zeroes](https://github.com/SongHayoung/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/SongHayoung/LeetCode/tree/master/0075-sort-colors) |
 | [0085-maximal-rectangle](https://github.com/SongHayoung/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0179-largest-number](https://github.com/SongHayoung/LeetCode/tree/master/0179-largest-number) |
@@ -557,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/SongHayoung/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0266-palindrome-permutation](https://github.com/SongHayoung/LeetCode/tree/master/0266-palindrome-permutation) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/SongHayoung/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0353-design-snake-game](https://github.com/SongHayoung/LeetCode/tree/master/0353-design-snake-game) |
@@ -901,6 +903,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/SongHayoung/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/SongHayoung/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/SongHayoung/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
