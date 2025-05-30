@@ -675,6 +675,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0725-split-linked-list-in-parts](https://github.com/SongHayoung/LeetCode/tree/master/0725-split-linked-list-in-parts) |
 | [0859-design-circular-deque](https://github.com/SongHayoung/LeetCode/tree/master/0859-design-circular-deque) |
 | [1484-linked-list-in-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1484-linked-list-in-binary-tree) |
+| [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
 | [1774-add-two-polynomials-represented-as-linked-lists](https://github.com/SongHayoung/LeetCode/tree/master/1774-add-two-polynomials-represented-as-linked-lists) |
 | [1982-remove-duplicates-from-an-unsorted-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/1982-remove-duplicates-from-an-unsorted-linked-list) |
 | [2411-spiral-matrix-iv](https://github.com/SongHayoung/LeetCode/tree/master/2411-spiral-matrix-iv) |
