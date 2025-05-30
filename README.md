@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2201-valid-arrangement-of-pairs](https://github.com/SongHayoung/LeetCode/tree/master/2201-valid-arrangement-of-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/SongHayoung/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
+| [2438-find-closest-node-to-given-two-nodes](https://github.com/SongHayoung/LeetCode/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/SongHayoung/LeetCode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2230-minimum-cost-to-reach-city-with-discounts](https://github.com/SongHayoung/LeetCode/tree/master/2230-minimum-cost-to-reach-city-with-discounts) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/SongHayoung/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SongHayoung/LeetCode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2438-find-closest-node-to-given-two-nodes](https://github.com/SongHayoung/LeetCode/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2506-minimize-maximum-value-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/2506-minimize-maximum-value-in-a-grid) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/SongHayoung/LeetCode/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
