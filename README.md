@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-sliding-puzzle](https://github.com/SongHayoung/LeetCode/tree/master/0787-sliding-puzzle) |
 | [0820-find-eventual-safe-states](https://github.com/SongHayoung/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/SongHayoung/LeetCode/tree/master/0854-making-a-large-island) |
+| [0945-snakes-and-ladders](https://github.com/SongHayoung/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1190-smallest-common-region](https://github.com/SongHayoung/LeetCode/tree/master/1190-smallest-common-region) |
 | [1396-count-servers-that-communicate](https://github.com/SongHayoung/LeetCode/tree/master/1396-count-servers-that-communicate) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/SongHayoung/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0906-walking-robot-simulation](https://github.com/SongHayoung/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0945-snakes-and-ladders](https://github.com/SongHayoung/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/SongHayoung/LeetCode/tree/master/0952-word-subsets) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
@@ -941,6 +943,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-sliding-puzzle](https://github.com/SongHayoung/LeetCode/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/SongHayoung/LeetCode/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/0870-magic-squares-in-grid) |
+| [0945-snakes-and-ladders](https://github.com/SongHayoung/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/SongHayoung/LeetCode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1396-count-servers-that-communicate](https://github.com/SongHayoung/LeetCode/tree/master/1396-count-servers-that-communicate) |
