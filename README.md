@@ -355,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/SongHayoung/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3227-find-missing-and-repeated-values](https://github.com/SongHayoung/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/SongHayoung/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
 | [3291-find-if-array-can-be-sorted](https://github.com/SongHayoung/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/SongHayoung/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -884,6 +885,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/SongHayoung/LeetCode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/SongHayoung/LeetCode/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3195-separate-black-and-white-balls](https://github.com/SongHayoung/LeetCode/tree/master/3195-separate-black-and-white-balls) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/SongHayoung/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/SongHayoung/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/SongHayoung/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/SongHayoung/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -934,6 +936,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3001-apply-operations-to-maximize-score](https://github.com/SongHayoung/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/SongHayoung/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/SongHayoung/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/SongHayoung/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3291-find-if-array-can-be-sorted](https://github.com/SongHayoung/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/SongHayoung/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
