@@ -850,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
+| [3911-find-the-shortest-superstring-ii](https://github.com/SongHayoung/LeetCode/tree/master/3911-find-the-shortest-superstring-ii) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
 ## Stack
 |  |
