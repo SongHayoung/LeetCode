@@ -411,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/SongHayoung/LeetCode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
+| [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -732,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/SongHayoung/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
+| [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 ## Linked List
 |  |
 | ------- |
@@ -862,6 +864,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3911-find-the-shortest-superstring-ii](https://github.com/SongHayoung/LeetCode/tree/master/3911-find-the-shortest-superstring-ii) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
+| [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 ## Stack
 |  |
 | ------- |
@@ -1011,6 +1014,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SongHayoung/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
+| [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 ## Binary Tree
 |  |
 | ------- |
