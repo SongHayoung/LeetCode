@@ -455,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/SongHayoung/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1893-maximum-subarray-sum-after-one-operation](https://github.com/SongHayoung/LeetCode/tree/master/1893-maximum-subarray-sum-after-one-operation) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/SongHayoung/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/SongHayoung/LeetCode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/SongHayoung/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/SongHayoung/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2164-two-best-non-overlapping-events](https://github.com/SongHayoung/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
@@ -1501,6 +1502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/SongHayoung/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/SongHayoung/LeetCode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/SongHayoung/LeetCode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## String Matching
 |  |
