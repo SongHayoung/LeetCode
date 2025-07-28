@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0425-word-squares](https://github.com/SongHayoung/LeetCode/tree/master/0425-word-squares) |
 | [0487-max-consecutive-ones-ii](https://github.com/SongHayoung/LeetCode/tree/master/0487-max-consecutive-ones-ii) |
 | [0523-continuous-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/0523-continuous-subarray-sum) |
+| [0527-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0527-word-abbreviation) |
 | [0539-minimum-time-difference](https://github.com/SongHayoung/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0550-shortest-path-to-get-food](https://github.com/SongHayoung/LeetCode/tree/master/0550-shortest-path-to-get-food) |
 | [0594-longest-harmonious-subsequence](https://github.com/SongHayoung/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
@@ -800,6 +801,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
 | [0411-minimum-unique-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0411-minimum-unique-word-abbreviation) |
 | [0425-word-squares](https://github.com/SongHayoung/LeetCode/tree/master/0425-word-squares) |
+| [0527-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0527-word-abbreviation) |
 | [0539-minimum-time-difference](https://github.com/SongHayoung/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/SongHayoung/LeetCode/tree/master/0564-find-the-closest-palindrome) |
 | [0567-permutation-in-string](https://github.com/SongHayoung/LeetCode/tree/master/0567-permutation-in-string) |
@@ -949,6 +951,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/0045-jump-game-ii) |
 | [0135-candy](https://github.com/SongHayoung/LeetCode/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/SongHayoung/LeetCode/tree/master/0179-largest-number) |
+| [0527-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0527-word-abbreviation) |
 | [0624-maximum-distance-in-arrays](https://github.com/SongHayoung/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/SongHayoung/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0670-maximum-swap](https://github.com/SongHayoung/LeetCode/tree/master/0670-maximum-swap) |
@@ -1009,6 +1012,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/SongHayoung/LeetCode/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/SongHayoung/LeetCode/tree/master/0179-largest-number) |
+| [0527-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0527-word-abbreviation) |
 | [0539-minimum-time-difference](https://github.com/SongHayoung/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0594-longest-harmonious-subsequence](https://github.com/SongHayoung/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/SongHayoung/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -1563,6 +1567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/SongHayoung/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [0425-word-squares](https://github.com/SongHayoung/LeetCode/tree/master/0425-word-squares) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/SongHayoung/LeetCode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
+| [0527-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0527-word-abbreviation) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/SongHayoung/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/SongHayoung/LeetCode/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/SongHayoung/LeetCode/tree/master/2079-delete-duplicate-folders-in-system) |
