@@ -529,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/SongHayoung/LeetCode/tree/master/0231-power-of-two) |
 | [0266-palindrome-permutation](https://github.com/SongHayoung/LeetCode/tree/master/0266-palindrome-permutation) |
 | [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
@@ -565,6 +566,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/SongHayoung/LeetCode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/SongHayoung/LeetCode/tree/master/0273-integer-to-english-words) |
 | [0523-continuous-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/0523-continuous-subarray-sum) |
@@ -659,6 +661,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/SongHayoung/LeetCode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/SongHayoung/LeetCode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0273-integer-to-english-words](https://github.com/SongHayoung/LeetCode/tree/master/0273-integer-to-english-words) |
