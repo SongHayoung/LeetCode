@@ -1480,6 +1480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2456-construct-smallest-number-from-di-string](https://github.com/SongHayoung/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/SongHayoung/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2823-the-knights-tour](https://github.com/SongHayoung/LeetCode/tree/master/2823-the-knights-tour) |
+| [3951-next-special-palindrome-number](https://github.com/SongHayoung/LeetCode/tree/master/3951-next-special-palindrome-number) |
 ## Bitmask
 |  |
 | ------- |
