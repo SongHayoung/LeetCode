@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0624-maximum-distance-in-arrays](https://github.com/SongHayoung/LeetCode/tree/master/0624-maximum-distance-in-arrays) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/SongHayoung/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0666-path-sum-iv](https://github.com/SongHayoung/LeetCode/tree/master/0666-path-sum-iv) |
+| [0679-24-game](https://github.com/SongHayoung/LeetCode/tree/master/0679-24-game) |
 | [0683-k-empty-slots](https://github.com/SongHayoung/LeetCode/tree/master/0683-k-empty-slots) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/SongHayoung/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
@@ -586,6 +587,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0592-fraction-addition-and-subtraction](https://github.com/SongHayoung/LeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0650-2-keys-keyboard](https://github.com/SongHayoung/LeetCode/tree/master/0650-2-keys-keyboard) |
 | [0670-maximum-swap](https://github.com/SongHayoung/LeetCode/tree/master/0670-maximum-swap) |
+| [0679-24-game](https://github.com/SongHayoung/LeetCode/tree/master/0679-24-game) |
 | [0797-rabbits-in-forest](https://github.com/SongHayoung/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0826-soup-servings](https://github.com/SongHayoung/LeetCode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/SongHayoung/LeetCode/tree/master/0867-new-21-game) |
@@ -1470,6 +1472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
 | [0411-minimum-unique-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0411-minimum-unique-word-abbreviation) |
 | [0425-word-squares](https://github.com/SongHayoung/LeetCode/tree/master/0425-word-squares) |
+| [0679-24-game](https://github.com/SongHayoung/LeetCode/tree/master/0679-24-game) |
 | [1160-letter-tile-possibilities](https://github.com/SongHayoung/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/SongHayoung/LeetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SongHayoung/LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
