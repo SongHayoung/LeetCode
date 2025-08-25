@@ -190,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/SongHayoung/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0425-word-squares](https://github.com/SongHayoung/LeetCode/tree/master/0425-word-squares) |
 | [0487-max-consecutive-ones-ii](https://github.com/SongHayoung/LeetCode/tree/master/0487-max-consecutive-ones-ii) |
+| [0498-diagonal-traverse](https://github.com/SongHayoung/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0523-continuous-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/0523-continuous-subarray-sum) |
 | [0527-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0527-word-abbreviation) |
 | [0539-minimum-time-difference](https://github.com/SongHayoung/LeetCode/tree/master/0539-minimum-time-difference) |
@@ -651,6 +652,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0353-design-snake-game](https://github.com/SongHayoung/LeetCode/tree/master/0353-design-snake-game) |
+| [0498-diagonal-traverse](https://github.com/SongHayoung/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0592-fraction-addition-and-subtraction](https://github.com/SongHayoung/LeetCode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0906-walking-robot-simulation](https://github.com/SongHayoung/LeetCode/tree/master/0906-walking-robot-simulation) |
 | [1642-water-bottles](https://github.com/SongHayoung/LeetCode/tree/master/1642-water-bottles) |
@@ -1170,6 +1172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0317-shortest-distance-from-all-buildings](https://github.com/SongHayoung/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0361-bomb-enemy](https://github.com/SongHayoung/LeetCode/tree/master/0361-bomb-enemy) |
 | [0407-trapping-rain-water-ii](https://github.com/SongHayoung/LeetCode/tree/master/0407-trapping-rain-water-ii) |
+| [0498-diagonal-traverse](https://github.com/SongHayoung/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0550-shortest-path-to-get-food](https://github.com/SongHayoung/LeetCode/tree/master/0550-shortest-path-to-get-food) |
 | [0787-sliding-puzzle](https://github.com/SongHayoung/LeetCode/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/SongHayoung/LeetCode/tree/master/0854-making-a-large-island) |
