@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/SongHayoung/LeetCode/tree/master/0036-valid-sudoku) |
 | [0045-jump-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/0045-jump-game-ii) |
 | [0073-set-matrix-zeroes](https://github.com/SongHayoung/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/SongHayoung/LeetCode/tree/master/0075-sort-colors) |
@@ -724,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/SongHayoung/LeetCode/tree/master/0036-valid-sudoku) |
 | [0073-set-matrix-zeroes](https://github.com/SongHayoung/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0266-palindrome-permutation](https://github.com/SongHayoung/LeetCode/tree/master/0266-palindrome-permutation) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -1174,6 +1176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/SongHayoung/LeetCode/tree/master/0036-valid-sudoku) |
 | [0073-set-matrix-zeroes](https://github.com/SongHayoung/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/SongHayoung/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
