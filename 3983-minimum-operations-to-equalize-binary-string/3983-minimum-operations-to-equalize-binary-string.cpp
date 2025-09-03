@@ -1,4 +1,3 @@
-
 class Solution {
 public:
     int minOperations(string s, int k) {
@@ -8,33 +7,41 @@ public:
         if(k % 2 == 0) {
             if((now ^ n) & 1) return -1;
         }
-        set<int> st;
+        set<int> st[2];
         if(k % 2 == 0) {
-            for(int i = now & 1; i <= n; i += 2) st.insert(i);
-        } else for(int i = 0; i <= n; i++) st.insert(i);
+            for(int i = now & 1; i <= n; i += 2) st[i&1].insert(i);
+        } else for(int i = 0; i <= n; i++) st[i&1].insert(i);
         queue<int> q;
         int res = 1, fl = k & 1;
         q.push(now);
-        st.erase(now);
+        st[now&1].erase(now);
         while(q.size()) {
             int qsz = q.size();
             while(qsz--) {
                 int x = q.front(); q.pop();
-                vector<int> nxt;
                 int until = abs((n - x) - k);
-                for(auto it = st.lower_bound(abs(x - k)); it != end(st); it++) {
+                int del = -1;
+                int xbit = x & 1;
+                int target;
+                if(fl == 1) target = xbit ? 0 : 1;
+                else target = xbit;
+                for(auto it = st[target].lower_bound(abs(x - k)); it != end(st[target]); it++) {
                     if(*it > x + k) break;
                     if(n - *it < until) break;
                     int bit = (*it ^ x) & 1;
+                    if(del != -1) {
+                        st[target].erase(del);
+                        del = -1;
+                    }
                     if(bit == fl) {
-                        nxt.push_back(*it);
+                        q.push(*it);
+                        del = *it;
                         if(*it == n) return res;
                     }
                 }
-                while(nxt.size()) {
-                    auto now = nxt.back(); nxt.pop_back();
-                    st.erase(now);
-                    q.push(now);
+                if(del != -1) {
+                    st[target].erase(del);
+                    del = -1;
                 }
             }
             res++;
