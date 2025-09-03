@@ -1,60 +1,29 @@
 class Solution {
 public:
     int uniquePaths(vector<vector<int>>& grid) {
-        int m = grid.size(), n = grid[0].size();
-        const int MOD = 1000000007;
-        
-        // memo tables for next cell in each direction
-        vector<vector<pair<int,int>>> nxtR(m, vector<pair<int,int>>(n, {INT_MAX, INT_MAX}));
-        vector<vector<pair<int,int>>> nxtD(m, vector<pair<int,int>>(n, {INT_MAX, INT_MAX}));
-        
-        // returns the next empty cell when moving from (i,j) in direction d:
-        // d==0 → right, d==1 → down, with cascaded reflections
-        function<pair<int,int>(int,int,int)> getNext = [&](int i, int j, int d) -> pair<int,int> {
-            auto &memo = (d == 0 ? nxtR[i][j] : nxtD[i][j]);
-            if (memo.first != INT_MAX) return memo;
-            
-            int ni = (d == 0 ? i : i + 1);
-            int nj = (d == 0 ? j + 1 : j);
-            pair<int,int> res;
-            
-            if (ni >= m || nj >= n) {
-                // out of bounds → invalid
-                res = {-1, -1};
-            } else if (grid[ni][nj] == 0) {
-                // empty → land here
-                res = {ni, nj};
-            } else {
-                // mirror → reflect and continue from the mirror cell
-                res = getNext(ni, nj, d ^ 1);
+        long long mod = 1e9 + 7, n = grid.size(), m = grid[0].size();
+        vector<vector<long long>> dp(n, vector<long long>(m));
+        vector<vector<vector<pair<int,int>>>> go(n, vector<vector<pair<int,int>>>(m, vector<pair<int,int>>(2)));
+        for(int i = n - 1; i >= 0; i--) for(int j = m - 1; j >= 0; j--) {
+            if(grid[i][j] == 0) go[i][j][0] = go[i][j][1] = {i,j};
+            else {
+                go[i][j][1] = j + 1 < m ? go[i][j+1][0] : pair<int,int>{i, j + 1};
+                go[i][j][0] = i + 1 < n ? go[i+1][j][1] : pair<int,int>{i + 1, j};
             }
-            
-            memo = res;
-            return res;
-        };
-        
-        vector<vector<int>> dp(m, vector<int>(n, 0));
+        }
         dp[0][0] = 1;
-        
-        for (int i = 0; i < m; ++i) {
-            for (int j = 0; j < n; ++j) {
-                int ways = dp[i][j];
-                if (ways == 0) continue;
-                
-                // move right (with reflections)
-                auto [r1, c1] = getNext(i, j, 0);
-                if (r1 >= 0) {
-                    dp[r1][c1] = (dp[r1][c1] + ways) % MOD;
-                }
-                
-                // move down (with reflections)
-                auto [r2, c2] = getNext(i, j, 1);
-                if (r2 >= 0) {
-                    dp[r2][c2] = (dp[r2][c2] + ways) % MOD;
+        int dy[2]{1,0},dx[2]{0,1};
+        for(int i = 0; i < n; i++) for(int j = 0; j < m; j++) {
+            for(int dir = 0; dir < 2; dir++) {
+                int ni = i + dy[dir], nj = j + dx[dir];
+                if(0 <= ni and ni < n and 0 <= nj and nj < m) {
+                    auto [ny,nx] = go[ni][nj][!dir];
+                    if(0 <= ny and ny < n and 0 <= nx and nx < m) {
+                        dp[ny][nx] = (dp[ny][nx] + dp[i][j]) % mod;
+                    }
                 }
             }
         }
-        
-        return dp[m-1][n-1];
+        return dp[n-1][m-1];
     }
 };
