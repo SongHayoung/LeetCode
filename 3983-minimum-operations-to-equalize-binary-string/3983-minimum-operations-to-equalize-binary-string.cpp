@@ -22,9 +22,7 @@ public:
                 int until = abs((n - x) - k);
                 int del = -1;
                 int xbit = x & 1;
-                int target;
-                if(fl == 1) target = xbit ? 0 : 1;
-                else target = xbit;
+                int target = fl ? !xbit : xbit;
                 for(auto it = st[target].lower_bound(abs(x - k)); it != end(st[target]); it++) {
                     if(*it > x + k) break;
                     if(n - *it < until) break;
@@ -33,11 +31,9 @@ public:
                         st[target].erase(del);
                         del = -1;
                     }
-                    if(bit == fl) {
-                        q.push(*it);
-                        del = *it;
-                        if(*it == n) return res;
-                    }
+                    q.push(*it);
+                    del = *it;
+                    if(*it == n) return res;
                 }
                 if(del != -1) {
                     st[target].erase(del);
