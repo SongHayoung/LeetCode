@@ -455,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/SongHayoung/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/SongHayoung/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/SongHayoung/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/SongHayoung/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -596,6 +597,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3506-count-triplets-with-even-xor-set-bits-i](https://github.com/SongHayoung/LeetCode/tree/master/3506-count-triplets-with-even-xor-set-bits-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/SongHayoung/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/SongHayoung/LeetCode/tree/master/3930-longest-palindromic-path-in-graph) |
 ## Math
 |  |
@@ -663,6 +665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/SongHayoung/LeetCode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
+| [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3830-find-closest-person](https://github.com/SongHayoung/LeetCode/tree/master/3830-find-closest-person) |
