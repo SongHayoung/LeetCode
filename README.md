@@ -863,6 +863,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/SongHayoung/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/SongHayoung/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 ## Linked List
@@ -1001,6 +1002,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/SongHayoung/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3911-find-the-shortest-superstring-ii](https://github.com/SongHayoung/LeetCode/tree/master/3911-find-the-shortest-superstring-ii) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/SongHayoung/LeetCode/tree/master/3930-longest-palindromic-path-in-graph) |
@@ -1372,6 +1374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/SongHayoung/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
+| [3872-find-most-frequent-vowel-and-consonant](https://github.com/SongHayoung/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
 ## Probability and Statistics
 |  |
