@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/SongHayoung/LeetCode/tree/master/0952-word-subsets) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/SongHayoung/LeetCode/tree/master/1002-maximum-width-ramp) |
+| [1006-vowel-spellchecker](https://github.com/SongHayoung/LeetCode/tree/master/1006-vowel-spellchecker) |
 | [1025-minimum-cost-for-tickets](https://github.com/SongHayoung/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/SongHayoung/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1067-campus-bikes-ii](https://github.com/SongHayoung/LeetCode/tree/master/1067-campus-bikes-ii) |
@@ -775,6 +776,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0952-word-subsets](https://github.com/SongHayoung/LeetCode/tree/master/0952-word-subsets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/SongHayoung/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
+| [1006-vowel-spellchecker](https://github.com/SongHayoung/LeetCode/tree/master/1006-vowel-spellchecker) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/SongHayoung/LeetCode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1098-largest-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1098-largest-unique-number) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/SongHayoung/LeetCode/tree/master/1143-find-smallest-common-element-in-all-rows) |
@@ -907,6 +909,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0920-uncommon-words-from-two-sentences](https://github.com/SongHayoung/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0952-word-subsets](https://github.com/SongHayoung/LeetCode/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/SongHayoung/LeetCode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1006-vowel-spellchecker](https://github.com/SongHayoung/LeetCode/tree/master/1006-vowel-spellchecker) |
 | [1051-shortest-way-to-form-string](https://github.com/SongHayoung/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/SongHayoung/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
