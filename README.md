@@ -786,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1190-smallest-common-region](https://github.com/SongHayoung/LeetCode/tree/master/1190-smallest-common-region) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/SongHayoung/LeetCode/tree/master/1256-rank-transform-of-an-array) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/SongHayoung/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1364-tuple-with-same-product](https://github.com/SongHayoung/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1366-first-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1366-first-unique-number) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/SongHayoung/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -919,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/SongHayoung/LeetCode/tree/master/1170-shortest-common-supersequence) |
 | [1190-smallest-common-region](https://github.com/SongHayoung/LeetCode/tree/master/1190-smallest-common-region) |
 | [1197-parsing-a-boolean-expression](https://github.com/SongHayoung/LeetCode/tree/master/1197-parsing-a-boolean-expression) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/SongHayoung/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/SongHayoung/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/SongHayoung/LeetCode/tree/master/1304-longest-happy-string) |
