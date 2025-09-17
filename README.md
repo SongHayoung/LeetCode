@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/SongHayoung/LeetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1067-campus-bikes-ii](https://github.com/SongHayoung/LeetCode/tree/master/1067-campus-bikes-ii) |
 | [1098-largest-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1098-largest-unique-number) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/SongHayoung/LeetCode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/SongHayoung/LeetCode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1113-moving-stones-until-consecutive-ii](https://github.com/SongHayoung/LeetCode/tree/master/1113-moving-stones-until-consecutive-ii) |
 | [1134-shortest-distance-to-target-color](https://github.com/SongHayoung/LeetCode/tree/master/1134-shortest-distance-to-target-color) |
@@ -1410,6 +1411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1051-shortest-way-to-form-string](https://github.com/SongHayoung/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/SongHayoung/LeetCode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1134-shortest-distance-to-target-color](https://github.com/SongHayoung/LeetCode/tree/master/1134-shortest-distance-to-target-color) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/SongHayoung/LeetCode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/SongHayoung/LeetCode/tree/master/1149-intersection-of-three-sorted-arrays) |
