@@ -305,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/SongHayoung/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2003-distinct-numbers-in-each-subarray](https://github.com/SongHayoung/LeetCode/tree/master/2003-distinct-numbers-in-each-subarray) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/SongHayoung/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
+| [2023-design-movie-rental-system](https://github.com/SongHayoung/LeetCode/tree/master/2023-design-movie-rental-system) |
 | [2035-count-sub-islands](https://github.com/SongHayoung/LeetCode/tree/master/2035-count-sub-islands) |
 | [2045-cutting-ribbons](https://github.com/SongHayoung/LeetCode/tree/master/2045-cutting-ribbons) |
 | [2048-build-array-from-permutation](https://github.com/SongHayoung/LeetCode/tree/master/2048-build-array-from-permutation) |
@@ -816,6 +817,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/SongHayoung/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/SongHayoung/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2003-distinct-numbers-in-each-subarray](https://github.com/SongHayoung/LeetCode/tree/master/2003-distinct-numbers-in-each-subarray) |
+| [2023-design-movie-rental-system](https://github.com/SongHayoung/LeetCode/tree/master/2023-design-movie-rental-system) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/SongHayoung/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/SongHayoung/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/SongHayoung/LeetCode/tree/master/2079-delete-duplicate-folders-in-system) |
@@ -1291,6 +1293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/SongHayoung/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/SongHayoung/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
+| [2023-design-movie-rental-system](https://github.com/SongHayoung/LeetCode/tree/master/2023-design-movie-rental-system) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/SongHayoung/LeetCode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2164-two-best-non-overlapping-events](https://github.com/SongHayoung/LeetCode/tree/master/2164-two-best-non-overlapping-events) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/SongHayoung/LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
@@ -1620,6 +1623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [1949-implement-trie-ii-prefix-tree](https://github.com/SongHayoung/LeetCode/tree/master/1949-implement-trie-ii-prefix-tree) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/SongHayoung/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2023-design-movie-rental-system](https://github.com/SongHayoung/LeetCode/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/SongHayoung/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/SongHayoung/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [3678-design-task-manager](https://github.com/SongHayoung/LeetCode/tree/master/3678-design-task-manager) |
@@ -1768,6 +1772,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0683-k-empty-slots](https://github.com/SongHayoung/LeetCode/tree/master/0683-k-empty-slots) |
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
 | [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
+| [2023-design-movie-rental-system](https://github.com/SongHayoung/LeetCode/tree/master/2023-design-movie-rental-system) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2429-design-a-food-rating-system](https://github.com/SongHayoung/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/SongHayoung/LeetCode/tree/master/2434-design-a-number-container-system) |
