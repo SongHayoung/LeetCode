@@ -178,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/SongHayoung/LeetCode/tree/master/0075-sort-colors) |
 | [0085-maximal-rectangle](https://github.com/SongHayoung/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/SongHayoung/LeetCode/tree/master/0118-pascals-triangle) |
+| [0120-triangle](https://github.com/SongHayoung/LeetCode/tree/master/0120-triangle) |
 | [0135-candy](https://github.com/SongHayoung/LeetCode/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/SongHayoung/LeetCode/tree/master/0179-largest-number) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/SongHayoung/LeetCode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
@@ -485,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/0045-jump-game-ii) |
 | [0085-maximal-rectangle](https://github.com/SongHayoung/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/SongHayoung/LeetCode/tree/master/0118-pascals-triangle) |
+| [0120-triangle](https://github.com/SongHayoung/LeetCode/tree/master/0120-triangle) |
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0265-paint-house-ii](https://github.com/SongHayoung/LeetCode/tree/master/0265-paint-house-ii) |
 | [0333-largest-bst-subtree](https://github.com/SongHayoung/LeetCode/tree/master/0333-largest-bst-subtree) |
