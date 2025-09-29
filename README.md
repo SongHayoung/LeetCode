@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/SongHayoung/LeetCode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/SongHayoung/LeetCode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/SongHayoung/LeetCode/tree/master/1108-analyze-user-website-visit-pattern) |
+| [1111-minimum-score-triangulation-of-polygon](https://github.com/SongHayoung/LeetCode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1113-moving-stones-until-consecutive-ii](https://github.com/SongHayoung/LeetCode/tree/master/1113-moving-stones-until-consecutive-ii) |
 | [1134-shortest-distance-to-target-color](https://github.com/SongHayoung/LeetCode/tree/master/1134-shortest-distance-to-target-color) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/SongHayoung/LeetCode/tree/master/1143-find-smallest-common-element-in-all-rows) |
@@ -508,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1025-minimum-cost-for-tickets](https://github.com/SongHayoung/LeetCode/tree/master/1025-minimum-cost-for-tickets) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
 | [1067-campus-bikes-ii](https://github.com/SongHayoung/LeetCode/tree/master/1067-campus-bikes-ii) |
+| [1111-minimum-score-triangulation-of-polygon](https://github.com/SongHayoung/LeetCode/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1134-shortest-distance-to-target-color](https://github.com/SongHayoung/LeetCode/tree/master/1134-shortest-distance-to-target-color) |
 | [1166-toss-strange-coins](https://github.com/SongHayoung/LeetCode/tree/master/1166-toss-strange-coins) |
 | [1170-shortest-common-supersequence](https://github.com/SongHayoung/LeetCode/tree/master/1170-shortest-common-supersequence) |
