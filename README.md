@@ -623,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0166-fraction-to-recurring-decimal](https://github.com/SongHayoung/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0231-power-of-two](https://github.com/SongHayoung/LeetCode/tree/master/0231-power-of-two) |
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/SongHayoung/LeetCode/tree/master/0273-integer-to-english-words) |
@@ -774,6 +775,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/SongHayoung/LeetCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/SongHayoung/LeetCode/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/SongHayoung/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0166-fraction-to-recurring-decimal](https://github.com/SongHayoung/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0266-palindrome-permutation](https://github.com/SongHayoung/LeetCode/tree/master/0266-palindrome-permutation) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/SongHayoung/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
@@ -919,6 +921,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0038-count-and-say](https://github.com/SongHayoung/LeetCode/tree/master/0038-count-and-say) |
 | [0165-compare-version-numbers](https://github.com/SongHayoung/LeetCode/tree/master/0165-compare-version-numbers) |
+| [0166-fraction-to-recurring-decimal](https://github.com/SongHayoung/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0179-largest-number](https://github.com/SongHayoung/LeetCode/tree/master/0179-largest-number) |
 | [0214-shortest-palindrome](https://github.com/SongHayoung/LeetCode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
