@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/SongHayoung/LeetCode/tree/master/0684-redundant-connection) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0794-swim-in-rising-water](https://github.com/SongHayoung/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/SongHayoung/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/SongHayoung/LeetCode/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/SongHayoung/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0550-shortest-path-to-get-food](https://github.com/SongHayoung/LeetCode/tree/master/0550-shortest-path-to-get-food) |
 | [0684-redundant-connection](https://github.com/SongHayoung/LeetCode/tree/master/0684-redundant-connection) |
 | [0787-sliding-puzzle](https://github.com/SongHayoung/LeetCode/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/SongHayoung/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0820-find-eventual-safe-states](https://github.com/SongHayoung/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/SongHayoung/LeetCode/tree/master/0854-making-a-large-island) |
 | [0945-snakes-and-ladders](https://github.com/SongHayoung/LeetCode/tree/master/0945-snakes-and-ladders) |
@@ -214,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
 | [0780-max-chunks-to-make-sorted](https://github.com/SongHayoung/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/SongHayoung/LeetCode/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/SongHayoung/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/SongHayoung/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/SongHayoung/LeetCode/tree/master/0830-largest-triangle-area) |
 | [0854-making-a-large-island](https://github.com/SongHayoung/LeetCode/tree/master/0854-making-a-large-island) |
@@ -1278,6 +1281,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/SongHayoung/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0550-shortest-path-to-get-food](https://github.com/SongHayoung/LeetCode/tree/master/0550-shortest-path-to-get-food) |
 | [0787-sliding-puzzle](https://github.com/SongHayoung/LeetCode/tree/master/0787-sliding-puzzle) |
+| [0794-swim-in-rising-water](https://github.com/SongHayoung/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/SongHayoung/LeetCode/tree/master/0854-making-a-large-island) |
 | [0870-magic-squares-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/0870-magic-squares-in-grid) |
 | [0945-snakes-and-ladders](https://github.com/SongHayoung/LeetCode/tree/master/0945-snakes-and-ladders) |
@@ -1324,6 +1328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/SongHayoung/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0683-k-empty-slots](https://github.com/SongHayoung/LeetCode/tree/master/0683-k-empty-slots) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SongHayoung/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0794-swim-in-rising-water](https://github.com/SongHayoung/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/SongHayoung/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
@@ -1458,6 +1463,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/SongHayoung/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/SongHayoung/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
+| [0794-swim-in-rising-water](https://github.com/SongHayoung/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1051-shortest-way-to-form-string](https://github.com/SongHayoung/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
@@ -1633,6 +1639,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0261-graph-valid-tree](https://github.com/SongHayoung/LeetCode/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/SongHayoung/LeetCode/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/SongHayoung/LeetCode/tree/master/0684-redundant-connection) |
+| [0794-swim-in-rising-water](https://github.com/SongHayoung/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/SongHayoung/LeetCode/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/SongHayoung/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
