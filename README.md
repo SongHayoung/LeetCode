@@ -505,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
+| [4015-split-array-with-minimum-difference](https://github.com/SongHayoung/LeetCode/tree/master/4015-split-array-with-minimum-difference) |
 | [4039-compute-decimal-representation](https://github.com/SongHayoung/LeetCode/tree/master/4039-compute-decimal-representation) |
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 ## Dynamic Programming
@@ -1785,6 +1786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [4015-split-array-with-minimum-difference](https://github.com/SongHayoung/LeetCode/tree/master/4015-split-array-with-minimum-difference) |
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
 ## Game Theory
 |  |
