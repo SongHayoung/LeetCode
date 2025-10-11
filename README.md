@@ -585,6 +585,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3701-minimum-cost-good-caption](https://github.com/SongHayoung/LeetCode/tree/master/3701-minimum-cost-good-caption) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/SongHayoung/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/SongHayoung/LeetCode/tree/master/3930-longest-palindromic-path-in-graph) |
+| [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 ## Enumeration
 |  |
@@ -1786,6 +1787,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
 | [4015-split-array-with-minimum-difference](https://github.com/SongHayoung/LeetCode/tree/master/4015-split-array-with-minimum-difference) |
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
 ## Game Theory
