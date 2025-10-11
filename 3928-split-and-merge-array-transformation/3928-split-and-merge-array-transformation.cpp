@@ -1,6 +1,7 @@
 class Solution {
 public:
     int minSplitMerge(vector<int>& nums1, vector<int>& nums2) {
+        if(nums1 == nums2) return 0;
         queue<vector<int>> q;
         unordered_set<string> vis;
         auto push = [&](vector<int>& A) {
