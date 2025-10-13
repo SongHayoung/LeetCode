@@ -264,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/SongHayoung/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1345-perform-string-shifts](https://github.com/SongHayoung/LeetCode/tree/master/1345-perform-string-shifts) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/SongHayoung/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/SongHayoung/LeetCode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/SongHayoung/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1366-first-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1366-first-unique-number) |
 | [1396-count-servers-that-communicate](https://github.com/SongHayoung/LeetCode/tree/master/1396-count-servers-that-communicate) |
@@ -850,6 +851,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1227-number-of-equivalent-domino-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/SongHayoung/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/SongHayoung/LeetCode/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/SongHayoung/LeetCode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1364-tuple-with-same-product](https://github.com/SongHayoung/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1366-first-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1366-first-unique-number) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/SongHayoung/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -1003,6 +1005,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/SongHayoung/LeetCode/tree/master/1304-longest-happy-string) |
 | [1345-perform-string-shifts](https://github.com/SongHayoung/LeetCode/tree/master/1345-perform-string-shifts) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/SongHayoung/LeetCode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/SongHayoung/LeetCode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/SongHayoung/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/SongHayoung/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/SongHayoung/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
@@ -1226,6 +1229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1165-meeting-scheduler](https://github.com/SongHayoung/LeetCode/tree/master/1165-meeting-scheduler) |
 | [1256-rank-transform-of-an-array](https://github.com/SongHayoung/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/SongHayoung/LeetCode/tree/master/1333-sort-the-jumbled-numbers) |
+| [1353-find-resultant-array-after-removing-anagrams](https://github.com/SongHayoung/LeetCode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/SongHayoung/LeetCode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/SongHayoung/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
