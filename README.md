@@ -479,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/SongHayoung/LeetCode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/SongHayoung/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/SongHayoung/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/SongHayoung/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3639-zero-array-transformation-i](https://github.com/SongHayoung/LeetCode/tree/master/3639-zero-array-transformation-i) |
@@ -1292,6 +1293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SongHayoung/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
@@ -1571,6 +1573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3427-special-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/3427-special-array-ii) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/SongHayoung/LeetCode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3643-zero-array-transformation-ii](https://github.com/SongHayoung/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
@@ -1635,6 +1638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3483-alternating-groups-ii](https://github.com/SongHayoung/LeetCode/tree/master/3483-alternating-groups-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/SongHayoung/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/SongHayoung/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -1807,6 +1811,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3427-special-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/3427-special-array-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/SongHayoung/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/SongHayoung/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3639-zero-array-transformation-i](https://github.com/SongHayoung/LeetCode/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/SongHayoung/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
