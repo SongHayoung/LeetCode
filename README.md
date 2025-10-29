@@ -401,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2564-most-profitable-path-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2586-longest-square-streak-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/SongHayoung/LeetCode/tree/master/2588-maximum-number-of-points-from-grid-queries) |
+| [2607-minimum-subarrays-in-a-valid-split](https://github.com/SongHayoung/LeetCode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/SongHayoung/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -582,6 +583,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2554-minimum-total-distance-traveled](https://github.com/SongHayoung/LeetCode/tree/master/2554-minimum-total-distance-traveled) |
 | [2562-count-ways-to-build-good-strings](https://github.com/SongHayoung/LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
 | [2586-longest-square-streak-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2586-longest-square-streak-in-an-array) |
+| [2607-minimum-subarrays-in-a-valid-split](https://github.com/SongHayoung/LeetCode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2755-extra-characters-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/SongHayoung/LeetCode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
@@ -723,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2415-count-the-number-of-ideal-arrays](https://github.com/SongHayoung/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/SongHayoung/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
+| [2607-minimum-subarrays-in-a-valid-split](https://github.com/SongHayoung/LeetCode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2610-closest-prime-numbers-in-range](https://github.com/SongHayoung/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/SongHayoung/LeetCode/tree/master/2649-count-total-number-of-colored-cells) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
@@ -1881,6 +1884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/SongHayoung/LeetCode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/SongHayoung/LeetCode/tree/master/2415-count-the-number-of-ideal-arrays) |
+| [2607-minimum-subarrays-in-a-valid-split](https://github.com/SongHayoung/LeetCode/tree/master/2607-minimum-subarrays-in-a-valid-split) |
 | [2610-closest-prime-numbers-in-range](https://github.com/SongHayoung/LeetCode/tree/master/2610-closest-prime-numbers-in-range) |
 | [2716-prime-subtraction-operation](https://github.com/SongHayoung/LeetCode/tree/master/2716-prime-subtraction-operation) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
