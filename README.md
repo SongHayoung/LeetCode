@@ -215,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0666-path-sum-iv](https://github.com/SongHayoung/LeetCode/tree/master/0666-path-sum-iv) |
 | [0679-24-game](https://github.com/SongHayoung/LeetCode/tree/master/0679-24-game) |
 | [0683-k-empty-slots](https://github.com/SongHayoung/LeetCode/tree/master/0683-k-empty-slots) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/SongHayoung/LeetCode/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/SongHayoung/LeetCode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
 | [0780-max-chunks-to-make-sorted](https://github.com/SongHayoung/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
