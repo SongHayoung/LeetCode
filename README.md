@@ -538,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4080-smallest-missing-multiple-of-k](https://github.com/SongHayoung/LeetCode/tree/master/4080-smallest-missing-multiple-of-k) |
+| [4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/SongHayoung/LeetCode/tree/master/4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
 | [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/SongHayoung/LeetCode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
@@ -628,6 +629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
+| [4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/SongHayoung/LeetCode/tree/master/4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element) |
 ## Enumeration
 |  |
 | ------- |
