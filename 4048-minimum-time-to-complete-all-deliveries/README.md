@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target">4048. Minimum Time to Complete All Deliveries</a></h2><h3>Medium</h3><hr><p>You are given two integer arrays of size 2: <code>d = [d<sub>1</sub>, d<sub>2</sub>]</code> and <code>r = [r<sub>1</sub>, r<sub>2</sub>]</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-time-to-complete-all-deliveries">4048. Minimum Time to Complete All Deliveries</a></h2><h3>Medium</h3><hr><p>You are given two integer arrays of size 2: <code>d = [d<sub>1</sub>, d<sub>2</sub>]</code> and <code>r = [r<sub>1</sub>, r<sub>2</sub>]</code>.</p>
 
 <p>Two delivery drones are tasked with completing a specific number of deliveries. Drone <code>i</code> must complete <code>d<sub>i</sub></code> deliveries.</p>
 
