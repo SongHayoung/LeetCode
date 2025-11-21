@@ -1185,6 +1185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3701-minimum-cost-good-caption](https://github.com/SongHayoung/LeetCode/tree/master/3701-minimum-cost-good-caption) |
+| [3749-find-the-lexicographically-largest-string-from-the-box-ii](https://github.com/SongHayoung/LeetCode/tree/master/3749-find-the-lexicographically-largest-string-from-the-box-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/SongHayoung/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -1820,6 +1821,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3195-separate-black-and-white-balls](https://github.com/SongHayoung/LeetCode/tree/master/3195-separate-black-and-white-balls) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3749-find-the-lexicographically-largest-string-from-the-box-ii](https://github.com/SongHayoung/LeetCode/tree/master/3749-find-the-lexicographically-largest-string-from-the-box-ii) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
 ## Backtracking
