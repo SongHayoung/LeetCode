@@ -539,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4080-smallest-missing-multiple-of-k](https://github.com/SongHayoung/LeetCode/tree/master/4080-smallest-missing-multiple-of-k) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
+| [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/SongHayoung/LeetCode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -787,6 +788,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4039-compute-decimal-representation](https://github.com/SongHayoung/LeetCode/tree/master/4039-compute-decimal-representation) |
 | [4048-minimum-time-to-complete-all-deliveries](https://github.com/SongHayoung/LeetCode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
+| [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/SongHayoung/LeetCode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
 ## Simulation
 |  |
 | ------- |
