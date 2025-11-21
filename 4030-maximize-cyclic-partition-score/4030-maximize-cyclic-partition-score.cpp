@@ -1,6 +1,6 @@
 class Solution {
     long long helper(vector<int>& A, int k, int op) {
-        vector<vector<long long>> dp(2 * k + 1, vector<long long>(3,INT_MIN));
+        vector<vector<long long>> dp(2 * k + 1, vector<long long>(3,-1e18));
         dp[0][op] = 0;
         for(int i = 0; i < A.size(); i++) {
             for(int j = 2 * k - 1; j >= 0; j--) {
