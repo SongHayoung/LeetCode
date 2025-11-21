@@ -25,7 +25,7 @@ public:
         long long res = 0;
         for(int i=0;i<=n;i++){
             int x = at(pre[i]);
-            if(x - 1 >= 1) res += fw.sum(x);
+            if(x - 1 >= 1) res += fw.sum(x - 1);
             fw.add(x, 1);
         }
         return res;
