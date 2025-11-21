@@ -804,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4054-count-distinct-integers-after-removing-zeros](https://github.com/SongHayoung/LeetCode/tree/master/4054-count-distinct-integers-after-removing-zeros) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/SongHayoung/LeetCode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
+| [4140-evaluate-valid-expressions](https://github.com/SongHayoung/LeetCode/tree/master/4140-evaluate-valid-expressions) |
 ## Simulation
 |  |
 | ------- |
@@ -1038,6 +1039,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/SongHayoung/LeetCode/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
 | [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/SongHayoung/LeetCode/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
+| [4140-evaluate-valid-expressions](https://github.com/SongHayoung/LeetCode/tree/master/4140-evaluate-valid-expressions) |
 ## Linked List
 |  |
 | ------- |
@@ -1200,6 +1202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
 | [4090-minimum-string-length-after-balanced-removals](https://github.com/SongHayoung/LeetCode/tree/master/4090-minimum-string-length-after-balanced-removals) |
+| [4140-evaluate-valid-expressions](https://github.com/SongHayoung/LeetCode/tree/master/4140-evaluate-valid-expressions) |
 ## Stack
 |  |
 | ------- |
@@ -1238,6 +1241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [4090-minimum-string-length-after-balanced-removals](https://github.com/SongHayoung/LeetCode/tree/master/4090-minimum-string-length-after-balanced-removals) |
+| [4140-evaluate-valid-expressions](https://github.com/SongHayoung/LeetCode/tree/master/4140-evaluate-valid-expressions) |
 ## Greedy
 |  |
 | ------- |
@@ -1567,6 +1571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4075-count-subarrays-with-majority-element-ii](https://github.com/SongHayoung/LeetCode/tree/master/4075-count-subarrays-with-majority-element-ii) |
+| [4140-evaluate-valid-expressions](https://github.com/SongHayoung/LeetCode/tree/master/4140-evaluate-valid-expressions) |
 ## Merge Sort
 |  |
 | ------- |
