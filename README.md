@@ -556,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4075-count-subarrays-with-majority-element-ii](https://github.com/SongHayoung/LeetCode/tree/master/4075-count-subarrays-with-majority-element-ii) |
 | [4080-smallest-missing-multiple-of-k](https://github.com/SongHayoung/LeetCode/tree/master/4080-smallest-missing-multiple-of-k) |
+| [4081-maximum-transactions-without-negative-balance](https://github.com/SongHayoung/LeetCode/tree/master/4081-maximum-transactions-without-negative-balance) |
 | [4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/SongHayoung/LeetCode/tree/master/4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
@@ -1350,6 +1351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
+| [4081-maximum-transactions-without-negative-balance](https://github.com/SongHayoung/LeetCode/tree/master/4081-maximum-transactions-without-negative-balance) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
 ## Sorting
@@ -1575,6 +1577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
+| [4081-maximum-transactions-without-negative-balance](https://github.com/SongHayoung/LeetCode/tree/master/4081-maximum-transactions-without-negative-balance) |
 ## Shortest Path
 |  |
 | ------- |
