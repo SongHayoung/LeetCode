@@ -784,6 +784,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
 | [4039-compute-decimal-representation](https://github.com/SongHayoung/LeetCode/tree/master/4039-compute-decimal-representation) |
+| [4048-minimum-time-to-complete-all-deliveries](https://github.com/SongHayoung/LeetCode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
 ## Simulation
 |  |
 | ------- |
@@ -1666,6 +1667,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
 | [3881-minimize-maximum-component-cost](https://github.com/SongHayoung/LeetCode/tree/master/3881-minimize-maximum-component-cost) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/SongHayoung/LeetCode/tree/master/3908-minimum-time-for-k-connected-components) |
+| [4048-minimum-time-to-complete-all-deliveries](https://github.com/SongHayoung/LeetCode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
 ## Rolling Hash
 |  |
 | ------- |
