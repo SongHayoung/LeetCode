@@ -544,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/SongHayoung/LeetCode/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
 | [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/SongHayoung/LeetCode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
+| [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/SongHayoung/LeetCode/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -1027,6 +1028,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4080-smallest-missing-multiple-of-k](https://github.com/SongHayoung/LeetCode/tree/master/4080-smallest-missing-multiple-of-k) |
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/SongHayoung/LeetCode/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
+| [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/SongHayoung/LeetCode/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
 ## Linked List
 |  |
 | ------- |
