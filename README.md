@@ -1202,6 +1202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
 | [4090-minimum-string-length-after-balanced-removals](https://github.com/SongHayoung/LeetCode/tree/master/4090-minimum-string-length-after-balanced-removals) |
+| [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
 | [4140-evaluate-valid-expressions](https://github.com/SongHayoung/LeetCode/tree/master/4140-evaluate-valid-expressions) |
 ## Stack
 |  |
@@ -1709,6 +1710,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3881-minimize-maximum-component-cost](https://github.com/SongHayoung/LeetCode/tree/master/3881-minimize-maximum-component-cost) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/SongHayoung/LeetCode/tree/master/3908-minimum-time-for-k-connected-components) |
 | [4048-minimum-time-to-complete-all-deliveries](https://github.com/SongHayoung/LeetCode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
+| [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
 | [4110-count-stable-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/4110-count-stable-subarrays) |
 ## Rolling Hash
 |  |
@@ -1717,10 +1719,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
 | [2303-unique-substrings-with-equal-digit-frequency](https://github.com/SongHayoung/LeetCode/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
 ## Suffix Array
 |  |
 | ------- |
 | [1060-longest-repeating-substring](https://github.com/SongHayoung/LeetCode/tree/master/1060-longest-repeating-substring) |
+| [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
 ## Hash Function
 |  |
 | ------- |
@@ -1729,6 +1733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2079-delete-duplicate-folders-in-system](https://github.com/SongHayoung/LeetCode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2303-unique-substrings-with-equal-digit-frequency](https://github.com/SongHayoung/LeetCode/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
 ## Sliding Window
 |  |
 | ------- |
