@@ -559,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/SongHayoung/LeetCode/tree/master/4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
+| [4108-minimum-operations-to-make-the-array-beautiful](https://github.com/SongHayoung/LeetCode/tree/master/4108-minimum-operations-to-make-the-array-beautiful) |
 | [4110-count-stable-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/4110-count-stable-subarrays) |
 | [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/SongHayoung/LeetCode/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
@@ -657,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 | [4054-count-distinct-integers-after-removing-zeros](https://github.com/SongHayoung/LeetCode/tree/master/4054-count-distinct-integers-after-removing-zeros) |
 | [4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/SongHayoung/LeetCode/tree/master/4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element) |
+| [4108-minimum-operations-to-make-the-array-beautiful](https://github.com/SongHayoung/LeetCode/tree/master/4108-minimum-operations-to-make-the-array-beautiful) |
 ## Enumeration
 |  |
 | ------- |
