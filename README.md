@@ -544,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/SongHayoung/LeetCode/tree/master/4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
+| [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
 | [4115-minimum-distance-between-three-equal-elements-i](https://github.com/SongHayoung/LeetCode/tree/master/4115-minimum-distance-between-three-equal-elements-i) |
 | [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/SongHayoung/LeetCode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
 | [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/SongHayoung/LeetCode/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
@@ -657,6 +658,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
+| [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -1313,6 +1315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
+| [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -1401,6 +1404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
+| [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
 ## Binary Tree
 |  |
 | ------- |
