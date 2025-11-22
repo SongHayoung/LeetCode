@@ -715,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2792-neighboring-bitwise-xor](https://github.com/SongHayoung/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
 | [3291-find-if-array-can-be-sorted](https://github.com/SongHayoung/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/SongHayoung/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3344-maximum-sized-array](https://github.com/SongHayoung/LeetCode/tree/master/3344-maximum-sized-array) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/SongHayoung/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/SongHayoung/LeetCode/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3394-minimum-array-end](https://github.com/SongHayoung/LeetCode/tree/master/3394-minimum-array-end) |
@@ -1731,6 +1732,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/SongHayoung/LeetCode/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SongHayoung/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3344-maximum-sized-array](https://github.com/SongHayoung/LeetCode/tree/master/3344-maximum-sized-array) |
 | [3427-special-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/3427-special-array-ii) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3545-minimum-number-of-increasing-subsequence-to-be-removed](https://github.com/SongHayoung/LeetCode/tree/master/3545-minimum-number-of-increasing-subsequence-to-be-removed) |
