@@ -479,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3427-special-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/SongHayoung/LeetCode/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/SongHayoung/LeetCode/tree/master/3430-count-days-without-meetings) |
+| [3431-minimum-unlocked-indices-to-sort-nums](https://github.com/SongHayoung/LeetCode/tree/master/3431-minimum-unlocked-indices-to-sort-nums) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/SongHayoung/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/SongHayoung/LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
@@ -1027,6 +1028,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/SongHayoung/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/SongHayoung/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3431-minimum-unlocked-indices-to-sort-nums](https://github.com/SongHayoung/LeetCode/tree/master/3431-minimum-unlocked-indices-to-sort-nums) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/SongHayoung/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/SongHayoung/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
