@@ -497,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3506-count-triplets-with-even-xor-set-bits-i](https://github.com/SongHayoung/LeetCode/tree/master/3506-count-triplets-with-even-xor-set-bits-i) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/SongHayoung/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
+| [3520-minimum-threshold-for-inversion-pairs-count](https://github.com/SongHayoung/LeetCode/tree/master/3520-minimum-threshold-for-inversion-pairs-count) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3537-number-of-subsequences-with-odd-sum](https://github.com/SongHayoung/LeetCode/tree/master/3537-number-of-subsequences-with-odd-sum) |
 | [3545-minimum-number-of-increasing-subsequence-to-be-removed](https://github.com/SongHayoung/LeetCode/tree/master/3545-minimum-number-of-increasing-subsequence-to-be-removed) |
@@ -1692,6 +1693,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1511-count-number-of-teams](https://github.com/SongHayoung/LeetCode/tree/master/1511-count-number-of-teams) |
 | [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [3520-minimum-threshold-for-inversion-pairs-count](https://github.com/SongHayoung/LeetCode/tree/master/3520-minimum-threshold-for-inversion-pairs-count) |
 ## Binary Search
 |  |
 | ------- |
@@ -1743,6 +1745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3344-maximum-sized-array](https://github.com/SongHayoung/LeetCode/tree/master/3344-maximum-sized-array) |
 | [3427-special-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/3427-special-array-ii) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3520-minimum-threshold-for-inversion-pairs-count](https://github.com/SongHayoung/LeetCode/tree/master/3520-minimum-threshold-for-inversion-pairs-count) |
 | [3545-minimum-number-of-increasing-subsequence-to-be-removed](https://github.com/SongHayoung/LeetCode/tree/master/3545-minimum-number-of-increasing-subsequence-to-be-removed) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/SongHayoung/LeetCode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -2109,6 +2112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0683-k-empty-slots](https://github.com/SongHayoung/LeetCode/tree/master/0683-k-empty-slots) |
 | [0729-my-calendar-i](https://github.com/SongHayoung/LeetCode/tree/master/0729-my-calendar-i) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [3520-minimum-threshold-for-inversion-pairs-count](https://github.com/SongHayoung/LeetCode/tree/master/3520-minimum-threshold-for-inversion-pairs-count) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
