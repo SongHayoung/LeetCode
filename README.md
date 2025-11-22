@@ -465,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/SongHayoung/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3227-find-missing-and-repeated-values](https://github.com/SongHayoung/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3237-alt-and-tab-simulation](https://github.com/SongHayoung/LeetCode/tree/master/3237-alt-and-tab-simulation) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/SongHayoung/LeetCode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/SongHayoung/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
@@ -872,6 +873,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/SongHayoung/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/SongHayoung/LeetCode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/SongHayoung/LeetCode/tree/master/2846-robot-collisions) |
+| [3237-alt-and-tab-simulation](https://github.com/SongHayoung/LeetCode/tree/master/3237-alt-and-tab-simulation) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3336-water-bottles-ii](https://github.com/SongHayoung/LeetCode/tree/master/3336-water-bottles-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/SongHayoung/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
@@ -1031,6 +1033,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2888-minimum-index-of-a-valid-split](https://github.com/SongHayoung/LeetCode/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2915-count-of-interesting-subarrays) |
 | [3227-find-missing-and-repeated-values](https://github.com/SongHayoung/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
+| [3237-alt-and-tab-simulation](https://github.com/SongHayoung/LeetCode/tree/master/3237-alt-and-tab-simulation) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/SongHayoung/LeetCode/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3247-number-of-same-end-substrings](https://github.com/SongHayoung/LeetCode/tree/master/3247-number-of-same-end-substrings) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SongHayoung/LeetCode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
