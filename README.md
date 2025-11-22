@@ -528,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/SongHayoung/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/SongHayoung/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SongHayoung/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3672-sum-of-weighted-modes-in-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3672-sum-of-weighted-modes-in-subarrays) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/SongHayoung/LeetCode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3693-minimum-time-to-break-locks-ii](https://github.com/SongHayoung/LeetCode/tree/master/3693-minimum-time-to-break-locks-ii) |
@@ -1060,6 +1061,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/SongHayoung/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3672-sum-of-weighted-modes-in-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3672-sum-of-weighted-modes-in-subarrays) |
 | [3678-design-task-manager](https://github.com/SongHayoung/LeetCode/tree/master/3678-design-task-manager) |
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/SongHayoung/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
@@ -1685,6 +1687,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3672-sum-of-weighted-modes-in-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3672-sum-of-weighted-modes-in-subarrays) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/SongHayoung/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/SongHayoung/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -1840,6 +1843,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3672-sum-of-weighted-modes-in-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3672-sum-of-weighted-modes-in-subarrays) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/SongHayoung/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -2146,6 +2150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2429-design-a-food-rating-system](https://github.com/SongHayoung/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/SongHayoung/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
+| [3672-sum-of-weighted-modes-in-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3672-sum-of-weighted-modes-in-subarrays) |
 | [3678-design-task-manager](https://github.com/SongHayoung/LeetCode/tree/master/3678-design-task-manager) |
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
