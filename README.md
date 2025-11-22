@@ -1224,6 +1224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3447-clear-digits](https://github.com/SongHayoung/LeetCode/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/SongHayoung/LeetCode/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3460-longest-common-prefix-after-at-most-one-removal](https://github.com/SongHayoung/LeetCode/tree/master/3460-longest-common-prefix-after-at-most-one-removal) |
 | [3462-vowels-game-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 | [3481-apply-substitutions](https://github.com/SongHayoung/LeetCode/tree/master/3481-apply-substitutions) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/SongHayoung/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
@@ -1890,6 +1891,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3101-maximum-coins-heroes-can-collect](https://github.com/SongHayoung/LeetCode/tree/master/3101-maximum-coins-heroes-can-collect) |
 | [3195-separate-black-and-white-balls](https://github.com/SongHayoung/LeetCode/tree/master/3195-separate-black-and-white-balls) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3460-longest-common-prefix-after-at-most-one-removal](https://github.com/SongHayoung/LeetCode/tree/master/3460-longest-common-prefix-after-at-most-one-removal) |
 | [3602-sum-of-consecutive-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3602-sum-of-consecutive-subarrays) |
 | [3749-find-the-lexicographically-largest-string-from-the-box-ii](https://github.com/SongHayoung/LeetCode/tree/master/3749-find-the-lexicographically-largest-string-from-the-box-ii) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
