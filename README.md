@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2793-count-the-number-of-complete-components](https://github.com/SongHayoung/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [3058-maximum-number-of-k-divisible-components](https://github.com/SongHayoung/LeetCode/tree/master/3058-maximum-number-of-k-divisible-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/SongHayoung/LeetCode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3481-apply-substitutions](https://github.com/SongHayoung/LeetCode/tree/master/3481-apply-substitutions) |
 | [3497-find-the-last-marked-nodes-in-tree](https://github.com/SongHayoung/LeetCode/tree/master/3497-find-the-last-marked-nodes-in-tree) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/SongHayoung/LeetCode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/SongHayoung/LeetCode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/SongHayoung/LeetCode/tree/master/2793-count-the-number-of-complete-components) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/SongHayoung/LeetCode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3481-apply-substitutions](https://github.com/SongHayoung/LeetCode/tree/master/3481-apply-substitutions) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/SongHayoung/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/SongHayoung/LeetCode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/SongHayoung/LeetCode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
@@ -171,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3235-minimum-cost-to-convert-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/SongHayoung/LeetCode/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/SongHayoung/LeetCode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+| [3481-apply-substitutions](https://github.com/SongHayoung/LeetCode/tree/master/3481-apply-substitutions) |
 | [3517-shortest-distance-after-road-addition-queries-i](https://github.com/SongHayoung/LeetCode/tree/master/3517-shortest-distance-after-road-addition-queries-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/SongHayoung/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/SongHayoung/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -486,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/SongHayoung/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3469-maximum-height-of-a-triangle](https://github.com/SongHayoung/LeetCode/tree/master/3469-maximum-height-of-a-triangle) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/SongHayoung/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3481-apply-substitutions](https://github.com/SongHayoung/LeetCode/tree/master/3481-apply-substitutions) |
 | [3483-alternating-groups-ii](https://github.com/SongHayoung/LeetCode/tree/master/3483-alternating-groups-ii) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/SongHayoung/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/SongHayoung/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
@@ -1033,6 +1037,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/SongHayoung/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3481-apply-substitutions](https://github.com/SongHayoung/LeetCode/tree/master/3481-apply-substitutions) |
 | [3499-count-substrings-with-k-frequency-characters-ii](https://github.com/SongHayoung/LeetCode/tree/master/3499-count-substrings-with-k-frequency-characters-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/SongHayoung/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3548-find-the-count-of-good-integers](https://github.com/SongHayoung/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
@@ -1206,6 +1211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3451-string-compression-iii](https://github.com/SongHayoung/LeetCode/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3462-vowels-game-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/3462-vowels-game-in-a-string) |
+| [3481-apply-substitutions](https://github.com/SongHayoung/LeetCode/tree/master/3481-apply-substitutions) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/SongHayoung/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3499-count-substrings-with-k-frequency-characters-ii](https://github.com/SongHayoung/LeetCode/tree/master/3499-count-substrings-with-k-frequency-characters-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/SongHayoung/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -2149,6 +2155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/SongHayoung/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/SongHayoung/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2506-minimize-maximum-value-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/2506-minimize-maximum-value-in-a-grid) |
+| [3481-apply-substitutions](https://github.com/SongHayoung/LeetCode/tree/master/3481-apply-substitutions) |
 | [3718-minimum-runes-to-add-to-cast-spell](https://github.com/SongHayoung/LeetCode/tree/master/3718-minimum-runes-to-add-to-cast-spell) |
 ## Eulerian Circuit
 |  |
