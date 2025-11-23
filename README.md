@@ -527,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/SongHayoung/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
+| [3647-maximum-weight-in-two-bags](https://github.com/SongHayoung/LeetCode/tree/master/3647-maximum-weight-in-two-bags) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/SongHayoung/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/SongHayoung/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SongHayoung/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
@@ -665,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
+| [3647-maximum-weight-in-two-bags](https://github.com/SongHayoung/LeetCode/tree/master/3647-maximum-weight-in-two-bags) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/SongHayoung/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3701-minimum-cost-good-caption](https://github.com/SongHayoung/LeetCode/tree/master/3701-minimum-cost-good-caption) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/SongHayoung/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
