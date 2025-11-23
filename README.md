@@ -1241,6 +1241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3701-minimum-cost-good-caption](https://github.com/SongHayoung/LeetCode/tree/master/3701-minimum-cost-good-caption) |
+| [3744-find-kth-character-in-expanded-string](https://github.com/SongHayoung/LeetCode/tree/master/3744-find-kth-character-in-expanded-string) |
 | [3749-find-the-lexicographically-largest-string-from-the-box-ii](https://github.com/SongHayoung/LeetCode/tree/master/3749-find-the-lexicographically-largest-string-from-the-box-ii) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/SongHayoung/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
