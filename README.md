@@ -462,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/SongHayoung/LeetCode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3194-find-words-containing-character](https://github.com/SongHayoung/LeetCode/tree/master/3194-find-words-containing-character) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/SongHayoung/LeetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3215-count-triplets-with-even-xor-set-bits-ii](https://github.com/SongHayoung/LeetCode/tree/master/3215-count-triplets-with-even-xor-set-bits-ii) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/SongHayoung/LeetCode/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3221-maximum-array-hopping-score-ii](https://github.com/SongHayoung/LeetCode/tree/master/3221-maximum-array-hopping-score-ii) |
 | [3227-find-missing-and-repeated-values](https://github.com/SongHayoung/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
@@ -732,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2533-bitwise-xor-of-all-pairings](https://github.com/SongHayoung/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/SongHayoung/LeetCode/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/SongHayoung/LeetCode/tree/master/2792-neighboring-bitwise-xor) |
+| [3215-count-triplets-with-even-xor-set-bits-ii](https://github.com/SongHayoung/LeetCode/tree/master/3215-count-triplets-with-even-xor-set-bits-ii) |
 | [3291-find-if-array-can-be-sorted](https://github.com/SongHayoung/LeetCode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/SongHayoung/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3344-maximum-sized-array](https://github.com/SongHayoung/LeetCode/tree/master/3344-maximum-sized-array) |
