@@ -514,6 +514,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3602-sum-of-consecutive-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3602-sum-of-consecutive-subarrays) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/SongHayoung/LeetCode/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/SongHayoung/LeetCode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/SongHayoung/LeetCode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
@@ -658,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/SongHayoung/LeetCode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3537-number-of-subsequences-with-odd-sum](https://github.com/SongHayoung/LeetCode/tree/master/3537-number-of-subsequences-with-odd-sum) |
 | [3602-sum-of-consecutive-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3602-sum-of-consecutive-subarrays) |
+| [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/SongHayoung/LeetCode/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3614-find-the-number-of-k-even-arrays](https://github.com/SongHayoung/LeetCode/tree/master/3614-find-the-number-of-k-even-arrays) |
 | [3618-find-the-original-typed-string-ii](https://github.com/SongHayoung/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -825,6 +827,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/SongHayoung/LeetCode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/SongHayoung/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/SongHayoung/LeetCode/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
@@ -2072,6 +2075,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/SongHayoung/LeetCode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/SongHayoung/LeetCode/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3001-apply-operations-to-maximize-score](https://github.com/SongHayoung/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
+| [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/SongHayoung/LeetCode/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Brainteaser
 |  |
