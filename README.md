@@ -497,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3466-maximum-coin-collection](https://github.com/SongHayoung/LeetCode/tree/master/3466-maximum-coin-collection) |
 | [3469-maximum-height-of-a-triangle](https://github.com/SongHayoung/LeetCode/tree/master/3469-maximum-height-of-a-triangle) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/SongHayoung/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3476-maximize-profit-from-task-assignment](https://github.com/SongHayoung/LeetCode/tree/master/3476-maximize-profit-from-task-assignment) |
 | [3481-apply-substitutions](https://github.com/SongHayoung/LeetCode/tree/master/3481-apply-substitutions) |
 | [3483-alternating-groups-ii](https://github.com/SongHayoung/LeetCode/tree/master/3483-alternating-groups-ii) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/SongHayoung/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
@@ -1379,6 +1380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/SongHayoung/LeetCode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/SongHayoung/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/SongHayoung/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3476-maximize-profit-from-task-assignment](https://github.com/SongHayoung/LeetCode/tree/master/3476-maximize-profit-from-task-assignment) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/SongHayoung/LeetCode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3496-maximize-score-after-pair-deletions](https://github.com/SongHayoung/LeetCode/tree/master/3496-maximize-score-after-pair-deletions) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
@@ -1474,6 +1476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/SongHayoung/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3430-count-days-without-meetings](https://github.com/SongHayoung/LeetCode/tree/master/3430-count-days-without-meetings) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/SongHayoung/LeetCode/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3476-maximize-profit-from-task-assignment](https://github.com/SongHayoung/LeetCode/tree/master/3476-maximize-profit-from-task-assignment) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -1614,6 +1617,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2880-find-the-closest-marked-node](https://github.com/SongHayoung/LeetCode/tree/master/2880-find-the-closest-marked-node) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/SongHayoung/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3476-maximize-profit-from-task-assignment](https://github.com/SongHayoung/LeetCode/tree/master/3476-maximize-profit-from-task-assignment) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3592-find-x-sum-of-all-k-long-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3592-find-x-sum-of-all-k-long-subarrays-ii) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
