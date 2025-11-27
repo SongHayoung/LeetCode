@@ -201,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/SongHayoung/LeetCode/tree/master/0120-triangle) |
 | [0135-candy](https://github.com/SongHayoung/LeetCode/tree/master/0135-candy) |
 | [0179-largest-number](https://github.com/SongHayoung/LeetCode/tree/master/0179-largest-number) |
+| [0239-sliding-window-maximum](https://github.com/SongHayoung/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/SongHayoung/LeetCode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0265-paint-house-ii](https://github.com/SongHayoung/LeetCode/tree/master/0265-paint-house-ii) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
@@ -929,6 +930,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/SongHayoung/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0353-design-snake-game](https://github.com/SongHayoung/LeetCode/tree/master/0353-design-snake-game) |
 | [0683-k-empty-slots](https://github.com/SongHayoung/LeetCode/tree/master/0683-k-empty-slots) |
 | [0859-design-circular-deque](https://github.com/SongHayoung/LeetCode/tree/master/0859-design-circular-deque) |
@@ -1586,6 +1588,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/SongHayoung/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0407-trapping-rain-water-ii](https://github.com/SongHayoung/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/SongHayoung/LeetCode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0683-k-empty-slots](https://github.com/SongHayoung/LeetCode/tree/master/0683-k-empty-slots) |
@@ -1834,6 +1837,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/SongHayoung/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0487-max-consecutive-ones-ii](https://github.com/SongHayoung/LeetCode/tree/master/0487-max-consecutive-ones-ii) |
 | [0567-permutation-in-string](https://github.com/SongHayoung/LeetCode/tree/master/0567-permutation-in-string) |
 | [0594-longest-harmonious-subsequence](https://github.com/SongHayoung/LeetCode/tree/master/0594-longest-harmonious-subsequence) |
@@ -2196,6 +2200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/SongHayoung/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0683-k-empty-slots](https://github.com/SongHayoung/LeetCode/tree/master/0683-k-empty-slots) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/SongHayoung/LeetCode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
