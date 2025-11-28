@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0255-verify-preorder-sequence-in-binary-search-tree](https://github.com/SongHayoung/LeetCode/tree/master/0255-verify-preorder-sequence-in-binary-search-tree) |
 | [0265-paint-house-ii](https://github.com/SongHayoung/LeetCode/tree/master/0265-paint-house-ii) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
+| [0312-burst-balloons](https://github.com/SongHayoung/LeetCode/tree/master/0312-burst-balloons) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/SongHayoung/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/SongHayoung/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0353-design-snake-game](https://github.com/SongHayoung/LeetCode/tree/master/0353-design-snake-game) |
@@ -601,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/SongHayoung/LeetCode/tree/master/0120-triangle) |
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0265-paint-house-ii](https://github.com/SongHayoung/LeetCode/tree/master/0265-paint-house-ii) |
+| [0312-burst-balloons](https://github.com/SongHayoung/LeetCode/tree/master/0312-burst-balloons) |
 | [0333-largest-bst-subtree](https://github.com/SongHayoung/LeetCode/tree/master/0333-largest-bst-subtree) |
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
 | [0361-bomb-enemy](https://github.com/SongHayoung/LeetCode/tree/master/0361-bomb-enemy) |
