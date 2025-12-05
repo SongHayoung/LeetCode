@@ -1,30 +1,63 @@
 class Solution {
 public:
-    string fractionToDecimal(long long numerator, long long denominator) {
-        string sign = numerator * denominator < 0 ? "-" : "";
-        numerator = abs(numerator);
-        denominator = abs(denominator);
-        
-        long long front = numerator / denominator;
-        numerator -= denominator * front;
-        if(numerator == 0) return sign + to_string(front);
-        
-        vector<long long> back;
-        unordered_map<long long, long long> mp;
-        numerator *= 10;
-        while(numerator != 0 and !mp.count(numerator)) {
-            mp[numerator] = back.size();
-            back.push_back(numerator / denominator);
-            numerator -= back.back() * denominator; 
-            numerator *= 10;
-        }
-        long long rep = numerator == 0 ? -1 : mp[numerator];
-        string res = "";
-        for(long long i = 0; i < back.size(); i++) {
-            if(i == rep) res.push_back('(');
-            res.push_back(0b110000 | back[i]);
-        }
-        if(rep != -1) res.push_back(')');
-        return sign + to_string(front) + "." + res;
-    }
+    string calculateRemainder(long long remainder, long long d) {
+  string fractional = "";
+  unordered_map<long long, int> seen;
+
+  while(true) {
+    if(seen.count(remainder)) {
+      int seenIndex = seen[remainder];
+      string result = "";
+      for(int i = 0; i < seenIndex; i++) {
+        result.push_back(fractional[i]);
+      }
+      
+      result.push_back('(');
+      for(int i = seenIndex; i < fractional.size(); i++) {
+        result.push_back(fractional[i]);
+      }
+      result.push_back(')');
+
+      return result;
+    } else {
+      int qutinent = remainder / d;
+      long long nextRemainder = remainder % d;
+      int currentIndex = fractional.size();
+
+      fractional.push_back(qutinent + '0');
+
+      if(nextRemainder == 0) {
+        return fractional;
+      }
+
+
+      seen[remainder] = currentIndex;
+      remainder = nextRemainder * 10;
+    }  
+  }
+
+
+  return fractional;
+}
+
+string fractionToDecimal(long long n, long long d) {
+  long long qutinent = abs(n / d);
+  long long remiander = abs(n % d);
+  string number = to_string(qutinent);
+  if((n < 0 and d > 0) or (n > 0 and d < 0)) {
+    number = "-" + number;
+  }
+  remiander = abs(remiander);
+  d = abs(d);
+  if(remiander == 0) {
+    return number;
+  }
+
+  number.push_back('.');
+  
+  number += calculateRemainder(remiander * 10, d);
+  
+  return number;
+}
+
 };
