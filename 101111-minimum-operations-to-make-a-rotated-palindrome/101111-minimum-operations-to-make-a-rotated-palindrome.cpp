@@ -38,7 +38,7 @@ public:
 
     vector<cd> multiply(vector<cd> a, vector<cd> b) {
         int n = 1;
-        while (n < (int)a.size() + (int)b.size() - 1) n <<= 1;
+        while (n < a.size() + b.size() - 1) n <<= 1;
 
         a.resize(n);
         b.resize(n);
@@ -61,9 +61,9 @@ public:
             cd lambda(0);
 
             for (int d = 0; d < 26; d++) {
-                int cost = min(d, 26 - d);
+                double cost = min(d, 26 - d);
                 double ang = -2 * PI * f * d / 26.0;
-                lambda += cd(cos(ang), sin(ang)) * (double)cost;
+                lambda += cd(cos(ang), sin(ang)) * cost;
             }
 
             lambda /= 26.0;
@@ -84,19 +84,19 @@ public:
 
             for (int t = 0; t < n; t++) {
                 cd cur = conv[t];
-                if (t + n < (int)conv.size()) cur += conv[t + n];
+                if (t + n < conv.size()) cur += conv[t + n];
                 total[t] += lambda * cur;
             }
         }
 
-        long long ans = LLONG_MAX;
+        long long res = LLONG_MAX;
 
         for (int r = 0; r < n; r++) {
             int t = (2 * r - 1 + n) % n;
             long long palindromeCost = llround(total[t].real() / 2.0);
-            ans = min(ans, palindromeCost + r);
+            res = min(res, palindromeCost + r);
         }
 
-        return ans;
+        return res;
     }
 };
