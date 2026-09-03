@@ -1284,6 +1284,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4019-merge-close-characters-ii](https://github.com/SongHayoung/LeetCode/tree/master/4019-merge-close-characters-ii) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
+| [4026-maximum-gap-between-stations](https://github.com/SongHayoung/LeetCode/tree/master/4026-maximum-gap-between-stations) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
 | [4090-minimum-string-length-after-balanced-removals](https://github.com/SongHayoung/LeetCode/tree/master/4090-minimum-string-length-after-balanced-removals) |
 | [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
@@ -1419,6 +1420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
+| [4026-maximum-gap-between-stations](https://github.com/SongHayoung/LeetCode/tree/master/4026-maximum-gap-between-stations) |
 | [4081-maximum-transactions-without-negative-balance](https://github.com/SongHayoung/LeetCode/tree/master/4081-maximum-transactions-without-negative-balance) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
@@ -1942,6 +1944,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3749-find-the-lexicographically-largest-string-from-the-box-ii](https://github.com/SongHayoung/LeetCode/tree/master/3749-find-the-lexicographically-largest-string-from-the-box-ii) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
+| [4026-maximum-gap-between-stations](https://github.com/SongHayoung/LeetCode/tree/master/4026-maximum-gap-between-stations) |
 ## Backtracking
 |  |
 | ------- |
