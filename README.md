@@ -575,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4015-split-array-with-minimum-difference](https://github.com/SongHayoung/LeetCode/tree/master/4015-split-array-with-minimum-difference) |
+| [4020-elevator-requests-i](https://github.com/SongHayoung/LeetCode/tree/master/4020-elevator-requests-i) |
 | [4023-elevator-requests-ii](https://github.com/SongHayoung/LeetCode/tree/master/4023-elevator-requests-ii) |
 | [4030-maximize-cyclic-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/4030-maximize-cyclic-partition-score) |
 | [4039-compute-decimal-representation](https://github.com/SongHayoung/LeetCode/tree/master/4039-compute-decimal-representation) |
@@ -919,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3931-process-string-with-special-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3931-process-string-with-special-operations-i) |
 | [3939-process-string-with-special-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3939-process-string-with-special-operations-ii) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
+| [4020-elevator-requests-i](https://github.com/SongHayoung/LeetCode/tree/master/4020-elevator-requests-i) |
 ## Recursion
 |  |
 | ------- |
