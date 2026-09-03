@@ -571,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
+| [4004-minimum-moves-to-balance-circular-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4004-minimum-moves-to-balance-circular-array-ii) |
 | [4005-maximum-total-subarray-value-i](https://github.com/SongHayoung/LeetCode/tree/master/4005-maximum-total-subarray-value-i) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
@@ -873,6 +874,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
+| [4004-minimum-moves-to-balance-circular-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4004-minimum-moves-to-balance-circular-array-ii) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4022-k-th-digit-in-infinite-string](https://github.com/SongHayoung/LeetCode/tree/master/4022-k-th-digit-in-infinite-string) |
 | [4039-compute-decimal-representation](https://github.com/SongHayoung/LeetCode/tree/master/4039-compute-decimal-representation) |
@@ -2294,4 +2296,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/SongHayoung/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
+## Graph Theory
+|  |
+| ------- |
+| [4004-minimum-moves-to-balance-circular-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4004-minimum-moves-to-balance-circular-array-ii) |
+## Minimum-Cost Flow
+|  |
+| ------- |
+| [4004-minimum-moves-to-balance-circular-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4004-minimum-moves-to-balance-circular-array-ii) |
 <!---LeetCode Topics End-->
