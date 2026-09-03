@@ -582,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4017-peaks-in-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4017-peaks-in-array-ii) |
 | [4020-elevator-requests-i](https://github.com/SongHayoung/LeetCode/tree/master/4020-elevator-requests-i) |
 | [4023-elevator-requests-ii](https://github.com/SongHayoung/LeetCode/tree/master/4023-elevator-requests-ii) |
+| [4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights](https://github.com/SongHayoung/LeetCode/tree/master/4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights) |
 | [4030-maximize-cyclic-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/4030-maximize-cyclic-partition-score) |
 | [4039-compute-decimal-representation](https://github.com/SongHayoung/LeetCode/tree/master/4039-compute-decimal-representation) |
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
@@ -1431,6 +1432,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
+| [4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights](https://github.com/SongHayoung/LeetCode/tree/master/4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights) |
 | [4026-maximum-gap-between-stations](https://github.com/SongHayoung/LeetCode/tree/master/4026-maximum-gap-between-stations) |
 | [4081-maximum-transactions-without-negative-balance](https://github.com/SongHayoung/LeetCode/tree/master/4081-maximum-transactions-without-negative-balance) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
