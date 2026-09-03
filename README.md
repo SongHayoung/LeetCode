@@ -574,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4005-maximum-total-subarray-value-i](https://github.com/SongHayoung/LeetCode/tree/master/4005-maximum-total-subarray-value-i) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
+| [4008-minimum-initial-strength-to-defeat-all-monsters](https://github.com/SongHayoung/LeetCode/tree/master/4008-minimum-initial-strength-to-defeat-all-monsters) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
@@ -1434,6 +1435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [4005-maximum-total-subarray-value-i](https://github.com/SongHayoung/LeetCode/tree/master/4005-maximum-total-subarray-value-i) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
+| [4008-minimum-initial-strength-to-defeat-all-monsters](https://github.com/SongHayoung/LeetCode/tree/master/4008-minimum-initial-strength-to-defeat-all-monsters) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
 | [4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights](https://github.com/SongHayoung/LeetCode/tree/master/4025-minimize-the-maximum-waiting-time-at-synchronized-traffic-lights) |
@@ -1845,6 +1847,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3881-minimize-maximum-component-cost](https://github.com/SongHayoung/LeetCode/tree/master/3881-minimize-maximum-component-cost) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/SongHayoung/LeetCode/tree/master/3908-minimum-time-for-k-connected-components) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
+| [4008-minimum-initial-strength-to-defeat-all-monsters](https://github.com/SongHayoung/LeetCode/tree/master/4008-minimum-initial-strength-to-defeat-all-monsters) |
 | [4012-count-of-unfinished-tasks-after-each-shift](https://github.com/SongHayoung/LeetCode/tree/master/4012-count-of-unfinished-tasks-after-each-shift) |
 | [4016-maximum-area-of-two-non-overlapping-square-submatrices](https://github.com/SongHayoung/LeetCode/tree/master/4016-maximum-area-of-two-non-overlapping-square-submatrices) |
 | [4022-k-th-digit-in-infinite-string](https://github.com/SongHayoung/LeetCode/tree/master/4022-k-th-digit-in-infinite-string) |
@@ -2115,6 +2118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
+| [4008-minimum-initial-strength-to-defeat-all-monsters](https://github.com/SongHayoung/LeetCode/tree/master/4008-minimum-initial-strength-to-defeat-all-monsters) |
 | [4012-count-of-unfinished-tasks-after-each-shift](https://github.com/SongHayoung/LeetCode/tree/master/4012-count-of-unfinished-tasks-after-each-shift) |
 | [4015-split-array-with-minimum-difference](https://github.com/SongHayoung/LeetCode/tree/master/4015-split-array-with-minimum-difference) |
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
