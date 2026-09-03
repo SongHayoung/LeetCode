@@ -874,6 +874,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
+| [4002-count-valid-sequences](https://github.com/SongHayoung/LeetCode/tree/master/4002-count-valid-sequences) |
 | [4004-minimum-moves-to-balance-circular-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4004-minimum-moves-to-balance-circular-array-ii) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4022-k-th-digit-in-infinite-string](https://github.com/SongHayoung/LeetCode/tree/master/4022-k-th-digit-in-infinite-string) |
@@ -2286,6 +2287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/SongHayoung/LeetCode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [4002-count-valid-sequences](https://github.com/SongHayoung/LeetCode/tree/master/4002-count-valid-sequences) |
 ## Geometry
 |  |
 | ------- |
