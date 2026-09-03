@@ -581,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
+| [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
 | [4012-count-of-unfinished-tasks-after-each-shift](https://github.com/SongHayoung/LeetCode/tree/master/4012-count-of-unfinished-tasks-after-each-shift) |
 | [4015-split-array-with-minimum-difference](https://github.com/SongHayoung/LeetCode/tree/master/4015-split-array-with-minimum-difference) |
 | [4015-weighted-sum-of-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/4015-weighted-sum-of-a-tree) |
@@ -1708,6 +1709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
 | [4017-peaks-in-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4017-peaks-in-array-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
@@ -1719,6 +1721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4075-count-subarrays-with-majority-element-ii](https://github.com/SongHayoung/LeetCode/tree/master/4075-count-subarrays-with-majority-element-ii) |
 ## Bucket Sort
@@ -1794,6 +1797,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [3520-minimum-threshold-for-inversion-pairs-count](https://github.com/SongHayoung/LeetCode/tree/master/3520-minimum-threshold-for-inversion-pairs-count) |
+| [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -2131,6 +2135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
 | [4008-minimum-initial-strength-to-defeat-all-monsters](https://github.com/SongHayoung/LeetCode/tree/master/4008-minimum-initial-strength-to-defeat-all-monsters) |
+| [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
 | [4012-count-of-unfinished-tasks-after-each-shift](https://github.com/SongHayoung/LeetCode/tree/master/4012-count-of-unfinished-tasks-after-each-shift) |
 | [4015-split-array-with-minimum-difference](https://github.com/SongHayoung/LeetCode/tree/master/4015-split-array-with-minimum-difference) |
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
@@ -2234,6 +2239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
+| [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
 | [4017-peaks-in-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4017-peaks-in-array-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
