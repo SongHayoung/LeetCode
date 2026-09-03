@@ -575,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4015-split-array-with-minimum-difference](https://github.com/SongHayoung/LeetCode/tree/master/4015-split-array-with-minimum-difference) |
+| [4017-peaks-in-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4017-peaks-in-array-ii) |
 | [4020-elevator-requests-i](https://github.com/SongHayoung/LeetCode/tree/master/4020-elevator-requests-i) |
 | [4023-elevator-requests-ii](https://github.com/SongHayoung/LeetCode/tree/master/4023-elevator-requests-ii) |
 | [4030-maximize-cyclic-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/4030-maximize-cyclic-partition-score) |
@@ -1682,6 +1683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [4017-peaks-in-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4017-peaks-in-array-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
@@ -2200,6 +2202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
+| [4017-peaks-in-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4017-peaks-in-array-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
