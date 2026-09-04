@@ -766,6 +766,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/SongHayoung/LeetCode/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3614-find-the-number-of-k-even-arrays](https://github.com/SongHayoung/LeetCode/tree/master/3614-find-the-number-of-k-even-arrays) |
 | [3618-find-the-original-typed-string-ii](https://github.com/SongHayoung/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
+| [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/SongHayoung/LeetCode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
@@ -1454,6 +1455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/SongHayoung/LeetCode/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3617-find-the-original-typed-string-i](https://github.com/SongHayoung/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/SongHayoung/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
+| [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/SongHayoung/LeetCode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
@@ -1621,6 +1623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3496-maximize-score-after-pair-deletions](https://github.com/SongHayoung/LeetCode/tree/master/3496-maximize-score-after-pair-deletions) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/SongHayoung/LeetCode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
@@ -2389,6 +2392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3616-make-array-elements-equal-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3618-find-the-original-typed-string-ii](https://github.com/SongHayoung/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/SongHayoung/LeetCode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3639-zero-array-transformation-i](https://github.com/SongHayoung/LeetCode/tree/master/3639-zero-array-transformation-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/SongHayoung/LeetCode/tree/master/3643-zero-array-transformation-ii) |
