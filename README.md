@@ -791,6 +791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3890-integers-with-multiple-sum-of-two-cubes](https://github.com/SongHayoung/LeetCode/tree/master/3890-integers-with-multiple-sum-of-two-cubes) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
+| [3955-valid-binary-strings-with-cost-limit](https://github.com/SongHayoung/LeetCode/tree/master/3955-valid-binary-strings-with-cost-limit) |
 | [3979-maximum-valid-pair-sum](https://github.com/SongHayoung/LeetCode/tree/master/3979-maximum-valid-pair-sum) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
@@ -846,6 +847,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/SongHayoung/LeetCode/tree/master/3930-longest-palindromic-path-in-graph) |
 | [3950-exactly-one-consecutive-set-bits-pair](https://github.com/SongHayoung/LeetCode/tree/master/3950-exactly-one-consecutive-set-bits-pair) |
+| [3955-valid-binary-strings-with-cost-limit](https://github.com/SongHayoung/LeetCode/tree/master/3955-valid-binary-strings-with-cost-limit) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 ## Math
 |  |
@@ -1422,6 +1424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3931-process-string-with-special-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3931-process-string-with-special-operations-i) |
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3939-process-string-with-special-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3939-process-string-with-special-operations-ii) |
+| [3955-valid-binary-strings-with-cost-limit](https://github.com/SongHayoung/LeetCode/tree/master/3955-valid-binary-strings-with-cost-limit) |
 | [3986-number-of-elapsed-seconds-between-two-times](https://github.com/SongHayoung/LeetCode/tree/master/3986-number-of-elapsed-seconds-between-two-times) |
 | [3992-rearrange-string-to-avoid-character-pair](https://github.com/SongHayoung/LeetCode/tree/master/3992-rearrange-string-to-avoid-character-pair) |
 | [3999-minimum-number-of-string-groups-through-transformations](https://github.com/SongHayoung/LeetCode/tree/master/3999-minimum-number-of-string-groups-through-transformations) |
@@ -2173,6 +2176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/SongHayoung/LeetCode/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2823-the-knights-tour](https://github.com/SongHayoung/LeetCode/tree/master/2823-the-knights-tour) |
 | [3951-next-special-palindrome-number](https://github.com/SongHayoung/LeetCode/tree/master/3951-next-special-palindrome-number) |
+| [3955-valid-binary-strings-with-cost-limit](https://github.com/SongHayoung/LeetCode/tree/master/3955-valid-binary-strings-with-cost-limit) |
 ## Bitmask
 |  |
 | ------- |
