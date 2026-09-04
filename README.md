@@ -555,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-maximum-weight-in-two-bags](https://github.com/SongHayoung/LeetCode/tree/master/3647-maximum-weight-in-two-bags) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/SongHayoung/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3654-minimum-sum-after-divisible-sum-deletions](https://github.com/SongHayoung/LeetCode/tree/master/3654-minimum-sum-after-divisible-sum-deletions) |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/SongHayoung/LeetCode/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/SongHayoung/LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SongHayoung/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3672-sum-of-weighted-modes-in-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3672-sum-of-weighted-modes-in-subarrays) |
@@ -1998,6 +1999,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/SongHayoung/LeetCode/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 | [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
@@ -2464,6 +2466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-zero-array-transformation-ii](https://github.com/SongHayoung/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3654-minimum-sum-after-divisible-sum-deletions](https://github.com/SongHayoung/LeetCode/tree/master/3654-minimum-sum-after-divisible-sum-deletions) |
+| [3655-xor-after-range-multiplication-queries-ii](https://github.com/SongHayoung/LeetCode/tree/master/3655-xor-after-range-multiplication-queries-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
