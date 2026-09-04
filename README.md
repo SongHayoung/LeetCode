@@ -574,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3858-minimum-bitwise-or-from-grid](https://github.com/SongHayoung/LeetCode/tree/master/3858-minimum-bitwise-or-from-grid) |
 | [3861-minimum-capacity-box](https://github.com/SongHayoung/LeetCode/tree/master/3861-minimum-capacity-box) |
+| [3862-find-the-smallest-balanced-index](https://github.com/SongHayoung/LeetCode/tree/master/3862-find-the-smallest-balanced-index) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3866-first-unique-even-element](https://github.com/SongHayoung/LeetCode/tree/master/3866-first-unique-even-element) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/SongHayoung/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -2301,6 +2302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
+| [3862-find-the-smallest-balanced-index](https://github.com/SongHayoung/LeetCode/tree/master/3862-find-the-smallest-balanced-index) |
 | [3883-count-non-decreasing-arrays-with-given-digit-sums](https://github.com/SongHayoung/LeetCode/tree/master/3883-count-non-decreasing-arrays-with-given-digit-sums) |
 | [3891-minimum-increase-to-maximize-special-indices](https://github.com/SongHayoung/LeetCode/tree/master/3891-minimum-increase-to-maximize-special-indices) |
 | [3900-longest-balanced-substring-after-one-swap](https://github.com/SongHayoung/LeetCode/tree/master/3900-longest-balanced-substring-after-one-swap) |
