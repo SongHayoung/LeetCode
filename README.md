@@ -877,6 +877,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
+| [3993-maximum-value-of-an-alternating-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3993-maximum-value-of-an-alternating-sequence) |
 | [3996-even-number-of-knight-moves](https://github.com/SongHayoung/LeetCode/tree/master/3996-even-number-of-knight-moves) |
 | [4000-largest-integer-with-given-digit-sum](https://github.com/SongHayoung/LeetCode/tree/master/4000-largest-integer-with-given-digit-sum) |
 | [4002-count-valid-sequences](https://github.com/SongHayoung/LeetCode/tree/master/4002-count-valid-sequences) |
@@ -1443,6 +1444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
+| [3993-maximum-value-of-an-alternating-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3993-maximum-value-of-an-alternating-sequence) |
 | [3994-minimum-adjacent-swaps-to-partition-array](https://github.com/SongHayoung/LeetCode/tree/master/3994-minimum-adjacent-swaps-to-partition-array) |
 | [4000-largest-integer-with-given-digit-sum](https://github.com/SongHayoung/LeetCode/tree/master/4000-largest-integer-with-given-digit-sum) |
 | [4005-maximum-total-subarray-value-i](https://github.com/SongHayoung/LeetCode/tree/master/4005-maximum-total-subarray-value-i) |
