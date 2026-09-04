@@ -636,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3925-concatenate-array-with-reverse](https://github.com/SongHayoung/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
 | [3926-count-valid-word-occurrences](https://github.com/SongHayoung/LeetCode/tree/master/3926-count-valid-word-occurrences) |
 | [3928-split-and-merge-array-transformation](https://github.com/SongHayoung/LeetCode/tree/master/3928-split-and-merge-array-transformation) |
+| [3930-power-update-after-k-th-largest-insertion-ii](https://github.com/SongHayoung/LeetCode/tree/master/3930-power-update-after-k-th-largest-insertion-ii) |
 | [3933-largest-local-values-in-a-matrix-ii](https://github.com/SongHayoung/LeetCode/tree/master/3933-largest-local-values-in-a-matrix-ii) |
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
@@ -1039,6 +1040,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3901-good-subsequence-queries](https://github.com/SongHayoung/LeetCode/tree/master/3901-good-subsequence-queries) |
 | [3908-valid-digit-number](https://github.com/SongHayoung/LeetCode/tree/master/3908-valid-digit-number) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
+| [3930-power-update-after-k-th-largest-insertion-ii](https://github.com/SongHayoung/LeetCode/tree/master/3930-power-update-after-k-th-largest-insertion-ii) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [3945-digit-frequency-score](https://github.com/SongHayoung/LeetCode/tree/master/3945-digit-frequency-score) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
@@ -1328,6 +1330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
 | [3926-count-valid-word-occurrences](https://github.com/SongHayoung/LeetCode/tree/master/3926-count-valid-word-occurrences) |
 | [3928-split-and-merge-array-transformation](https://github.com/SongHayoung/LeetCode/tree/master/3928-split-and-merge-array-transformation) |
+| [3930-power-update-after-k-th-largest-insertion-ii](https://github.com/SongHayoung/LeetCode/tree/master/3930-power-update-after-k-th-largest-insertion-ii) |
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [3943-number-of-pairs-after-increment](https://github.com/SongHayoung/LeetCode/tree/master/3943-number-of-pairs-after-increment) |
@@ -1815,6 +1818,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3908-minimum-time-for-k-connected-components](https://github.com/SongHayoung/LeetCode/tree/master/3908-minimum-time-for-k-connected-components) |
 | [3913-sort-vowels-by-frequency](https://github.com/SongHayoung/LeetCode/tree/master/3913-sort-vowels-by-frequency) |
 | [3920-maximize-fixed-points-after-deletions](https://github.com/SongHayoung/LeetCode/tree/master/3920-maximize-fixed-points-after-deletions) |
+| [3930-power-update-after-k-th-largest-insertion-ii](https://github.com/SongHayoung/LeetCode/tree/master/3930-power-update-after-k-th-largest-insertion-ii) |
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
@@ -2609,6 +2613,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3901-good-subsequence-queries](https://github.com/SongHayoung/LeetCode/tree/master/3901-good-subsequence-queries) |
+| [3930-power-update-after-k-th-largest-insertion-ii](https://github.com/SongHayoung/LeetCode/tree/master/3930-power-update-after-k-th-largest-insertion-ii) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
