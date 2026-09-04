@@ -1446,6 +1446,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
+| [3794-reverse-string-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3794-reverse-string-prefix) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3798-largest-even-number](https://github.com/SongHayoung/LeetCode/tree/master/3798-largest-even-number) |
 | [3800-minimum-cost-to-make-two-binary-strings-equal](https://github.com/SongHayoung/LeetCode/tree/master/3800-minimum-cost-to-make-two-binary-strings-equal) |
@@ -2200,6 +2201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3460-longest-common-prefix-after-at-most-one-removal](https://github.com/SongHayoung/LeetCode/tree/master/3460-longest-common-prefix-after-at-most-one-removal) |
 | [3602-sum-of-consecutive-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3602-sum-of-consecutive-subarrays) |
 | [3749-find-the-lexicographically-largest-string-from-the-box-ii](https://github.com/SongHayoung/LeetCode/tree/master/3749-find-the-lexicographically-largest-string-from-the-box-ii) |
+| [3794-reverse-string-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3794-reverse-string-prefix) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/SongHayoung/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 | [3814-maximum-capacity-within-budget](https://github.com/SongHayoung/LeetCode/tree/master/3814-maximum-capacity-within-budget) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/SongHayoung/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
