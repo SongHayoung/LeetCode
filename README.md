@@ -572,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3886-sum-of-sortable-integers](https://github.com/SongHayoung/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 | [3891-minimum-increase-to-maximize-special-indices](https://github.com/SongHayoung/LeetCode/tree/master/3891-minimum-increase-to-maximize-special-indices) |
 | [3895-count-digit-appearances](https://github.com/SongHayoung/LeetCode/tree/master/3895-count-digit-appearances) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
@@ -773,6 +774,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/SongHayoung/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3886-sum-of-sortable-integers](https://github.com/SongHayoung/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 | [3890-integers-with-multiple-sum-of-two-cubes](https://github.com/SongHayoung/LeetCode/tree/master/3890-integers-with-multiple-sum-of-two-cubes) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
@@ -924,6 +926,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3830-find-closest-person](https://github.com/SongHayoung/LeetCode/tree/master/3830-find-closest-person) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3886-sum-of-sortable-integers](https://github.com/SongHayoung/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 | [3894-traffic-signal-color](https://github.com/SongHayoung/LeetCode/tree/master/3894-traffic-signal-color) |
 | [3895-count-digit-appearances](https://github.com/SongHayoung/LeetCode/tree/master/3895-count-digit-appearances) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
@@ -1626,6 +1629,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 | [3881-minimize-maximum-component-cost](https://github.com/SongHayoung/LeetCode/tree/master/3881-minimize-maximum-component-cost) |
+| [3886-sum-of-sortable-integers](https://github.com/SongHayoung/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 | [3890-integers-with-multiple-sum-of-two-cubes](https://github.com/SongHayoung/LeetCode/tree/master/3890-integers-with-multiple-sum-of-two-cubes) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/SongHayoung/LeetCode/tree/master/3908-minimum-time-for-k-connected-components) |
