@@ -564,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
+| [3768-minimum-inversion-count-in-subarrays-of-fixed-length](https://github.com/SongHayoung/LeetCode/tree/master/3768-minimum-inversion-count-in-subarrays-of-fixed-length) |
 | [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3779-minimum-number-of-operations-to-have-distinct-elements](https://github.com/SongHayoung/LeetCode/tree/master/3779-minimum-number-of-operations-to-have-distinct-elements) |
@@ -2173,6 +2174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/SongHayoung/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3768-minimum-inversion-count-in-subarrays-of-fixed-length](https://github.com/SongHayoung/LeetCode/tree/master/3768-minimum-inversion-count-in-subarrays-of-fixed-length) |
 | [3795-minimum-subarray-length-with-distinct-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/3795-minimum-subarray-length-with-distinct-sum-at-least-k) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3957-maximum-sum-of-m-non-overlapping-subarrays-ii) |
@@ -2501,6 +2503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [3520-minimum-threshold-for-inversion-pairs-count](https://github.com/SongHayoung/LeetCode/tree/master/3520-minimum-threshold-for-inversion-pairs-count) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
+| [3768-minimum-inversion-count-in-subarrays-of-fixed-length](https://github.com/SongHayoung/LeetCode/tree/master/3768-minimum-inversion-count-in-subarrays-of-fixed-length) |
 | [3777-minimum-deletions-to-make-alternating-substring](https://github.com/SongHayoung/LeetCode/tree/master/3777-minimum-deletions-to-make-alternating-substring) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
