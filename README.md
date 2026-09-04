@@ -917,6 +917,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3830-find-closest-person](https://github.com/SongHayoung/LeetCode/tree/master/3830-find-closest-person) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3908-valid-digit-number](https://github.com/SongHayoung/LeetCode/tree/master/3908-valid-digit-number) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [3945-digit-frequency-score](https://github.com/SongHayoung/LeetCode/tree/master/3945-digit-frequency-score) |
