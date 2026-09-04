@@ -712,6 +712,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3930-longest-palindromic-path-in-graph](https://github.com/SongHayoung/LeetCode/tree/master/3930-longest-palindromic-path-in-graph) |
 | [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
+| [3966-count-good-integers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3966-count-good-integers-in-a-range) |
 | [3967-finish-time-of-tasks-ii](https://github.com/SongHayoung/LeetCode/tree/master/3967-finish-time-of-tasks-ii) |
 | [3976-maximum-subarray-sum-after-multiplier](https://github.com/SongHayoung/LeetCode/tree/master/3976-maximum-subarray-sum-after-multiplier) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
@@ -891,6 +892,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
+| [3966-count-good-integers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3966-count-good-integers-in-a-range) |
 | [3986-number-of-elapsed-seconds-between-two-times](https://github.com/SongHayoung/LeetCode/tree/master/3986-number-of-elapsed-seconds-between-two-times) |
 | [3988-create-grid-with-exactly-k-paths-i](https://github.com/SongHayoung/LeetCode/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 | [3993-maximum-value-of-an-alternating-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3993-maximum-value-of-an-alternating-sequence) |
