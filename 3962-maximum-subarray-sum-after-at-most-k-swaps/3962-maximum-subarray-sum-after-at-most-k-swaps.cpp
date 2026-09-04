@@ -1,56 +1,86 @@
-struct Seg {
-    long long mi, ma, sum, cnt;
-    Seg* left, *right;
-    Seg(vector<int>& A, int l, int r) : mi(A[l]), ma(A[r]), sum(0), cnt(0), left(nullptr), right(nullptr) {
-        if(l ^ r) {
-            int m = l + (r - l) / 2;
-            left = new Seg(A, l, m);
-            right = new Seg(A, m + 1, r);
+struct MS {
+    int k, best;
+    long long inSum, inLoSum, outHiSum;
+    multiset<long long> inLo, inHi, outLo, outHi;
+    MS(int k) : k(k), best(0), inSum(0), inLoSum(0), outHiSum(0) {}
+    void inLoToHi() {
+        auto it = prev(inLo.end());
+        long long x = *it;
+        auto nh = inLo.extract(it);
+        inHi.insert(move(nh)), inLoSum -= x;
+    }
+    void inHiToLo() {
+        auto it = inHi.begin();
+        long long x = *it;
+        auto nh = inHi.extract(it);
+        inLo.insert(move(nh)), inLoSum += x;
+    }
+    void outLoToHi() {
+        auto it = prev(outLo.end());
+        long long x = *it;
+        auto nh = outLo.extract(it);
+        outHi.insert(move(nh)), outHiSum += x;
+    }
+    void outHiToLo() {
+        auto it = outHi.begin();
+        long long x = *it;
+        auto nh = outHi.extract(it);
+        outLo.insert(move(nh)), outHiSum -= x;
+    }
+    void normalize() {
+        while(best and *outHi.begin() <= *prev(inLo.end())) inLoToHi(), outHiToLo(), best--;
+        while(best < k and inHi.size() and outLo.size() and *prev(outLo.end()) > *inHi.begin()) inHiToLo(), outLoToHi(), best++;
+    }
+    void addIn(multiset<long long>::node_type nh) {
+        long long x = nh.value();
+        inSum += x;
+        if(best and x < *prev(inLo.end())) {
+            inLo.insert(move(nh));
+            inLoSum += x;
+            inLoToHi();
+        } else inHi.insert(move(nh));
+    }
+    void addOut(multiset<long long>::node_type nh) {
+        long long x = nh.value();
+        if(best and x > *outHi.begin()) {
+            outHi.insert(move(nh));
+            outHiSum += x;
+            outHiToLo();
+        } else outLo.insert(move(nh));
+    }
+    void outToIn(long long x) {
+        auto it = outHi.find(x);
+        if(it != outHi.end()) {
+            auto nh = outHi.extract(it);
+            outHiSum -= x;
+            if(outLo.size()) outLoToHi();
+            else best--, inLoToHi();
+            addIn(move(nh));
+        } else {
+            it = outLo.find(x);
+            auto nh = outLo.extract(it);
+            addIn(move(nh));
         }
+        normalize();
     }
-    void update(int x, int op) {
-        if(mi <= x and x <= ma) {
-            sum += x * op;
-            cnt += op;
-            if(left) left->update(x, op);
-            if(right) right->update(x, op);
+    void inToOut(long long x) {
+        auto it = inLo.find(x);
+        if(it != inLo.end()) {
+            auto nh = inLo.extract(it);
+            inLoSum -= x, inSum -= x;
+            if(inHi.size()) inHiToLo();
+            else best--, outHiToLo();
+            addOut(move(nh));
+        } else {
+            it = inHi.find(x);
+            auto nh = inHi.extract(it);
+            inSum -= x;
+            addOut(move(nh));
         }
+        normalize();
     }
-    long long miK(int k) {
-        if(cnt <= k) return sum;
-        if(mi == ma) return mi * k;
-        if(left->cnt >= k) return left->miK(k);
-        return left->sum + right->miK(k - left->cnt);
-    }
-    long long maK(int k) {
-        if(cnt <= k) return sum;
-        if(mi == ma) return ma * k;
-        if(right->cnt >= k) return right->maK(k);
-        return right->sum + left->maK(k - right->cnt);
-    }
-    long long lowK(int k) {
-        if(mi == ma) return mi;
-        if(left->cnt >= k) return left->lowK(k);
-        return right->lowK(k - left->cnt);
-    }
-    long long topK(int k) {
-        if(mi == ma) return mi;
-        if(right->cnt >= k) return right->topK(k);
-        return left->topK(k - right->cnt);
-    }
-};
-
-struct BIT {
-    int n;
-    vector<int> A;
-    BIT(int n) : n(n), A(n + 1) {}
-    void update(int p, int v) {
-        for(++p; p <= n; p += p & -p) A[p] += v;
-    }
-    int query(int p) {
-        int res = 0;
-        for(++p; p; p -= p & -p) res += A[p];
-        return res;
+    long long value() {
+        return inSum - inLoSum + outHiSum;
     }
 };
 
@@ -58,92 +88,21 @@ class Solution {
 public:
     long long maxSum(vector<int>& nums, int k) {
         int n = nums.size();
-
-        vector<int> S = nums;
-        sort(begin(S), end(S));
-        S.erase(unique(begin(S), end(S)), end(S));
-
-        int m = S.size();
-
-        vector<int> idx(n);
-        for(int i = 0; i < n; i++) idx[i] = lower_bound(begin(S), end(S), nums[i]) - begin(S);
-
-        vector<int> freq(m);
-        for(int p : idx) freq[p]++;
-
-        vector<int> pref(m), before(m + 1);
-        for(int i = 0; i < m; i++) {
-            pref[i] = freq[i] + (i ? pref[i - 1] : 0);
-            before[i + 1] = before[i] + freq[i];
-        }
-
-        Seg* out = new Seg(S, 0, m - 1);
-        Seg* in = new Seg(S, 0, m - 1);
-
-        BIT bit(m);
-        vector<int> inFreq(m);
-
-        for(int x : nums) out->update(x, 1);
-
-        auto add = [&](int i) {
-            out->update(nums[i], -1);
-            in->update(nums[i], 1);
-            bit.update(idx[i], 1);
-            inFreq[idx[i]]++;
-        };
-
-        auto remove = [&](int i) {
-            out->update(nums[i], 1);
-            in->update(nums[i], -1);
-            bit.update(idx[i], -1);
-            inFreq[idx[i]]--;
-        };
-
+        MS ms(k);
+        for(auto& x : nums) ms.outLo.insert(x);
         long long res = LLONG_MIN;
-
-        auto calc = [&](int l, int r) {
-            int len = r - l + 1;
-            int outside = n - len;
-            int best = 0;
-
-            if(k and outside) {
-                int q = lower_bound(begin(pref), end(pref), outside) - begin(pref);
-                int p;
-
-                if(before[q] + inFreq[q] >= outside) p = q;
-                else p = q + 1;
-
-                int inLess = p ? bit.query(p - 1) : 0;
-                int outGreaterEqual = outside - (before[p] - inLess);
-                best = min(k, max(inLess, outGreaterEqual));
-            }
-
-            long long now = in->sum - in->miK(best) + out->maK(best);
-            res = max(res, now);
-        };
-
         for(int l = 0; l < n; l++) {
-            if(l == 0) {
-                for(int r = 0; r < n; r++) {
-                    add(r);
-                    calc(l, r);
-                }
-            } else if(l & 1) {
-                remove(l - 1);
-                for(int r = n - 1; r >= l; r--) {
-                    calc(l, r);
-                    if(r > l) remove(r);
-                }
+            if(l % 2 == 0) {
+                if(l) ms.inToOut(nums[l-1]);
+                for(int r = l; r < n; r++) ms.outToIn(nums[r]), res = max(res,ms.value());
             } else {
-                remove(l - 1);
-                add(l);
-                for(int r = l; r < n; r++) {
-                    if(r > l) add(r);
-                    calc(l, r);
+                ms.inToOut(nums[l-1]);
+                for(int r = n-1; r >= l; r--) {
+                    res = max(res,ms.value());
+                    if(r > l) ms.inToOut(nums[r]);
                 }
             }
         }
-
         return res;
     }
 };
