@@ -573,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3928-split-and-merge-array-transformation](https://github.com/SongHayoung/LeetCode/tree/master/3928-split-and-merge-array-transformation) |
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
+| [3960-frequency-balance-subarray](https://github.com/SongHayoung/LeetCode/tree/master/3960-frequency-balance-subarray) |
 | [3961-maximize-sum-of-device-ratings](https://github.com/SongHayoung/LeetCode/tree/master/3961-maximize-sum-of-device-ratings) |
 | [3965-finish-time-of-tasks-i](https://github.com/SongHayoung/LeetCode/tree/master/3965-finish-time-of-tasks-i) |
 | [3967-finish-time-of-tasks-ii](https://github.com/SongHayoung/LeetCode/tree/master/3967-finish-time-of-tasks-ii) |
@@ -1151,6 +1152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
 | [3928-split-and-merge-array-transformation](https://github.com/SongHayoung/LeetCode/tree/master/3928-split-and-merge-array-transformation) |
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
+| [3960-frequency-balance-subarray](https://github.com/SongHayoung/LeetCode/tree/master/3960-frequency-balance-subarray) |
 | [3999-minimum-number-of-string-groups-through-transformations](https://github.com/SongHayoung/LeetCode/tree/master/3999-minimum-number-of-string-groups-through-transformations) |
 | [4019-merge-close-characters-ii](https://github.com/SongHayoung/LeetCode/tree/master/4019-merge-close-characters-ii) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
@@ -1814,6 +1816,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/SongHayoung/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
+| [3960-frequency-balance-subarray](https://github.com/SongHayoung/LeetCode/tree/master/3960-frequency-balance-subarray) |
 | [3978-unique-middle-element](https://github.com/SongHayoung/LeetCode/tree/master/3978-unique-middle-element) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
