@@ -939,6 +939,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3830-find-closest-person](https://github.com/SongHayoung/LeetCode/tree/master/3830-find-closest-person) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3855-sum-of-k-digit-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3855-sum-of-k-digit-numbers-in-a-range) |
 | [3857-minimum-cost-to-split-into-ones](https://github.com/SongHayoung/LeetCode/tree/master/3857-minimum-cost-to-split-into-ones) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/SongHayoung/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3869-count-fancy-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3869-count-fancy-numbers-in-a-range) |
@@ -1840,6 +1841,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [3855-sum-of-k-digit-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3855-sum-of-k-digit-numbers-in-a-range) |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
 | [4017-peaks-in-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4017-peaks-in-array-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
@@ -2324,6 +2326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3001-apply-operations-to-maximize-score](https://github.com/SongHayoung/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/SongHayoung/LeetCode/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3855-sum-of-k-digit-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3855-sum-of-k-digit-numbers-in-a-range) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/SongHayoung/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
@@ -2463,6 +2466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/SongHayoung/LeetCode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3855-sum-of-k-digit-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3855-sum-of-k-digit-numbers-in-a-range) |
 | [3881-direction-assignments-with-exactly-k-visible-people](https://github.com/SongHayoung/LeetCode/tree/master/3881-direction-assignments-with-exactly-k-visible-people) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
 | [3988-create-grid-with-exactly-k-paths-i](https://github.com/SongHayoung/LeetCode/tree/master/3988-create-grid-with-exactly-k-paths-i) |
