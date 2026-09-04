@@ -581,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3795-minimum-subarray-length-with-distinct-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/3795-minimum-subarray-length-with-distinct-sum-at-least-k) |
+| [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/SongHayoung/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 | [3810-minimum-operations-to-reach-target-array](https://github.com/SongHayoung/LeetCode/tree/master/3810-minimum-operations-to-reach-target-array) |
@@ -1645,6 +1646,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3781-maximum-score-after-binary-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3781-maximum-score-after-binary-swaps) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/SongHayoung/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/SongHayoung/LeetCode/tree/master/3789-minimum-cost-to-acquire-required-items) |
+| [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 | [3800-minimum-cost-to-make-two-binary-strings-equal](https://github.com/SongHayoung/LeetCode/tree/master/3800-minimum-cost-to-make-two-binary-strings-equal) |
 | [3810-minimum-operations-to-reach-target-array](https://github.com/SongHayoung/LeetCode/tree/master/3810-minimum-operations-to-reach-target-array) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
