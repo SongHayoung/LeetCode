@@ -564,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
+| [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3779-minimum-number-of-operations-to-have-distinct-elements](https://github.com/SongHayoung/LeetCode/tree/master/3779-minimum-number-of-operations-to-have-distinct-elements) |
 | [3781-maximum-score-after-binary-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3781-maximum-score-after-binary-swaps) |
@@ -2080,6 +2081,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/SongHayoung/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
+| [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/SongHayoung/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
@@ -2376,6 +2378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-zero-array-transformation-ii](https://github.com/SongHayoung/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
