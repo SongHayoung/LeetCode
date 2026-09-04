@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3497-find-the-last-marked-nodes-in-tree](https://github.com/SongHayoung/LeetCode/tree/master/3497-find-the-last-marked-nodes-in-tree) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/SongHayoung/LeetCode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/SongHayoung/LeetCode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3965-finish-time-of-tasks-i](https://github.com/SongHayoung/LeetCode/tree/master/3965-finish-time-of-tasks-i) |
 | [3967-finish-time-of-tasks-ii](https://github.com/SongHayoung/LeetCode/tree/master/3967-finish-time-of-tasks-ii) |
 | [4015-weighted-sum-of-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/4015-weighted-sum-of-a-tree) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/SongHayoung/LeetCode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3693-minimum-time-to-break-locks-ii](https://github.com/SongHayoung/LeetCode/tree/master/3693-minimum-time-to-break-locks-ii) |
 | [3718-minimum-runes-to-add-to-cast-spell](https://github.com/SongHayoung/LeetCode/tree/master/3718-minimum-runes-to-add-to-cast-spell) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
@@ -569,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3843-first-element-with-unique-frequency](https://github.com/SongHayoung/LeetCode/tree/master/3843-first-element-with-unique-frequency) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
@@ -843,6 +846,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/SongHayoung/LeetCode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/SongHayoung/LeetCode/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
@@ -1415,6 +1419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/SongHayoung/LeetCode/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 | [3853-merge-close-characters](https://github.com/SongHayoung/LeetCode/tree/master/3853-merge-close-characters) |
 | [3856-trim-trailing-vowels](https://github.com/SongHayoung/LeetCode/tree/master/3856-trim-trailing-vowels) |
@@ -1862,6 +1867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3855-sum-of-k-digit-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3855-sum-of-k-digit-numbers-in-a-range) |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
 | [4017-peaks-in-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4017-peaks-in-array-ii) |
@@ -2430,6 +2436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
+| [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
