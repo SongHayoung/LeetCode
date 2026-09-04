@@ -570,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3925-concatenate-array-with-reverse](https://github.com/SongHayoung/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
 | [3926-count-valid-word-occurrences](https://github.com/SongHayoung/LeetCode/tree/master/3926-count-valid-word-occurrences) |
 | [3928-split-and-merge-array-transformation](https://github.com/SongHayoung/LeetCode/tree/master/3928-split-and-merge-array-transformation) |
 | [3933-largest-local-values-in-a-matrix-ii](https://github.com/SongHayoung/LeetCode/tree/master/3933-largest-local-values-in-a-matrix-ii) |
@@ -977,6 +978,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
+| [3925-concatenate-array-with-reverse](https://github.com/SongHayoung/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
 | [3931-process-string-with-special-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3931-process-string-with-special-operations-i) |
 | [3939-process-string-with-special-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3939-process-string-with-special-operations-ii) |
 | [3959-check-good-integer](https://github.com/SongHayoung/LeetCode/tree/master/3959-check-good-integer) |
