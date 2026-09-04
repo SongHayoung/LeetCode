@@ -572,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3909-compare-sums-of-bitonic-parts](https://github.com/SongHayoung/LeetCode/tree/master/3909-compare-sums-of-bitonic-parts) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
 | [3914-minimum-operations-to-make-array-non-decreasing](https://github.com/SongHayoung/LeetCode/tree/master/3914-minimum-operations-to-make-array-non-decreasing) |
 | [3917-count-indices-with-opposite-parity](https://github.com/SongHayoung/LeetCode/tree/master/3917-count-indices-with-opposite-parity) |
