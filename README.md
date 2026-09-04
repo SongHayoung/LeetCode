@@ -567,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3795-minimum-subarray-length-with-distinct-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/3795-minimum-subarray-length-with-distinct-sum-at-least-k) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/SongHayoung/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 | [3810-minimum-operations-to-reach-target-array](https://github.com/SongHayoung/LeetCode/tree/master/3810-minimum-operations-to-reach-target-array) |
@@ -1247,6 +1248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/SongHayoung/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/SongHayoung/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3795-minimum-subarray-length-with-distinct-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/3795-minimum-subarray-length-with-distinct-sum-at-least-k) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3810-minimum-operations-to-reach-target-array](https://github.com/SongHayoung/LeetCode/tree/master/3810-minimum-operations-to-reach-target-array) |
 | [3811-number-of-alternating-xor-partitions](https://github.com/SongHayoung/LeetCode/tree/master/3811-number-of-alternating-xor-partitions) |
@@ -2152,6 +2154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/SongHayoung/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3795-minimum-subarray-length-with-distinct-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/3795-minimum-subarray-length-with-distinct-sum-at-least-k) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3957-maximum-sum-of-m-non-overlapping-subarrays-ii) |
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
