@@ -572,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3895-count-digit-appearances](https://github.com/SongHayoung/LeetCode/tree/master/3895-count-digit-appearances) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/SongHayoung/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
 | [3903-smallest-stable-index-i](https://github.com/SongHayoung/LeetCode/tree/master/3903-smallest-stable-index-i) |
@@ -920,6 +921,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3830-find-closest-person](https://github.com/SongHayoung/LeetCode/tree/master/3830-find-closest-person) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3895-count-digit-appearances](https://github.com/SongHayoung/LeetCode/tree/master/3895-count-digit-appearances) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3908-valid-digit-number](https://github.com/SongHayoung/LeetCode/tree/master/3908-valid-digit-number) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
