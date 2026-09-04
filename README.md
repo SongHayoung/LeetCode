@@ -572,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3757-number-of-effective-subsequences](https://github.com/SongHayoung/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 | [3762-minimum-operations-to-equalize-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3762-minimum-operations-to-equalize-subarrays) |
+| [3767-maximize-points-after-choosing-k-tasks](https://github.com/SongHayoung/LeetCode/tree/master/3767-maximize-points-after-choosing-k-tasks) |
 | [3768-minimum-inversion-count-in-subarrays-of-fixed-length](https://github.com/SongHayoung/LeetCode/tree/master/3768-minimum-inversion-count-in-subarrays-of-fixed-length) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/SongHayoung/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
@@ -1664,6 +1665,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/SongHayoung/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/SongHayoung/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
+| [3767-maximize-points-after-choosing-k-tasks](https://github.com/SongHayoung/LeetCode/tree/master/3767-maximize-points-after-choosing-k-tasks) |
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3781-maximum-score-after-binary-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3781-maximum-score-after-binary-swaps) |
@@ -1784,6 +1786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 | [3762-minimum-operations-to-equalize-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3762-minimum-operations-to-equalize-subarrays) |
+| [3767-maximize-points-after-choosing-k-tasks](https://github.com/SongHayoung/LeetCode/tree/master/3767-maximize-points-after-choosing-k-tasks) |
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3814-maximum-capacity-within-budget](https://github.com/SongHayoung/LeetCode/tree/master/3814-maximum-capacity-within-budget) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
@@ -1948,6 +1951,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3678-design-task-manager](https://github.com/SongHayoung/LeetCode/tree/master/3678-design-task-manager) |
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
+| [3767-maximize-points-after-choosing-k-tasks](https://github.com/SongHayoung/LeetCode/tree/master/3767-maximize-points-after-choosing-k-tasks) |
 | [3781-maximum-score-after-binary-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3781-maximum-score-after-binary-swaps) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3815-design-auction-system](https://github.com/SongHayoung/LeetCode/tree/master/3815-design-auction-system) |
