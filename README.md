@@ -543,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/SongHayoung/LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/SongHayoung/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/SongHayoung/LeetCode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/SongHayoung/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
 | [3631-sort-threats-by-severity-and-exploitability](https://github.com/SongHayoung/LeetCode/tree/master/3631-sort-threats-by-severity-and-exploitability) |
@@ -973,6 +974,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/SongHayoung/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/SongHayoung/LeetCode/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/SongHayoung/LeetCode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
@@ -1623,6 +1625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3496-maximize-score-after-pair-deletions](https://github.com/SongHayoung/LeetCode/tree/master/3496-maximize-score-after-pair-deletions) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/SongHayoung/LeetCode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/SongHayoung/LeetCode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
@@ -1739,6 +1742,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/SongHayoung/LeetCode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 | [3631-sort-threats-by-severity-and-exploitability](https://github.com/SongHayoung/LeetCode/tree/master/3631-sort-threats-by-severity-and-exploitability) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
@@ -2431,6 +2435,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
 | [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/3462-vowels-game-in-a-string) |
+| [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/SongHayoung/LeetCode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 ## Doubly-Linked List
 |  |
 | ------- |
