@@ -921,6 +921,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3830-find-closest-person](https://github.com/SongHayoung/LeetCode/tree/master/3830-find-closest-person) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3894-traffic-signal-color](https://github.com/SongHayoung/LeetCode/tree/master/3894-traffic-signal-color) |
 | [3895-count-digit-appearances](https://github.com/SongHayoung/LeetCode/tree/master/3895-count-digit-appearances) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3908-valid-digit-number](https://github.com/SongHayoung/LeetCode/tree/master/3908-valid-digit-number) |
@@ -993,6 +994,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3894-traffic-signal-color](https://github.com/SongHayoung/LeetCode/tree/master/3894-traffic-signal-color) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
 | [3925-concatenate-array-with-reverse](https://github.com/SongHayoung/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
 | [3931-process-string-with-special-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3931-process-string-with-special-operations-i) |
@@ -1369,6 +1371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/SongHayoung/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3894-traffic-signal-color](https://github.com/SongHayoung/LeetCode/tree/master/3894-traffic-signal-color) |
 | [3900-longest-balanced-substring-after-one-swap](https://github.com/SongHayoung/LeetCode/tree/master/3900-longest-balanced-substring-after-one-swap) |
 | [3911-find-the-shortest-superstring-ii](https://github.com/SongHayoung/LeetCode/tree/master/3911-find-the-shortest-superstring-ii) |
 | [3913-sort-vowels-by-frequency](https://github.com/SongHayoung/LeetCode/tree/master/3913-sort-vowels-by-frequency) |
