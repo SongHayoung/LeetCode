@@ -570,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
+| [3978-unique-middle-element](https://github.com/SongHayoung/LeetCode/tree/master/3978-unique-middle-element) |
 | [3979-maximum-valid-pair-sum](https://github.com/SongHayoung/LeetCode/tree/master/3979-maximum-valid-pair-sum) |
 | [3985-palindromic-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/3985-palindromic-subarray-sum) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
@@ -1794,6 +1795,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/SongHayoung/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
+| [3978-unique-middle-element](https://github.com/SongHayoung/LeetCode/tree/master/3978-unique-middle-element) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
