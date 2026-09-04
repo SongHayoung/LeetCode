@@ -572,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3875-construct-uniform-parity-array-i](https://github.com/SongHayoung/LeetCode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3878-count-good-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3878-count-good-subarrays) |
 | [3883-count-non-decreasing-arrays-with-given-digit-sums](https://github.com/SongHayoung/LeetCode/tree/master/3883-count-non-decreasing-arrays-with-given-digit-sums) |
@@ -931,6 +932,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3830-find-closest-person](https://github.com/SongHayoung/LeetCode/tree/master/3830-find-closest-person) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3875-construct-uniform-parity-array-i](https://github.com/SongHayoung/LeetCode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3881-direction-assignments-with-exactly-k-visible-people](https://github.com/SongHayoung/LeetCode/tree/master/3881-direction-assignments-with-exactly-k-visible-people) |
 | [3886-sum-of-sortable-integers](https://github.com/SongHayoung/LeetCode/tree/master/3886-sum-of-sortable-integers) |
