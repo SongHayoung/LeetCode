@@ -564,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
+| [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3779-minimum-number-of-operations-to-have-distinct-elements](https://github.com/SongHayoung/LeetCode/tree/master/3779-minimum-number-of-operations-to-have-distinct-elements) |
 | [3781-maximum-score-after-binary-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3781-maximum-score-after-binary-swaps) |
 | [3786-total-sum-of-interaction-cost-in-tree-groups](https://github.com/SongHayoung/LeetCode/tree/master/3786-total-sum-of-interaction-cost-in-tree-groups) |
@@ -1613,6 +1614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/SongHayoung/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/SongHayoung/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
+| [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3781-maximum-score-after-binary-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3781-maximum-score-after-binary-swaps) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/SongHayoung/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/SongHayoung/LeetCode/tree/master/3789-minimum-cost-to-acquire-required-items) |
@@ -1726,6 +1728,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SongHayoung/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
+| [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3814-maximum-capacity-within-budget](https://github.com/SongHayoung/LeetCode/tree/master/3814-maximum-capacity-within-budget) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/SongHayoung/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
