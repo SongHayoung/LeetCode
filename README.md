@@ -579,6 +579,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3779-minimum-number-of-operations-to-have-distinct-elements](https://github.com/SongHayoung/LeetCode/tree/master/3779-minimum-number-of-operations-to-have-distinct-elements) |
 | [3781-maximum-score-after-binary-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3781-maximum-score-after-binary-swaps) |
+| [3784-minimum-deletion-cost-to-make-all-characters-equal](https://github.com/SongHayoung/LeetCode/tree/master/3784-minimum-deletion-cost-to-make-all-characters-equal) |
 | [3786-total-sum-of-interaction-cost-in-tree-groups](https://github.com/SongHayoung/LeetCode/tree/master/3786-total-sum-of-interaction-cost-in-tree-groups) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/SongHayoung/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
@@ -836,6 +837,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/SongHayoung/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3784-minimum-deletion-cost-to-make-all-characters-equal](https://github.com/SongHayoung/LeetCode/tree/master/3784-minimum-deletion-cost-to-make-all-characters-equal) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and](https://github.com/SongHayoung/LeetCode/tree/master/3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and) |
 | [3827-count-monobit-integers](https://github.com/SongHayoung/LeetCode/tree/master/3827-count-monobit-integers) |
@@ -1300,6 +1302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/SongHayoung/LeetCode/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3779-minimum-number-of-operations-to-have-distinct-elements](https://github.com/SongHayoung/LeetCode/tree/master/3779-minimum-number-of-operations-to-have-distinct-elements) |
+| [3784-minimum-deletion-cost-to-make-all-characters-equal](https://github.com/SongHayoung/LeetCode/tree/master/3784-minimum-deletion-cost-to-make-all-characters-equal) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/SongHayoung/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3795-minimum-subarray-length-with-distinct-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/3795-minimum-subarray-length-with-distinct-sum-at-least-k) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
@@ -1506,6 +1509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3777-minimum-deletions-to-make-alternating-substring](https://github.com/SongHayoung/LeetCode/tree/master/3777-minimum-deletions-to-make-alternating-substring) |
 | [3781-maximum-score-after-binary-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3781-maximum-score-after-binary-swaps) |
+| [3784-minimum-deletion-cost-to-make-all-characters-equal](https://github.com/SongHayoung/LeetCode/tree/master/3784-minimum-deletion-cost-to-make-all-characters-equal) |
 | [3794-reverse-string-prefix](https://github.com/SongHayoung/LeetCode/tree/master/3794-reverse-string-prefix) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3798-largest-even-number](https://github.com/SongHayoung/LeetCode/tree/master/3798-largest-even-number) |
