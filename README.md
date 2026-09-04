@@ -569,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
+| [3818-minimum-prefix-removal-to-make-array-strictly-increasing](https://github.com/SongHayoung/LeetCode/tree/master/3818-minimum-prefix-removal-to-make-array-strictly-increasing) |
 | [3819-rotate-non-negative-elements](https://github.com/SongHayoung/LeetCode/tree/master/3819-rotate-non-negative-elements) |
 | [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
