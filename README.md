@@ -1527,6 +1527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3900-longest-balanced-substring-after-one-swap](https://github.com/SongHayoung/LeetCode/tree/master/3900-longest-balanced-substring-after-one-swap) |
 | [3911-find-the-shortest-superstring-ii](https://github.com/SongHayoung/LeetCode/tree/master/3911-find-the-shortest-superstring-ii) |
 | [3913-sort-vowels-by-frequency](https://github.com/SongHayoung/LeetCode/tree/master/3913-sort-vowels-by-frequency) |
+| [3922-minimum-flips-to-make-binary-string-coherent](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-flips-to-make-binary-string-coherent) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
 | [3926-count-valid-word-occurrences](https://github.com/SongHayoung/LeetCode/tree/master/3926-count-valid-word-occurrences) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/SongHayoung/LeetCode/tree/master/3930-longest-palindromic-path-in-graph) |
