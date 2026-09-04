@@ -570,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 | [3768-minimum-inversion-count-in-subarrays-of-fixed-length](https://github.com/SongHayoung/LeetCode/tree/master/3768-minimum-inversion-count-in-subarrays-of-fixed-length) |
+| [3770-largest-prime-from-consecutive-prime-sum](https://github.com/SongHayoung/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3779-minimum-number-of-operations-to-have-distinct-elements](https://github.com/SongHayoung/LeetCode/tree/master/3779-minimum-number-of-operations-to-have-distinct-elements) |
@@ -991,6 +992,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3770-largest-prime-from-consecutive-prime-sum](https://github.com/SongHayoung/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3783-mirror-distance-of-an-integer](https://github.com/SongHayoung/LeetCode/tree/master/3783-mirror-distance-of-an-integer) |
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/SongHayoung/LeetCode/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
@@ -2467,6 +2469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3001-apply-operations-to-maximize-score](https://github.com/SongHayoung/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/SongHayoung/LeetCode/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3770-largest-prime-from-consecutive-prime-sum](https://github.com/SongHayoung/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3855-sum-of-k-digit-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3855-sum-of-k-digit-numbers-in-a-range) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/SongHayoung/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
