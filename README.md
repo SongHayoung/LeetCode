@@ -1044,6 +1044,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3813-vowel-consonant-score](https://github.com/SongHayoung/LeetCode/tree/master/3813-vowel-consonant-score) |
 | [3819-rotate-non-negative-elements](https://github.com/SongHayoung/LeetCode/tree/master/3819-rotate-non-negative-elements) |
 | [3834-merge-adjacent-equal-elements](https://github.com/SongHayoung/LeetCode/tree/master/3834-merge-adjacent-equal-elements) |
 | [3838-weighted-word-mapping](https://github.com/SongHayoung/LeetCode/tree/master/3838-weighted-word-mapping) |
@@ -1435,6 +1436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3770-lexicographically-smallest-generated-string](https://github.com/SongHayoung/LeetCode/tree/master/3770-lexicographically-smallest-generated-string) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
+| [3813-vowel-consonant-score](https://github.com/SongHayoung/LeetCode/tree/master/3813-vowel-consonant-score) |
 | [3838-weighted-word-mapping](https://github.com/SongHayoung/LeetCode/tree/master/3838-weighted-word-mapping) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/SongHayoung/LeetCode/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
