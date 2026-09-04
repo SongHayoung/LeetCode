@@ -573,6 +573,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3928-split-and-merge-array-transformation](https://github.com/SongHayoung/LeetCode/tree/master/3928-split-and-merge-array-transformation) |
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
+| [3961-maximize-sum-of-device-ratings](https://github.com/SongHayoung/LeetCode/tree/master/3961-maximize-sum-of-device-ratings) |
 | [3965-finish-time-of-tasks-i](https://github.com/SongHayoung/LeetCode/tree/master/3965-finish-time-of-tasks-i) |
 | [3967-finish-time-of-tasks-ii](https://github.com/SongHayoung/LeetCode/tree/master/3967-finish-time-of-tasks-ii) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
@@ -1468,6 +1469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
+| [3961-maximize-sum-of-device-ratings](https://github.com/SongHayoung/LeetCode/tree/master/3961-maximize-sum-of-device-ratings) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/SongHayoung/LeetCode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 | [3993-maximum-value-of-an-alternating-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3993-maximum-value-of-an-alternating-sequence) |
 | [3994-minimum-adjacent-swaps-to-partition-array](https://github.com/SongHayoung/LeetCode/tree/master/3994-minimum-adjacent-swaps-to-partition-array) |
@@ -1570,6 +1572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3908-minimum-time-for-k-connected-components](https://github.com/SongHayoung/LeetCode/tree/master/3908-minimum-time-for-k-connected-components) |
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
+| [3961-maximize-sum-of-device-ratings](https://github.com/SongHayoung/LeetCode/tree/master/3961-maximize-sum-of-device-ratings) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/SongHayoung/LeetCode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 | [3992-rearrange-string-to-avoid-character-pair](https://github.com/SongHayoung/LeetCode/tree/master/3992-rearrange-string-to-avoid-character-pair) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
@@ -1659,6 +1662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/SongHayoung/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
+| [3961-maximize-sum-of-device-ratings](https://github.com/SongHayoung/LeetCode/tree/master/3961-maximize-sum-of-device-ratings) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
 | [3988-create-grid-with-exactly-k-paths-i](https://github.com/SongHayoung/LeetCode/tree/master/3988-create-grid-with-exactly-k-paths-i) |
