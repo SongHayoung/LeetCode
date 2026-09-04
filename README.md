@@ -571,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
+| [3989-maximum-consistent-columns-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3989-maximum-consistent-columns-in-a-grid) |
 | [3994-minimum-adjacent-swaps-to-partition-array](https://github.com/SongHayoung/LeetCode/tree/master/3994-minimum-adjacent-swaps-to-partition-array) |
 | [3996-even-number-of-knight-moves](https://github.com/SongHayoung/LeetCode/tree/master/3996-even-number-of-knight-moves) |
 | [4004-minimum-moves-to-balance-circular-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4004-minimum-moves-to-balance-circular-array-ii) |
@@ -703,6 +704,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
+| [3989-maximum-consistent-columns-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3989-maximum-consistent-columns-in-a-grid) |
 | [4016-maximum-area-of-two-non-overlapping-square-submatrices](https://github.com/SongHayoung/LeetCode/tree/master/4016-maximum-area-of-two-non-overlapping-square-submatrices) |
 | [4023-elevator-requests-ii](https://github.com/SongHayoung/LeetCode/tree/master/4023-elevator-requests-ii) |
 | [4030-maximize-cyclic-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/4030-maximize-cyclic-partition-score) |
@@ -1636,6 +1638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
+| [3989-maximum-consistent-columns-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3989-maximum-consistent-columns-in-a-grid) |
 | [4016-maximum-area-of-two-non-overlapping-square-submatrices](https://github.com/SongHayoung/LeetCode/tree/master/4016-maximum-area-of-two-non-overlapping-square-submatrices) |
 ## Heap (Priority Queue)
 |  |
