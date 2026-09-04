@@ -1082,6 +1082,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
+| [3829-design-ride-sharing-system](https://github.com/SongHayoung/LeetCode/tree/master/3829-design-ride-sharing-system) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
 | [3948-lexicographically-maximum-mex-array](https://github.com/SongHayoung/LeetCode/tree/master/3948-lexicographically-maximum-mex-array) |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3957-maximum-sum-of-m-non-overlapping-subarrays-ii) |
@@ -1231,6 +1232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/SongHayoung/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
+| [3829-design-ride-sharing-system](https://github.com/SongHayoung/LeetCode/tree/master/3829-design-ride-sharing-system) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3843-first-element-with-unique-frequency](https://github.com/SongHayoung/LeetCode/tree/master/3843-first-element-with-unique-frequency) |
 | [3852-smallest-pair-with-different-frequencies](https://github.com/SongHayoung/LeetCode/tree/master/3852-smallest-pair-with-different-frequencies) |
@@ -2257,6 +2259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
+| [3829-design-ride-sharing-system](https://github.com/SongHayoung/LeetCode/tree/master/3829-design-ride-sharing-system) |
 | [3885-design-event-manager](https://github.com/SongHayoung/LeetCode/tree/master/3885-design-event-manager) |
 ## Binary Search Tree
 |  |
@@ -2273,6 +2276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1366-first-unique-number](https://github.com/SongHayoung/LeetCode/tree/master/1366-first-unique-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/SongHayoung/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
+| [3829-design-ride-sharing-system](https://github.com/SongHayoung/LeetCode/tree/master/3829-design-ride-sharing-system) |
 ## Interactive
 |  |
 | ------- |
