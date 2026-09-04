@@ -569,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
+| [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3834-merge-adjacent-equal-elements](https://github.com/SongHayoung/LeetCode/tree/master/3834-merge-adjacent-equal-elements) |
@@ -753,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/SongHayoung/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3701-minimum-cost-good-caption](https://github.com/SongHayoung/LeetCode/tree/master/3701-minimum-cost-good-caption) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/SongHayoung/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3857-minimum-cost-to-split-into-ones](https://github.com/SongHayoung/LeetCode/tree/master/3857-minimum-cost-to-split-into-ones) |
 | [3869-count-fancy-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3869-count-fancy-numbers-in-a-range) |
@@ -1081,6 +1083,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/SongHayoung/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
+| [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
 | [3829-design-ride-sharing-system](https://github.com/SongHayoung/LeetCode/tree/master/3829-design-ride-sharing-system) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
@@ -1875,6 +1878,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3855-sum-of-k-digit-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3855-sum-of-k-digit-numbers-in-a-range) |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
@@ -2324,6 +2328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3862-find-the-smallest-balanced-index](https://github.com/SongHayoung/LeetCode/tree/master/3862-find-the-smallest-balanced-index) |
@@ -2484,6 +2489,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/SongHayoung/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2868-continuous-subarrays) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
+| [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3957-maximum-sum-of-m-non-overlapping-subarrays-ii) |
 ## Topological Sort
