@@ -544,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/SongHayoung/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/SongHayoung/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
 | [3631-sort-threats-by-severity-and-exploitability](https://github.com/SongHayoung/LeetCode/tree/master/3631-sort-threats-by-severity-and-exploitability) |
 | [3639-zero-array-transformation-i](https://github.com/SongHayoung/LeetCode/tree/master/3639-zero-array-transformation-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
@@ -814,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/SongHayoung/LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3469-maximum-height-of-a-triangle](https://github.com/SongHayoung/LeetCode/tree/master/3469-maximum-height-of-a-triangle) |
 | [3548-find-the-count-of-good-integers](https://github.com/SongHayoung/LeetCode/tree/master/3548-find-the-count-of-good-integers) |
+| [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/SongHayoung/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -869,6 +871,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3506-count-triplets-with-even-xor-set-bits-i](https://github.com/SongHayoung/LeetCode/tree/master/3506-count-triplets-with-even-xor-set-bits-i) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/SongHayoung/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/SongHayoung/LeetCode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/SongHayoung/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
@@ -971,6 +974,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3610-minimum-number-of-primes-to-sum-to-target](https://github.com/SongHayoung/LeetCode/tree/master/3610-minimum-number-of-primes-to-sum-to-target) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
+| [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/SongHayoung/LeetCode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/SongHayoung/LeetCode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
@@ -1617,6 +1621,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3496-maximize-score-after-pair-deletions](https://github.com/SongHayoung/LeetCode/tree/master/3496-maximize-score-after-pair-deletions) |
 | [3504-minimum-moves-to-get-a-peaceful-board](https://github.com/SongHayoung/LeetCode/tree/master/3504-minimum-moves-to-get-a-peaceful-board) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/SongHayoung/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/SongHayoung/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
