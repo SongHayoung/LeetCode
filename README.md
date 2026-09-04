@@ -897,6 +897,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3830-find-closest-person](https://github.com/SongHayoung/LeetCode/tree/master/3830-find-closest-person) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
+| [3959-check-good-integer](https://github.com/SongHayoung/LeetCode/tree/master/3959-check-good-integer) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
 | [3966-count-good-integers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3966-count-good-integers-in-a-range) |
 | [3986-number-of-elapsed-seconds-between-two-times](https://github.com/SongHayoung/LeetCode/tree/master/3986-number-of-elapsed-seconds-between-two-times) |
@@ -964,6 +965,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
 | [3931-process-string-with-special-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3931-process-string-with-special-operations-i) |
 | [3939-process-string-with-special-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3939-process-string-with-special-operations-ii) |
+| [3959-check-good-integer](https://github.com/SongHayoung/LeetCode/tree/master/3959-check-good-integer) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4020-elevator-requests-i](https://github.com/SongHayoung/LeetCode/tree/master/4020-elevator-requests-i) |
 ## Recursion
