@@ -1464,6 +1464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/SongHayoung/LeetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
+| [3675-minimum-operations-to-transform-string](https://github.com/SongHayoung/LeetCode/tree/master/3675-minimum-operations-to-transform-string) |
 | [3701-minimum-cost-good-caption](https://github.com/SongHayoung/LeetCode/tree/master/3701-minimum-cost-good-caption) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3744-find-kth-character-in-expanded-string](https://github.com/SongHayoung/LeetCode/tree/master/3744-find-kth-character-in-expanded-string) |
@@ -1632,6 +1633,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3628-maximum-number-of-subsequences-after-one-inserting](https://github.com/SongHayoung/LeetCode/tree/master/3628-maximum-number-of-subsequences-after-one-inserting) |
 | [3630-partition-array-for-maximum-xor-and-and](https://github.com/SongHayoung/LeetCode/tree/master/3630-partition-array-for-maximum-xor-and-and) |
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
+| [3675-minimum-operations-to-transform-string](https://github.com/SongHayoung/LeetCode/tree/master/3675-minimum-operations-to-transform-string) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/SongHayoung/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/SongHayoung/LeetCode/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
