@@ -570,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3914-minimum-operations-to-make-array-non-decreasing](https://github.com/SongHayoung/LeetCode/tree/master/3914-minimum-operations-to-make-array-non-decreasing) |
 | [3917-count-indices-with-opposite-parity](https://github.com/SongHayoung/LeetCode/tree/master/3917-count-indices-with-opposite-parity) |
 | [3920-maximize-fixed-points-after-deletions](https://github.com/SongHayoung/LeetCode/tree/master/3920-maximize-fixed-points-after-deletions) |
 | [3925-concatenate-array-with-reverse](https://github.com/SongHayoung/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
@@ -1498,6 +1499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
+| [3914-minimum-operations-to-make-array-non-decreasing](https://github.com/SongHayoung/LeetCode/tree/master/3914-minimum-operations-to-make-array-non-decreasing) |
 | [3948-lexicographically-maximum-mex-array](https://github.com/SongHayoung/LeetCode/tree/master/3948-lexicographically-maximum-mex-array) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3961-maximize-sum-of-device-ratings](https://github.com/SongHayoung/LeetCode/tree/master/3961-maximize-sum-of-device-ratings) |
