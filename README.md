@@ -570,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3757-number-of-effective-subsequences](https://github.com/SongHayoung/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
+| [3762-minimum-operations-to-equalize-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3762-minimum-operations-to-equalize-subarrays) |
 | [3768-minimum-inversion-count-in-subarrays-of-fixed-length](https://github.com/SongHayoung/LeetCode/tree/master/3768-minimum-inversion-count-in-subarrays-of-fixed-length) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/SongHayoung/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
@@ -1000,6 +1001,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3757-number-of-effective-subsequences](https://github.com/SongHayoung/LeetCode/tree/master/3757-number-of-effective-subsequences) |
+| [3762-minimum-operations-to-equalize-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3762-minimum-operations-to-equalize-subarrays) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3770-largest-prime-from-consecutive-prime-sum](https://github.com/SongHayoung/LeetCode/tree/master/3770-largest-prime-from-consecutive-prime-sum) |
 | [3783-mirror-distance-of-an-integer](https://github.com/SongHayoung/LeetCode/tree/master/3783-mirror-distance-of-an-integer) |
@@ -1772,6 +1774,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SongHayoung/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
+| [3762-minimum-operations-to-equalize-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3762-minimum-operations-to-equalize-subarrays) |
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3814-maximum-capacity-within-budget](https://github.com/SongHayoung/LeetCode/tree/master/3814-maximum-capacity-within-budget) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
@@ -2126,6 +2129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3643-zero-array-transformation-ii](https://github.com/SongHayoung/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
+| [3762-minimum-operations-to-equalize-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3762-minimum-operations-to-equalize-subarrays) |
 | [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
@@ -2554,6 +2558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [3520-minimum-threshold-for-inversion-pairs-count](https://github.com/SongHayoung/LeetCode/tree/master/3520-minimum-threshold-for-inversion-pairs-count) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
+| [3762-minimum-operations-to-equalize-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3762-minimum-operations-to-equalize-subarrays) |
 | [3768-minimum-inversion-count-in-subarrays-of-fixed-length](https://github.com/SongHayoung/LeetCode/tree/master/3768-minimum-inversion-count-in-subarrays-of-fixed-length) |
 | [3777-minimum-deletions-to-make-alternating-substring](https://github.com/SongHayoung/LeetCode/tree/master/3777-minimum-deletions-to-make-alternating-substring) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
