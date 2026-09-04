@@ -850,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/SongHayoung/LeetCode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3821-find-nth-smallest-integer-with-k-one-bits](https://github.com/SongHayoung/LeetCode/tree/master/3821-find-nth-smallest-integer-with-k-one-bits) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/SongHayoung/LeetCode/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
@@ -954,6 +955,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/SongHayoung/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
+| [3821-find-nth-smallest-integer-with-k-one-bits](https://github.com/SongHayoung/LeetCode/tree/master/3821-find-nth-smallest-integer-with-k-one-bits) |
 | [3830-find-closest-person](https://github.com/SongHayoung/LeetCode/tree/master/3830-find-closest-person) |
 | [3848-check-digitorial-permutation](https://github.com/SongHayoung/LeetCode/tree/master/3848-check-digitorial-permutation) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
@@ -2520,6 +2522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3637-count-number-of-balanced-permutations](https://github.com/SongHayoung/LeetCode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/SongHayoung/LeetCode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
+| [3821-find-nth-smallest-integer-with-k-one-bits](https://github.com/SongHayoung/LeetCode/tree/master/3821-find-nth-smallest-integer-with-k-one-bits) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3855-sum-of-k-digit-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3855-sum-of-k-digit-numbers-in-a-range) |
 | [3881-direction-assignments-with-exactly-k-visible-people](https://github.com/SongHayoung/LeetCode/tree/master/3881-direction-assignments-with-exactly-k-visible-people) |
