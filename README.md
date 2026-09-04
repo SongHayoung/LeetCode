@@ -572,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3903-smallest-stable-index-i](https://github.com/SongHayoung/LeetCode/tree/master/3903-smallest-stable-index-i) |
 | [3909-compare-sums-of-bitonic-parts](https://github.com/SongHayoung/LeetCode/tree/master/3909-compare-sums-of-bitonic-parts) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
 | [3914-minimum-operations-to-make-array-non-decreasing](https://github.com/SongHayoung/LeetCode/tree/master/3914-minimum-operations-to-make-array-non-decreasing) |
@@ -2224,6 +2225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
+| [3903-smallest-stable-index-i](https://github.com/SongHayoung/LeetCode/tree/master/3903-smallest-stable-index-i) |
 | [3933-largest-local-values-in-a-matrix-ii](https://github.com/SongHayoung/LeetCode/tree/master/3933-largest-local-values-in-a-matrix-ii) |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3957-maximum-sum-of-m-non-overlapping-subarrays-ii) |
 | [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
