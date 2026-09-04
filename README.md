@@ -589,6 +589,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/SongHayoung/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
+| [3806-maximum-bitwise-and-after-increment-operations](https://github.com/SongHayoung/LeetCode/tree/master/3806-maximum-bitwise-and-after-increment-operations) |
 | [3810-minimum-operations-to-reach-target-array](https://github.com/SongHayoung/LeetCode/tree/master/3810-minimum-operations-to-reach-target-array) |
 | [3811-number-of-alternating-xor-partitions](https://github.com/SongHayoung/LeetCode/tree/master/3811-number-of-alternating-xor-partitions) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
@@ -895,6 +896,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3757-number-of-effective-subsequences](https://github.com/SongHayoung/LeetCode/tree/master/3757-number-of-effective-subsequences) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/SongHayoung/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
+| [3806-maximum-bitwise-and-after-increment-operations](https://github.com/SongHayoung/LeetCode/tree/master/3806-maximum-bitwise-and-after-increment-operations) |
 | [3811-number-of-alternating-xor-partitions](https://github.com/SongHayoung/LeetCode/tree/master/3811-number-of-alternating-xor-partitions) |
 | [3821-find-nth-smallest-integer-with-k-one-bits](https://github.com/SongHayoung/LeetCode/tree/master/3821-find-nth-smallest-integer-with-k-one-bits) |
 | [3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and](https://github.com/SongHayoung/LeetCode/tree/master/3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and) |
@@ -1673,6 +1675,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3789-minimum-cost-to-acquire-required-items](https://github.com/SongHayoung/LeetCode/tree/master/3789-minimum-cost-to-acquire-required-items) |
 | [3796-find-maximum-value-in-a-constrained-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3796-find-maximum-value-in-a-constrained-sequence) |
 | [3800-minimum-cost-to-make-two-binary-strings-equal](https://github.com/SongHayoung/LeetCode/tree/master/3800-minimum-cost-to-make-two-binary-strings-equal) |
+| [3806-maximum-bitwise-and-after-increment-operations](https://github.com/SongHayoung/LeetCode/tree/master/3806-maximum-bitwise-and-after-increment-operations) |
 | [3810-minimum-operations-to-reach-target-array](https://github.com/SongHayoung/LeetCode/tree/master/3810-minimum-operations-to-reach-target-array) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3816-lexicographically-smallest-string-after-deleting-duplicate-characters](https://github.com/SongHayoung/LeetCode/tree/master/3816-lexicographically-smallest-string-after-deleting-duplicate-characters) |
@@ -1788,6 +1791,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3762-minimum-operations-to-equalize-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3762-minimum-operations-to-equalize-subarrays) |
 | [3767-maximize-points-after-choosing-k-tasks](https://github.com/SongHayoung/LeetCode/tree/master/3767-maximize-points-after-choosing-k-tasks) |
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
+| [3806-maximum-bitwise-and-after-increment-operations](https://github.com/SongHayoung/LeetCode/tree/master/3806-maximum-bitwise-and-after-increment-operations) |
 | [3814-maximum-capacity-within-budget](https://github.com/SongHayoung/LeetCode/tree/master/3814-maximum-capacity-within-budget) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/SongHayoung/LeetCode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
