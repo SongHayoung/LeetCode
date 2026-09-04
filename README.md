@@ -571,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
+| [3988-create-grid-with-exactly-k-paths-i](https://github.com/SongHayoung/LeetCode/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 | [3989-maximum-consistent-columns-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3989-maximum-consistent-columns-in-a-grid) |
 | [3994-minimum-adjacent-swaps-to-partition-array](https://github.com/SongHayoung/LeetCode/tree/master/3994-minimum-adjacent-swaps-to-partition-array) |
 | [3996-even-number-of-knight-moves](https://github.com/SongHayoung/LeetCode/tree/master/3996-even-number-of-knight-moves) |
@@ -879,6 +880,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/SongHayoung/LeetCode/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
+| [3988-create-grid-with-exactly-k-paths-i](https://github.com/SongHayoung/LeetCode/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 | [3993-maximum-value-of-an-alternating-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3993-maximum-value-of-an-alternating-sequence) |
 | [3996-even-number-of-knight-moves](https://github.com/SongHayoung/LeetCode/tree/master/3996-even-number-of-knight-moves) |
 | [4000-largest-integer-with-given-digit-sum](https://github.com/SongHayoung/LeetCode/tree/master/4000-largest-integer-with-given-digit-sum) |
@@ -1638,6 +1640,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
+| [3988-create-grid-with-exactly-k-paths-i](https://github.com/SongHayoung/LeetCode/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 | [3989-maximum-consistent-columns-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3989-maximum-consistent-columns-in-a-grid) |
 | [4016-maximum-area-of-two-non-overlapping-square-submatrices](https://github.com/SongHayoung/LeetCode/tree/master/4016-maximum-area-of-two-non-overlapping-square-submatrices) |
 ## Heap (Priority Queue)
@@ -2310,6 +2313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3682-count-the-number-of-arrays-with-k-matching-adjacent-elements](https://github.com/SongHayoung/LeetCode/tree/master/3682-count-the-number-of-arrays-with-k-matching-adjacent-elements) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/SongHayoung/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+| [3988-create-grid-with-exactly-k-paths-i](https://github.com/SongHayoung/LeetCode/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 | [4002-count-valid-sequences](https://github.com/SongHayoung/LeetCode/tree/master/4002-count-valid-sequences) |
 ## Geometry
 |  |
