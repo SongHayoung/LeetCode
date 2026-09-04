@@ -646,6 +646,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3960-frequency-balance-subarray](https://github.com/SongHayoung/LeetCode/tree/master/3960-frequency-balance-subarray) |
 | [3961-maximize-sum-of-device-ratings](https://github.com/SongHayoung/LeetCode/tree/master/3961-maximize-sum-of-device-ratings) |
+| [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
 | [3965-finish-time-of-tasks-i](https://github.com/SongHayoung/LeetCode/tree/master/3965-finish-time-of-tasks-i) |
 | [3967-finish-time-of-tasks-ii](https://github.com/SongHayoung/LeetCode/tree/master/3967-finish-time-of-tasks-ii) |
 | [3972-valid-subarrays-with-matching-sum-digits-ii](https://github.com/SongHayoung/LeetCode/tree/master/3972-valid-subarrays-with-matching-sum-digits-ii) |
@@ -1327,6 +1328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3948-lexicographically-maximum-mex-array](https://github.com/SongHayoung/LeetCode/tree/master/3948-lexicographically-maximum-mex-array) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
 | [3960-frequency-balance-subarray](https://github.com/SongHayoung/LeetCode/tree/master/3960-frequency-balance-subarray) |
+| [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
 | [3972-valid-subarrays-with-matching-sum-digits-ii](https://github.com/SongHayoung/LeetCode/tree/master/3972-valid-subarrays-with-matching-sum-digits-ii) |
 | [3999-minimum-number-of-string-groups-through-transformations](https://github.com/SongHayoung/LeetCode/tree/master/3999-minimum-number-of-string-groups-through-transformations) |
 | [4019-merge-close-characters-ii](https://github.com/SongHayoung/LeetCode/tree/master/4019-merge-close-characters-ii) |
@@ -1689,6 +1691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3948-lexicographically-maximum-mex-array](https://github.com/SongHayoung/LeetCode/tree/master/3948-lexicographically-maximum-mex-array) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3961-maximize-sum-of-device-ratings](https://github.com/SongHayoung/LeetCode/tree/master/3961-maximize-sum-of-device-ratings) |
+| [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/SongHayoung/LeetCode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 | [3993-maximum-value-of-an-alternating-sequence](https://github.com/SongHayoung/LeetCode/tree/master/3993-maximum-value-of-an-alternating-sequence) |
 | [3994-minimum-adjacent-swaps-to-partition-array](https://github.com/SongHayoung/LeetCode/tree/master/3994-minimum-adjacent-swaps-to-partition-array) |
@@ -1806,6 +1809,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3961-maximize-sum-of-device-ratings](https://github.com/SongHayoung/LeetCode/tree/master/3961-maximize-sum-of-device-ratings) |
+| [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
 | [3974-maximum-total-sum-of-k-selected-elements](https://github.com/SongHayoung/LeetCode/tree/master/3974-maximum-total-sum-of-k-selected-elements) |
 | [3992-rearrange-string-to-avoid-character-pair](https://github.com/SongHayoung/LeetCode/tree/master/3992-rearrange-string-to-avoid-character-pair) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
@@ -1963,6 +1967,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3885-design-event-manager](https://github.com/SongHayoung/LeetCode/tree/master/3885-design-event-manager) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
+| [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
 | [4081-maximum-transactions-without-negative-balance](https://github.com/SongHayoung/LeetCode/tree/master/4081-maximum-transactions-without-negative-balance) |
 ## Shortest Path
@@ -2087,6 +2092,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [3520-minimum-threshold-for-inversion-pairs-count](https://github.com/SongHayoung/LeetCode/tree/master/3520-minimum-threshold-for-inversion-pairs-count) |
+| [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
 ## Binary Search
 |  |
@@ -2616,6 +2622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3885-design-event-manager](https://github.com/SongHayoung/LeetCode/tree/master/3885-design-event-manager) |
+| [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
 ## Monotonic Queue
 |  |
 | ------- |
