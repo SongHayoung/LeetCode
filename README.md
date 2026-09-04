@@ -555,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SongHayoung/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3672-sum-of-weighted-modes-in-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3672-sum-of-weighted-modes-in-subarrays) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
+| [3676-count-bowl-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3676-count-bowl-subarrays) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/SongHayoung/LeetCode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3693-minimum-time-to-break-locks-ii](https://github.com/SongHayoung/LeetCode/tree/master/3693-minimum-time-to-break-locks-ii) |
 | [3718-minimum-runes-to-add-to-cast-spell](https://github.com/SongHayoung/LeetCode/tree/master/3718-minimum-runes-to-add-to-cast-spell) |
@@ -1534,6 +1535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/SongHayoung/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3447-clear-digits](https://github.com/SongHayoung/LeetCode/tree/master/3447-clear-digits) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
+| [3676-count-bowl-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3676-count-bowl-subarrays) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3834-merge-adjacent-equal-elements](https://github.com/SongHayoung/LeetCode/tree/master/3834-merge-adjacent-equal-elements) |
 | [3878-count-good-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3878-count-good-subarrays) |
@@ -2462,6 +2464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3088-maximal-range-that-each-element-is-maximum-in-it](https://github.com/SongHayoung/LeetCode/tree/master/3088-maximal-range-that-each-element-is-maximum-in-it) |
 | [3221-maximum-array-hopping-score-ii](https://github.com/SongHayoung/LeetCode/tree/master/3221-maximum-array-hopping-score-ii) |
 | [3674-count-non-decreasing-subarrays-after-k-operations](https://github.com/SongHayoung/LeetCode/tree/master/3674-count-non-decreasing-subarrays-after-k-operations) |
+| [3676-count-bowl-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3676-count-bowl-subarrays) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3878-count-good-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3878-count-good-subarrays) |
 ## Memoization
