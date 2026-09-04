@@ -591,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3814-maximum-capacity-within-budget](https://github.com/SongHayoung/LeetCode/tree/master/3814-maximum-capacity-within-budget) |
 | [3818-minimum-prefix-removal-to-make-array-strictly-increasing](https://github.com/SongHayoung/LeetCode/tree/master/3818-minimum-prefix-removal-to-make-array-strictly-increasing) |
 | [3819-rotate-non-negative-elements](https://github.com/SongHayoung/LeetCode/tree/master/3819-rotate-non-negative-elements) |
+| [3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and](https://github.com/SongHayoung/LeetCode/tree/master/3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and) |
 | [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -826,6 +827,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/SongHayoung/LeetCode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/SongHayoung/LeetCode/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/SongHayoung/LeetCode/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and](https://github.com/SongHayoung/LeetCode/tree/master/3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and) |
 | [3827-count-monobit-integers](https://github.com/SongHayoung/LeetCode/tree/master/3827-count-monobit-integers) |
 | [3886-sum-of-sortable-integers](https://github.com/SongHayoung/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 | [3890-integers-with-multiple-sum-of-two-cubes](https://github.com/SongHayoung/LeetCode/tree/master/3890-integers-with-multiple-sum-of-two-cubes) |
@@ -885,6 +887,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/SongHayoung/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 | [3811-number-of-alternating-xor-partitions](https://github.com/SongHayoung/LeetCode/tree/master/3811-number-of-alternating-xor-partitions) |
 | [3821-find-nth-smallest-integer-with-k-one-bits](https://github.com/SongHayoung/LeetCode/tree/master/3821-find-nth-smallest-integer-with-k-one-bits) |
+| [3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and](https://github.com/SongHayoung/LeetCode/tree/master/3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and) |
 | [3827-count-monobit-integers](https://github.com/SongHayoung/LeetCode/tree/master/3827-count-monobit-integers) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3845-maximum-subarray-xor-with-bounded-range](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-subarray-xor-with-bounded-range) |
@@ -2122,6 +2125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3801-minimum-cost-to-merge-sorted-lists](https://github.com/SongHayoung/LeetCode/tree/master/3801-minimum-cost-to-merge-sorted-lists) |
 | [3814-maximum-capacity-within-budget](https://github.com/SongHayoung/LeetCode/tree/master/3814-maximum-capacity-within-budget) |
+| [3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and](https://github.com/SongHayoung/LeetCode/tree/master/3825-longest-strictly-increasing-subsequence-with-non-zero-bitwise-and) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
 | [3881-minimize-maximum-component-cost](https://github.com/SongHayoung/LeetCode/tree/master/3881-minimize-maximum-component-cost) |
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
