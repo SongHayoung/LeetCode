@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/SongHayoung/LeetCode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/SongHayoung/LeetCode/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
@@ -744,6 +745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/SongHayoung/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1893-maximum-subarray-sum-after-one-operation](https://github.com/SongHayoung/LeetCode/tree/master/1893-maximum-subarray-sum-after-one-operation) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/SongHayoung/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/SongHayoung/LeetCode/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/SongHayoung/LeetCode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/SongHayoung/LeetCode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/SongHayoung/LeetCode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -951,6 +953,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1817-calculate-money-in-leetcode-bank](https://github.com/SongHayoung/LeetCode/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/SongHayoung/LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/SongHayoung/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/SongHayoung/LeetCode/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [2050-count-good-numbers](https://github.com/SongHayoung/LeetCode/tree/master/2050-count-good-numbers) |
 | [2155-find-missing-observations](https://github.com/SongHayoung/LeetCode/tree/master/2155-find-missing-observations) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/SongHayoung/LeetCode/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
@@ -1816,6 +1819,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/SongHayoung/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/SongHayoung/LeetCode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1883-find-distance-in-a-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/1883-find-distance-in-a-binary-tree) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/SongHayoung/LeetCode/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -2462,6 +2466,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1240-stone-game-ii](https://github.com/SongHayoung/LeetCode/tree/master/1240-stone-game-ii) |
 | [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/SongHayoung/LeetCode/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 | [3462-vowels-game-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/3462-vowels-game-in-a-string) |
 | [3627-maximum-median-sum-of-subsequences-of-size-3](https://github.com/SongHayoung/LeetCode/tree/master/3627-maximum-median-sum-of-subsequences-of-size-3) |
 ## Doubly-Linked List
@@ -2673,4 +2678,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/SongHayoung/LeetCode/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
 <!---LeetCode Topics End-->
