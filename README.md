@@ -564,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/SongHayoung/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
+| [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 | [3768-minimum-inversion-count-in-subarrays-of-fixed-length](https://github.com/SongHayoung/LeetCode/tree/master/3768-minimum-inversion-count-in-subarrays-of-fixed-length) |
 | [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
@@ -1730,6 +1731,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3647-zero-array-transformation-iii](https://github.com/SongHayoung/LeetCode/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/SongHayoung/LeetCode/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3748-sort-matrix-by-diagonals](https://github.com/SongHayoung/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
+| [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 | [3776-minimum-moves-to-balance-circular-array](https://github.com/SongHayoung/LeetCode/tree/master/3776-minimum-moves-to-balance-circular-array) |
 | [3814-maximum-capacity-within-budget](https://github.com/SongHayoung/LeetCode/tree/master/3814-maximum-capacity-within-budget) |
 | [3845-maximum-sum-of-edge-values-in-a-graph](https://github.com/SongHayoung/LeetCode/tree/master/3845-maximum-sum-of-edge-values-in-a-graph) |
@@ -1923,6 +1925,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 | [3826-minimum-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/3826-minimum-partition-score) |
 | [3841-palindromic-path-queries-in-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/3841-palindromic-path-queries-in-a-tree) |
 | [3855-sum-of-k-digit-numbers-in-a-range](https://github.com/SongHayoung/LeetCode/tree/master/3855-sum-of-k-digit-numbers-in-a-range) |
@@ -2082,6 +2085,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/SongHayoung/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/SongHayoung/LeetCode/tree/master/3643-zero-array-transformation-ii) |
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
+| [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 | [3771-total-score-of-dungeon-runs](https://github.com/SongHayoung/LeetCode/tree/master/3771-total-score-of-dungeon-runs) |
 | [3790-fruits-into-baskets-ii](https://github.com/SongHayoung/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
@@ -2611,4 +2615,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3887-incremental-even-weighted-cycle-queries](https://github.com/SongHayoung/LeetCode/tree/master/3887-incremental-even-weighted-cycle-queries) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
+## Quickselect
+|  |
+| ------- |
+| [3759-count-elements-with-at-least-k-greater-values](https://github.com/SongHayoung/LeetCode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 <!---LeetCode Topics End-->
