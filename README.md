@@ -570,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3973-flip-square-submatrix-vertically](https://github.com/SongHayoung/LeetCode/tree/master/3973-flip-square-submatrix-vertically) |
+| [3985-palindromic-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/3985-palindromic-subarray-sum) |
 | [3986-maximum-path-score-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3986-maximum-path-score-in-a-grid) |
 | [3988-create-grid-with-exactly-k-paths-i](https://github.com/SongHayoung/LeetCode/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 | [3989-maximum-consistent-columns-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3989-maximum-consistent-columns-in-a-grid) |
@@ -1873,6 +1874,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
 | [3881-minimize-maximum-component-cost](https://github.com/SongHayoung/LeetCode/tree/master/3881-minimize-maximum-component-cost) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/SongHayoung/LeetCode/tree/master/3908-minimum-time-for-k-connected-components) |
+| [3985-palindromic-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/3985-palindromic-subarray-sum) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
 | [4008-minimum-initial-strength-to-defeat-all-monsters](https://github.com/SongHayoung/LeetCode/tree/master/4008-minimum-initial-strength-to-defeat-all-monsters) |
 | [4012-count-of-unfinished-tasks-after-each-shift](https://github.com/SongHayoung/LeetCode/tree/master/4012-count-of-unfinished-tasks-after-each-shift) |
@@ -1902,6 +1904,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2079-delete-duplicate-folders-in-system](https://github.com/SongHayoung/LeetCode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2303-unique-substrings-with-equal-digit-frequency](https://github.com/SongHayoung/LeetCode/tree/master/2303-unique-substrings-with-equal-digit-frequency) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3985-palindromic-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/3985-palindromic-subarray-sum) |
 | [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
 ## Sliding Window
 |  |
@@ -2146,6 +2149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/SongHayoung/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3855-make-a-positive-array](https://github.com/SongHayoung/LeetCode/tree/master/3855-make-a-positive-array) |
 | [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
+| [3985-palindromic-subarray-sum](https://github.com/SongHayoung/LeetCode/tree/master/3985-palindromic-subarray-sum) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
 | [4008-minimum-initial-strength-to-defeat-all-monsters](https://github.com/SongHayoung/LeetCode/tree/master/4008-minimum-initial-strength-to-defeat-all-monsters) |
 | [4011-count-subarrays-with-even-odd-ratio-i](https://github.com/SongHayoung/LeetCode/tree/master/4011-count-subarrays-with-even-odd-ratio-i) |
