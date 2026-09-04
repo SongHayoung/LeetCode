@@ -1409,6 +1409,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/SongHayoung/LeetCode/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 | [3853-merge-close-characters](https://github.com/SongHayoung/LeetCode/tree/master/3853-merge-close-characters) |
+| [3856-trim-trailing-vowels](https://github.com/SongHayoung/LeetCode/tree/master/3856-trim-trailing-vowels) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/SongHayoung/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 | [3884-first-matching-character-from-both-ends](https://github.com/SongHayoung/LeetCode/tree/master/3884-first-matching-character-from-both-ends) |
 | [3894-traffic-signal-color](https://github.com/SongHayoung/LeetCode/tree/master/3894-traffic-signal-color) |
