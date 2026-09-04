@@ -785,6 +785,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3883-count-non-decreasing-arrays-with-given-digit-sums](https://github.com/SongHayoung/LeetCode/tree/master/3883-count-non-decreasing-arrays-with-given-digit-sums) |
 | [3891-minimum-increase-to-maximize-special-indices](https://github.com/SongHayoung/LeetCode/tree/master/3891-minimum-increase-to-maximize-special-indices) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/SongHayoung/LeetCode/tree/master/3930-longest-palindromic-path-in-graph) |
+| [3954-sum-of-compatible-numbers-in-range-i](https://github.com/SongHayoung/LeetCode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3957-maximum-sum-of-m-non-overlapping-subarrays-ii) |
 | [3962-number-of-zigzag-arrays-i](https://github.com/SongHayoung/LeetCode/tree/master/3962-number-of-zigzag-arrays-i) |
 | [3964-number-of-zigzag-arrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3964-number-of-zigzag-arrays-ii) |
@@ -826,6 +827,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3890-integers-with-multiple-sum-of-two-cubes](https://github.com/SongHayoung/LeetCode/tree/master/3890-integers-with-multiple-sum-of-two-cubes) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
+| [3954-sum-of-compatible-numbers-in-range-i](https://github.com/SongHayoung/LeetCode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 | [3955-valid-binary-strings-with-cost-limit](https://github.com/SongHayoung/LeetCode/tree/master/3955-valid-binary-strings-with-cost-limit) |
 | [3979-maximum-valid-pair-sum](https://github.com/SongHayoung/LeetCode/tree/master/3979-maximum-valid-pair-sum) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
@@ -888,6 +890,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
 | [3930-longest-palindromic-path-in-graph](https://github.com/SongHayoung/LeetCode/tree/master/3930-longest-palindromic-path-in-graph) |
 | [3950-exactly-one-consecutive-set-bits-pair](https://github.com/SongHayoung/LeetCode/tree/master/3950-exactly-one-consecutive-set-bits-pair) |
+| [3954-sum-of-compatible-numbers-in-range-i](https://github.com/SongHayoung/LeetCode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 | [3955-valid-binary-strings-with-cost-limit](https://github.com/SongHayoung/LeetCode/tree/master/3955-valid-binary-strings-with-cost-limit) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 ## Math
