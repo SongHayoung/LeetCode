@@ -581,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3876-construct-uniform-parity-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3878-count-good-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3878-count-good-subarrays) |
 | [3883-count-non-decreasing-arrays-with-given-digit-sums](https://github.com/SongHayoung/LeetCode/tree/master/3883-count-non-decreasing-arrays-with-given-digit-sums) |
+| [3885-design-event-manager](https://github.com/SongHayoung/LeetCode/tree/master/3885-design-event-manager) |
 | [3886-sum-of-sortable-integers](https://github.com/SongHayoung/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 | [3891-minimum-increase-to-maximize-special-indices](https://github.com/SongHayoung/LeetCode/tree/master/3891-minimum-increase-to-maximize-special-indices) |
 | [3895-count-digit-appearances](https://github.com/SongHayoung/LeetCode/tree/master/3895-count-digit-appearances) |
@@ -1221,6 +1222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3866-first-unique-even-element](https://github.com/SongHayoung/LeetCode/tree/master/3866-first-unique-even-element) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/SongHayoung/LeetCode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
+| [3885-design-event-manager](https://github.com/SongHayoung/LeetCode/tree/master/3885-design-event-manager) |
 | [3890-integers-with-multiple-sum-of-two-cubes](https://github.com/SongHayoung/LeetCode/tree/master/3890-integers-with-multiple-sum-of-two-cubes) |
 | [3900-longest-balanced-substring-after-one-swap](https://github.com/SongHayoung/LeetCode/tree/master/3900-longest-balanced-substring-after-one-swap) |
 | [3924-count-odd-letters-from-number](https://github.com/SongHayoung/LeetCode/tree/master/3924-count-odd-letters-from-number) |
@@ -1824,6 +1826,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
 | [3814-find-time-required-to-eliminate-bacterial-strains](https://github.com/SongHayoung/LeetCode/tree/master/3814-find-time-required-to-eliminate-bacterial-strains) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3885-design-event-manager](https://github.com/SongHayoung/LeetCode/tree/master/3885-design-event-manager) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
@@ -2229,6 +2232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3710-design-an-array-statistics-tracker](https://github.com/SongHayoung/LeetCode/tree/master/3710-design-an-array-statistics-tracker) |
 | [3797-design-spreadsheet](https://github.com/SongHayoung/LeetCode/tree/master/3797-design-spreadsheet) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
+| [3885-design-event-manager](https://github.com/SongHayoung/LeetCode/tree/master/3885-design-event-manager) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -2436,6 +2440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3791-fruits-into-baskets-iii](https://github.com/SongHayoung/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 | [3827-implement-router](https://github.com/SongHayoung/LeetCode/tree/master/3827-implement-router) |
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
+| [3885-design-event-manager](https://github.com/SongHayoung/LeetCode/tree/master/3885-design-event-manager) |
 ## Monotonic Queue
 |  |
 | ------- |
