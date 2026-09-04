@@ -634,6 +634,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3934-coupon-code-validator](https://github.com/SongHayoung/LeetCode/tree/master/3934-coupon-code-validator) |
 | [3935-power-update-after-k-th-largest-insertion-i](https://github.com/SongHayoung/LeetCode/tree/master/3935-power-update-after-k-th-largest-insertion-i) |
 | [3936-minimum-swaps-to-move-zeros-to-end](https://github.com/SongHayoung/LeetCode/tree/master/3936-minimum-swaps-to-move-zeros-to-end) |
+| [3937-minimum-operations-to-make-array-modulo-alternating-i](https://github.com/SongHayoung/LeetCode/tree/master/3937-minimum-operations-to-make-array-modulo-alternating-i) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/SongHayoung/LeetCode/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 | [3948-lexicographically-maximum-mex-array](https://github.com/SongHayoung/LeetCode/tree/master/3948-lexicographically-maximum-mex-array) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
@@ -834,6 +835,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3886-sum-of-sortable-integers](https://github.com/SongHayoung/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 | [3890-integers-with-multiple-sum-of-two-cubes](https://github.com/SongHayoung/LeetCode/tree/master/3890-integers-with-multiple-sum-of-two-cubes) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
+| [3937-minimum-operations-to-make-array-modulo-alternating-i](https://github.com/SongHayoung/LeetCode/tree/master/3937-minimum-operations-to-make-array-modulo-alternating-i) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/SongHayoung/LeetCode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 | [3955-valid-binary-strings-with-cost-limit](https://github.com/SongHayoung/LeetCode/tree/master/3955-valid-binary-strings-with-cost-limit) |
