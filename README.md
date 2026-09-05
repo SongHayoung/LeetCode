@@ -1056,6 +1056,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4004-minimum-moves-to-balance-circular-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4004-minimum-moves-to-balance-circular-array-ii) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4022-k-th-digit-in-infinite-string](https://github.com/SongHayoung/LeetCode/tree/master/4022-k-th-digit-in-infinite-string) |
+| [4028-minimum-operations-to-make-a-rotated-palindrome-ii](https://github.com/SongHayoung/LeetCode/tree/master/4028-minimum-operations-to-make-a-rotated-palindrome-ii) |
 | [4039-compute-decimal-representation](https://github.com/SongHayoung/LeetCode/tree/master/4039-compute-decimal-representation) |
 | [4048-minimum-time-to-complete-all-deliveries](https://github.com/SongHayoung/LeetCode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
 | [4054-count-distinct-integers-after-removing-zeros](https://github.com/SongHayoung/LeetCode/tree/master/4054-count-distinct-integers-after-removing-zeros) |
@@ -1550,6 +1551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
 | [4026-maximum-gap-between-stations](https://github.com/SongHayoung/LeetCode/tree/master/4026-maximum-gap-between-stations) |
+| [4028-minimum-operations-to-make-a-rotated-palindrome-ii](https://github.com/SongHayoung/LeetCode/tree/master/4028-minimum-operations-to-make-a-rotated-palindrome-ii) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
 | [4090-minimum-string-length-after-balanced-removals](https://github.com/SongHayoung/LeetCode/tree/master/4090-minimum-string-length-after-balanced-removals) |
 | [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
