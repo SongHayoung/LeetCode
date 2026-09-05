@@ -644,6 +644,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3937-minimum-operations-to-make-array-modulo-alternating-i](https://github.com/SongHayoung/LeetCode/tree/master/3937-minimum-operations-to-make-array-modulo-alternating-i) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/SongHayoung/LeetCode/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 | [3943-number-of-pairs-after-increment](https://github.com/SongHayoung/LeetCode/tree/master/3943-number-of-pairs-after-increment) |
+| [3944-minimum-operations-to-make-array-modulo-alternating-ii](https://github.com/SongHayoung/LeetCode/tree/master/3944-minimum-operations-to-make-array-modulo-alternating-ii) |
 | [3948-lexicographically-maximum-mex-array](https://github.com/SongHayoung/LeetCode/tree/master/3948-lexicographically-maximum-mex-array) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3957-maximum-sum-of-m-non-overlapping-subarrays-ii) |
@@ -848,6 +849,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3890-integers-with-multiple-sum-of-two-cubes](https://github.com/SongHayoung/LeetCode/tree/master/3890-integers-with-multiple-sum-of-two-cubes) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
 | [3937-minimum-operations-to-make-array-modulo-alternating-i](https://github.com/SongHayoung/LeetCode/tree/master/3937-minimum-operations-to-make-array-modulo-alternating-i) |
+| [3944-minimum-operations-to-make-array-modulo-alternating-ii](https://github.com/SongHayoung/LeetCode/tree/master/3944-minimum-operations-to-make-array-modulo-alternating-ii) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/SongHayoung/LeetCode/tree/master/3954-sum-of-compatible-numbers-in-range-i) |
 | [3955-valid-binary-strings-with-cost-limit](https://github.com/SongHayoung/LeetCode/tree/master/3955-valid-binary-strings-with-cost-limit) |
