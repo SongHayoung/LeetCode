@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/SongHayoung/LeetCode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
+| [2421-number-of-good-paths](https://github.com/SongHayoung/LeetCode/tree/master/2421-number-of-good-paths) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/SongHayoung/LeetCode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/SongHayoung/LeetCode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/SongHayoung/LeetCode/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/SongHayoung/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/SongHayoung/LeetCode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2411-spiral-matrix-iv](https://github.com/SongHayoung/LeetCode/tree/master/2411-spiral-matrix-iv) |
+| [2421-number-of-good-paths](https://github.com/SongHayoung/LeetCode/tree/master/2421-number-of-good-paths) |
 | [2429-design-a-food-rating-system](https://github.com/SongHayoung/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2448-count-number-of-bad-pairs](https://github.com/SongHayoung/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
@@ -1258,6 +1260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2306-create-binary-tree-from-descriptions](https://github.com/SongHayoung/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2308-divide-array-into-equal-pairs](https://github.com/SongHayoung/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SongHayoung/LeetCode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [2421-number-of-good-paths](https://github.com/SongHayoung/LeetCode/tree/master/2421-number-of-good-paths) |
 | [2429-design-a-food-rating-system](https://github.com/SongHayoung/LeetCode/tree/master/2429-design-a-food-rating-system) |
 | [2434-design-a-number-container-system](https://github.com/SongHayoung/LeetCode/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/SongHayoung/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
@@ -1770,6 +1773,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2274-keep-multiplying-found-values-by-two](https://github.com/SongHayoung/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/SongHayoung/LeetCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/SongHayoung/LeetCode/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2421-number-of-good-paths](https://github.com/SongHayoung/LeetCode/tree/master/2421-number-of-good-paths) |
 | [2479-meeting-rooms-iii](https://github.com/SongHayoung/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/SongHayoung/LeetCode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/SongHayoung/LeetCode/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -2717,6 +2721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [2421-number-of-good-paths](https://github.com/SongHayoung/LeetCode/tree/master/2421-number-of-good-paths) |
 | [3887-incremental-even-weighted-cycle-queries](https://github.com/SongHayoung/LeetCode/tree/master/3887-incremental-even-weighted-cycle-queries) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/SongHayoung/LeetCode/tree/master/3898-find-the-degree-of-each-vertex) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
@@ -2728,6 +2733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [2421-number-of-good-paths](https://github.com/SongHayoung/LeetCode/tree/master/2421-number-of-good-paths) |
 | [3887-incremental-even-weighted-cycle-queries](https://github.com/SongHayoung/LeetCode/tree/master/3887-incremental-even-weighted-cycle-queries) |
 | [3910-count-connected-subgraphs-with-even-node-sum](https://github.com/SongHayoung/LeetCode/tree/master/3910-count-connected-subgraphs-with-even-node-sum) |
 ## Quickselect
