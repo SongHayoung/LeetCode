@@ -668,6 +668,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3996-even-number-of-knight-moves](https://github.com/SongHayoung/LeetCode/tree/master/3996-even-number-of-knight-moves) |
 | [4004-minimum-moves-to-balance-circular-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4004-minimum-moves-to-balance-circular-array-ii) |
 | [4005-maximum-total-subarray-value-i](https://github.com/SongHayoung/LeetCode/tree/master/4005-maximum-total-subarray-value-i) |
+| [4005-minimum-operations-to-make-array-equal-iii](https://github.com/SongHayoung/LeetCode/tree/master/4005-minimum-operations-to-make-array-equal-iii) |
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
 | [4008-minimum-initial-strength-to-defeat-all-monsters](https://github.com/SongHayoung/LeetCode/tree/master/4008-minimum-initial-strength-to-defeat-all-monsters) |
@@ -1056,6 +1057,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4000-largest-integer-with-given-digit-sum](https://github.com/SongHayoung/LeetCode/tree/master/4000-largest-integer-with-given-digit-sum) |
 | [4002-count-valid-sequences](https://github.com/SongHayoung/LeetCode/tree/master/4002-count-valid-sequences) |
 | [4004-minimum-moves-to-balance-circular-array-ii](https://github.com/SongHayoung/LeetCode/tree/master/4004-minimum-moves-to-balance-circular-array-ii) |
+| [4005-minimum-operations-to-make-array-equal-iii](https://github.com/SongHayoung/LeetCode/tree/master/4005-minimum-operations-to-make-array-equal-iii) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4022-k-th-digit-in-infinite-string](https://github.com/SongHayoung/LeetCode/tree/master/4022-k-th-digit-in-infinite-string) |
 | [4028-minimum-operations-to-make-a-rotated-palindrome-ii](https://github.com/SongHayoung/LeetCode/tree/master/4028-minimum-operations-to-make-a-rotated-palindrome-ii) |
@@ -1344,6 +1346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
 | [3972-valid-subarrays-with-matching-sum-digits-ii](https://github.com/SongHayoung/LeetCode/tree/master/3972-valid-subarrays-with-matching-sum-digits-ii) |
 | [3999-minimum-number-of-string-groups-through-transformations](https://github.com/SongHayoung/LeetCode/tree/master/3999-minimum-number-of-string-groups-through-transformations) |
+| [4005-minimum-operations-to-make-array-equal-iii](https://github.com/SongHayoung/LeetCode/tree/master/4005-minimum-operations-to-make-array-equal-iii) |
 | [4019-merge-close-characters-ii](https://github.com/SongHayoung/LeetCode/tree/master/4019-merge-close-characters-ii) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
@@ -2095,6 +2098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3943-number-of-pairs-after-increment](https://github.com/SongHayoung/LeetCode/tree/master/3943-number-of-pairs-after-increment) |
 | [3960-frequency-balance-subarray](https://github.com/SongHayoung/LeetCode/tree/master/3960-frequency-balance-subarray) |
 | [3978-unique-middle-element](https://github.com/SongHayoung/LeetCode/tree/master/3978-unique-middle-element) |
+| [4005-minimum-operations-to-make-array-equal-iii](https://github.com/SongHayoung/LeetCode/tree/master/4005-minimum-operations-to-make-array-equal-iii) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
@@ -2539,6 +2543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3896-minimum-operations-to-transform-array-into-alternating-prime](https://github.com/SongHayoung/LeetCode/tree/master/3896-minimum-operations-to-transform-array-into-alternating-prime) |
 | [3901-good-subsequence-queries](https://github.com/SongHayoung/LeetCode/tree/master/3901-good-subsequence-queries) |
 | [3953-maximum-score-with-co-prime-element](https://github.com/SongHayoung/LeetCode/tree/master/3953-maximum-score-with-co-prime-element) |
+| [4005-minimum-operations-to-make-array-equal-iii](https://github.com/SongHayoung/LeetCode/tree/master/4005-minimum-operations-to-make-array-equal-iii) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
 ## Brainteaser
 |  |
