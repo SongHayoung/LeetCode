@@ -268,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/SongHayoung/LeetCode/tree/master/0945-snakes-and-ladders) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
 | [0952-word-subsets](https://github.com/SongHayoung/LeetCode/tree/master/0952-word-subsets) |
+| [0992-subarrays-with-k-different-integers](https://github.com/SongHayoung/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1002-maximum-width-ramp](https://github.com/SongHayoung/LeetCode/tree/master/1002-maximum-width-ramp) |
 | [1006-vowel-spellchecker](https://github.com/SongHayoung/LeetCode/tree/master/1006-vowel-spellchecker) |
@@ -1201,6 +1202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-fruit-into-baskets](https://github.com/SongHayoung/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/SongHayoung/LeetCode/tree/master/0952-word-subsets) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/SongHayoung/LeetCode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [0992-subarrays-with-k-different-integers](https://github.com/SongHayoung/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [0999-regions-cut-by-slashes](https://github.com/SongHayoung/LeetCode/tree/master/0999-regions-cut-by-slashes) |
 | [1006-vowel-spellchecker](https://github.com/SongHayoung/LeetCode/tree/master/1006-vowel-spellchecker) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/SongHayoung/LeetCode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
@@ -2054,6 +2056,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/SongHayoung/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/SongHayoung/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [0948-sort-an-array](https://github.com/SongHayoung/LeetCode/tree/master/0948-sort-an-array) |
+| [0992-subarrays-with-k-different-integers](https://github.com/SongHayoung/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/SongHayoung/LeetCode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1149-intersection-of-three-sorted-arrays](https://github.com/SongHayoung/LeetCode/tree/master/1149-intersection-of-three-sorted-arrays) |
 | [1160-letter-tile-possibilities](https://github.com/SongHayoung/LeetCode/tree/master/1160-letter-tile-possibilities) |
@@ -2241,6 +2244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/SongHayoung/LeetCode/tree/master/0867-new-21-game) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SongHayoung/LeetCode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0940-fruit-into-baskets](https://github.com/SongHayoung/LeetCode/tree/master/0940-fruit-into-baskets) |
+| [0992-subarrays-with-k-different-integers](https://github.com/SongHayoung/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1084-find-k-length-substrings-with-no-repeated-characters](https://github.com/SongHayoung/LeetCode/tree/master/1084-find-k-length-substrings-with-no-repeated-characters) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/SongHayoung/LeetCode/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/SongHayoung/LeetCode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
