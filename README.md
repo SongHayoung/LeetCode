@@ -343,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1755-defuse-the-bomb](https://github.com/SongHayoung/LeetCode/tree/master/1755-defuse-the-bomb) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SongHayoung/LeetCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [1803-average-waiting-time](https://github.com/SongHayoung/LeetCode/tree/master/1803-average-waiting-time) |
 | [1813-maximum-erasure-value](https://github.com/SongHayoung/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/SongHayoung/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
@@ -1591,6 +1592,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SongHayoung/LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1720-crawler-log-folder](https://github.com/SongHayoung/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/SongHayoung/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1903-design-most-recently-used-queue](https://github.com/SongHayoung/LeetCode/tree/master/1903-design-most-recently-used-queue) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/SongHayoung/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -2151,6 +2153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/SongHayoung/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SongHayoung/LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SongHayoung/LeetCode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/SongHayoung/LeetCode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/SongHayoung/LeetCode/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2006-find-the-student-that-will-replace-the-chalk](https://github.com/SongHayoung/LeetCode/tree/master/2006-find-the-student-that-will-replace-the-chalk) |
@@ -2310,6 +2313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SongHayoung/LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/SongHayoung/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1774-add-two-polynomials-represented-as-linked-lists](https://github.com/SongHayoung/LeetCode/tree/master/1774-add-two-polynomials-represented-as-linked-lists) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [1923-sentence-similarity-iii](https://github.com/SongHayoung/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SongHayoung/LeetCode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2232-adding-spaces-to-a-string](https://github.com/SongHayoung/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
@@ -2574,6 +2578,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1628-count-submatrices-with-all-ones](https://github.com/SongHayoung/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/SongHayoung/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SongHayoung/LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1793-maximum-score-of-a-good-subarray) |
 | [3001-apply-operations-to-maximize-score](https://github.com/SongHayoung/LeetCode/tree/master/3001-apply-operations-to-maximize-score) |
 | [3088-maximal-range-that-each-element-is-maximum-in-it](https://github.com/SongHayoung/LeetCode/tree/master/3088-maximal-range-that-each-element-is-maximum-in-it) |
 | [3221-maximum-array-hopping-score-ii](https://github.com/SongHayoung/LeetCode/tree/master/3221-maximum-array-hopping-score-ii) |
@@ -2748,4 +2753,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2005-subtree-removal-game-with-fibonacci-tree](https://github.com/SongHayoung/LeetCode/tree/master/2005-subtree-removal-game-with-fibonacci-tree) |
+## Cartesian Tree
+|  |
+| ------- |
+| [1793-maximum-score-of-a-good-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1793-maximum-score-of-a-good-subarray) |
 <!---LeetCode Topics End-->
