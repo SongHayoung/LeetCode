@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1628-count-submatrices-with-all-ones](https://github.com/SongHayoung/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/SongHayoung/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/SongHayoung/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1655-distribute-repeating-integers](https://github.com/SongHayoung/LeetCode/tree/master/1655-distribute-repeating-integers) |
 | [1656-count-good-triplets](https://github.com/SongHayoung/LeetCode/tree/master/1656-count-good-triplets) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SongHayoung/LeetCode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/SongHayoung/LeetCode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
@@ -751,6 +752,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1628-count-submatrices-with-all-ones](https://github.com/SongHayoung/LeetCode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/SongHayoung/LeetCode/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/SongHayoung/LeetCode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1655-distribute-repeating-integers](https://github.com/SongHayoung/LeetCode/tree/master/1655-distribute-repeating-integers) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/SongHayoung/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1727-cat-and-mouse-ii](https://github.com/SongHayoung/LeetCode/tree/master/1727-cat-and-mouse-ii) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/SongHayoung/LeetCode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
@@ -880,6 +882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1067-campus-bikes-ii](https://github.com/SongHayoung/LeetCode/tree/master/1067-campus-bikes-ii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/SongHayoung/LeetCode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/SongHayoung/LeetCode/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1655-distribute-repeating-integers](https://github.com/SongHayoung/LeetCode/tree/master/1655-distribute-repeating-integers) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/SongHayoung/LeetCode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1940-maximum-xor-for-each-query](https://github.com/SongHayoung/LeetCode/tree/master/1940-maximum-xor-for-each-query) |
@@ -1233,6 +1236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1612-avoid-flood-in-the-city](https://github.com/SongHayoung/LeetCode/tree/master/1612-avoid-flood-in-the-city) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/SongHayoung/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1655-distribute-repeating-integers](https://github.com/SongHayoung/LeetCode/tree/master/1655-distribute-repeating-integers) |
 | [1694-make-sum-divisible-by-p](https://github.com/SongHayoung/LeetCode/tree/master/1694-make-sum-divisible-by-p) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/SongHayoung/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SongHayoung/LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -2075,6 +2079,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/SongHayoung/LeetCode/tree/master/1502-construct-k-palindrome-strings) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/SongHayoung/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [1655-distribute-repeating-integers](https://github.com/SongHayoung/LeetCode/tree/master/1655-distribute-repeating-integers) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/SongHayoung/LeetCode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/SongHayoung/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/SongHayoung/LeetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -2369,6 +2374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1067-campus-bikes-ii](https://github.com/SongHayoung/LeetCode/tree/master/1067-campus-bikes-ii) |
 | [1160-letter-tile-possibilities](https://github.com/SongHayoung/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/SongHayoung/LeetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [1655-distribute-repeating-integers](https://github.com/SongHayoung/LeetCode/tree/master/1655-distribute-repeating-integers) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SongHayoung/LeetCode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/SongHayoung/LeetCode/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [2107-find-unique-binary-string](https://github.com/SongHayoung/LeetCode/tree/master/2107-find-unique-binary-string) |
@@ -2385,6 +2391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
 | [1067-campus-bikes-ii](https://github.com/SongHayoung/LeetCode/tree/master/1067-campus-bikes-ii) |
+| [1655-distribute-repeating-integers](https://github.com/SongHayoung/LeetCode/tree/master/1655-distribute-repeating-integers) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/SongHayoung/LeetCode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Union Find
 |  |
