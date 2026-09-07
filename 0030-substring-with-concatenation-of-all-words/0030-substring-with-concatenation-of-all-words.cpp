@@ -1,44 +1,35 @@
 class Solution {
-    vector<string> chunking(int pos, string& s, int len) {
-        string now = "";
-        vector<string> res;
-        for(int i = pos; i < s.length(); i++) {
-            now.push_back(s[i]);
-            if(now.size() == len) {
-                res.push_back(now);
-                now = "";
-            }
-        }
-        return res;
-    }
-    void helper(string& s, unordered_map<string, int>& freq, int pos, int len, vector<int>& res, int tot) {
-        if(pos + tot * len > s.length()) return;
-        unordered_map<string, int> now;
-        int quali = 0, r = pos;
-        auto add = [&](string& s) {
-            if(!freq.count(s)) return;
-            if(++now[s] == freq[s]) quali++;
-        };
-        auto del = [&](string& s) {
-            if(!freq.count(s)) return;
-            if(now[s]-- == freq[s]) quali--;
-        };
-        vector<string> chunk = chunking(pos,s,len);
-        for(int i = 0, r = 0; r < chunk.size(); i++) {
-            while(i + tot > r and r < chunk.size()) add(chunk[r++]);
-            if(quali == freq.size()) res.push_back(i * len + pos);
-            del(chunk[i]);
-        }
-    }
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
-        unordered_map<string, int> freq;
-        for(auto& w : words) freq[w]++;
-        int len = words[0].size();
-        vector<int> res;
-        for(int i = 0; i < len; i++) {
-            helper(s,freq,i,len,res,words.size());
+        unordered_map<string,int> freq;
+    for(auto& w : words) freq[w]++;
+    int k = words[0].length();
+    int n = s.length(), tot = k * words.size();
+    vector<int> res;
+    for(int start = 0; start < k and start < n; start++) {
+        unordered_map<string, int> window;
+        deque<string> dq;
+        int cnt = 0;
+        for(int i = start; i < n; i += k) {
+            int j = i + k;
+            if(j > n) break;
+            if(dq.size() == words.size()) {
+                string del = dq[0]; dq.pop_front();
+                if(freq.count(del) and window[del] == freq[del]) cnt--;
+                --window[del];
+                if(window[del] == 0) {
+                    window.erase(del);
+                }
+            }
+            string sub = s.substr(i,k);
+            ++window[sub];
+            if(freq.count(sub) and window[sub] == freq[sub]) cnt++;
+            dq.push_back(sub);
+            if(cnt == freq.size()) {
+                res.push_back(j - tot);
+            }
         }
-        return res;
+    }
+    return res;
     }
 };
