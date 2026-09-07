@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0261-graph-valid-tree](https://github.com/SongHayoung/LeetCode/tree/master/0261-graph-valid-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/SongHayoung/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/SongHayoung/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0317-shortest-distance-from-all-buildings](https://github.com/SongHayoung/LeetCode/tree/master/0317-shortest-distance-from-all-buildings) |
@@ -1400,6 +1401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0241-different-ways-to-add-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0266-palindrome-permutation](https://github.com/SongHayoung/LeetCode/tree/master/0266-palindrome-permutation) |
 | [0273-integer-to-english-words](https://github.com/SongHayoung/LeetCode/tree/master/0273-integer-to-english-words) |
+| [0301-remove-invalid-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
 | [0411-minimum-unique-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0411-minimum-unique-word-abbreviation) |
 | [0425-word-squares](https://github.com/SongHayoung/LeetCode/tree/master/0425-word-squares) |
@@ -2358,6 +2360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/SongHayoung/LeetCode/tree/master/0037-sudoku-solver) |
+| [0301-remove-invalid-parentheses](https://github.com/SongHayoung/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0320-generalized-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0320-generalized-abbreviation) |
 | [0351-android-unlock-patterns](https://github.com/SongHayoung/LeetCode/tree/master/0351-android-unlock-patterns) |
 | [0411-minimum-unique-word-abbreviation](https://github.com/SongHayoung/LeetCode/tree/master/0411-minimum-unique-word-abbreviation) |
