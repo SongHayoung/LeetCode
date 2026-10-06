@@ -878,6 +878,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3979-maximum-valid-pair-sum](https://github.com/SongHayoung/LeetCode/tree/master/3979-maximum-valid-pair-sum) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
+| [4043-count-rotations-with-exactly-k-equal-adjacent-pairs](https://github.com/SongHayoung/LeetCode/tree/master/4043-count-rotations-with-exactly-k-equal-adjacent-pairs) |
 | [4056-number-of-intersecting-interval-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
 ## Bit Manipulation
@@ -1593,6 +1594,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
 | [4026-maximum-gap-between-stations](https://github.com/SongHayoung/LeetCode/tree/master/4026-maximum-gap-between-stations) |
 | [4028-minimum-operations-to-make-a-rotated-palindrome-ii](https://github.com/SongHayoung/LeetCode/tree/master/4028-minimum-operations-to-make-a-rotated-palindrome-ii) |
+| [4043-count-rotations-with-exactly-k-equal-adjacent-pairs](https://github.com/SongHayoung/LeetCode/tree/master/4043-count-rotations-with-exactly-k-equal-adjacent-pairs) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
 | [4090-minimum-string-length-after-balanced-removals](https://github.com/SongHayoung/LeetCode/tree/master/4090-minimum-string-length-after-balanced-removals) |
 | [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
@@ -2333,6 +2335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3957-maximum-sum-of-m-non-overlapping-subarrays-ii](https://github.com/SongHayoung/LeetCode/tree/master/3957-maximum-sum-of-m-non-overlapping-subarrays-ii) |
 | [3972-valid-subarrays-with-matching-sum-digits-ii](https://github.com/SongHayoung/LeetCode/tree/master/3972-valid-subarrays-with-matching-sum-digits-ii) |
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
+| [4043-count-rotations-with-exactly-k-equal-adjacent-pairs](https://github.com/SongHayoung/LeetCode/tree/master/4043-count-rotations-with-exactly-k-equal-adjacent-pairs) |
 ## Two Pointers
 |  |
 | ------- |
