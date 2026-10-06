@@ -696,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
+| [4062-transform-array-using-pair-operations](https://github.com/SongHayoung/LeetCode/tree/master/4062-transform-array-using-pair-operations) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4075-count-subarrays-with-majority-element-ii](https://github.com/SongHayoung/LeetCode/tree/master/4075-count-subarrays-with-majority-element-ii) |
@@ -2589,6 +2590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/SongHayoung/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/SongHayoung/LeetCode/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [3462-vowels-game-in-a-string](https://github.com/SongHayoung/LeetCode/tree/master/3462-vowels-game-in-a-string) |
+| [4062-transform-array-using-pair-operations](https://github.com/SongHayoung/LeetCode/tree/master/4062-transform-array-using-pair-operations) |
 ## Monotonic Stack
 |  |
 | ------- |
