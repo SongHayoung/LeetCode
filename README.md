@@ -695,6 +695,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4039-compute-decimal-representation](https://github.com/SongHayoung/LeetCode/tree/master/4039-compute-decimal-representation) |
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
+| [4045-count-robot-groups](https://github.com/SongHayoung/LeetCode/tree/master/4045-count-robot-groups) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
 | [4049-count-values-with-equally-spaced-occurrences-ii](https://github.com/SongHayoung/LeetCode/tree/master/4049-count-values-with-equally-spaced-occurrences-ii) |
 | [4051-count-subarrays-with-distant-sums](https://github.com/SongHayoung/LeetCode/tree/master/4051-count-subarrays-with-distant-sums) |
@@ -1642,6 +1643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3834-merge-adjacent-equal-elements](https://github.com/SongHayoung/LeetCode/tree/master/3834-merge-adjacent-equal-elements) |
 | [3878-count-good-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3878-count-good-subarrays) |
+| [4045-count-robot-groups](https://github.com/SongHayoung/LeetCode/tree/master/4045-count-robot-groups) |
 | [4090-minimum-string-length-after-balanced-removals](https://github.com/SongHayoung/LeetCode/tree/master/4090-minimum-string-length-after-balanced-removals) |
 | [4140-evaluate-valid-expressions](https://github.com/SongHayoung/LeetCode/tree/master/4140-evaluate-valid-expressions) |
 ## Greedy
@@ -2633,6 +2635,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3816-lexicographically-smallest-string-after-deleting-duplicate-characters](https://github.com/SongHayoung/LeetCode/tree/master/3816-lexicographically-smallest-string-after-deleting-duplicate-characters) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/SongHayoung/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3878-count-good-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/3878-count-good-subarrays) |
+| [4045-count-robot-groups](https://github.com/SongHayoung/LeetCode/tree/master/4045-count-robot-groups) |
 ## Memoization
 |  |
 | ------- |
