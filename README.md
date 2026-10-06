@@ -700,6 +700,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4049-count-values-with-equally-spaced-occurrences-ii](https://github.com/SongHayoung/LeetCode/tree/master/4049-count-values-with-equally-spaced-occurrences-ii) |
 | [4051-count-subarrays-with-distant-sums](https://github.com/SongHayoung/LeetCode/tree/master/4051-count-subarrays-with-distant-sums) |
 | [4052-cyclically-shift-rows-and-columns](https://github.com/SongHayoung/LeetCode/tree/master/4052-cyclically-shift-rows-and-columns) |
+| [4053-minimum-operations-to-make-every-element-palindromic](https://github.com/SongHayoung/LeetCode/tree/master/4053-minimum-operations-to-make-every-element-palindromic) |
 | [4056-number-of-intersecting-interval-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/SongHayoung/LeetCode/tree/master/4058-maximum-pulse-value-after-one-subarray-rotation) |
 | [4059-lexicographically-largest-power-array](https://github.com/SongHayoung/LeetCode/tree/master/4059-lexicographically-largest-power-array) |
@@ -2252,6 +2253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4022-k-th-digit-in-infinite-string](https://github.com/SongHayoung/LeetCode/tree/master/4022-k-th-digit-in-infinite-string) |
 | [4048-minimum-time-to-complete-all-deliveries](https://github.com/SongHayoung/LeetCode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
 | [4051-count-subarrays-with-distant-sums](https://github.com/SongHayoung/LeetCode/tree/master/4051-count-subarrays-with-distant-sums) |
+| [4053-minimum-operations-to-make-every-element-palindromic](https://github.com/SongHayoung/LeetCode/tree/master/4053-minimum-operations-to-make-every-element-palindromic) |
 | [4056-number-of-intersecting-interval-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
 | [4110-count-stable-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/4110-count-stable-subarrays) |
