@@ -696,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4075-count-subarrays-with-majority-element-ii](https://github.com/SongHayoung/LeetCode/tree/master/4075-count-subarrays-with-majority-element-ii) |
 | [4080-smallest-missing-multiple-of-k](https://github.com/SongHayoung/LeetCode/tree/master/4080-smallest-missing-multiple-of-k) |
@@ -1140,6 +1141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3959-check-good-integer](https://github.com/SongHayoung/LeetCode/tree/master/3959-check-good-integer) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4020-elevator-requests-i](https://github.com/SongHayoung/LeetCode/tree/master/4020-elevator-requests-i) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Recursion
 |  |
 | ------- |
@@ -1369,6 +1371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4075-count-subarrays-with-majority-element-ii](https://github.com/SongHayoung/LeetCode/tree/master/4075-count-subarrays-with-majority-element-ii) |
 | [4080-smallest-missing-multiple-of-k](https://github.com/SongHayoung/LeetCode/tree/master/4080-smallest-missing-multiple-of-k) |
@@ -1857,6 +1860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4023-elevator-requests-ii](https://github.com/SongHayoung/LeetCode/tree/master/4023-elevator-requests-ii) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
 | [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
@@ -2011,6 +2015,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3959-maximum-total-from-optimal-activation-order](https://github.com/SongHayoung/LeetCode/tree/master/3959-maximum-total-from-optimal-activation-order) |
 | [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
 | [4007-maximum-total-subarray-value-ii](https://github.com/SongHayoung/LeetCode/tree/master/4007-maximum-total-subarray-value-ii) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 | [4081-maximum-transactions-without-negative-balance](https://github.com/SongHayoung/LeetCode/tree/master/4081-maximum-transactions-without-negative-balance) |
 ## Shortest Path
 |  |
@@ -2124,6 +2129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4005-minimum-operations-to-make-array-equal-iii](https://github.com/SongHayoung/LeetCode/tree/master/4005-minimum-operations-to-make-array-equal-iii) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4090-minimum-string-length-after-balanced-removals](https://github.com/SongHayoung/LeetCode/tree/master/4090-minimum-string-length-after-balanced-removals) |
 ## Probability and Statistics
@@ -2685,6 +2691,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3863-power-grid-maintenance](https://github.com/SongHayoung/LeetCode/tree/master/3863-power-grid-maintenance) |
 | [3885-design-event-manager](https://github.com/SongHayoung/LeetCode/tree/master/3885-design-event-manager) |
 | [3962-maximum-subarray-sum-after-at-most-k-swaps](https://github.com/SongHayoung/LeetCode/tree/master/3962-maximum-subarray-sum-after-at-most-k-swaps) |
+| [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Monotonic Queue
 |  |
 | ------- |
