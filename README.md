@@ -836,6 +836,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4023-elevator-requests-ii](https://github.com/SongHayoung/LeetCode/tree/master/4023-elevator-requests-ii) |
 | [4030-maximize-cyclic-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/4030-maximize-cyclic-partition-score) |
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
+| [4050-minimum-days-to-score-exactly-n-points](https://github.com/SongHayoung/LeetCode/tree/master/4050-minimum-days-to-score-exactly-n-points) |
 | [4054-count-distinct-integers-after-removing-zeros](https://github.com/SongHayoung/LeetCode/tree/master/4054-count-distinct-integers-after-removing-zeros) |
 | [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/SongHayoung/LeetCode/tree/master/4058-maximum-pulse-value-after-one-subarray-rotation) |
 | [4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/SongHayoung/LeetCode/tree/master/4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element) |
@@ -1085,6 +1086,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4028-minimum-operations-to-make-a-rotated-palindrome-ii](https://github.com/SongHayoung/LeetCode/tree/master/4028-minimum-operations-to-make-a-rotated-palindrome-ii) |
 | [4039-compute-decimal-representation](https://github.com/SongHayoung/LeetCode/tree/master/4039-compute-decimal-representation) |
 | [4048-minimum-time-to-complete-all-deliveries](https://github.com/SongHayoung/LeetCode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
+| [4050-minimum-days-to-score-exactly-n-points](https://github.com/SongHayoung/LeetCode/tree/master/4050-minimum-days-to-score-exactly-n-points) |
 | [4054-count-distinct-integers-after-removing-zeros](https://github.com/SongHayoung/LeetCode/tree/master/4054-count-distinct-integers-after-removing-zeros) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4116-minimum-moves-to-equal-array-elements-iii](https://github.com/SongHayoung/LeetCode/tree/master/4116-minimum-moves-to-equal-array-elements-iii) |
