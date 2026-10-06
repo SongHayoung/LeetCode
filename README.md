@@ -696,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
+| [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/SongHayoung/LeetCode/tree/master/4058-maximum-pulse-value-after-one-subarray-rotation) |
 | [4059-lexicographically-largest-power-array](https://github.com/SongHayoung/LeetCode/tree/master/4059-lexicographically-largest-power-array) |
 | [4062-transform-array-using-pair-operations](https://github.com/SongHayoung/LeetCode/tree/master/4062-transform-array-using-pair-operations) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
@@ -833,6 +834,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4030-maximize-cyclic-partition-score](https://github.com/SongHayoung/LeetCode/tree/master/4030-maximize-cyclic-partition-score) |
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 | [4054-count-distinct-integers-after-removing-zeros](https://github.com/SongHayoung/LeetCode/tree/master/4054-count-distinct-integers-after-removing-zeros) |
+| [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/SongHayoung/LeetCode/tree/master/4058-maximum-pulse-value-after-one-subarray-rotation) |
 | [4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element](https://github.com/SongHayoung/LeetCode/tree/master/4098-longest-non-decreasing-subarray-after-replacing-at-most-one-element) |
 | [4108-minimum-operations-to-make-the-array-beautiful](https://github.com/SongHayoung/LeetCode/tree/master/4108-minimum-operations-to-make-the-array-beautiful) |
 ## Enumeration
@@ -2549,6 +2551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
+| [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/SongHayoung/LeetCode/tree/master/4058-maximum-pulse-value-after-one-subarray-rotation) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4075-count-subarrays-with-majority-element-ii](https://github.com/SongHayoung/LeetCode/tree/master/4075-count-subarrays-with-majority-element-ii) |
 | [4110-count-stable-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/4110-count-stable-subarrays) |
