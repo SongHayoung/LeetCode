@@ -696,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
+| [4052-cyclically-shift-rows-and-columns](https://github.com/SongHayoung/LeetCode/tree/master/4052-cyclically-shift-rows-and-columns) |
 | [4056-number-of-intersecting-interval-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/SongHayoung/LeetCode/tree/master/4058-maximum-pulse-value-after-one-subarray-rotation) |
 | [4059-lexicographically-largest-power-array](https://github.com/SongHayoung/LeetCode/tree/master/4059-lexicographically-largest-power-array) |
@@ -1148,6 +1149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3959-check-good-integer](https://github.com/SongHayoung/LeetCode/tree/master/3959-check-good-integer) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/SongHayoung/LeetCode/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4020-elevator-requests-i](https://github.com/SongHayoung/LeetCode/tree/master/4020-elevator-requests-i) |
+| [4052-cyclically-shift-rows-and-columns](https://github.com/SongHayoung/LeetCode/tree/master/4052-cyclically-shift-rows-and-columns) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 ## Recursion
 |  |
@@ -1964,6 +1966,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3988-create-grid-with-exactly-k-paths-i](https://github.com/SongHayoung/LeetCode/tree/master/3988-create-grid-with-exactly-k-paths-i) |
 | [3989-maximum-consistent-columns-in-a-grid](https://github.com/SongHayoung/LeetCode/tree/master/3989-maximum-consistent-columns-in-a-grid) |
 | [4016-maximum-area-of-two-non-overlapping-square-submatrices](https://github.com/SongHayoung/LeetCode/tree/master/4016-maximum-area-of-two-non-overlapping-square-submatrices) |
+| [4052-cyclically-shift-rows-and-columns](https://github.com/SongHayoung/LeetCode/tree/master/4052-cyclically-shift-rows-and-columns) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
