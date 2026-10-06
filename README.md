@@ -696,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
+| [4056-number-of-intersecting-interval-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/SongHayoung/LeetCode/tree/master/4058-maximum-pulse-value-after-one-subarray-rotation) |
 | [4059-lexicographically-largest-power-array](https://github.com/SongHayoung/LeetCode/tree/master/4059-lexicographically-largest-power-array) |
 | [4062-transform-array-using-pair-operations](https://github.com/SongHayoung/LeetCode/tree/master/4062-transform-array-using-pair-operations) |
@@ -872,6 +873,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3979-maximum-valid-pair-sum](https://github.com/SongHayoung/LeetCode/tree/master/3979-maximum-valid-pair-sum) |
 | [4010-maximize-pair-strength-using-gcd](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-pair-strength-using-gcd) |
 | [4020-lexicographically-smallest-permutation-greater-than-target](https://github.com/SongHayoung/LeetCode/tree/master/4020-lexicographically-smallest-permutation-greater-than-target) |
+| [4056-number-of-intersecting-interval-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4112-maximize-expression-of-three-elements](https://github.com/SongHayoung/LeetCode/tree/master/4112-maximize-expression-of-three-elements) |
 ## Bit Manipulation
 |  |
@@ -1866,6 +1868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4006-determine-if-a-simple-graph-exists](https://github.com/SongHayoung/LeetCode/tree/master/4006-determine-if-a-simple-graph-exists) |
 | [4010-maximize-alternating-sum-using-swaps](https://github.com/SongHayoung/LeetCode/tree/master/4010-maximize-alternating-sum-using-swaps) |
 | [4023-elevator-requests-ii](https://github.com/SongHayoung/LeetCode/tree/master/4023-elevator-requests-ii) |
+| [4056-number-of-intersecting-interval-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/SongHayoung/LeetCode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4107-find-missing-elements](https://github.com/SongHayoung/LeetCode/tree/master/4107-find-missing-elements) |
@@ -2235,6 +2238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4016-maximum-area-of-two-non-overlapping-square-submatrices](https://github.com/SongHayoung/LeetCode/tree/master/4016-maximum-area-of-two-non-overlapping-square-submatrices) |
 | [4022-k-th-digit-in-infinite-string](https://github.com/SongHayoung/LeetCode/tree/master/4022-k-th-digit-in-infinite-string) |
 | [4048-minimum-time-to-complete-all-deliveries](https://github.com/SongHayoung/LeetCode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
+| [4056-number-of-intersecting-interval-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/4056-number-of-intersecting-interval-pairs-i) |
 | [4106-lexicographically-smallest-string-after-reverse-ii](https://github.com/SongHayoung/LeetCode/tree/master/4106-lexicographically-smallest-string-after-reverse-ii) |
 | [4110-count-stable-subarrays](https://github.com/SongHayoung/LeetCode/tree/master/4110-count-stable-subarrays) |
 ## Rolling Hash
