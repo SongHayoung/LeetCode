@@ -696,6 +696,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4041-climbing-stairs-ii](https://github.com/SongHayoung/LeetCode/tree/master/4041-climbing-stairs-ii) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
+| [4049-count-values-with-equally-spaced-occurrences-ii](https://github.com/SongHayoung/LeetCode/tree/master/4049-count-values-with-equally-spaced-occurrences-ii) |
 | [4051-count-subarrays-with-distant-sums](https://github.com/SongHayoung/LeetCode/tree/master/4051-count-subarrays-with-distant-sums) |
 | [4052-cyclically-shift-rows-and-columns](https://github.com/SongHayoung/LeetCode/tree/master/4052-cyclically-shift-rows-and-columns) |
 | [4056-number-of-intersecting-interval-pairs-i](https://github.com/SongHayoung/LeetCode/tree/master/4056-number-of-intersecting-interval-pairs-i) |
@@ -1382,6 +1383,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [4021-distinct-points-reachable-after-substring-removal](https://github.com/SongHayoung/LeetCode/tree/master/4021-distinct-points-reachable-after-substring-removal) |
 | [4045-longest-balanced-subarray-i](https://github.com/SongHayoung/LeetCode/tree/master/4045-longest-balanced-subarray-i) |
 | [4047-longest-balanced-subarray-ii](https://github.com/SongHayoung/LeetCode/tree/master/4047-longest-balanced-subarray-ii) |
+| [4049-count-values-with-equally-spaced-occurrences-ii](https://github.com/SongHayoung/LeetCode/tree/master/4049-count-values-with-equally-spaced-occurrences-ii) |
 | [4053-majority-frequency-characters](https://github.com/SongHayoung/LeetCode/tree/master/4053-majority-frequency-characters) |
 | [4065-rearrange-array-by-removing-distinct-values](https://github.com/SongHayoung/LeetCode/tree/master/4065-rearrange-array-by-removing-distinct-values) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/SongHayoung/LeetCode/tree/master/4074-count-subarrays-with-majority-element-i) |
